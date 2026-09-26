@@ -1,0 +1,3219 @@
+{
+  "id" : null,
+  "scope" : null,
+  "query" : null,
+  "appliedFilters" : [ {
+    "filter" : "identifier_collection",
+    "operator" : "equals",
+    "value" : "ACT",
+    "label" : "ACT"
+  }, {
+    "filter" : "title",
+    "operator" : "contains",
+    "value" : "Rights of Persons with Disabilities Act, 2016",
+    "label" : "Rights of Persons with Disabilities Act, 2016"
+  } ],
+  "sort" : null,
+  "configuration" : null,
+  "type" : "discover",
+  "_links" : {
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT,equals&f.title=Rights%20of%20Persons%20with%20Disabilities%20Act,%202016,contains"
+    }
+  },
+  "_embedded" : {
+    "searchResult" : {
+      "_embedded" : {
+        "objects" : [ {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/1bc5f8bc-1821-442f-8c97-c5fb2aa2a7ef"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "1bc5f8bc-1821-442f-8c97-c5fb2aa2a7ef",
+              "uuid" : "1bc5f8bc-1821-442f-8c97-c5fb2aa2a7ef",
+              "name" : "The Rights of Persons with Disabilities Act, 2016.",
+              "handle" : "123456789/494632",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T20:01:57Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2021",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enact_date" : [ {
+                  "value" : "2021-01-22",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.entry_date" : [ {
+                  "value" : "2019-04-09",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2021-01-22",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.last_modified" : [ {
+                  "value" : "2024-04-09",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_BR_59_1071_00001_00001_1554790698354",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "ACT",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "1071",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "SOCIAL WELFARE DEPARTMENT",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "59",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "NO MINISTRY",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_chapter" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_section" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.notification_no" : [ {
+                  "value" : "19th April, 2017 vide notification no. S.O. 1215 (E) dated 19th April, 2017 see Gazette of India, Extraordinary, Part II, Section 3 (ii).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.refact" : [ {
+                  "value" : "AC_CEN_25_54_00002_201649_1517807328299",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "6",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "Bihar",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/494632",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "The Rights of Persons with Disabilities Act, 2016.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title.long_title" : [ {
+                  "value" : "Regarding making the Rights of Persons with Disabilities Act, 2016 as per the Central Rights of Persons with Disabilities Act, 2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title.regional" : [ {
+                  "value" : "Bihar Rights of Persons with Disabilities Act, 2016 make as per Central Disabilities Act",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-10T20:01:57.589043Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1bc5f8bc-1821-442f-8c97-c5fb2aa2a7ef/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1bc5f8bc-1821-442f-8c97-c5fb2aa2a7ef/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1bc5f8bc-1821-442f-8c97-c5fb2aa2a7ef/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1bc5f8bc-1821-442f-8c97-c5fb2aa2a7ef/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1bc5f8bc-1821-442f-8c97-c5fb2aa2a7ef/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1bc5f8bc-1821-442f-8c97-c5fb2aa2a7ef/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1bc5f8bc-1821-442f-8c97-c5fb2aa2a7ef/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1bc5f8bc-1821-442f-8c97-c5fb2aa2a7ef/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1bc5f8bc-1821-442f-8c97-c5fb2aa2a7ef/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1bc5f8bc-1821-442f-8c97-c5fb2aa2a7ef/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1bc5f8bc-1821-442f-8c97-c5fb2aa2a7ef"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/1764a5e7-a5c6-44bf-8bc8-e7f09b55dca7"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "1764a5e7-a5c6-44bf-8bc8-e7f09b55dca7",
+              "uuid" : "1764a5e7-a5c6-44bf-8bc8-e7f09b55dca7",
+              "name" : "The Rights of Persons With Disabilities Act,2016",
+              "handle" : "123456789/596801",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-11T03:11:48Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enact_date" : [ {
+                  "value" : "2017-04-19",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.entry_date" : [ {
+                  "value" : "2020-11-11",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2017-04-19",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_TN_85_1050_00001_00001_1605074460263",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "49",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "ACT",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "1050",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Welfare of Differently Abled Persons Department, Government of Tamil Nadu",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.givenid" : [ {
+                  "value" : "201649",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "85",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "NO MINISTRY",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_chapter" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_section" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.refact" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "33",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "Tamil Nadu",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/596801",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "The Rights of Persons With Disabilities Act,2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title.long_title" : [ {
+                  "value" : "An Act to give effect to the United Nations Convention on the Rights of Persons with Disabilities and for matters connected therewith or incidental thereto.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-08-11T18:25:15.735545Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1764a5e7-a5c6-44bf-8bc8-e7f09b55dca7/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1764a5e7-a5c6-44bf-8bc8-e7f09b55dca7/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1764a5e7-a5c6-44bf-8bc8-e7f09b55dca7/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1764a5e7-a5c6-44bf-8bc8-e7f09b55dca7/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1764a5e7-a5c6-44bf-8bc8-e7f09b55dca7/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1764a5e7-a5c6-44bf-8bc8-e7f09b55dca7/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1764a5e7-a5c6-44bf-8bc8-e7f09b55dca7/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1764a5e7-a5c6-44bf-8bc8-e7f09b55dca7/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1764a5e7-a5c6-44bf-8bc8-e7f09b55dca7/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1764a5e7-a5c6-44bf-8bc8-e7f09b55dca7/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/1764a5e7-a5c6-44bf-8bc8-e7f09b55dca7"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/6ef69959-f19f-4d9b-859d-28dad4bb4246"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "6ef69959-f19f-4d9b-859d-28dad4bb4246",
+              "uuid" : "6ef69959-f19f-4d9b-859d-28dad4bb4246",
+              "name" : "THE RIGHTS OF PERSONS WITH DISABILITIES ACT, 2016",
+              "handle" : "123456789/620065",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-09-09T07:15:34Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enact_date" : [ {
+                  "value" : "2016-12-27",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2016-12-27",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CH_60_0_201649_1788938310859",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "49",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "ACT",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.givenid" : [ {
+                  "value" : "201649",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "60",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "NO MINISTRY",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "7",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "Chandigarh",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "https://indiacode.gov.in/handle/123456789/620065",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "THE RIGHTS OF PERSONS WITH DISABILITIES ACT, 2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-09-12T18:07:48.714058Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6ef69959-f19f-4d9b-859d-28dad4bb4246/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6ef69959-f19f-4d9b-859d-28dad4bb4246/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6ef69959-f19f-4d9b-859d-28dad4bb4246/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6ef69959-f19f-4d9b-859d-28dad4bb4246/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6ef69959-f19f-4d9b-859d-28dad4bb4246/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6ef69959-f19f-4d9b-859d-28dad4bb4246/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6ef69959-f19f-4d9b-859d-28dad4bb4246/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6ef69959-f19f-4d9b-859d-28dad4bb4246/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6ef69959-f19f-4d9b-859d-28dad4bb4246/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6ef69959-f19f-4d9b-859d-28dad4bb4246/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6ef69959-f19f-4d9b-859d-28dad4bb4246"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/3b6a24aa-849c-4a89-a9d7-df9777eac529"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "3b6a24aa-849c-4a89-a9d7-df9777eac529",
+              "uuid" : "3b6a24aa-849c-4a89-a9d7-df9777eac529",
+              "name" : "The Rights of Persons With Disabilities Act, 2016",
+              "handle" : "123456789/548978",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T23:30:33Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enact_date" : [ {
+                  "value" : "2016-12-27",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.entry_date" : [ {
+                  "value" : "2019-05-28",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2016-12-27",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.last_modified" : [ {
+                  "value" : "2019-05-31",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CG_61_1184_00005_00005_1559034001606",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "49",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "ACT",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "1184",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "DEPARTMENT OF SOCIAL WELFARE",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "61",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "State Government",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_chapter" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_section" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.refact" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "8",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "Chhattisgarh",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/548978",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "The Rights of Persons With Disabilities Act, 2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-08-11T20:52:34.738871Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/3b6a24aa-849c-4a89-a9d7-df9777eac529/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/3b6a24aa-849c-4a89-a9d7-df9777eac529/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/3b6a24aa-849c-4a89-a9d7-df9777eac529/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/3b6a24aa-849c-4a89-a9d7-df9777eac529/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/3b6a24aa-849c-4a89-a9d7-df9777eac529/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/3b6a24aa-849c-4a89-a9d7-df9777eac529/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/3b6a24aa-849c-4a89-a9d7-df9777eac529/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/3b6a24aa-849c-4a89-a9d7-df9777eac529/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/3b6a24aa-849c-4a89-a9d7-df9777eac529/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/3b6a24aa-849c-4a89-a9d7-df9777eac529/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/3b6a24aa-849c-4a89-a9d7-df9777eac529"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/7030e648-7af0-4b88-a914-b62881c6b0bf"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "7030e648-7af0-4b88-a914-b62881c6b0bf",
+              "uuid" : "7030e648-7af0-4b88-a914-b62881c6b0bf",
+              "name" : "The Rights of Persons with Disabilities Act, 2016.",
+              "handle" : "123456789/565856",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-11T01:08:31Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enact_date" : [ {
+                  "value" : "2016-12-27",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enforcement_date" : [ {
+                  "value" : "19-04-2017",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.entry_date" : [ {
+                  "value" : "2021-03-30",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2016-12-27",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_MP_74_281_00009_00009_1617084278134",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "49",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "ACT",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "281",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Social Justice and disabled Person Welfare Department",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.givenid" : [ {
+                  "value" : "201649",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "74",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "NO MINISTRY",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_chapter" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_section" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.notification_no" : [ {
+                  "value" : "19th April, 2017 vide notification no. S.O. 1215 (E) dated 19th April, 2017 see Gazette of India, Extraordinary, Part II, Section 3 (ii).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.refact" : [ {
+                  "value" : "AC_CEN_25_54_00002_201649_1517807328299",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "22",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "Madhya Pradesh",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/565856",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "The Rights of Persons with Disabilities Act, 2016.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title.long_title" : [ {
+                  "value" : "An Act to give effect to the United Nations Convention on the Rights of Persons with Disabilities and for matters connected therewith or incidental thereto.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-08-12T00:11:29.710443Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7030e648-7af0-4b88-a914-b62881c6b0bf/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7030e648-7af0-4b88-a914-b62881c6b0bf/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7030e648-7af0-4b88-a914-b62881c6b0bf/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7030e648-7af0-4b88-a914-b62881c6b0bf/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7030e648-7af0-4b88-a914-b62881c6b0bf/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7030e648-7af0-4b88-a914-b62881c6b0bf/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7030e648-7af0-4b88-a914-b62881c6b0bf/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7030e648-7af0-4b88-a914-b62881c6b0bf/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7030e648-7af0-4b88-a914-b62881c6b0bf/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7030e648-7af0-4b88-a914-b62881c6b0bf/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7030e648-7af0-4b88-a914-b62881c6b0bf"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/ae03e89a-c9c6-417c-9ff0-1333ffbe7610"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "ae03e89a-c9c6-417c-9ff0-1333ffbe7610",
+              "uuid" : "ae03e89a-c9c6-417c-9ff0-1333ffbe7610",
+              "name" : "The Rights of Persons with Disabilities Act, 2016.",
+              "handle" : "123456789/548825",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T23:29:56Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enact_date" : [ {
+                  "value" : "2016-12-27",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enforcement_date" : [ {
+                  "value" : "19-04-2017",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.entry_date" : [ {
+                  "value" : "2019-04-06",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2016-12-27",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CG_61_1082_00006_00006_1554549524040",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "49",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "ACT",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "1082",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "DEPARTMENT OF GENERAL ADMINISTRATION",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.givenid" : [ {
+                  "value" : "201649",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "61",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "State Government",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_chapter" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_section" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.notification_no" : [ {
+                  "value" : "19th April, 2017 vide notification no. S.O. 1215 (E) dated 19th April, 2017 see Gazette of India, Extraordinary, Part II, Section 3 (ii).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.refact" : [ {
+                  "value" : "AC_CEN_25_54_00002_201649_1517807328299",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "8",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "Chhattisgarh",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/548825",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "The Rights of Persons with Disabilities Act, 2016.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title.long_title" : [ {
+                  "value" : "An Act to give effect to the United Nations Convention on the Rights of Persons with Disabilities and for matters connected therewith or incidental thereto.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-10T23:29:56.814228Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ae03e89a-c9c6-417c-9ff0-1333ffbe7610/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ae03e89a-c9c6-417c-9ff0-1333ffbe7610/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ae03e89a-c9c6-417c-9ff0-1333ffbe7610/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ae03e89a-c9c6-417c-9ff0-1333ffbe7610/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ae03e89a-c9c6-417c-9ff0-1333ffbe7610/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ae03e89a-c9c6-417c-9ff0-1333ffbe7610/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ae03e89a-c9c6-417c-9ff0-1333ffbe7610/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ae03e89a-c9c6-417c-9ff0-1333ffbe7610/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ae03e89a-c9c6-417c-9ff0-1333ffbe7610/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ae03e89a-c9c6-417c-9ff0-1333ffbe7610/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ae03e89a-c9c6-417c-9ff0-1333ffbe7610"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/b51cf7fa-0973-41a0-b180-b2c809ff7166"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "b51cf7fa-0973-41a0-b180-b2c809ff7166",
+              "uuid" : "b51cf7fa-0973-41a0-b180-b2c809ff7166",
+              "name" : "The Rights of Persons with Disabilities Act, 2016.",
+              "handle" : "123456789/601534",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-11T03:33:35Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enact_date" : [ {
+                  "value" : "2016-12-28",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enforcement_date" : [ {
+                  "value" : "19-04-2017",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.entry_date" : [ {
+                  "value" : "2020-07-03",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2016-12-28",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.last_modified" : [ {
+                  "value" : "2024-05-17",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_UP_88_455_00001_00001_1593759730560",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "49",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "ACT",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "455",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Empowerment Of Persons With Disabilities",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.givenid" : [ {
+                  "value" : "null",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "88",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "NO MINISTRY",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_chapter" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_section" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.notification_no" : [ {
+                  "value" : "19th April, 2017 vide notification no. S.O. 1215 (E) dated 19th April, 2017 see Gazette of India, Extraordinary, Part II, Section 3 (ii).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.refact" : [ {
+                  "value" : "AC_CEN_25_54_00002_201649_1517807328299",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "36",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "Uttar Pradesh",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/601534",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "The Rights of Persons with Disabilities Act, 2016.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title.long_title" : [ {
+                  "value" : "An Act to give effect to the United Nations Convention on the Rights of Persons with Disabilities and for matters connected therewith or incidental thereto.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title.regional" : [ {
+                  "value" : "दिव्यांगजन अधिकार अधिनियम, 2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-15T03:05:21.742499Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b51cf7fa-0973-41a0-b180-b2c809ff7166/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b51cf7fa-0973-41a0-b180-b2c809ff7166/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b51cf7fa-0973-41a0-b180-b2c809ff7166/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b51cf7fa-0973-41a0-b180-b2c809ff7166/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b51cf7fa-0973-41a0-b180-b2c809ff7166/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b51cf7fa-0973-41a0-b180-b2c809ff7166/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b51cf7fa-0973-41a0-b180-b2c809ff7166/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b51cf7fa-0973-41a0-b180-b2c809ff7166/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b51cf7fa-0973-41a0-b180-b2c809ff7166/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b51cf7fa-0973-41a0-b180-b2c809ff7166/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b51cf7fa-0973-41a0-b180-b2c809ff7166"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/a2ccc006-552f-4598-886f-217d79088b9d"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "a2ccc006-552f-4598-886f-217d79088b9d",
+              "uuid" : "a2ccc006-552f-4598-886f-217d79088b9d",
+              "name" : "The Rights of Persons with Disabilities Act, 2016.",
+              "handle" : "123456789/496164",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T20:10:38Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enact_date" : [ {
+                  "value" : "2016-12-27",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enforcement_date" : [ {
+                  "value" : "19-04-2017",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2016-12-27",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.last_modified" : [ {
+                  "value" : "2020-04-06",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.description.abstract" : [ {
+                  "value" : "Summary of the Rights of Persons with Disabilities Act, 2016\n Core Objectives:\n 1. Alignment with UN Convention: Implement the UN Convention on the Rights of Persons with Disabilities. \n2. Rights & Equality: Ensure equality, dignity, and rights of persons with disabilities across various sectors. \nKey Rights and Provisions:\n 1. Equality & Non-Discrimination:\n•\tProhibition: Discrimination against persons with disabilities prohibited.\n2.\tProtection: - Against Abuse/Exploitation: Safeguards against cruelty, torture, and exploitation.\n3.\tAccessibility: - Mandate: Accessibility in physical environment, transport, ICT, and media.\n•\tNew Context Relevance: Especially pertinent for vehicles and personal mobility assistance to ensure inclusive access.\n4.\tEducation: - Inclusive Education: Right to inclusive education, vocational training, and adult education.\n5.\tEmployment: - Promotion: Vocational training, non-discrimination, and equal opportunity policy.\n\n6.\tSocial Security & Health:\n•\tProvisions: Social security, healthcare, insurance, and rehabilitation services.\n7.\tBenchmark Disabilities: - Special Provisions: Free education, higher education reservations, and employment incentives.\n8.\tOffences & Penalties:\n•\tPunishments: For fraud, abuse, and non-compliance.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CEN_25_54_00002_201649_1517807328299",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "49",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "ACT",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "54",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Department of Empowerment of Persons with Disabilities",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.givenid" : [ {
+                  "value" : "201649",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "25",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "Ministry of Social Justice and Empowerment",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.notification_no" : [ {
+                  "value" : "19th April, 2017 vide notification no. S.O. 1215 (E) dated 19th April, 2017 see Gazette of India, Extraordinary, Part II, Section 3 (ii).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.preamble_description" : [ {
+                  "value" : "<center style=\"font-size: 17px;\">THE RIGHTS OF PERSONS WITH DISABILITIES ACT, 2016</center> <center style=\"font-size: 16px;\">ACT NO. 49 OF 2016</center> <p style=\"text-align:right;\"> [<i>27th December, 2016</i>] </p> An Act to give effect to the United Nations Convention on the Rights of Persons with Disabilities and for matters connected therewith or incidental thereto. <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>WHEREAS the United Nations General Assembly adopted its Convention on the Rights of Persons with Disabilities on the 13th day of December, 2006. <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>AND WHEREAS the aforesaid Convention lays down the following principles for empowerment of persons with disabilities,---<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> <span style=\"margin-left: 15px;\"></span> (a) respect for inherent dignity, individual autonomy including the freedom to make one's own choices, and independence of persons; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> <span style=\"margin-left: 15px;\"></span> (b) non-discrimination; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> <span style=\"margin-left: 15px;\"></span> (c) full and effective participation and inclusion in society; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> <span style=\"margin-left: 15px;\"></span> (d) respect for difference and acceptance of persons with disabilities as part of human diversity and humanity; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> <span style=\"margin-left: 15px;\"></span> (e) equality of opportunity; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> <span style=\"margin-left: 15px;\"></span> (f) accessibility; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> <span style=\"margin-left: 15px;\"></span> (g) equality between men and women; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> <span style=\"margin-left: 15px;\"></span> (h) respect for the evolving capacities of children with disabilities and respect for the right of children with disabilities to preserve their identities; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>AND WHEREAS India is a signatory to the said Convention; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>AND WHEREAS India ratified the said Convention on the 1st day of October, 2007; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>AND WHEREAS it is considered necessary to implement the Convention aforesaid. <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>BE it enacted by Parliament in the Sixty-seventh Year of the Republic of India as follows:---",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.refact" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.reference_sites" : [ {
+                  "value" : "Ministry of Social Justice and Empowerment https://www.dosje.gov.in/",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                }, {
+                  "value" : "Department of Social Justice and Empowerment https://socialjustice.gov.in/",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 1
+                }, {
+                  "value" : "Concerned Ministry/Department Acts and Rules https://www.dosje.gov.in/acts-rules/",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 2
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "CENTRAL",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/496164",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.legislation.history" : [ {
+                  "value" : "<p>Legislative History:</p><p>The Rights of Persons with Disabilities Act, 2016</p><p></p><p>Short Title - The Rights of Persons with Disabilities Act, 2016</p><p>Act Number / Year - Act No. 49 of 2016</p><p>India Code Act ID - 201649</p><p>Introduced In - Parliament Rajya Sabha </p><p>Presidential Assent Date - December 27, 2016</p><p>Official Gazette Publication - December 28, 2016</p><p>Enforcement Date - April 19, 2017 </p><p> Nodal Ministry - Ministry of Social Justice and Empowerment (Department of Empowerment of Persons with Disabilities)</p><p></p><p>Precedent &amp; Statutory Rationale</p><p></p><p>1.\tFulfilling International Obligations under UNCRPD:</p><p>o\tEnacted to give full effect to the United Nations Convention on the Rights of Persons with Disabilities (UNCRPD), which India signed and ratified in 2007. </p><p></p><p>2.\tExpansion of Recognized Disability Categories:</p><p></p><p>o\tExpanded the recognized categories of disabilities from 7 (under the 1995 Act) to 21 conditions (including speech/language disabilities, autism spectrum disorder, cerebral palsy, muscular dystrophy, acid attack victims, chronic neurological conditions like Parkinson&#39;s/Multiple Sclerosis, and blood disorders like Thalassemia, Sickle Cell Disease, and Haemophilia). </p><p></p><p>3.\tRights-Based Enforcement &amp; Increased Reservation Mandates:</p><p></p><p>o\tReplaced the welfare approach with a rights-based framework, increasing government job reservations for persons with benchmark disabilities from 3% to 4% and higher education institution allocations to 5%. It also introduced statutory rights to non-discrimination, accessibility, inclusive education, and severe penalties for offences against persons with disabilities. </p><p></p><p>Parliamentary Trajectory &amp; Enactment</p><p></p><p>•\tFormulation: Drafted and piloted by the Department of Empowerment of Persons with Disabilities (DEPwD) under the Ministry of Social Justice and Empowerment following extensive consultation with disability rights organizations. </p><p>•\tParliamentary Passage: Introduced in the Rajya Sabha on February 7, 2014; referred to the Parliamentary Standing Committee on Social Justice and Empowerment; debated and passed by the Rajya Sabha on December 14, 2016, and subsequently passed by the Lok Sabha on December 16, 2016. </p><p>•\tPresidential Assent: Received formal Presidential Assent on December 27, 2016, entering the statute book as Act No. 49 of 2016. </p><p>•\tEnforcement: Brought into active operational force across India on April 19, 2017 via Official Gazette notification, with the accompanying national statutory rules notified on June 15, 2017. </p><p>Source: India Code Official Repository (indiacode.nic.in) and Ministry of Social Justice and Empowerment (Department of Empowerment of Persons with Disabilities) Official Records.</p><p></p><p></p><p></p>",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "The Rights of Persons with Disabilities Act, 2016.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title.long_title" : [ {
+                  "value" : "An Act to give effect to the United Nations Convention on the Rights of Persons with Disabilities and for matters connected therewith or incidental thereto.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.type" : [ {
+                  "value" : "Social",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-08-24T19:14:34.807760Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a2ccc006-552f-4598-886f-217d79088b9d/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a2ccc006-552f-4598-886f-217d79088b9d/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a2ccc006-552f-4598-886f-217d79088b9d/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a2ccc006-552f-4598-886f-217d79088b9d/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a2ccc006-552f-4598-886f-217d79088b9d/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a2ccc006-552f-4598-886f-217d79088b9d/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a2ccc006-552f-4598-886f-217d79088b9d/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a2ccc006-552f-4598-886f-217d79088b9d/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a2ccc006-552f-4598-886f-217d79088b9d/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a2ccc006-552f-4598-886f-217d79088b9d/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a2ccc006-552f-4598-886f-217d79088b9d"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/a01e1dfc-8230-45e8-9353-e644210a8153"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "a01e1dfc-8230-45e8-9353-e644210a8153",
+              "uuid" : "a01e1dfc-8230-45e8-9353-e644210a8153",
+              "name" : "The Rights of Persons with Disabilities Act, 2016.",
+              "handle" : "123456789/548728",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T23:29:37Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enact_date" : [ {
+                  "value" : "2016-12-27",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enforcement_date" : [ {
+                  "value" : "19-04-2017",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.entry_date" : [ {
+                  "value" : "2019-03-18",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2016-12-27",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CG_61_1054_000010_000010_1552895848503",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "49",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "ACT",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "1054",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "DEPARTMENT OF WOMAN AND CHILD DEVELOPMENT",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.givenid" : [ {
+                  "value" : "201649",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "61",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "State Government",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_chapter" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_section" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.notification_no" : [ {
+                  "value" : "19th April, 2017 vide notification no. S.O. 1215 (E) dated 19th April, 2017 see Gazette of India, Extraordinary, Part II, Section 3 (ii).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.refact" : [ {
+                  "value" : "AC_CEN_25_54_00002_201649_1517807328299",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "8",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "Chhattisgarh",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/548728",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "The Rights of Persons with Disabilities Act, 2016.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title.long_title" : [ {
+                  "value" : "An Act to give effect to the United Nations Convention on the Rights of Persons with Disabilities and for matters connected therewith or incidental thereto.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-10T23:29:37.154969Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a01e1dfc-8230-45e8-9353-e644210a8153/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a01e1dfc-8230-45e8-9353-e644210a8153/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a01e1dfc-8230-45e8-9353-e644210a8153/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a01e1dfc-8230-45e8-9353-e644210a8153/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a01e1dfc-8230-45e8-9353-e644210a8153/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a01e1dfc-8230-45e8-9353-e644210a8153/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a01e1dfc-8230-45e8-9353-e644210a8153/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a01e1dfc-8230-45e8-9353-e644210a8153/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a01e1dfc-8230-45e8-9353-e644210a8153/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a01e1dfc-8230-45e8-9353-e644210a8153/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/a01e1dfc-8230-45e8-9353-e644210a8153"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/9e3fca79-77ce-474e-9c22-0d67d6ff110c"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "9e3fca79-77ce-474e-9c22-0d67d6ff110c",
+              "uuid" : "9e3fca79-77ce-474e-9c22-0d67d6ff110c",
+              "name" : "THE RIGHTS OF PERSONS WITH DISABILITIES ACT, 2016",
+              "handle" : "123456789/492355",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T19:44:08Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enact_date" : [ {
+                  "value" : "2016-12-26",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.entry_date" : [ {
+                  "value" : "2019-08-21",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2016-12-26",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_AN_91_1208_00002_00002_1566387892399",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "49",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "ACT",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "1208",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Andaman and Nicobar Administration",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.givenid" : [ {
+                  "value" : "201649",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "91",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "Andaman and Nicobar Administration",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_chapter" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_section" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.refact" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "2",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "Andaman and Nicobar Islands",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/492355",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "THE RIGHTS OF PERSONS WITH DISABILITIES ACT, 2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-15T02:04:48.617785Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9e3fca79-77ce-474e-9c22-0d67d6ff110c/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9e3fca79-77ce-474e-9c22-0d67d6ff110c/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9e3fca79-77ce-474e-9c22-0d67d6ff110c/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9e3fca79-77ce-474e-9c22-0d67d6ff110c/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9e3fca79-77ce-474e-9c22-0d67d6ff110c/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9e3fca79-77ce-474e-9c22-0d67d6ff110c/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9e3fca79-77ce-474e-9c22-0d67d6ff110c/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9e3fca79-77ce-474e-9c22-0d67d6ff110c/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9e3fca79-77ce-474e-9c22-0d67d6ff110c/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9e3fca79-77ce-474e-9c22-0d67d6ff110c/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9e3fca79-77ce-474e-9c22-0d67d6ff110c"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/b9f2bb8a-0ae5-49e1-a095-74472af6b78f"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "b9f2bb8a-0ae5-49e1-a095-74472af6b78f",
+              "uuid" : "b9f2bb8a-0ae5-49e1-a095-74472af6b78f",
+              "name" : "The Rights of Persons with Disabilities Act, 2016.",
+              "handle" : "123456789/588346",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-11T02:41:17Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enact_date" : [ {
+                  "value" : "2016-12-27",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enforcement_date" : [ {
+                  "value" : "19-04-2017",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.entry_date" : [ {
+                  "value" : "2022-07-07",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2016-12-27",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_RJ_83_1142_00007_00007_1657179888297",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "49",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "ACT",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "1142",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Social Justice Empowerment Department",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.givenid" : [ {
+                  "value" : "201649",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "83",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "NO MINISTRY",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_chapter" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_section" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.notification_no" : [ {
+                  "value" : "19th April, 2017 vide notification no. S.O. 1215 (E) dated 19th April, 2017 see Gazette of India, Extraordinary, Part II, Section 3 (ii).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.refact" : [ {
+                  "value" : "AC_CEN_25_54_00002_201649_1517807328299",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "31",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "Rajasthan",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/588346",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "The Rights of Persons with Disabilities Act, 2016.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title.long_title" : [ {
+                  "value" : "An Act to give effect to the United Nations Convention on the Rights of Persons with Disabilities and for matters connected therewith or incidental thereto.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-11T02:41:17.192010Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b9f2bb8a-0ae5-49e1-a095-74472af6b78f/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b9f2bb8a-0ae5-49e1-a095-74472af6b78f/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b9f2bb8a-0ae5-49e1-a095-74472af6b78f/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b9f2bb8a-0ae5-49e1-a095-74472af6b78f/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b9f2bb8a-0ae5-49e1-a095-74472af6b78f/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b9f2bb8a-0ae5-49e1-a095-74472af6b78f/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b9f2bb8a-0ae5-49e1-a095-74472af6b78f/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b9f2bb8a-0ae5-49e1-a095-74472af6b78f/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b9f2bb8a-0ae5-49e1-a095-74472af6b78f/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b9f2bb8a-0ae5-49e1-a095-74472af6b78f/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/b9f2bb8a-0ae5-49e1-a095-74472af6b78f"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/8ef31866-c0f9-43cf-be07-8ce3acb44d5f"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "8ef31866-c0f9-43cf-be07-8ce3acb44d5f",
+              "uuid" : "8ef31866-c0f9-43cf-be07-8ce3acb44d5f",
+              "name" : "THE RIGHTS OF PERSONS WITH DISABILITIES ACT, 2016",
+              "handle" : "123456789/586345",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-11T02:27:46Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enact_date" : [ {
+                  "value" : "2016-12-27",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.entry_date" : [ {
+                  "value" : "2021-01-07",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2016-12-27",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_PY_81_837_00076_00076_1610010183118",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "49",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "ACT",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "837",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "LAW DEPARTMENT",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.givenid" : [ {
+                  "value" : "201649",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "81",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "NO MINISTRY",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_chapter" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_section" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.refact" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "29",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "puducherry",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/586345",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "THE RIGHTS OF PERSONS WITH DISABILITIES ACT, 2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title.long_title" : [ {
+                  "value" : "THE RIGHTS OF PERSONS WITH DISABILITIES ACT, 2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-15T01:23:07.630361Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/8ef31866-c0f9-43cf-be07-8ce3acb44d5f/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/8ef31866-c0f9-43cf-be07-8ce3acb44d5f/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/8ef31866-c0f9-43cf-be07-8ce3acb44d5f/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/8ef31866-c0f9-43cf-be07-8ce3acb44d5f/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/8ef31866-c0f9-43cf-be07-8ce3acb44d5f/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/8ef31866-c0f9-43cf-be07-8ce3acb44d5f/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/8ef31866-c0f9-43cf-be07-8ce3acb44d5f/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/8ef31866-c0f9-43cf-be07-8ce3acb44d5f/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/8ef31866-c0f9-43cf-be07-8ce3acb44d5f/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/8ef31866-c0f9-43cf-be07-8ce3acb44d5f/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/8ef31866-c0f9-43cf-be07-8ce3acb44d5f"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/c9c8e4b0-5627-41d0-9335-c335dccbd24d"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "c9c8e4b0-5627-41d0-9335-c335dccbd24d",
+              "uuid" : "c9c8e4b0-5627-41d0-9335-c335dccbd24d",
+              "name" : "The Rights of Persons with Disabilities Act, 2016.",
+              "handle" : "123456789/551255",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T23:44:00Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enact_date" : [ {
+                  "value" : "2016-12-27",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.entry_date" : [ {
+                  "value" : "2019-01-16",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2016-12-27",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.last_modified" : [ {
+                  "value" : "2019-01-21",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_DL_64_796_00001_201649_1547618167086",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "49",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "ACT",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "796",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Department of Social Welfare",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "64",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "NO MINISTRY",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_chapter" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_section" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.notification_no" : [ {
+                  "value" : "yet to be notified",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.refact" : [ {
+                  "value" : "AC_CEN_25_54_00002_201649_1517807328299",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "12",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "Delhi",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/551255",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "The Rights of Persons with Disabilities Act, 2016.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title.long_title" : [ {
+                  "value" : "An Act to give effect to the United Nations Convention on the Rights of Persons with Disabilities and for matters connected therewith or incidental thereto.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-15T04:04:04.139956Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c9c8e4b0-5627-41d0-9335-c335dccbd24d/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c9c8e4b0-5627-41d0-9335-c335dccbd24d/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c9c8e4b0-5627-41d0-9335-c335dccbd24d/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c9c8e4b0-5627-41d0-9335-c335dccbd24d/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c9c8e4b0-5627-41d0-9335-c335dccbd24d/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c9c8e4b0-5627-41d0-9335-c335dccbd24d/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c9c8e4b0-5627-41d0-9335-c335dccbd24d/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c9c8e4b0-5627-41d0-9335-c335dccbd24d/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c9c8e4b0-5627-41d0-9335-c335dccbd24d/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c9c8e4b0-5627-41d0-9335-c335dccbd24d/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c9c8e4b0-5627-41d0-9335-c335dccbd24d"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/f6d952cf-4bd9-446a-a136-3e909b9c6862"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "f6d952cf-4bd9-446a-a136-3e909b9c6862",
+              "uuid" : "f6d952cf-4bd9-446a-a136-3e909b9c6862",
+              "name" : "The Rights of Persons with Disabilities Act. 2016",
+              "handle" : "123456789/600751",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-11T03:28:27Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enact_date" : [ {
+                  "value" : "2020-11-22",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.entry_date" : [ {
+                  "value" : "2020-06-10",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2020-11-22",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_TR_87_909_00001_00001_1591788215084",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "ACT",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "909",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Directorate of Social Welfare & Social Education",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.givenid" : [ {
+                  "value" : "20161",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "87",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "NO MINISTRY",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_chapter" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.no_of_section" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.refact" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "35",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "Tripura",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/600751",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "The Rights of Persons with Disabilities Act. 2016",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-15T06:09:08.726502Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/f6d952cf-4bd9-446a-a136-3e909b9c6862/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/f6d952cf-4bd9-446a-a136-3e909b9c6862/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/f6d952cf-4bd9-446a-a136-3e909b9c6862/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/f6d952cf-4bd9-446a-a136-3e909b9c6862/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/f6d952cf-4bd9-446a-a136-3e909b9c6862/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/f6d952cf-4bd9-446a-a136-3e909b9c6862/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/f6d952cf-4bd9-446a-a136-3e909b9c6862/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/f6d952cf-4bd9-446a-a136-3e909b9c6862/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/f6d952cf-4bd9-446a-a136-3e909b9c6862/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/f6d952cf-4bd9-446a-a136-3e909b9c6862/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/f6d952cf-4bd9-446a-a136-3e909b9c6862"
+                }
+              }
+            }
+          }
+        } ]
+      },
+      "page" : {
+        "number" : 0,
+        "size" : 100,
+        "totalPages" : 1,
+        "totalElements" : 14
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT,equals&f.title=Rights of Persons with Disabilities Act, 2016,contains&size=100"
+        }
+      }
+    },
+    "facets" : [ {
+      "name" : "author",
+      "facetType" : "text",
+      "facetLimit" : 5,
+      "openByDefault" : true,
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/author?f.identifier_collection=ACT,equals&f.title=Rights of Persons with Disabilities Act, 2016,contains"
+        }
+      },
+      "_embedded" : {
+        "values" : [ ]
+      }
+    }, {
+      "name" : "subject",
+      "facetType" : "hierarchical",
+      "facetLimit" : 5,
+      "openByDefault" : false,
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/subject?f.identifier_collection=ACT,equals&f.title=Rights of Persons with Disabilities Act, 2016,contains"
+        }
+      },
+      "_embedded" : {
+        "values" : [ ]
+      }
+    }, {
+      "name" : "dateIssued",
+      "facetType" : "date",
+      "facetLimit" : 5,
+      "minValue" : "0002-11-30",
+      "maxValue" : "9668-11-25",
+      "openByDefault" : false,
+      "page" : {
+        "number" : 0,
+        "size" : 5
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/dateIssued?f.identifier_collection=ACT,equals&f.title=Rights of Persons with Disabilities Act, 2016,contains&size=5"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "2016 - 2019",
+          "count" : 12,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT,equals&f.title=Rights%20of%20Persons%20with%20Disabilities%20Act,%202016,contains&f.dateIssued=%5B2016%20TO%202019%5D,equals"
+            }
+          }
+        }, {
+          "label" : "2020 - 2021",
+          "count" : 2,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT,equals&f.title=Rights%20of%20Persons%20with%20Disabilities%20Act,%202016,contains&f.dateIssued=%5B2020%20TO%202021%5D,equals"
+            }
+          }
+        } ]
+      }
+    }, {
+      "name" : "identifier_collection",
+      "facetType" : "text",
+      "facetLimit" : 10,
+      "openByDefault" : true,
+      "page" : {
+        "number" : 0,
+        "size" : 10
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/identifier_collection?f.identifier_collection=ACT,equals&f.title=Rights of Persons with Disabilities Act, 2016,contains&size=10"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "ACT",
+          "count" : 14,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT,equals&f.identifier_collection=ACT,equals&f.title=Rights%20of%20Persons%20with%20Disabilities%20Act,%202016,contains"
+            }
+          }
+        } ]
+      }
+    }, {
+      "name" : "itemtype",
+      "facetType" : "text",
+      "facetLimit" : 5,
+      "openByDefault" : true,
+      "page" : {
+        "number" : 0,
+        "size" : 5
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/itemtype?f.identifier_collection=ACT,equals&f.title=Rights of Persons with Disabilities Act, 2016,contains&size=5"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "Social",
+          "count" : 1,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT,equals&f.title=Rights%20of%20Persons%20with%20Disabilities%20Act,%202016,contains&f.itemtype=Social,equals"
+            }
+          }
+        } ]
+      }
+    } ]
+  }
+}

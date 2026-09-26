@@ -1,0 +1,14 @@
+{
+  "requested_url": "https://www.indiacode.nic.in/",
+  "effective_url": "https://www.indiacode.nic.in/",
+  "fetched_at_utc": "2026-09-20T06:00:56.715947+00:00",
+  "http_status": 200,
+  "content_type": "text/html;charset=ISO-8859-1",
+  "curl_exit_code": 0,
+  "error": null,
+  "bytes": 2009,
+  "sha256": "3b64e50fd9a02485b2f452c4090c7ef025bf565e4340256a83cb387b7103318c",
+  "body_path": "data/discovery/legacy-home.body",
+  "elapsed_seconds": 0.101209,
+  "note": "HTTP success alone does not establish valid source content; inspect body."
+}

@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION%2Cequals&f.act_id=AC_CEN_9_30_00006_195714_1517807321712%2Cequals&sort=dc.identifier.order_number%2CASC&page=0&size=100",
+  "effective_url": "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION%2Cequals&f.act_id=AC_CEN_9_30_00006_195714_1517807321712%2Cequals&sort=dc.identifier.order_number%2CASC&page=0&size=100",
+  "http_status": 200,
+  "curl_exit_code": 0,
+  "content_type": "application/hal+json",
+  "fetched_at_utc": "2026-09-21T19:41:58.569345+00:00",
+  "sha256": "85868683a31e8d4c18da33059e9b9d8040373fc67b814d27ed43fa6511d67f11",
+  "bytes": 1206871,
+  "body_path": "data/discovery/phase3-copyright-1957-sections-page-0.body",
+  "note": "Exact copy of retained Phase 3 HTTP bytes; not a new acquisition. Receipt in data/phase3/acquisition/acts/copyright-1957.json"
+}

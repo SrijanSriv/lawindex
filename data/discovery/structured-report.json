@@ -1,0 +1,61 @@
+{
+  "rti_item_uuid": "37520cf3-5c3f-4c0b-aa4a-5985e6f522bf",
+  "rti_handle": "123456789/496169",
+  "rti_transport_last_modified": "2026-09-12T18:02:24.194212Z",
+  "rti_display_last_modified": "2025-11-18",
+  "section_page": {
+    "number": 0,
+    "size": 10,
+    "totalPages": 4,
+    "totalElements": 31
+  },
+  "metadata_key_union": [
+    "dc.date.accessioned",
+    "dc.date.act_year",
+    "dc.date.enact_date",
+    "dc.date.enforcement_date",
+    "dc.date.issued",
+    "dc.date.last_modified",
+    "dc.description.abstract",
+    "dc.identifier.act_id",
+    "dc.identifier.act_name",
+    "dc.identifier.act_number",
+    "dc.identifier.act_repealed",
+    "dc.identifier.collection",
+    "dc.identifier.department_id",
+    "dc.identifier.department_name",
+    "dc.identifier.givenid",
+    "dc.identifier.id",
+    "dc.identifier.linked_id",
+    "dc.identifier.ministry_id",
+    "dc.identifier.ministry_name",
+    "dc.identifier.next_section",
+    "dc.identifier.order_number",
+    "dc.identifier.page_from",
+    "dc.identifier.page_number",
+    "dc.identifier.page_to",
+    "dc.identifier.preamble_description",
+    "dc.identifier.refact",
+    "dc.identifier.reference_sites",
+    "dc.identifier.repealed",
+    "dc.identifier.section_footnote",
+    "dc.identifier.section_id",
+    "dc.identifier.section_number",
+    "dc.identifier.section_page_note",
+    "dc.identifier.state_id",
+    "dc.identifier.state_name",
+    "dc.identifier.uri",
+    "dc.legislation.history",
+    "dc.title",
+    "dc.title.long_title",
+    "dc.type"
+  ],
+  "observed_structured_language_values": [
+    "None"
+  ],
+  "confirmed_findings": [
+    "RTI-001",
+    "RTI-002"
+  ],
+  "all_missing_values_remain_unknown": true
+}

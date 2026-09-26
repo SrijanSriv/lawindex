@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/770a7d02-48f2-4274-bab9-10d0f48ee264/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/770a7d02-48f2-4274-bab9-10d0f48ee264/content",
+  "http_status": 200,
+  "curl_exit_code": 0,
+  "content_type": "application/pdf",
+  "fetched_at_utc": "2026-09-21T19:43:55.269493+00:00",
+  "sha256": "003b3218fe399b293c73f6aef9ca52e5c1d080388c43fb0523572c1dc5f3d529",
+  "bytes": 838383,
+  "body_path": "data/discovery/phase3-information-technology-2000-pdf.body",
+  "note": "Exact copy of retained Phase 3 HTTP bytes; not a new acquisition. Receipt in data/phase3/acquisition/acts/information-technology-2000.json"
+}

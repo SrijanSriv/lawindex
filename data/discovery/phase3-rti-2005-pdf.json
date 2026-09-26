@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/78f68a27-8902-4081-8d53-a3932264ca52/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/78f68a27-8902-4081-8d53-a3932264ca52/content",
+  "http_status": 200,
+  "curl_exit_code": 0,
+  "content_type": "application/pdf",
+  "sha256": "c1ef189ec4f34d4f346886d6c2fc4a6e8aec2da0eedcfeff9c10401ec9cfb2f5",
+  "bytes": 447103,
+  "body_path": "data/discovery/phase3-rti-2005-pdf.body",
+  "note": "Exact copy of retained Phase 3 HTTP bytes; not a new acquisition. Receipt in data/phase3/acquisition/acts/rti-2005.json; fetched_at_utc copied from the matching Phase 3 receipt (same URL and sha256)",
+  "fetched_at_utc": "2026-09-21T19:41:09.181731+00:00"
+}

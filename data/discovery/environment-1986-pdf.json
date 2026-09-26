@@ -1,0 +1,14 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/2eeec562-717d-4070-b70e-a91a4269c9ca/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/2eeec562-717d-4070-b70e-a91a4269c9ca/content",
+  "fetched_at_utc": "2026-09-20T06:10:03.683087+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf;charset=UTF-8",
+  "curl_exit_code": 0,
+  "error": null,
+  "bytes": 239190,
+  "sha256": "d9712743c39faeb1019c08af3b0b2856ca3c905c4bd6299ee4a928576fdc9169",
+  "body_path": "data/discovery/environment-1986-pdf.body",
+  "elapsed_seconds": 0.433484,
+  "note": "HTTP success alone does not establish valid source content; inspect body."
+}

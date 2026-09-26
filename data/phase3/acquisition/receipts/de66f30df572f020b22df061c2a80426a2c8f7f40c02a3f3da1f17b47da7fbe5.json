@@ -1,0 +1,10 @@
+{
+  "url": "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT%2Cequals&f.title=Right+of+Children+to+Free+and+Compulsory+Education+Act%2C+2009%2Ccontains&page=0&size=100",
+  "status": 200,
+  "sha256": "edd891ab502784eeb5f036f8a4400d603bb2cbdcd13d62c806c066c30af3d249",
+  "bytes": 108656,
+  "fetched_at": "2026-09-21T19:44:23.523519+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "attempt": 1
+}

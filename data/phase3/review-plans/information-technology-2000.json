@@ -1,0 +1,1443 @@
+{
+  "schema_version": 1,
+  "planner_version": "phase3-sample-plan-v1",
+  "parser_version": "phase3-html-pdf-agreement-v2",
+  "act_slug": "information-technology-2000",
+  "candidates_sha256": "8f60e104727baae62b92034d6a8c8a2cfefafcdd80ce9233a1136695ee1d35d4",
+  "pdf_sha256": "003b3218fe399b293c73f6aef9ca52e5c1d080388c43fb0523572c1dc5f3d529",
+  "source_acquisition_sha256": "17b66d40da42cc678daa1c02c72ef036a2cbb2723a2b7975c8435446facf862e",
+  "seed": "56668e09716369ec37b34243342c91151d57a3e4873d8f1802badfa18a32a82a",
+  "selection_rule": {
+    "mandatory": "every aligned candidate with a footnote or a page-break footnote gap",
+    "stratified": "per most-tolerant-normalization stratum, max(2, ceil(10%))",
+    "deterministic": "seed = sha256(planner_version|act_slug|candidates_sha256); re-running cannot re-roll the sample"
+  },
+  "population": [
+    {
+      "key": "information-technology-2000:10",
+      "section_number": "10",
+      "heading": "Power to make rules by Central Government in respect of electronic signature.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 13,
+      "pdf_page_to": 13,
+      "body_text_sha256": "47a2373e38b20cdffeb5c8dc6d28744cca6d26bda467eee61c8c737f23a68037",
+      "footnote_text_sha256": "bf81632f384d69b0f2b48c86e247b90a3d0598e59609e831d8725d8826999564",
+      "footnote_normalization_level": 2,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "89d5f53f-9b8c-4c9f-8f24-fea558c7d7ab"
+    },
+    {
+      "key": "information-technology-2000:10A",
+      "section_number": "10A",
+      "heading": "Validity of contracts formed through electronic means.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 13,
+      "pdf_page_to": 13,
+      "body_text_sha256": "e53c392dddd3eddbdfa653fb74febc91051935219b979f400ad5f600ad364968",
+      "footnote_text_sha256": "d1370c6b7cb1d0401578e6d60c17e74053d220120e3fdd6fc1e6e9030ff9fd4e",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "b5214d42-8b36-4630-a734-5bc2ae93b99e"
+    },
+    {
+      "key": "information-technology-2000:11",
+      "section_number": "11",
+      "heading": "Attribution of electronic records.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 13,
+      "pdf_page_to": 13,
+      "body_text_sha256": "271145457ea40e3442bb0235a7c5084af48edf5b954cc3d1804fe07bfd121640",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "e85b80c4-0ec7-46ab-9c51-283df26d96d8"
+    },
+    {
+      "key": "information-technology-2000:13",
+      "section_number": "13",
+      "heading": "Time and place of despatch and receipt of electronic record.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote",
+      "normalizations": [
+        "dash",
+        "quote",
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 13,
+      "pdf_page_to": 14,
+      "body_text_sha256": "23e07796fdcc32c647fc74a52c8b197f084b978913c37b8edbca0c1fd406111a",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "ff81e7db-ac57-4e80-b5d0-5efd4dbc86c5"
+    },
+    {
+      "key": "information-technology-2000:14",
+      "section_number": "14",
+      "heading": "Secure electronic record.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 14,
+      "pdf_page_to": 14,
+      "body_text_sha256": "c7df0f8425dbac707ba78620de2eef38b69cf7831a765887270fd9f894e4c012",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "3caf95c3-8435-4ad4-9ca1-7d9e3cfeef8e"
+    },
+    {
+      "key": "information-technology-2000:16",
+      "section_number": "16",
+      "heading": "Security procedures and practices.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "bracket-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop"
+      ],
+      "pdf_page_from": 14,
+      "pdf_page_to": 14,
+      "body_text_sha256": "3c5ff3a55d12c720eb9d98822895a0d1d65cbfe883b3f14db78fcd45c690e06b",
+      "footnote_text_sha256": "7f305f9216eb5cc7845e352d0e367bcbd75fe1a1b454c8cadacb4059264324b7",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "303b4024-bff6-40cb-b2ef-1c750e9e2d06"
+    },
+    {
+      "key": "information-technology-2000:18",
+      "section_number": "18",
+      "heading": "Functions of Controller.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "case",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case"
+      ],
+      "pdf_page_from": 15,
+      "pdf_page_to": 15,
+      "body_text_sha256": "21756291ad607b907f383e5ec687de6e63e90db25ef93bdfab2b393c00a40038",
+      "footnote_text_sha256": "c0bab8ee6ccba22782692cf23c8bdad493fbab71dcd9f703ea64940fca6e214b",
+      "footnote_normalization_level": 8,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "e8e1c0c7-419c-4247-b6f8-b2b992a03735"
+    },
+    {
+      "key": "information-technology-2000:20",
+      "section_number": "20",
+      "heading": "[Omitted.].",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "space-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "space-drop"
+      ],
+      "pdf_page_from": 16,
+      "pdf_page_to": 16,
+      "body_text_sha256": "d3ea1d91affdf3b1c98888d43f12c76e45c859a80a1b341fdb6ff83a8d41488d",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "89e899a4-6ebb-4610-a57f-7f2de33953e0"
+    },
+    {
+      "key": "information-technology-2000:22",
+      "section_number": "22",
+      "heading": "Application for licence.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 16,
+      "pdf_page_to": 16,
+      "body_text_sha256": "e2ecf653d3759de03d9d2bceff94cd43427ec606c412cec308abdf337b71aa03",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "32c6d64e-8c1d-4c9a-a640-a572cadd548a"
+    },
+    {
+      "key": "information-technology-2000:23",
+      "section_number": "23",
+      "heading": "Renewal of licence.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 16,
+      "pdf_page_to": 16,
+      "body_text_sha256": "338bfe05c05e7a179073f95340f8258254d41be3fa22e3f0294c8e0bfe8ee412",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "028e5098-8874-4daf-a21d-95b8255b0f57"
+    },
+    {
+      "key": "information-technology-2000:24",
+      "section_number": "24",
+      "heading": "Procedure for grant or rejection of licence.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 16,
+      "pdf_page_to": 16,
+      "body_text_sha256": "a5dcab4c63b806b1ae6c99f08543e5c23e411df1bcf7a4b9a32f7b2b272c78aa",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "5ea3dc2d-2277-4bc1-8411-7b489a29b2de"
+    },
+    {
+      "key": "information-technology-2000:26",
+      "section_number": "26",
+      "heading": "Notice of suspension or revocation of licence.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 17,
+      "pdf_page_to": 17,
+      "body_text_sha256": "62bd87f41f667693ff1fbc02797566e61f5140c85f283d1b319d1369327ae196",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "817aa2fc-e36f-4d6d-b655-4a44f28e10d5"
+    },
+    {
+      "key": "information-technology-2000:27",
+      "section_number": "27",
+      "heading": "Power to delegate.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 17,
+      "pdf_page_to": 17,
+      "body_text_sha256": "e0e96162339846ae5214f9f613889b17974b82bea42eb7151ec0f7e54166ed40",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "ca95978a-2192-4690-b2e3-879f90095fcc"
+    },
+    {
+      "key": "information-technology-2000:28",
+      "section_number": "28",
+      "heading": "Power to investigate contraventions.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 17,
+      "pdf_page_to": 17,
+      "body_text_sha256": "15f9baf41f0de73488217ee9e4bdebbb918dc6e3cd04e9bbc0733bcda5cd44d8",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "f9a33dc6-bb14-497c-888c-f859888428ff"
+    },
+    {
+      "key": "information-technology-2000:3",
+      "section_number": "3",
+      "heading": "Authentication of electronic records.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "bracket-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop"
+      ],
+      "pdf_page_from": 10,
+      "pdf_page_to": 10,
+      "body_text_sha256": "83af1efad91e999bdc7a5f8fffcda05fd505f2a0456363995fae360e7a067d15",
+      "footnote_text_sha256": "d147cc26071265ec49b81156d6e8fc9abf5ff780af4c9d79e9f967b6d41c969e",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "526a2a49-b9d8-4af7-a0cd-840c4bb3d6da"
+    },
+    {
+      "key": "information-technology-2000:31",
+      "section_number": "31",
+      "heading": "Certifying Authority to ensure compliance of the Act, etc.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 17,
+      "pdf_page_to": 17,
+      "body_text_sha256": "600c2fa4ef562f9c5fef8a4638e4d0c82ebd51232144c890366584c9bdf1e776",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "40cfda82-abb0-42c4-86b0-ec07e6541c02"
+    },
+    {
+      "key": "information-technology-2000:32",
+      "section_number": "32",
+      "heading": "Display of licence.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 18,
+      "pdf_page_to": 18,
+      "body_text_sha256": "cb1978a8e601f85c89d16f0528922355a82c94e14db7a13142063fe7d4a29bc8",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "d33e722c-1711-4c15-bdca-f22c626a1d31"
+    },
+    {
+      "key": "information-technology-2000:37",
+      "section_number": "37",
+      "heading": "Suspension of Digital Signature Certificate.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 19,
+      "pdf_page_to": 19,
+      "body_text_sha256": "12ee3a547ff07085fc486c3d7dca66f0d4bfac905c901ea024ead7e9f7ce425b",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "322340ed-44eb-4f58-b0e8-36be68b400c2"
+    },
+    {
+      "key": "information-technology-2000:38",
+      "section_number": "38",
+      "heading": "Revocation of Digital Signature Certificate.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 19,
+      "pdf_page_to": 19,
+      "body_text_sha256": "ba4ff03dcd5956d8f97988984c94c6e84522276e5425ba5f1f7f417e8d85362f",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "912f2863-11cc-4951-96dc-e2391447338e"
+    },
+    {
+      "key": "information-technology-2000:39",
+      "section_number": "39",
+      "heading": "Notice of suspension or revocation.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 19,
+      "pdf_page_to": 20,
+      "body_text_sha256": "d0ae85b25da260a7c9fe294638ca52122f69be79432e9cb3f3356f90be21045f",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "02a46a9d-4e13-4623-889d-fb1a9addc249"
+    },
+    {
+      "key": "information-technology-2000:3A",
+      "section_number": "3A",
+      "heading": "Electronic signature.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 10,
+      "pdf_page_to": 11,
+      "body_text_sha256": "631ae5904ba8c5b0ee78d7ed73284e72b43690bf5d4c5401f9391a7cb77a4711",
+      "footnote_text_sha256": "2c65bb1e05180aaf71a1a81d3d7518329884f4189fd00e8409e6fc0e46e52656",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "7c664104-27df-497a-9c6c-306f81d1c6a5"
+    },
+    {
+      "key": "information-technology-2000:4",
+      "section_number": "4",
+      "heading": "Legal recognition of electronic records.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 11,
+      "pdf_page_to": 11,
+      "body_text_sha256": "4829cc799534fed06135aca1d438d22bc6b463ffc68cb5c7e34168bc28ef4053",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "fbd06dc1-f8b6-4bdc-b338-1bb49699b062"
+    },
+    {
+      "key": "information-technology-2000:40",
+      "section_number": "40",
+      "heading": "Generating key pair.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "punct-space",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space"
+      ],
+      "pdf_page_from": 20,
+      "pdf_page_to": 20,
+      "body_text_sha256": "dda29fd61a8115771d46b77d855f9b9e62468a527118a3f95ddc735886312387",
+      "footnote_text_sha256": "e3c44c0cc0371371043d3312a883ed1fefc8ee9c0c7466a6705fb007232f414c",
+      "footnote_normalization_level": 2,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "9c88fee2-1301-4208-86c9-790ffd18697f"
+    },
+    {
+      "key": "information-technology-2000:41",
+      "section_number": "41",
+      "heading": "Acceptance of Digital Signature Certificate.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 20,
+      "pdf_page_to": 20,
+      "body_text_sha256": "5ab173e6502421232270ff28643cf8154d9cc92103256f8ca05e22187b7173c3",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "889b2dba-6495-47f9-9763-1f21a2f771e7"
+    },
+    {
+      "key": "information-technology-2000:44",
+      "section_number": "44",
+      "heading": "Penalty for failure to furnish information, return, etc.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote",
+      "normalizations": [
+        "dash",
+        "quote"
+      ],
+      "pdf_page_from": 22,
+      "pdf_page_to": 22,
+      "body_text_sha256": "a625189d8fd00ebcae93dca55876c4803cd8375d57fe59245e30efb7187e7ea6",
+      "footnote_text_sha256": "846a7df426a661bee7953b787ea1c943ea259b186686ac72c12b48a08ab94e5a",
+      "footnote_normalization_level": 2,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "c9b03bf2-6aaf-4ae3-8691-7d373f491b9a"
+    },
+    {
+      "key": "information-technology-2000:47",
+      "section_number": "47",
+      "heading": "Factors to be taken into account by the adjudicating officer.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 23,
+      "pdf_page_to": 23,
+      "body_text_sha256": "5489834e7a2c5df97643ea40765fca99451fbecf93e303337165a438d0bce646",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "9eabca68-8e02-4a89-8d44-432310f945b8"
+    },
+    {
+      "key": "information-technology-2000:5",
+      "section_number": "5",
+      "heading": "Legal recognition of electronic signatures.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "space-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "space-drop"
+      ],
+      "pdf_page_from": 11,
+      "pdf_page_to": 11,
+      "body_text_sha256": "2704cbfd9258f14e65b2452d5d9d076d7466bfba01fa69a7c421fbbbfc5b9f3c",
+      "footnote_text_sha256": "6c69c10eacf50ecfb0f98ba0b93740fc17c89252bcfdbc69a19525359ce430c9",
+      "footnote_normalization_level": 11,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "cf494fb8-874f-4bce-b1e0-eab0fd6b95f6"
+    },
+    {
+      "key": "information-technology-2000:53",
+      "section_number": "53",
+      "heading": "[Omitted.].",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "space-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "space-drop"
+      ],
+      "pdf_page_from": 24,
+      "pdf_page_to": 24,
+      "body_text_sha256": "bb65c8606341a2ee120ed80d16097cdb67360569ef3f9ff89b9967993dcdefcf",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "026f0a26-34a0-4d98-b259-c37c42829145"
+    },
+    {
+      "key": "information-technology-2000:54",
+      "section_number": "54",
+      "heading": "[Omitted.].",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "space-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "space-drop"
+      ],
+      "pdf_page_from": 24,
+      "pdf_page_to": 24,
+      "body_text_sha256": "d5fe2b3fa68ba438bfe96fab952060144d8b931cb20160077e6612c0cabb254e",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "b335bcda-a1d8-4f3f-b603-21ab36c74a0a"
+    },
+    {
+      "key": "information-technology-2000:56",
+      "section_number": "56",
+      "heading": "[Omitted.].",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "space-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "space-drop"
+      ],
+      "pdf_page_from": 24,
+      "pdf_page_to": 24,
+      "body_text_sha256": "543e91e8a7ea4c6dd7106ac8e141465d579cc8e8db4274d86f6b170da6ca71fd",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "82284876-fc90-4c0f-8e03-be259011720d"
+    },
+    {
+      "key": "information-technology-2000:66C",
+      "section_number": "66C",
+      "heading": "Punishment for identity theft.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 26,
+      "pdf_page_to": 26,
+      "body_text_sha256": "7e890cbaae11dda22c3f28050009c41ddf513a18fd0c6f0c624172d55591bd5b",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "e64b6242-f855-499f-9ed9-f3823f8f403b"
+    },
+    {
+      "key": "information-technology-2000:66F",
+      "section_number": "66F",
+      "heading": "Punishment for cyber terrorism.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 27,
+      "pdf_page_to": 27,
+      "body_text_sha256": "62eb754a8b33362afa3a4a99cdf75f4abcefa97a169512443af9e3eb4f481ad1",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "62eaf42c-045a-4942-aa57-43a4406880dc"
+    },
+    {
+      "key": "information-technology-2000:67",
+      "section_number": "67",
+      "heading": "Punishment for publishing or transmitting obscene material in electronic form.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 27,
+      "pdf_page_to": 27,
+      "body_text_sha256": "6e6be6fb0f82c31425988f40d0a2018381406e0e25fa707e374b0454875507e9",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "6e5ba2b9-ba46-4d73-80f1-37ba51eef6dc"
+    },
+    {
+      "key": "information-technology-2000:67A",
+      "section_number": "67A",
+      "heading": "Punishment for publishing or transmitting of material containing sexually explicit act, etc., in electronic form.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 27,
+      "pdf_page_to": 27,
+      "body_text_sha256": "cf7c40477a7dfbb56d1c98c8939e500da07223e631b39d223c53f679ad44988d",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "ac6daafd-f347-4410-a6a3-2f28ece7679e"
+    },
+    {
+      "key": "information-technology-2000:67B",
+      "section_number": "67B",
+      "heading": "Punishment for publishing or transmitting of material depicting children in sexually explicit act, etc., in electronic form.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote",
+      "normalizations": [
+        "dash",
+        "quote"
+      ],
+      "pdf_page_from": 27,
+      "pdf_page_to": 28,
+      "body_text_sha256": "38a31bb33dd50e322559c69b9a05bc4f5c29dc49712ad37e0c29b5dc0de7afb7",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "6f94fa36-cb53-496b-9cf1-d1c721a220e4"
+    },
+    {
+      "key": "information-technology-2000:67C",
+      "section_number": "67C",
+      "heading": "Preservation and retention of information by intermediaries.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 28,
+      "pdf_page_to": 28,
+      "body_text_sha256": "e3368e7a721f373501c6602f0435a6c55a66ce31d0329bc11291c354375dc42f",
+      "footnote_text_sha256": "fae27e8007aa8fbef9c27ae32b05f0112b347c4507182296857531ea6a3fb8ab",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "80ebbdc3-e108-487b-ace1-ce08d9628a16"
+    },
+    {
+      "key": "information-technology-2000:69A",
+      "section_number": "69A",
+      "heading": "Power to issue directions for blocking for public access of any information through any computer resource.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 29,
+      "pdf_page_to": 29,
+      "body_text_sha256": "35a2a341dde6cac886d3ca920011e028e6bf9f6e3bec406e0fa7353a43a03ffe",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "6358b4aa-858f-4672-91e7-94e0bd9c6cf7"
+    },
+    {
+      "key": "information-technology-2000:69B",
+      "section_number": "69B",
+      "heading": "Power to authorise to monitor and collect traffic data or information through any computer resource for cyber security.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "bracket-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop"
+      ],
+      "pdf_page_from": 29,
+      "pdf_page_to": 29,
+      "body_text_sha256": "be2432c7e1b6119dea66b8223a226e14ed500f39dc58ce2aaf0f8438d8e9a0f0",
+      "footnote_text_sha256": "dde0ca63320541fe57373d42b4ec9f557845ca32343c74ed3a54ec29cfef1ff3",
+      "footnote_normalization_level": 2,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "94d8b80a-4346-448c-843a-4a25a4dd48f4"
+    },
+    {
+      "key": "information-technology-2000:6A",
+      "section_number": "6A",
+      "heading": "Delivery of services by service provider.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "hyphen",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen"
+      ],
+      "pdf_page_from": 12,
+      "pdf_page_to": 12,
+      "body_text_sha256": "31008a6c88c0347dafbd40d1cf6e56e4f71a466fbfd8618a767ce510dce704a4",
+      "footnote_text_sha256": "8591e3d3a2482b32b49a8002ac9c5a6de0dfcd83d2faba63462a660c0b7ff9e6",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "92b3910b-8fe3-4240-90c0-96b509faa466"
+    },
+    {
+      "key": "information-technology-2000:7",
+      "section_number": "7",
+      "heading": "Retention of electronic records.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 12,
+      "pdf_page_to": 12,
+      "body_text_sha256": "f8f0801a53c6e1c024087d5985331a92c3413aa56f7f4c2ef2ae4257b8fafca1",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "cd6f6dc3-409f-40f8-b50d-834d08431fe2"
+    },
+    {
+      "key": "information-technology-2000:72",
+      "section_number": "72",
+      "heading": "Penalty for Breach of confidentiality and privacy.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "bracket-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop"
+      ],
+      "pdf_page_from": 30,
+      "pdf_page_to": 30,
+      "body_text_sha256": "824f51cd81a6d2880466e7cbc1081adcdd14be93a3481cd6f25e8550433b3e84",
+      "footnote_text_sha256": "c4cd094e7fcae2913118c1e3eacce3eb4380da0060dd34e3d6b883d6ad33bfe3",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "8555b461-1f8e-4bf5-a337-ffe792344680"
+    },
+    {
+      "key": "information-technology-2000:75",
+      "section_number": "75",
+      "heading": "Act to apply for offence or contravention committed outside India.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 31,
+      "pdf_page_to": 31,
+      "body_text_sha256": "6c59f56221a3f86cfa4c9cad7beec771e3aba72d2357b4ed5d72afd2a98cef15",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "308e4b16-8dbd-4461-af71-7bd51076c105"
+    },
+    {
+      "key": "information-technology-2000:76",
+      "section_number": "76",
+      "heading": "Confiscation.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 31,
+      "pdf_page_to": 31,
+      "body_text_sha256": "dc1312a0da0aa91fe4c4fe606e3098a5b7cfb5a85f42ad9e8fd6dda3d4c5639e",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "72376d8d-d01e-4328-932b-1f023663e864"
+    },
+    {
+      "key": "information-technology-2000:79",
+      "section_number": "79",
+      "heading": "Exemption from liability of intermediary in certain cases.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "bracket-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop"
+      ],
+      "pdf_page_from": 32,
+      "pdf_page_to": 32,
+      "body_text_sha256": "fd4fbc0c040cc0386468a7d564bac7e730e92b4fb43e029066f1aa48db4629f9",
+      "footnote_text_sha256": "abaaedb244e55d5b8370d9989f917b7a9675f7d00cf927fc610451f5153a0e77",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "6986f6bd-c5ff-44ee-b4b1-8ecd82126b6b"
+    },
+    {
+      "key": "information-technology-2000:7A",
+      "section_number": "7A",
+      "heading": "Audit of documents, etc., maintained in electronic form.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 12,
+      "pdf_page_to": 12,
+      "body_text_sha256": "3f24503dce3a89bdc4048c27272d30407ad15582da9ef83ddc26785a5bc38142",
+      "footnote_text_sha256": "71a984ce38a7d1a174a283526e2e03545a9d57223bac0f9d09b939dccbf8ee17",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "cf6c6f6e-d075-4fad-af3a-a8bdd767269e"
+    },
+    {
+      "key": "information-technology-2000:8",
+      "section_number": "8",
+      "heading": "Publication of rule, regulation, etc., in Electronic Gazette.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 12,
+      "pdf_page_to": 12,
+      "body_text_sha256": "4036ab79619a994ae034c473c6685910fcdf0ade5ee81e9b6f6002ff2e55dfc6",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "cd0673c5-ac67-49d7-a2ff-286a0111f198"
+    },
+    {
+      "key": "information-technology-2000:83",
+      "section_number": "83",
+      "heading": "Power to give directions.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 33,
+      "pdf_page_to": 33,
+      "body_text_sha256": "f3436be0d25ffbec95a4a885cbc2e6c84c22423ab353eef4341fcc35d59fd2d0",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "fe58ed82-cb1c-4a83-b6b4-294c1cd70f95"
+    },
+    {
+      "key": "information-technology-2000:86",
+      "section_number": "86",
+      "heading": "Removal of difficulties.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 34,
+      "pdf_page_to": 34,
+      "body_text_sha256": "ef621ff8839594206d8f779f9b58a4f95968d101a725c81c7cd640ceef532cd9",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "274f54e5-0135-4c29-ac62-50e7b8fa4ddb"
+    },
+    {
+      "key": "information-technology-2000:88",
+      "section_number": "88",
+      "heading": "Constitution of Advisory Committee.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash",
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 36,
+      "pdf_page_to": 37,
+      "body_text_sha256": "e78b0110799ccd871c0cc7cf7fce2472f98b8d6351a609e5839edd61d7be8338",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "ea4e38aa-d65d-4d92-b028-079dc15b7887"
+    },
+    {
+      "key": "information-technology-2000:91",
+      "section_number": "91",
+      "heading": "[Omitted.].",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop"
+      ],
+      "pdf_page_from": 37,
+      "pdf_page_to": 37,
+      "body_text_sha256": "4c89caea615990f561ed08bd034e44bf3370128b9de0dec5c85c75a0a9e84a88",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "02c38edc-48b0-4faa-b98e-12d97220269a"
+    },
+    {
+      "key": "information-technology-2000:92",
+      "section_number": "92",
+      "heading": "[Omitted.].",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop"
+      ],
+      "pdf_page_from": 37,
+      "pdf_page_to": 37,
+      "body_text_sha256": "d66c9bf22a9c4413574d3e743f613f657931bb2b65743a7c813a9e7b45eea789",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "53ff05c2-9512-4780-b310-1ef9661c3a2b"
+    },
+    {
+      "key": "information-technology-2000:93",
+      "section_number": "93",
+      "heading": "[Omitted.].",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop"
+      ],
+      "pdf_page_from": 37,
+      "pdf_page_to": 37,
+      "body_text_sha256": "d89b8961e110a31dc4afe27b72a0d26fe597a8217d482f2500c4ff26165104b7",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "7e5b01e5-0786-4673-b3fb-635b699644e6"
+    },
+    {
+      "key": "information-technology-2000:94",
+      "section_number": "94",
+      "heading": "[Omitted.].",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop"
+      ],
+      "pdf_page_from": 37,
+      "pdf_page_to": 37,
+      "body_text_sha256": "2a4311a4e875a480e6d65770c00d961ed07b558c08e36d349621c7d668cb5fc8",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "b6468f8b-e232-476b-919b-fd7ff0e1eab7"
+    }
+  ],
+  "population_count": 53,
+  "mandatory_keys": [
+    "information-technology-2000:10",
+    "information-technology-2000:10A",
+    "information-technology-2000:13",
+    "information-technology-2000:16",
+    "information-technology-2000:18",
+    "information-technology-2000:3",
+    "information-technology-2000:39",
+    "information-technology-2000:3A",
+    "information-technology-2000:40",
+    "information-technology-2000:44",
+    "information-technology-2000:5",
+    "information-technology-2000:67C",
+    "information-technology-2000:69B",
+    "information-technology-2000:6A",
+    "information-technology-2000:72",
+    "information-technology-2000:79",
+    "information-technology-2000:7A",
+    "information-technology-2000:88"
+  ],
+  "sampled_keys": [
+    "information-technology-2000:20",
+    "information-technology-2000:22",
+    "information-technology-2000:28",
+    "information-technology-2000:41",
+    "information-technology-2000:53",
+    "information-technology-2000:67B",
+    "information-technology-2000:86",
+    "information-technology-2000:92",
+    "information-technology-2000:94"
+  ],
+  "selected_keys": [
+    "information-technology-2000:10",
+    "information-technology-2000:10A",
+    "information-technology-2000:13",
+    "information-technology-2000:16",
+    "information-technology-2000:18",
+    "information-technology-2000:20",
+    "information-technology-2000:22",
+    "information-technology-2000:28",
+    "information-technology-2000:3",
+    "information-technology-2000:39",
+    "information-technology-2000:3A",
+    "information-technology-2000:40",
+    "information-technology-2000:41",
+    "information-technology-2000:44",
+    "information-technology-2000:5",
+    "information-technology-2000:53",
+    "information-technology-2000:67B",
+    "information-technology-2000:67C",
+    "information-technology-2000:69B",
+    "information-technology-2000:6A",
+    "information-technology-2000:72",
+    "information-technology-2000:79",
+    "information-technology-2000:7A",
+    "information-technology-2000:86",
+    "information-technology-2000:88",
+    "information-technology-2000:92",
+    "information-technology-2000:94"
+  ],
+  "strata": {
+    "dash": {
+      "population": 9,
+      "sampled": 2,
+      "keys": [
+        "information-technology-2000:22",
+        "information-technology-2000:41"
+      ]
+    },
+    "dash-drop": {
+      "population": 4,
+      "sampled": 2,
+      "keys": [
+        "information-technology-2000:92",
+        "information-technology-2000:94"
+      ]
+    },
+    "exact": {
+      "population": 17,
+      "sampled": 2,
+      "keys": [
+        "information-technology-2000:28",
+        "information-technology-2000:86"
+      ]
+    },
+    "quote": {
+      "population": 1,
+      "sampled": 1,
+      "keys": [
+        "information-technology-2000:67B"
+      ]
+    },
+    "space-drop": {
+      "population": 4,
+      "sampled": 2,
+      "keys": [
+        "information-technology-2000:20",
+        "information-technology-2000:53"
+      ]
+    }
+  },
+  "renders": {
+    "information-technology-2000:10": [
+      "data/phase3/review-renders/information-technology-2000/page-13.png"
+    ],
+    "information-technology-2000:10A": [
+      "data/phase3/review-renders/information-technology-2000/page-13.png"
+    ],
+    "information-technology-2000:13": [
+      "data/phase3/review-renders/information-technology-2000/page-13.png",
+      "data/phase3/review-renders/information-technology-2000/page-14.png"
+    ],
+    "information-technology-2000:16": [
+      "data/phase3/review-renders/information-technology-2000/page-14.png"
+    ],
+    "information-technology-2000:18": [
+      "data/phase3/review-renders/information-technology-2000/page-15.png"
+    ],
+    "information-technology-2000:20": [
+      "data/phase3/review-renders/information-technology-2000/page-16.png"
+    ],
+    "information-technology-2000:22": [
+      "data/phase3/review-renders/information-technology-2000/page-16.png"
+    ],
+    "information-technology-2000:28": [
+      "data/phase3/review-renders/information-technology-2000/page-17.png"
+    ],
+    "information-technology-2000:3": [
+      "data/phase3/review-renders/information-technology-2000/page-10.png"
+    ],
+    "information-technology-2000:39": [
+      "data/phase3/review-renders/information-technology-2000/page-19.png",
+      "data/phase3/review-renders/information-technology-2000/page-20.png"
+    ],
+    "information-technology-2000:3A": [
+      "data/phase3/review-renders/information-technology-2000/page-10.png",
+      "data/phase3/review-renders/information-technology-2000/page-11.png"
+    ],
+    "information-technology-2000:40": [
+      "data/phase3/review-renders/information-technology-2000/page-20.png"
+    ],
+    "information-technology-2000:41": [
+      "data/phase3/review-renders/information-technology-2000/page-20.png"
+    ],
+    "information-technology-2000:44": [
+      "data/phase3/review-renders/information-technology-2000/page-22.png"
+    ],
+    "information-technology-2000:5": [
+      "data/phase3/review-renders/information-technology-2000/page-11.png"
+    ],
+    "information-technology-2000:53": [
+      "data/phase3/review-renders/information-technology-2000/page-24.png"
+    ],
+    "information-technology-2000:67B": [
+      "data/phase3/review-renders/information-technology-2000/page-27.png",
+      "data/phase3/review-renders/information-technology-2000/page-28.png"
+    ],
+    "information-technology-2000:67C": [
+      "data/phase3/review-renders/information-technology-2000/page-28.png"
+    ],
+    "information-technology-2000:69B": [
+      "data/phase3/review-renders/information-technology-2000/page-29.png"
+    ],
+    "information-technology-2000:6A": [
+      "data/phase3/review-renders/information-technology-2000/page-12.png"
+    ],
+    "information-technology-2000:72": [
+      "data/phase3/review-renders/information-technology-2000/page-30.png"
+    ],
+    "information-technology-2000:79": [
+      "data/phase3/review-renders/information-technology-2000/page-32.png"
+    ],
+    "information-technology-2000:7A": [
+      "data/phase3/review-renders/information-technology-2000/page-12.png"
+    ],
+    "information-technology-2000:86": [
+      "data/phase3/review-renders/information-technology-2000/page-34.png"
+    ],
+    "information-technology-2000:88": [
+      "data/phase3/review-renders/information-technology-2000/page-36.png",
+      "data/phase3/review-renders/information-technology-2000/page-37.png"
+    ],
+    "information-technology-2000:92": [
+      "data/phase3/review-renders/information-technology-2000/page-37.png"
+    ],
+    "information-technology-2000:94": [
+      "data/phase3/review-renders/information-technology-2000/page-37.png"
+    ]
+  },
+  "render_sha256": {
+    "data/phase3/review-renders/information-technology-2000/page-10.png": "f23905e5c4c684982cb7e7f5264b4dfbb6fd256e370b7701ed83a869f1cf90d7",
+    "data/phase3/review-renders/information-technology-2000/page-11.png": "660997ebb0ae7763b481c62721bc04f43c419eb08befaf16854344dacd4d1fb2",
+    "data/phase3/review-renders/information-technology-2000/page-12.png": "7eec6ab85a5e7f175d18bb7affd5edd8809d60703fe9509346726e64eda76633",
+    "data/phase3/review-renders/information-technology-2000/page-13.png": "bc41d4ff7de38be1c5fc0304c99ca003d33f76bf6bfa10a7d13981eeb4d1aac8",
+    "data/phase3/review-renders/information-technology-2000/page-14.png": "e5cf4a73c90c3868158c00b580fe5633c50a665b96fbfdbd3179099d5f93fcb9",
+    "data/phase3/review-renders/information-technology-2000/page-15.png": "c1379cd030df0618e0036a017bb3136bf909db7b0bc66166acc151e1618b90c4",
+    "data/phase3/review-renders/information-technology-2000/page-16.png": "69e7fa7b3c2b6efa2e720389b8910f5c58d8bba63ce09f910b75a832cc683c00",
+    "data/phase3/review-renders/information-technology-2000/page-17.png": "789564887b62910a3ba2b48f3d8fcf818e14d78c3008b434819e02e649f6a941",
+    "data/phase3/review-renders/information-technology-2000/page-19.png": "ae5a72be696beab9867a6eb78018e803883f3a4f3b4ef830d06c77d5a3ab48e9",
+    "data/phase3/review-renders/information-technology-2000/page-20.png": "c6d03807807b06d25614ed5b80a8ae1fea606d03bdd62172af90366248110049",
+    "data/phase3/review-renders/information-technology-2000/page-22.png": "c410a2d099a49b723de7fd9ab35efff84edd9ad9e0ca01d0459fd21e9d7fe214",
+    "data/phase3/review-renders/information-technology-2000/page-24.png": "099e81175950bf6977c2271e72a5645fbfca4cc248293c7c4ba989cc80d96ce8",
+    "data/phase3/review-renders/information-technology-2000/page-27.png": "6fa3e4e78ae1161cd15104fe02aa6d2a1f7a8703bba8a021dd5e250f25d4f9a9",
+    "data/phase3/review-renders/information-technology-2000/page-28.png": "1a81fef942cf582a599aba52b501f452484c7a63de6c4838317955a0bed7fb86",
+    "data/phase3/review-renders/information-technology-2000/page-29.png": "e324c3997b75a08dc3e5a380890e6c330c06617177dc0465ad87bbe9930ce047",
+    "data/phase3/review-renders/information-technology-2000/page-30.png": "91e992ea6f70a06992b4574792b2dba032e8b58e50c1b8ab75b6f8ce274ccda3",
+    "data/phase3/review-renders/information-technology-2000/page-32.png": "26acfb4628ef5490d6440df48ac94c3863e749e364e20e93cc0cc00f02639020",
+    "data/phase3/review-renders/information-technology-2000/page-34.png": "3c3ce5ab5173adbc088d8bb80c05f70f9bf83890028c30f42dbf4361fa4eda11",
+    "data/phase3/review-renders/information-technology-2000/page-36.png": "32932ae53491a781cace0e06713aaf45c304e7a3bb2b5a86c32a69469fbdd6fc",
+    "data/phase3/review-renders/information-technology-2000/page-37.png": "53d2fcfb1bee2bb093c24ff2334eca1c9f1e4476cdabd440230c95b615ec8f2e"
+  },
+  "status": "reviewed",
+  "review": {
+    "reviewer_ref": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "reviewer_sha256": "109ba542b1054cd0f750fece16fdf06fec99b8a227238432c9f10ddcb6fe8303",
+    "session_date": "2026-09-22",
+    "outcomes": {
+      "information-technology-2000:10": {
+        "decision": "verified_equivalent",
+        "note": "Page 13: lead-in and (a)-(e) with each 1[electronic signature] substitution match; ends before 10A."
+      },
+      "information-technology-2000:10A": {
+        "decision": "verified_equivalent",
+        "note": "Page 13: the inserted section with its number and heading matches; ends before CHAPTER IV."
+      },
+      "information-technology-2000:13": {
+        "decision": "verified_equivalent",
+        "note": "Pages 13-14: (1), (2)(a)(i),(ii),(b), (3), (4), (5)(a)-(c) match; the skipped page-13 block is the footnotes for ss.10-12, not s.13 text; ends before CHAPTER V."
+      },
+      "information-technology-2000:16": {
+        "decision": "verified_equivalent",
+        "note": "Page 14: the paragraph and its proviso, closing the 15-16 substitution bracket, match; the bracket placement differs between representations, which is the recorded bracket-drop level."
+      },
+      "information-technology-2000:18": {
+        "decision": "verified_equivalent",
+        "note": "Page 15: lead-in and (a)-(n) match; the PDF's italic clause letters are typographic only; ends before s.19."
+      },
+      "information-technology-2000:20": {
+        "decision": "verified_equivalent",
+        "note": "Page 16: the omitted-section entry matches; the PDF's italic citation spacing is the recorded space-drop level."
+      },
+      "information-technology-2000:22": {
+        "decision": "verified_equivalent",
+        "note": "Page 16: (1) and (2)(a)-(d) match; ends before s.23."
+      },
+      "information-technology-2000:28": {
+        "decision": "verified_equivalent",
+        "note": "Page 17: (1) and (2) match exactly; ends before s.29."
+      },
+      "information-technology-2000:3": {
+        "decision": "verified_equivalent",
+        "note": "Page 10: (1), (2) with its Explanation (a),(b), (3) and (4) match; the amendment bracket the HTML opens at s.3 is the PDF's chapter-heading bracket, which is the recorded bracket-drop level; ends before 3A."
+      },
+      "information-technology-2000:39": {
+        "decision": "verified_equivalent",
+        "note": "Pages 19-20: (1) and (2) match; the skipped page-19 block is s.36's insertion footnote, not s.39 text; ends before CHAPTER VIII."
+      },
+      "information-technology-2000:3A": {
+        "decision": "verified_equivalent",
+        "note": "Pages 10-11: the inserted section with its number and heading, (1)(a),(b), (2)(a)-(e), (3), (4) with proviso and (5) match; the skipped page-10 block is the three footnotes, not s.3A text."
+      },
+      "information-technology-2000:40": {
+        "decision": "verified_equivalent",
+        "note": "Page 20: the paragraph with its omission asterisks and 2[that key] substitution matches; footnotes belong to this section; ends before 40A."
+      },
+      "information-technology-2000:41": {
+        "decision": "verified_equivalent",
+        "note": "Page 20: (1)(a),(b) with its tail and (2)(a)-(c) match; ends before s.42."
+      },
+      "information-technology-2000:44": {
+        "decision": "verified_equivalent",
+        "note": "Page 22: lead-in and (a)-(c) with the 2023 penalty substitutions match; ends before s.45."
+      },
+      "information-technology-2000:5": {
+        "decision": "verified_equivalent",
+        "note": "Page 11: the paragraph with both 1[electronic signature] substitutions and the Explanation match; the PDF's \"hand written\" spacing is the recorded space-drop level; ends before s.6."
+      },
+      "information-technology-2000:53": {
+        "decision": "verified_equivalent",
+        "note": "Page 24: the omitted-section entry matches; the PDF's italic citation spacing is the recorded space-drop level."
+      },
+      "information-technology-2000:67B": {
+        "decision": "verified_equivalent",
+        "note": "Pages 27-28: lead-in, (a)-(e), the penalty tail, the proviso (i),(ii) and the Explanation match; ends before 67C."
+      },
+      "information-technology-2000:67C": {
+        "decision": "verified_equivalent",
+        "note": "Page 28: (1) and (2) with its 2023 substitution match; footnote belongs to this section; ends before s.68."
+      },
+      "information-technology-2000:69B": {
+        "decision": "verified_equivalent",
+        "note": "Page 29: (1)-(4) and the Explanation (i),(ii) match; the 2023 substitution bracket placement is the recorded bracket-drop level; ends before s.70."
+      },
+      "information-technology-2000:6A": {
+        "decision": "verified_equivalent",
+        "note": "Page 12: the inserted section, (1) with Explanation, (2)-(4) with proviso match; ends before s.7."
+      },
+      "information-technology-2000:72": {
+        "decision": "verified_equivalent",
+        "note": "Page 30: the paragraph with its 3[liable to penalty ...] substitution matches; bracket placement is the recorded bracket-drop level; ends before 72A."
+      },
+      "information-technology-2000:79": {
+        "decision": "verified_equivalent",
+        "note": "Page 32: (1), (2)(a),(b)(i)-(iii),(c), (3)(a),(b) and the Explanation match; the PDF opens the substitution bracket at the CHAPTER XII heading, which is the recorded bracket-drop level."
+      },
+      "information-technology-2000:7A": {
+        "decision": "verified_equivalent",
+        "note": "Page 12: the inserted section with its number and heading matches; ends before s.8."
+      },
+      "information-technology-2000:86": {
+        "decision": "verified_equivalent",
+        "note": "Page 34: (1) with proviso and (2) match exactly; ends before s.87."
+      },
+      "information-technology-2000:88": {
+        "decision": "verified_equivalent",
+        "note": "Pages 36-37: (1)-(3)(a),(b) and (4) match; the skipped page-36 block is s.87's five footnotes, not s.88 text; ends before s.89."
+      },
+      "information-technology-2000:92": {
+        "decision": "verified_equivalent",
+        "note": "Page 37: the omitted-section entry matches; ends before s.93."
+      },
+      "information-technology-2000:94": {
+        "decision": "verified_equivalent",
+        "note": "Page 37: the omitted-section entry matches; it is the last section of the Act."
+      }
+    },
+    "decision": "act_batch_admitted",
+    "failed_keys": [],
+    "decision_note": "All twenty-seven selected sections compared whole against their rendered PDF pages; every one agreed. This Act's many 2009 and 2023 amendments place their brackets differently in the two representations, which is why several needed the bracket-drop level.",
+    "render_evidence": {
+      "data/phase3/review-renders/information-technology-2000/page-10.png": "f23905e5c4c684982cb7e7f5264b4dfbb6fd256e370b7701ed83a869f1cf90d7",
+      "data/phase3/review-renders/information-technology-2000/page-11.png": "660997ebb0ae7763b481c62721bc04f43c419eb08befaf16854344dacd4d1fb2",
+      "data/phase3/review-renders/information-technology-2000/page-12.png": "7eec6ab85a5e7f175d18bb7affd5edd8809d60703fe9509346726e64eda76633",
+      "data/phase3/review-renders/information-technology-2000/page-13.png": "bc41d4ff7de38be1c5fc0304c99ca003d33f76bf6bfa10a7d13981eeb4d1aac8",
+      "data/phase3/review-renders/information-technology-2000/page-14.png": "e5cf4a73c90c3868158c00b580fe5633c50a665b96fbfdbd3179099d5f93fcb9",
+      "data/phase3/review-renders/information-technology-2000/page-15.png": "c1379cd030df0618e0036a017bb3136bf909db7b0bc66166acc151e1618b90c4",
+      "data/phase3/review-renders/information-technology-2000/page-16.png": "69e7fa7b3c2b6efa2e720389b8910f5c58d8bba63ce09f910b75a832cc683c00",
+      "data/phase3/review-renders/information-technology-2000/page-17.png": "789564887b62910a3ba2b48f3d8fcf818e14d78c3008b434819e02e649f6a941",
+      "data/phase3/review-renders/information-technology-2000/page-19.png": "ae5a72be696beab9867a6eb78018e803883f3a4f3b4ef830d06c77d5a3ab48e9",
+      "data/phase3/review-renders/information-technology-2000/page-20.png": "c6d03807807b06d25614ed5b80a8ae1fea606d03bdd62172af90366248110049",
+      "data/phase3/review-renders/information-technology-2000/page-22.png": "c410a2d099a49b723de7fd9ab35efff84edd9ad9e0ca01d0459fd21e9d7fe214",
+      "data/phase3/review-renders/information-technology-2000/page-24.png": "099e81175950bf6977c2271e72a5645fbfca4cc248293c7c4ba989cc80d96ce8",
+      "data/phase3/review-renders/information-technology-2000/page-27.png": "6fa3e4e78ae1161cd15104fe02aa6d2a1f7a8703bba8a021dd5e250f25d4f9a9",
+      "data/phase3/review-renders/information-technology-2000/page-28.png": "1a81fef942cf582a599aba52b501f452484c7a63de6c4838317955a0bed7fb86",
+      "data/phase3/review-renders/information-technology-2000/page-29.png": "e324c3997b75a08dc3e5a380890e6c330c06617177dc0465ad87bbe9930ce047",
+      "data/phase3/review-renders/information-technology-2000/page-30.png": "91e992ea6f70a06992b4574792b2dba032e8b58e50c1b8ab75b6f8ce274ccda3",
+      "data/phase3/review-renders/information-technology-2000/page-32.png": "26acfb4628ef5490d6440df48ac94c3863e749e364e20e93cc0cc00f02639020",
+      "data/phase3/review-renders/information-technology-2000/page-34.png": "3c3ce5ab5173adbc088d8bb80c05f70f9bf83890028c30f42dbf4361fa4eda11",
+      "data/phase3/review-renders/information-technology-2000/page-36.png": "32932ae53491a781cace0e06713aaf45c304e7a3bb2b5a86c32a69469fbdd6fc",
+      "data/phase3/review-renders/information-technology-2000/page-37.png": "53d2fcfb1bee2bb093c24ff2334eca1c9f1e4476cdabd440230c95b615ec8f2e"
+    },
+    "scope_note": "Each selected section was compared whole against its rendered PDF pages: heading, beginning and end, numbered parts, provisos and footnotes. Sections outside selected_keys were not looked at individually; they rest on automated whole-body agreement plus this sample."
+  },
+  "admits_nothing_note": "A passing review authorizes admission of this Act's aligned candidates through the canonical importer under review class text_agreement_sampled_visual. Provisions not in selected_keys are admitted on automated whole-body agreement plus this sample, and must never be presented as individually reviewed."
+}

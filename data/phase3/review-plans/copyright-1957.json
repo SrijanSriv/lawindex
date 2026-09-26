@@ -1,0 +1,1133 @@
+{
+  "schema_version": 1,
+  "planner_version": "phase3-sample-plan-v1",
+  "parser_version": "phase3-html-pdf-agreement-v2",
+  "act_slug": "copyright-1957",
+  "candidates_sha256": "fee70a0b3acd5b8b2ca245fe4568c61d0edaf0d32a8c2253876ea62f27253a9b",
+  "pdf_sha256": "fc1e8ab7dee763fcda531eedc44de835c8e2bc4b9aaaf8cf29730e45b4289523",
+  "source_acquisition_sha256": "c1834a3564f8f2e977f04fba694d9c2243320334c3512c4ea22e6409f255c088",
+  "seed": "53b1edd80318a59bc65583d782f3e93493dc6be2d1cf29d43609c1767fb0d444",
+  "selection_rule": {
+    "mandatory": "every aligned candidate with a footnote or a page-break footnote gap",
+    "stratified": "per most-tolerant-normalization stratum, max(2, ceil(10%))",
+    "deterministic": "seed = sha256(planner_version|act_slug|candidates_sha256); re-running cannot re-roll the sample"
+  },
+  "population": [
+    {
+      "key": "copyright-1957:10",
+      "section_number": "10",
+      "heading": "Registrar and Deputy Registrars of Copyrights.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 11,
+      "pdf_page_to": 11,
+      "body_text_sha256": "bcde8012d0b3ff9c5013e86148793cad4ee0a1e932c00b02c4b298af7ba261bc",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "cdf2e34f-5ac3-4fcc-b846-bb05b12afd63"
+    },
+    {
+      "key": "copyright-1957:16",
+      "section_number": "16",
+      "heading": "No copyright except as provided in this Act.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 14,
+      "pdf_page_to": 14,
+      "body_text_sha256": "120e89d098d9475f44277ffda2ee5b5a11d9003d3a4998cf46d1b9678af840f7",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "0b753a39-d025-4b87-9adc-9872b24ebfb7"
+    },
+    {
+      "key": "copyright-1957:18",
+      "section_number": "18",
+      "heading": "Assignment of copyright.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "punct-space",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 15,
+      "pdf_page_to": 16,
+      "body_text_sha256": "d8d73651da1f945839435075eb25a6aeedaf1b35c960ba50fd92f56ecde09891",
+      "footnote_text_sha256": "885e9cc46926ac5fba6cfa3b46b82b7ee55ff9a898dce46eb335bb6da8adb0cc",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "1cc9bad0-c699-44b7-97c3-cd22f1e4bcc1"
+    },
+    {
+      "key": "copyright-1957:20",
+      "section_number": "20",
+      "heading": "Transmission of copyright in manuscript by testamentary disposition.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote",
+      "normalizations": [
+        "dash",
+        "quote"
+      ],
+      "pdf_page_from": 17,
+      "pdf_page_to": 17,
+      "body_text_sha256": "54730caa8f3c8560cbc44d014c9c8868d94ff0ff3d66b50874f0ce9d6103b0c5",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "23c7a6fd-3dcf-4f5c-be7f-784850b9ec06"
+    },
+    {
+      "key": "copyright-1957:21",
+      "section_number": "21",
+      "heading": "Right of author to relinquish copyright.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 17,
+      "pdf_page_to": 17,
+      "body_text_sha256": "07b13e349575c9e4c2362e53888b24fec10e34420573b61b6ce827e6fb1711e2",
+      "footnote_text_sha256": "0c5e65fd352b348158b7bbd8a975c3398f16aac53883dcc38d9b6c8c1d55fbf4",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "72e0428c-c474-4c24-9c71-7b0b1be17139"
+    },
+    {
+      "key": "copyright-1957:25",
+      "section_number": "25",
+      "heading": "[Omitted.].",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 18,
+      "pdf_page_to": 18,
+      "body_text_sha256": "ebac4548aeb42053ce89c7d45d1644cc2110af8f83d48b358e3b35fba09aaf7c",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "ad9c0531-b111-4e43-92bc-8153c8b441d9"
+    },
+    {
+      "key": "copyright-1957:26",
+      "section_number": "26",
+      "heading": "Term of copyright in cinematograph films.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 18,
+      "pdf_page_to": 18,
+      "body_text_sha256": "22f4fd592a5beb28133f4769c9bdf4f62e7000f48e61763956b2aed58b5fb7fe",
+      "footnote_text_sha256": "a6e78db900762b00c69d55a71a181ae58a00c6a80690c551d4037078cdc585db",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "c34c6a63-6b56-4ae0-bf3e-558c0979439f"
+    },
+    {
+      "key": "copyright-1957:29",
+      "section_number": "29",
+      "heading": "Term of copyright in works of international organisations.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote",
+      "normalizations": [
+        "dash",
+        "quote"
+      ],
+      "pdf_page_from": 19,
+      "pdf_page_to": 19,
+      "body_text_sha256": "6ae6a73ff095a2a8ec555a034bd180bde62c20f2af17eb91236f27138d8f3ad4",
+      "footnote_text_sha256": "ebe90c37fef529089a7d0c2e3e8202e32f48a8b8c6e103dd73a7be3e7d7797f2",
+      "footnote_normalization_level": 2,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "e03dcf0f-7300-4ada-a2a8-5a07724f1bbf"
+    },
+    {
+      "key": "copyright-1957:3",
+      "section_number": "3",
+      "heading": "Meaning of publication.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 10,
+      "pdf_page_to": 10,
+      "body_text_sha256": "99f8c23761f6e0da6fe4777a6844de8eb41a417b6756708dbae7a9cbeffe94e8",
+      "footnote_text_sha256": "cbcb1fd1ebcb74476763b908615ebc99fa5556da3c855762c502ee58f64dcde5",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "1ea1239e-e929-44c6-b01f-ee6384a489c4"
+    },
+    {
+      "key": "copyright-1957:4",
+      "section_number": "4",
+      "heading": "When work not deemed to be published or performed in public.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 10,
+      "pdf_page_to": 10,
+      "body_text_sha256": "cbfbd9cc2e2db0803abf49d5bcff7b429b5e4d73dc91fbc7705c363b37d03878",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "c29c1f10-849a-490c-adac-a1142b013cc2"
+    },
+    {
+      "key": "copyright-1957:42",
+      "section_number": "42",
+      "heading": "Power to restrict rights in works of foreign authors first published in India.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 32,
+      "pdf_page_to": 33,
+      "body_text_sha256": "1f721617a0e194ce722668a88e60cd797546f5e2decd718df7f8464ff5db1611",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "349690ec-f1a4-4ef2-a3a4-41fd1343bdf4"
+    },
+    {
+      "key": "copyright-1957:42A",
+      "section_number": "42A",
+      "heading": "Power to restrict rights of foreign broadcasting organisations and performer’s.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "punct-space",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space"
+      ],
+      "pdf_page_from": 33,
+      "pdf_page_to": 33,
+      "body_text_sha256": "5b674a8a889c2e768c6dc3c50562dde0672994fa8a5ede47afaa55468fcb1c3e",
+      "footnote_text_sha256": "632907f5be1b2aebab1d240b6e1fa508c43a974947db27365182f7c6709ce10b",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "9c22de62-4d55-4fe6-ae30-c60f9db4a960"
+    },
+    {
+      "key": "copyright-1957:43",
+      "section_number": "43",
+      "heading": "Orders under this Chapter to be laid before Parliament.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 33,
+      "pdf_page_to": 33,
+      "body_text_sha256": "5ec59bf265d7ff67287e609bd59f76996df640477064e8b36c99d7ddff411184",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "ce2b564a-7cff-46be-90f0-4361048df166"
+    },
+    {
+      "key": "copyright-1957:44",
+      "section_number": "44",
+      "heading": "Register of Copyrights.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 33,
+      "pdf_page_to": 33,
+      "body_text_sha256": "81ed80ec50539ed7193eeccc18a1411e72e70d7f3ef59ab5eeae5739a8843662",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "cd239142-3322-4d9e-83ed-fe91d1477b68"
+    },
+    {
+      "key": "copyright-1957:45",
+      "section_number": "45",
+      "heading": "Entries in Register of Copyrights.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 33,
+      "pdf_page_to": 33,
+      "body_text_sha256": "e808917541b5e8427fbe6148f77fb21a00e673152a3e8e137c70be515327246f",
+      "footnote_text_sha256": "1766a5766ee0f09259e4f8faa4f552013b270b6104aa01097bde3bcef94931e0",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "1692b21d-737d-4cb4-9964-edb149074216"
+    },
+    {
+      "key": "copyright-1957:46",
+      "section_number": "46",
+      "heading": "Indexes.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 33,
+      "pdf_page_to": 33,
+      "body_text_sha256": "13907d3563548a7df7387db87b30d6cf34f334c9c7f65a04c21b4cf7ec353b26",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "647c446d-dd2c-497d-acc1-5862d732832c"
+    },
+    {
+      "key": "copyright-1957:47",
+      "section_number": "47",
+      "heading": "Form and inspection of register.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 33,
+      "pdf_page_to": 33,
+      "body_text_sha256": "c71113a66acdae02eb3ce560dbb87b1ca8bc67fd726296bb17037a1430f6c5f6",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "8134deee-0a28-4ba8-b3b3-5914ad1137a2"
+    },
+    {
+      "key": "copyright-1957:48",
+      "section_number": "48",
+      "heading": "Register of Copyrights to be prima facie evidence of particulars entered therein.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 33,
+      "pdf_page_to": 33,
+      "body_text_sha256": "9baea0fc09c9d72b75b1c290575e807a51ee246a02d55a9cf5e636a1b65c7e98",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "f6291c81-faa3-4697-8b83-1d0777656831"
+    },
+    {
+      "key": "copyright-1957:49",
+      "section_number": "49",
+      "heading": "Correction of entries in the Register of Copyrights.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 34,
+      "pdf_page_to": 34,
+      "body_text_sha256": "7876d156456bed279bb2c3ceb7d1e1f2e9b9032fc9b410cf7fce83112a02a520",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "5793d3da-a326-437a-9392-643c835e4168"
+    },
+    {
+      "key": "copyright-1957:5",
+      "section_number": "5",
+      "heading": "When work deemed to be first published in India.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 11,
+      "pdf_page_to": 11,
+      "body_text_sha256": "4c622c257f27578f346bd6ff0330a9c5dfd143e19c312b6743773865ce5a93d4",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "f55c5273-f30a-4ac4-99fd-f236dfb41c93"
+    },
+    {
+      "key": "copyright-1957:50A",
+      "section_number": "50A",
+      "heading": "Entries in the Register of Copyrights, etc., to be published.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "punct-space",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space"
+      ],
+      "pdf_page_from": 34,
+      "pdf_page_to": 34,
+      "body_text_sha256": "7010f00bbd46418e622897f095b558f268ffd6671bc65eb7fbe7c84030abd95a",
+      "footnote_text_sha256": "a600f50f1f2fde05eb292ba309e704b79d44b19ca8880c5b361fcb6e40829ae6",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "0a221e34-77ae-45c6-9278-ce2eacc8377c"
+    },
+    {
+      "key": "copyright-1957:52B",
+      "section_number": "52B",
+      "heading": "[Omitted.].",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 39,
+      "pdf_page_to": 39,
+      "body_text_sha256": "cd673733b758ebe3c8508dbf1fec4b6fadbb26fea83b07c655b4ae617c8f3542",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "0a39c323-4aa6-4841-8393-f7cb6edd7918"
+    },
+    {
+      "key": "copyright-1957:55",
+      "section_number": "55",
+      "heading": "Civil remedies for infringement of copyright.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote",
+      "normalizations": [
+        "dash",
+        "quote",
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 40,
+      "pdf_page_to": 41,
+      "body_text_sha256": "0a2bb36e30387c43f3ef1d8042a996ca9d18dba4ce99ec319846608c5ce896c1",
+      "footnote_text_sha256": "47769cbdcfd859d4f7708c1076f2bf67dc352cb2f9d4bdcb31c803ed101d742d",
+      "footnote_normalization_level": 2,
+      "has_footnote": true,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "fa47e049-ee84-4440-82d1-7b8ff887fb9c"
+    },
+    {
+      "key": "copyright-1957:56",
+      "section_number": "56",
+      "heading": "Protection of separate rights.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 41,
+      "pdf_page_to": 41,
+      "body_text_sha256": "763b28c1bfb62c2d48ec99e5cb2214dff07e819c477604ee8411634b6e4dd6ab",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "a4ea706a-72c0-4e60-87ba-d1f2e1d72c20"
+    },
+    {
+      "key": "copyright-1957:58",
+      "section_number": "58",
+      "heading": "Rights of owner against persons possessing or dealing with infringing copies.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 41,
+      "pdf_page_to": 41,
+      "body_text_sha256": "dcc0bd622b7e7f825399926a45729232f40196daec3eaed8781f22ec175cd90a",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "144b5022-22bb-416a-9ef8-8d8b2031a2d5"
+    },
+    {
+      "key": "copyright-1957:59",
+      "section_number": "59",
+      "heading": "Restriction on remedies in the case of works of architecture.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "case",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case"
+      ],
+      "pdf_page_from": 41,
+      "pdf_page_to": 41,
+      "body_text_sha256": "cb622335c401cf0f44bd19b926991813b02293b83c1b134e8d52d2e630f3ae3a",
+      "footnote_text_sha256": "3875109d80cfd6e26d93f1da8a0b6580329d2c001f4e4e1a4096dc51a420bc1c",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "dce4a4de-517f-4422-b113-e7641334fad2"
+    },
+    {
+      "key": "copyright-1957:61",
+      "section_number": "61",
+      "heading": "Owner of copyright to be party to the proceeding.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 42,
+      "pdf_page_to": 42,
+      "body_text_sha256": "dc57b3ba2c3720c84c9d221aba71cc2cc6f08c6a86c219138eab9b4a7adeb624",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "627e9917-1ce8-4fb6-9a29-35608a224db8"
+    },
+    {
+      "key": "copyright-1957:63",
+      "section_number": "63",
+      "heading": "Offences of infringement of copyright or other rights conferred by this Act.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "bracket-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop"
+      ],
+      "pdf_page_from": 42,
+      "pdf_page_to": 42,
+      "body_text_sha256": "06a451b8e04c69e6cd6c8c25bc8b4d60a327bde3e9457d366e2d8bfa1b6bdbec",
+      "footnote_text_sha256": "b0e728a7dc46f31b898dfe07239e088b67710e696ba89fe77f9501630f6473da",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "506cb3e0-ed65-433f-bd02-4d7bf830251f"
+    },
+    {
+      "key": "copyright-1957:63B",
+      "section_number": "63B",
+      "heading": "Knowing use of infringing copy of computer programme to be an offence.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "punct-space",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space"
+      ],
+      "pdf_page_from": 43,
+      "pdf_page_to": 43,
+      "body_text_sha256": "a262a0fb8f972d09b07ce58adad81f5b24cfae7d245689dbf89e8fd9250fa773",
+      "footnote_text_sha256": "9623a50b1b5a6c016f090851d4aa1f03f769f8159fe36d445e7b938978322114",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "17ccdd62-6009-4d51-aa1b-803c0c1e4120"
+    },
+    {
+      "key": "copyright-1957:65",
+      "section_number": "65",
+      "heading": "Possession of plates for purpose of making infringing copies.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 43,
+      "pdf_page_to": 43,
+      "body_text_sha256": "ebcfd1a4ce508379c018aed7e6da7df716df6d75cf71fbb054f458f286eea365",
+      "footnote_text_sha256": "7e20de29335fa9ced87b9981e5fa2168982d6be703367d1e85e2c5e63af647b9",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "f862ac4c-348f-4a4e-b1db-b7a990f7c57f"
+    },
+    {
+      "key": "copyright-1957:65A",
+      "section_number": "65A",
+      "heading": "Protection of technological measures.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "bracket-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 43,
+      "pdf_page_to": 44,
+      "body_text_sha256": "db97bd25b975b40cd7da66900e1e00d992a53630e4c6b49a6ccc3df04e554bd5",
+      "footnote_text_sha256": "45f67923680721e36b053b9d43ce1724d63d03999a7a8ea1f3b425ee4abff7a5",
+      "footnote_normalization_level": 6,
+      "has_footnote": true,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "c7a6b163-9b21-407a-9392-87a644dbbe6e"
+    },
+    {
+      "key": "copyright-1957:68A",
+      "section_number": "68A",
+      "heading": "Penalty for contravention of section 52A.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "punct-space",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space"
+      ],
+      "pdf_page_from": 44,
+      "pdf_page_to": 44,
+      "body_text_sha256": "85e75d47bfd38e69b95b126319168245e4f5adeb0604985a0dedc9b446c5501a",
+      "footnote_text_sha256": "12d56cbfb1fcfa2b795c13eb71c6157ee296222dd31a28f7eb0e5ba7b60700df",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "4ac62362-32de-48a8-8d9b-586d15993f19"
+    },
+    {
+      "key": "copyright-1957:69",
+      "section_number": "69",
+      "heading": "Offences by companies.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "punct-space",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 44,
+      "pdf_page_to": 45,
+      "body_text_sha256": "72978dfd26f8e3aa692bf26317bba5a23cb0920bddb8f46969bd209e85d63a1c",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "458be76d-705e-4a60-a256-ab535034063c"
+    },
+    {
+      "key": "copyright-1957:7",
+      "section_number": "7",
+      "heading": "Nationality of author where the making of unpublished work is extended over considerable period.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 11,
+      "pdf_page_to": 11,
+      "body_text_sha256": "0be7e438377d3c167441f699f5080c85c5e032c0c54bf98764a10473aadf7664",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "01d13a33-0dc5-4f23-a037-795a6e4b8138"
+    },
+    {
+      "key": "copyright-1957:70",
+      "section_number": "70",
+      "heading": "Cognizance of offences.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "case",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case"
+      ],
+      "pdf_page_from": 45,
+      "pdf_page_to": 45,
+      "body_text_sha256": "16fe2fec188d1e0f07d3c19db86a26e28366e6ea54667226855b1485eab82428",
+      "footnote_text_sha256": "142e6f3a9c41ce12685a83d348569d3221691b3747c62011111a37dd3f701569",
+      "footnote_normalization_level": 2,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "358d0295-e939-461b-a5d7-f29d20fe57f6"
+    },
+    {
+      "key": "copyright-1957:71",
+      "section_number": "71",
+      "heading": "Appeals against certain orders of Magistrate.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "case",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case"
+      ],
+      "pdf_page_from": 45,
+      "pdf_page_to": 45,
+      "body_text_sha256": "65682a2c7e5758e0f150b1735299255478382976b6ee235c638b435314fe0a21",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "23649899-cefd-43e7-9717-39beca192531"
+    },
+    {
+      "key": "copyright-1957:73",
+      "section_number": "73",
+      "heading": "Procedure for appeals.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 45,
+      "pdf_page_to": 45,
+      "body_text_sha256": "cabc9f54c39740b4ffc3fc56cd647e8228478720fecbcdbde142f585d8923663",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "490985f7-b38b-4f10-8e97-c1bad92a82ad"
+    },
+    {
+      "key": "copyright-1957:75",
+      "section_number": "75",
+      "heading": "Orders for payment of money passed by Registrar of Copyrights and Appellate Board to be executable as a decree",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote",
+      "normalizations": [
+        "dash",
+        "quote"
+      ],
+      "pdf_page_from": 46,
+      "pdf_page_to": 46,
+      "body_text_sha256": "1c8955be2b5c10835eb19b9c5d9dec1aef03fdbdde878a8e026d4e54db3d3f85",
+      "footnote_text_sha256": "6b3830cb8b19d3a6017e24a608924160f6c6551d8f7fc862aaba274c929f12aa",
+      "footnote_normalization_level": 2,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "c6e7fa0d-bc1b-42f6-bb34-67c93e67da02"
+    },
+    {
+      "key": "copyright-1957:76",
+      "section_number": "76",
+      "heading": "Protection of action taken in good faith.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 46,
+      "pdf_page_to": 46,
+      "body_text_sha256": "dd46ca9ccdceeb21e0290fe3b8cc7993473e903e004b113ac84a2323e43c3b4e",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "6804aa19-a12e-4d38-93e1-68fa5dda62b9"
+    },
+    {
+      "key": "copyright-1957:8",
+      "section_number": "8",
+      "heading": "Domicile of Corporations.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 11,
+      "pdf_page_to": 11,
+      "body_text_sha256": "2191758327cfa9deebe42e0f10a2d6b9685689bf70bf9e21271c05dd92c8b7b3",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "fc1c7dda-b2d9-48ba-98ea-8fb73d1bda77"
+    },
+    {
+      "key": "copyright-1957:9",
+      "section_number": "9",
+      "heading": "Copyright Office.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 11,
+      "pdf_page_to": 11,
+      "body_text_sha256": "07c1f411d8cfb1e10f56171f43db652b1c55962f9932619601f79eb41406b156",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "068b16fc-f8a6-449d-b3c0-506fc590dccb"
+    }
+  ],
+  "population_count": 41,
+  "mandatory_keys": [
+    "copyright-1957:18",
+    "copyright-1957:21",
+    "copyright-1957:26",
+    "copyright-1957:29",
+    "copyright-1957:3",
+    "copyright-1957:42",
+    "copyright-1957:42A",
+    "copyright-1957:45",
+    "copyright-1957:50A",
+    "copyright-1957:55",
+    "copyright-1957:59",
+    "copyright-1957:63",
+    "copyright-1957:63B",
+    "copyright-1957:65",
+    "copyright-1957:65A",
+    "copyright-1957:68A",
+    "copyright-1957:69",
+    "copyright-1957:70",
+    "copyright-1957:75"
+  ],
+  "sampled_keys": [
+    "copyright-1957:20",
+    "copyright-1957:49",
+    "copyright-1957:56",
+    "copyright-1957:58",
+    "copyright-1957:71",
+    "copyright-1957:9"
+  ],
+  "selected_keys": [
+    "copyright-1957:18",
+    "copyright-1957:20",
+    "copyright-1957:21",
+    "copyright-1957:26",
+    "copyright-1957:29",
+    "copyright-1957:3",
+    "copyright-1957:42",
+    "copyright-1957:42A",
+    "copyright-1957:45",
+    "copyright-1957:49",
+    "copyright-1957:50A",
+    "copyright-1957:55",
+    "copyright-1957:56",
+    "copyright-1957:58",
+    "copyright-1957:59",
+    "copyright-1957:63",
+    "copyright-1957:63B",
+    "copyright-1957:65",
+    "copyright-1957:65A",
+    "copyright-1957:68A",
+    "copyright-1957:69",
+    "copyright-1957:70",
+    "copyright-1957:71",
+    "copyright-1957:75",
+    "copyright-1957:9"
+  ],
+  "strata": {
+    "case": {
+      "population": 1,
+      "sampled": 1,
+      "keys": [
+        "copyright-1957:71"
+      ]
+    },
+    "dash": {
+      "population": 2,
+      "sampled": 2,
+      "keys": [
+        "copyright-1957:49",
+        "copyright-1957:58"
+      ]
+    },
+    "exact": {
+      "population": 18,
+      "sampled": 2,
+      "keys": [
+        "copyright-1957:56",
+        "copyright-1957:9"
+      ]
+    },
+    "quote": {
+      "population": 1,
+      "sampled": 1,
+      "keys": [
+        "copyright-1957:20"
+      ]
+    }
+  },
+  "renders": {
+    "copyright-1957:18": [
+      "data/phase3/review-renders/copyright-1957/page-15.png",
+      "data/phase3/review-renders/copyright-1957/page-16.png"
+    ],
+    "copyright-1957:20": [
+      "data/phase3/review-renders/copyright-1957/page-17.png"
+    ],
+    "copyright-1957:21": [
+      "data/phase3/review-renders/copyright-1957/page-17.png"
+    ],
+    "copyright-1957:26": [
+      "data/phase3/review-renders/copyright-1957/page-18.png"
+    ],
+    "copyright-1957:29": [
+      "data/phase3/review-renders/copyright-1957/page-19.png"
+    ],
+    "copyright-1957:3": [
+      "data/phase3/review-renders/copyright-1957/page-10.png"
+    ],
+    "copyright-1957:42": [
+      "data/phase3/review-renders/copyright-1957/page-32.png",
+      "data/phase3/review-renders/copyright-1957/page-33.png"
+    ],
+    "copyright-1957:42A": [
+      "data/phase3/review-renders/copyright-1957/page-33.png"
+    ],
+    "copyright-1957:45": [
+      "data/phase3/review-renders/copyright-1957/page-33.png"
+    ],
+    "copyright-1957:49": [
+      "data/phase3/review-renders/copyright-1957/page-34.png"
+    ],
+    "copyright-1957:50A": [
+      "data/phase3/review-renders/copyright-1957/page-34.png"
+    ],
+    "copyright-1957:55": [
+      "data/phase3/review-renders/copyright-1957/page-40.png",
+      "data/phase3/review-renders/copyright-1957/page-41.png"
+    ],
+    "copyright-1957:56": [
+      "data/phase3/review-renders/copyright-1957/page-41.png"
+    ],
+    "copyright-1957:58": [
+      "data/phase3/review-renders/copyright-1957/page-41.png"
+    ],
+    "copyright-1957:59": [
+      "data/phase3/review-renders/copyright-1957/page-41.png"
+    ],
+    "copyright-1957:63": [
+      "data/phase3/review-renders/copyright-1957/page-42.png"
+    ],
+    "copyright-1957:63B": [
+      "data/phase3/review-renders/copyright-1957/page-43.png"
+    ],
+    "copyright-1957:65": [
+      "data/phase3/review-renders/copyright-1957/page-43.png"
+    ],
+    "copyright-1957:65A": [
+      "data/phase3/review-renders/copyright-1957/page-43.png",
+      "data/phase3/review-renders/copyright-1957/page-44.png"
+    ],
+    "copyright-1957:68A": [
+      "data/phase3/review-renders/copyright-1957/page-44.png"
+    ],
+    "copyright-1957:69": [
+      "data/phase3/review-renders/copyright-1957/page-44.png",
+      "data/phase3/review-renders/copyright-1957/page-45.png"
+    ],
+    "copyright-1957:70": [
+      "data/phase3/review-renders/copyright-1957/page-45.png"
+    ],
+    "copyright-1957:71": [
+      "data/phase3/review-renders/copyright-1957/page-45.png"
+    ],
+    "copyright-1957:75": [
+      "data/phase3/review-renders/copyright-1957/page-46.png"
+    ],
+    "copyright-1957:9": [
+      "data/phase3/review-renders/copyright-1957/page-11.png"
+    ]
+  },
+  "render_sha256": {
+    "data/phase3/review-renders/copyright-1957/page-10.png": "2b18ffacf8b2f051dccc1e4505bc28d7d907801d5df51a884de99ee21726df9d",
+    "data/phase3/review-renders/copyright-1957/page-11.png": "c65da7a706ce2f8416676c0d0737125c24ed10aa493e61020ff6d6bf6da2d619",
+    "data/phase3/review-renders/copyright-1957/page-15.png": "54bd914dccf93e4e10e896efe887ddfb0e0322bb46896c706b9f458aa780a015",
+    "data/phase3/review-renders/copyright-1957/page-16.png": "f5c3cdfdb5d46b6190874b603860af8f4f112379bd2fa9d5ce5a4575650ace07",
+    "data/phase3/review-renders/copyright-1957/page-17.png": "4d48b711f42547bacba52f04c92c1e4da18c7df5ce5d2a789dd01b5fd70aab32",
+    "data/phase3/review-renders/copyright-1957/page-18.png": "f6da84e3ba5dfe8900d17e619d630dbdf9d8c1beeb20607b3d41855c7d4eb660",
+    "data/phase3/review-renders/copyright-1957/page-19.png": "5c6f2a29437a0dee1783d7d13198a39f821af186381488fd620f75311c936b54",
+    "data/phase3/review-renders/copyright-1957/page-32.png": "cb9f275015a686213412853c7c35c2da8f6dc3fb00a0854621d53dc9550f70ae",
+    "data/phase3/review-renders/copyright-1957/page-33.png": "fcd16699ef6f7aff7f467fd654451c368a93f0eb1b961d9286b46b714c72975e",
+    "data/phase3/review-renders/copyright-1957/page-34.png": "b4273b2a538d42220813dceba14999ae6ff6f96e1373f4ce304a1c12411bb976",
+    "data/phase3/review-renders/copyright-1957/page-40.png": "e2697b8b95c3a097c0d569da93842e657a8c1753b68007719f603af7d336ffca",
+    "data/phase3/review-renders/copyright-1957/page-41.png": "7522e484573a9a49f3e7b4c6ac536b87525e9122a7cbea3e11639cc6f056847a",
+    "data/phase3/review-renders/copyright-1957/page-42.png": "42d13e2b0309468fbbf29636e47efeca6d6ec087ecfa386ee23aa865287eab0a",
+    "data/phase3/review-renders/copyright-1957/page-43.png": "c9f5239beb3180191a1e696b91a5a34799ad54eba4c3dc4ea822d46c11ecd171",
+    "data/phase3/review-renders/copyright-1957/page-44.png": "510945d0b254dd547760965117bb6face11f879a3066f7753517927875df8d8d",
+    "data/phase3/review-renders/copyright-1957/page-45.png": "8b5f79d191962d18018c320626c8bdc02178377ece8f417ce599c2fe1297229f",
+    "data/phase3/review-renders/copyright-1957/page-46.png": "ba2dc02b5c0d6e1b61d014c1e8a678deaaac8f51324be31caca08d3352faa87a"
+  },
+  "status": "reviewed",
+  "review": {
+    "reviewer_ref": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "reviewer_sha256": "109ba542b1054cd0f750fece16fdf06fec99b8a227238432c9f10ddcb6fe8303",
+    "session_date": "2026-09-22",
+    "outcomes": {
+      "copyright-1957:18": {
+        "decision": "verified_equivalent",
+        "note": "Pages 15-16: (1) with three provisos, (2) and (3) match; the skipped page-15 block is the footnotes for s.17, not s.18 text; ends before s.19."
+      },
+      "copyright-1957:20": {
+        "decision": "verified_equivalent",
+        "note": "Page 17: the paragraph and its Explanation match; ends before s.21."
+      },
+      "copyright-1957:21": {
+        "decision": "verified_equivalent",
+        "note": "Page 17: (1), (2), the inserted 5[(2A)] and (3) match; ends before CHAPTER V."
+      },
+      "copyright-1957:26": {
+        "decision": "verified_equivalent",
+        "note": "Page 18: single paragraph with its 2[sixty years] substitution matches; ends before s.27."
+      },
+      "copyright-1957:29": {
+        "decision": "verified_equivalent",
+        "note": "Page 19: single paragraph matches; ends before CHAPTER VI."
+      },
+      "copyright-1957:3": {
+        "decision": "verified_equivalent",
+        "note": "Page 10: the substituted section carries its own number and heading inside the amendment bracket; footnote 8 is its own; ends before s.4."
+      },
+      "copyright-1957:42": {
+        "decision": "verified_equivalent",
+        "note": "Pages 32-33: the whole paragraph matches; the skipped page-32 block is the insertion footnote, not s.42 text; ends before 42A."
+      },
+      "copyright-1957:42A": {
+        "decision": "verified_equivalent",
+        "note": "Page 33: the inserted section with its number and heading and the added proviso match; ends before s.43."
+      },
+      "copyright-1957:45": {
+        "decision": "verified_equivalent",
+        "note": "Page 33: (1) with the added proviso and (2) match; ends before s.46."
+      },
+      "copyright-1957:49": {
+        "decision": "verified_equivalent",
+        "note": "Page 34: lead-in and (a),(b) match; ends before s.50."
+      },
+      "copyright-1957:50A": {
+        "decision": "verified_equivalent",
+        "note": "Page 34: the inserted section with its number and heading matches; ends before CHAPTER XI."
+      },
+      "copyright-1957:55": {
+        "decision": "verified_equivalent",
+        "note": "Pages 40-41: (1) with proviso, (2) and (3) match; the skipped page-40 block is the two footnotes, not s.55 text; ends before s.56."
+      },
+      "copyright-1957:56": {
+        "decision": "verified_equivalent",
+        "note": "Page 41: single paragraph matches exactly; ends before s.57."
+      },
+      "copyright-1957:58": {
+        "decision": "verified_equivalent",
+        "note": "Page 41: the paragraph, its proviso and (a),(b) match; ends before s.59."
+      },
+      "copyright-1957:59": {
+        "decision": "verified_equivalent",
+        "note": "Page 41: (1) and (2) match; the PDF prints \"section 58\" where the HTML has \"Section 58\", which is the recorded case level; ends before s.60."
+      },
+      "copyright-1957:63": {
+        "decision": "verified_equivalent",
+        "note": "Page 42: lead-in, (a),(b), the substituted punishment bracket, the proviso and the Explanation match; the two representations place the amendment brackets differently, which is the recorded bracket-drop level."
+      },
+      "copyright-1957:63B": {
+        "decision": "verified_equivalent",
+        "note": "Page 43: the inserted section with its number and heading and its proviso match; ends before s.64."
+      },
+      "copyright-1957:65": {
+        "decision": "verified_equivalent",
+        "note": "Page 43: single paragraph with its 6[two years] substitution matches; ends before 65A."
+      },
+      "copyright-1957:65A": {
+        "decision": "verified_equivalent",
+        "note": "Pages 43-44: (1) and (2)(a)-(g) with the proviso under (a) match; the skipped page-43 block is the seven footnotes, not s.65A text; ends before 65B."
+      },
+      "copyright-1957:68A": {
+        "decision": "verified_equivalent",
+        "note": "Page 44: the inserted section with its number and heading matches; ends before s.69."
+      },
+      "copyright-1957:69": {
+        "decision": "verified_equivalent",
+        "note": "Pages 44-45: (1) with proviso, (2) and the Explanation (a),(b) match; the skipped page-44 block is the three footnotes, not s.69 text; ends before s.70."
+      },
+      "copyright-1957:70": {
+        "decision": "verified_equivalent",
+        "note": "Page 45: single paragraph with its substituted magistrate bracket matches; ends before CHAPTER XIV."
+      },
+      "copyright-1957:71": {
+        "decision": "verified_equivalent",
+        "note": "Page 45: single paragraph matches; the PDF prints \"court to which appeals from the court\" in lower case where the HTML capitalises the first, which is the recorded case level; ends before s.72."
+      },
+      "copyright-1957:75": {
+        "decision": "verified_equivalent",
+        "note": "Page 46: the section with its bracketed Appellate Board substitutions matches; ends before s.76."
+      },
+      "copyright-1957:9": {
+        "decision": "verified_equivalent",
+        "note": "Page 11: (1)-(3) match exactly; ends before s.10."
+      }
+    },
+    "decision": "act_batch_admitted",
+    "failed_keys": [],
+    "decision_note": "All twenty-five selected sections compared whole against their rendered PDF pages; every one agreed. Note: this Act's HTML and PDF genuinely disagree on section 6 (Commercial Court vs Appellate Board) and on other sections, which is why only 41 of its 105 sections align at all; none of those disagreeing sections is admitted.",
+    "render_evidence": {
+      "data/phase3/review-renders/copyright-1957/page-10.png": "2b18ffacf8b2f051dccc1e4505bc28d7d907801d5df51a884de99ee21726df9d",
+      "data/phase3/review-renders/copyright-1957/page-11.png": "c65da7a706ce2f8416676c0d0737125c24ed10aa493e61020ff6d6bf6da2d619",
+      "data/phase3/review-renders/copyright-1957/page-15.png": "54bd914dccf93e4e10e896efe887ddfb0e0322bb46896c706b9f458aa780a015",
+      "data/phase3/review-renders/copyright-1957/page-16.png": "f5c3cdfdb5d46b6190874b603860af8f4f112379bd2fa9d5ce5a4575650ace07",
+      "data/phase3/review-renders/copyright-1957/page-17.png": "4d48b711f42547bacba52f04c92c1e4da18c7df5ce5d2a789dd01b5fd70aab32",
+      "data/phase3/review-renders/copyright-1957/page-18.png": "f6da84e3ba5dfe8900d17e619d630dbdf9d8c1beeb20607b3d41855c7d4eb660",
+      "data/phase3/review-renders/copyright-1957/page-19.png": "5c6f2a29437a0dee1783d7d13198a39f821af186381488fd620f75311c936b54",
+      "data/phase3/review-renders/copyright-1957/page-32.png": "cb9f275015a686213412853c7c35c2da8f6dc3fb00a0854621d53dc9550f70ae",
+      "data/phase3/review-renders/copyright-1957/page-33.png": "fcd16699ef6f7aff7f467fd654451c368a93f0eb1b961d9286b46b714c72975e",
+      "data/phase3/review-renders/copyright-1957/page-34.png": "b4273b2a538d42220813dceba14999ae6ff6f96e1373f4ce304a1c12411bb976",
+      "data/phase3/review-renders/copyright-1957/page-40.png": "e2697b8b95c3a097c0d569da93842e657a8c1753b68007719f603af7d336ffca",
+      "data/phase3/review-renders/copyright-1957/page-41.png": "7522e484573a9a49f3e7b4c6ac536b87525e9122a7cbea3e11639cc6f056847a",
+      "data/phase3/review-renders/copyright-1957/page-42.png": "42d13e2b0309468fbbf29636e47efeca6d6ec087ecfa386ee23aa865287eab0a",
+      "data/phase3/review-renders/copyright-1957/page-43.png": "c9f5239beb3180191a1e696b91a5a34799ad54eba4c3dc4ea822d46c11ecd171",
+      "data/phase3/review-renders/copyright-1957/page-44.png": "510945d0b254dd547760965117bb6face11f879a3066f7753517927875df8d8d",
+      "data/phase3/review-renders/copyright-1957/page-45.png": "8b5f79d191962d18018c320626c8bdc02178377ece8f417ce599c2fe1297229f",
+      "data/phase3/review-renders/copyright-1957/page-46.png": "ba2dc02b5c0d6e1b61d014c1e8a678deaaac8f51324be31caca08d3352faa87a"
+    },
+    "scope_note": "Each selected section was compared whole against its rendered PDF pages: heading, beginning and end, numbered parts, provisos and footnotes. Sections outside selected_keys were not looked at individually; they rest on automated whole-body agreement plus this sample."
+  },
+  "admits_nothing_note": "A passing review authorizes admission of this Act's aligned candidates through the canonical importer under review class text_agreement_sampled_visual. Provisions not in selected_keys are admitted on automated whole-body agreement plus this sample, and must never be presented as individually reviewed."
+}

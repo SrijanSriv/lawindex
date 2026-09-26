@@ -1,0 +1,10 @@
+{
+  "url": "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT%2Cequals&f.title=Indian+Contract+Act%2C+1872%2Ccontains&page=0&size=100",
+  "status": 200,
+  "sha256": "de234a6bf39a6ae5fc32823868183a98aa8d53d49c756a97acb4d8f4c21d7856",
+  "bytes": 26487,
+  "fetched_at": "2026-09-21T19:44:47.573845+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "attempt": 1
+}

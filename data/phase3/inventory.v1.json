@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "inventory_id": "phase3-20-acts-v1",
+  "status": "selected",
+  "permission_record": "data/phase3/access-authorization.json",
+  "scope": "20 central Acts; English initial working language; associated instruments not included",
+  "counts_are_not_coverage": true,
+  "records": [
+    {
+      "slug": "rti-2005",
+      "title": "The Right to Information Act, 2005",
+      "title_year": "2005",
+      "basis": "phase0_candidate",
+      "reference_url": "https://indiacode.gov.in/act/37520cf3-5c3f-4c0b-aa4a-5985e6f522bf",
+      "metadata_resolution": "retained_phase0_metadata",
+      "source_text_status": "retained_pdf",
+      "selection_reason": "Ordinary-language queries, chapters, schedules, amendment footnotes, staged commencement; representation-conflict fixture."
+    },
+    {
+      "slug": "dpdp-2023",
+      "title": "The Digital Personal Data Protection Act, 2023.",
+      "title_year": "2023",
+      "basis": "phase0_candidate",
+      "reference_url": "https://indiacode.gov.in/act/c058fa9f-eaf0-4ca3-98f1-3443b087bca9",
+      "metadata_resolution": "retained_phase0_metadata",
+      "source_text_status": "not_retained",
+      "selection_reason": "Newer Act, missing department and commencement metadata, terminology around data processing."
+    },
+    {
+      "slug": "copyright-1957",
+      "title": "The Copyright Act, 1957",
+      "title_year": "1957",
+      "basis": "phase0_candidate",
+      "reference_url": "https://indiacode.gov.in/act/6b893162-631a-453b-a7b9-89685716889b",
+      "metadata_resolution": "retained_phase0_metadata",
+      "source_text_status": "not_retained",
+      "selection_reason": "Older amended Act, larger section inventory, notification text, missing displayed modification date."
+    },
+    {
+      "slug": "mental-healthcare-2017",
+      "title": "The Mental Healthcare Act, 2017",
+      "title_year": "2017",
+      "basis": "phase0_candidate",
+      "reference_url": "https://indiacode.gov.in/act/63a1a7f4-fc92-49c3-808b-6f0bc3ede89c",
+      "metadata_resolution": "retained_phase0_metadata",
+      "source_text_status": "not_retained",
+      "selection_reason": "Rights and health terminology, distinct enactment and enforcement dates."
+    },
+    {
+      "slug": "posh-2013",
+      "title": "The Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013",
+      "title_year": "2013",
+      "basis": "phase0_candidate",
+      "reference_url": "https://indiacode.gov.in/act/6497706b-d8a5-4486-a968-9975498de966",
+      "metadata_resolution": "retained_phase0_metadata",
+      "source_text_status": "not_retained",
+      "selection_reason": "Long title, common acronym versus statutory wording, missing department."
+    },
+    {
+      "slug": "fcra-2010",
+      "title": "The Foreign Contribution (Regulation) Act, 2010",
+      "title_year": "2010",
+      "basis": "phase0_candidate",
+      "reference_url": "https://indiacode.gov.in/act/e62ef217-2250-4380-935c-d9ad915454b1",
+      "metadata_resolution": "retained_phase0_metadata",
+      "source_text_status": "not_retained",
+      "selection_reason": "Different subordinate-instrument types and common acronym queries."
+    },
+    {
+      "slug": "osh-code-2020",
+      "title": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "title_year": "2020",
+      "basis": "phase0_candidate",
+      "reference_url": "https://indiacode.gov.in/act/68f0e43a-9120-4028-8e08-0f63f5a0e061",
+      "metadata_resolution": "retained_phase0_metadata",
+      "source_text_status": "not_retained",
+      "selection_reason": "A Code stored in the ACT collection; commencement differs from enactment year."
+    },
+    {
+      "slug": "repealing-amending-2023",
+      "title": "The Repealing and Amending Act, 2023",
+      "title_year": "2023",
+      "basis": "phase0_candidate",
+      "reference_url": "https://indiacode.gov.in/act/fd1a7f72-25b4-48af-82d0-6c3c6509b098",
+      "metadata_resolution": "retained_phase0_metadata",
+      "source_text_status": "not_retained",
+      "selection_reason": "Amending/repealing instrument; Historical is a source category, not a legal-status conclusion."
+    },
+    {
+      "slug": "merchant-shipping-2025",
+      "title": "The Merchant Shipping Act, 2025",
+      "title_year": "2025",
+      "basis": "phase0_candidate",
+      "reference_url": "https://indiacode.gov.in/act/5a5bb080-385a-4542-8b8e-ac42e773708e",
+      "metadata_resolution": "retained_phase0_metadata",
+      "source_text_status": "retained_pdf",
+      "selection_reason": "Long 125-page PDF, contents pages and amendment notes; stress case for passage boundaries."
+    },
+    {
+      "slug": "environment-1986",
+      "title": "The Environment (Protection) Act, 1986",
+      "title_year": "1986",
+      "basis": "phase0_candidate",
+      "reference_url": "https://indiacode.gov.in/act/10eea11f-bfda-41d0-b8dc-58176e704613",
+      "metadata_resolution": "retained_phase0_metadata",
+      "source_text_status": "retained_pdf",
+      "selection_reason": "Environmental topic queries, section 5A, and a large subordinate-instrument fanout that must be bounded."
+    },
+    {
+      "slug": "consumer-protection-2019",
+      "title": "The Consumer Protection Act, 2019",
+      "title_year": "2019",
+      "basis": "official_search_reference_2026_09_22",
+      "reference_url": "https://www.indiacode.nic.in/bitstream/123456789/15256/1/eng201935.pdf",
+      "metadata_resolution": "pending_current_portal_identity",
+      "source_text_status": "not_retained",
+      "selection_reason": "Consumer complaints and remedies; ordinary-language queries."
+    },
+    {
+      "slug": "information-technology-2000",
+      "title": "The Information Technology Act, 2000",
+      "title_year": "2000",
+      "basis": "official_search_reference_2026_09_22",
+      "reference_url": "https://www.indiacode.nic.in/bitstream/123456789/13116/1/it_act_2000_updated.pdf",
+      "metadata_resolution": "pending_current_portal_identity",
+      "source_text_status": "not_retained",
+      "selection_reason": "Digital transactions and technology terminology; amendment-sensitive text."
+    },
+    {
+      "slug": "disabilities-2016",
+      "title": "The Rights of Persons with Disabilities Act, 2016",
+      "title_year": "2016",
+      "basis": "official_search_reference_2026_09_22",
+      "reference_url": "https://www.indiacode.nic.in/handle/123456789/2155?locale=en",
+      "metadata_resolution": "pending_current_portal_identity",
+      "source_text_status": "not_retained",
+      "selection_reason": "Accessibility, rights and administrative duties."
+    },
+    {
+      "slug": "food-security-2013",
+      "title": "The National Food Security Act, 2013",
+      "title_year": "2013",
+      "basis": "official_search_reference_2026_09_22",
+      "reference_url": "https://www.indiacode.nic.in/indiacode/handle/123456789/2113?col=123456789%2F1362&view_type=search",
+      "metadata_resolution": "pending_current_portal_identity",
+      "source_text_status": "not_retained",
+      "selection_reason": "Entitlements and administrative responsibilities."
+    },
+    {
+      "slug": "education-2009",
+      "title": "The Right of Children to Free and Compulsory Education Act, 2009",
+      "title_year": "2009",
+      "basis": "official_search_reference_2026_09_22",
+      "reference_url": "https://www.indiacode.nic.in/indiacode/handle/123456789/2086?view_type=browse",
+      "metadata_resolution": "pending_current_portal_identity",
+      "source_text_status": "not_retained",
+      "selection_reason": "School access, qualifications and exceptions."
+    },
+    {
+      "slug": "legal-services-1987",
+      "title": "The Legal Services Authorities Act, 1987",
+      "title_year": "1987",
+      "basis": "official_search_reference_2026_09_22",
+      "reference_url": "https://www.indiacode.nic.in/bitstream/123456789/9316/1/slsa198739.pdf",
+      "metadata_resolution": "pending_current_portal_identity",
+      "source_text_status": "not_retained",
+      "selection_reason": "Access to legal services; eligibility queries."
+    },
+    {
+      "slug": "contract-1872",
+      "title": "The Indian Contract Act, 1872",
+      "title_year": "1872",
+      "basis": "official_search_reference_2026_09_22",
+      "reference_url": "https://www.indiacode.nic.in/handle/123456789/12845",
+      "metadata_resolution": "pending_current_portal_identity",
+      "source_text_status": "not_retained",
+      "selection_reason": "Definitions, illustrations and dense cross-references."
+    },
+    {
+      "slug": "arbitration-1996",
+      "title": "The Arbitration and Conciliation Act, 1996",
+      "title_year": "1996",
+      "basis": "official_search_reference_2026_09_22",
+      "reference_url": "https://upload.indiacode.nic.in/showfile?actid=AC_CEN_3_46_00004_199626_1517807323919&filename=a1996-26.pdf&type=actfile",
+      "metadata_resolution": "pending_current_portal_identity",
+      "source_text_status": "not_retained",
+      "selection_reason": "Procedural retrieval and longer structured documents."
+    },
+    {
+      "slug": "real-estate-2016",
+      "title": "The Real Estate (Regulation and Development) Act, 2016",
+      "title_year": "2016",
+      "basis": "official_search_reference_2026_09_22",
+      "reference_url": "https://housing.maharashtra.gov.in/en/document/the-real-estate-regulation-and-development-act-2016/",
+      "metadata_resolution": "pending_current_portal_identity",
+      "source_text_status": "not_retained",
+      "selection_reason": "Housing and buyer queries; source discovery must resolve the central Act."
+    },
+    {
+      "slug": "competition-2002",
+      "title": "The Competition Act, 2002",
+      "title_year": "2002",
+      "basis": "official_search_reference_2026_09_22",
+      "reference_url": "https://www.indiacode.nic.in/indiacode/bitstream/123456789/2010/7/A2003-12.pdf",
+      "metadata_resolution": "pending_current_portal_identity",
+      "source_text_status": "not_retained",
+      "selection_reason": "Definitions and institutional powers; title year is not necessarily enactment year."
+    }
+  ],
+  "selected_on": "2026-09-22",
+  "selection_basis": "User authorized main agent to finish Phase 3; any 20 Acts may be chosen."
+}

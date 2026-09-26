@@ -1,0 +1,1742 @@
+{
+  "id" : null,
+  "scope" : null,
+  "query" : null,
+  "appliedFilters" : [ {
+    "filter" : "identifier_collection",
+    "operator" : "equals",
+    "value" : "SECTION",
+    "label" : "SECTION"
+  }, {
+    "filter" : "act_id",
+    "operator" : "equals",
+    "value" : "AC_CEN_21_44_00007_201935_1596441164903",
+    "label" : "AC_CEN_21_44_00007_201935_1596441164903"
+  } ],
+  "sort" : {
+    "by" : "dc.identifier.order_number",
+    "order" : "ASC"
+  },
+  "configuration" : null,
+  "type" : "discover",
+  "_links" : {
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_21_44_00007_201935_1596441164903,equals"
+    }
+  },
+  "_embedded" : {
+    "searchResult" : {
+      "_embedded" : {
+        "objects" : [ {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/e6339d1b-6331-4083-8b86-e42bc3974769"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "e6339d1b-6331-4083-8b86-e42bc3974769",
+              "uuid" : "e6339d1b-6331-4083-8b86-e42bc3974769",
+              "name" : "Power of Central Government to make rules.",
+              "handle" : "123456789/538671",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T22:59:34Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2019",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CEN_21_44_00007_201935_1596441164903",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_name" : [ {
+                  "value" : "The Consumer Protection Act, 2019",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "35",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "SECTION",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "44",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Department of Consumer Affairs",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.id" : [ {
+                  "value" : "50125",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "21",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "Ministry of Consumer Affairs, Food and Public Distribution",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.order_number" : [ {
+                  "value" : "101",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_from" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_number" : [ {
+                  "value" : "35",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_to" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_id" : [ {
+                  "value" : "50125",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_number" : [ {
+                  "value" : "101",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_page_note" : [ {
+                  "value" : "<span style=\"margin-left: 15px;\"></span>(1) The Central Government may, by notification, make rules for carrying out any of the provisions contained in this Act.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (2) Without prejudice to the generality of the foregoing power, such rules may provide for, --<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (a) the other class or classes of persons including public utility entities under clause (<i>19</i>) of section 2;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (b) the contest, lottery, game of chance or skill which are to be exempted under item (b) of subclause (<i>iii</i>) of clause (<i>47</i>) of section 2;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (c) the manner of issuing bill or cash memo or receipt for goods sold or services rendered under sub-clause (<i>vii</i>) of clause (<i>47</i>) of section 2;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (d) the number of other official or non-official members of the Central Council under clause <i>(b)</i> of sub-section (<i>2</i>) of section 3;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (e) the time and place of meeting of Central Council and the procedure for the transaction of its business under sub-section (<i>2</i>) of section 4;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (f) the number of Commissioners in the Central Authority under sub-section (<i>2</i>) of section 10;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (g) the qualifications for appointment, method of recruitment, procedure of appointment, term of office, salaries and allowances, resignation, removal and other terms and conditions of service of the Chief Commissioner and other Commissioners of the Central Authority under section 11;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (h) the salaries and allowances payable to, and the other terms and conditions of service of, the officers and other employees of the Central Authority under sub-section (<i>2</i>) of section 13;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (i) the qualifications for appointment of Director General, Additional Director General, Director, Joint Director, Deputy Director and Assistant Director and the manner of appointment under subsection (<i>2</i>) of section 15;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (j) the manner of taking copies or extracts of document, record or article seized or produced before returning to the person under sub-section (<i>3</i>) of section 22;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (k) the officer and the manner of disposing of articles which are subject to speedy or natural decay under sub-section (<i>4</i>) of section 22;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (l) the form and manner for preparing annual statement of accounts by the Central Authority in consultation with the Comptroller and Auditor-General of India under sub-section (<i>1</i>) of section 26;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (m) the form in which, and the time within which, an annual report, other reports and returns may be prepared by the Central Authority under sub-section (<i>1</i>) of section 27;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (n) the qualifications for appointment, method of recruitment, procedure for appointment, term of office, resignation and removal of President and members of the District Commission under section 29;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (o) the other value of goods and services in respect of which the District Commission shall have jurisdiction to entertain complaints under proviso to sub-section (<i>1</i>) of section 34;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (p) the manner of electronically filing complaint under the proviso to sub-section (<i>1</i>) of section 35;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (q) the fee, electronic form and the manner of payment of fee for filing complaint under sub-section (<i>2</i>) of section 35;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (r) the cases which may not be referred for settlement by mediation under sub-section (<i>1</i>) of section 37;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (s) the manner of authentication of goods sampled in case of the National Commission under clause (<i>c</i>) of sub-section (<i>2</i>) of section 38;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (t) any other matter which may be prescribed under clause (<i>f</i>) of sub-section (<i>9</i>) of section 38;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (u) the fund where the amount obtained may be credited and the manner of utilisation of such amount under sub-section (<i>2</i>) of section 39;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (v) the form and the manner in which appeal may be preferred to the State Commission under section 41;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (w) the qualifications for appointment, method of recruitment, procedure for appointment, term of office, resignation and removal of the President and members of the State Commission under section 43;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (x) the other value of goods and services in respect of which the State Commission shall have jurisdiction under the proviso to sub-clause (<i>i</i>) of clause (<i>a</i>) of sub-section (<i>1</i>) of section 47;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (y) the form and manner of filing appeal to the National Commission, and the manner of depositing fifty per cent. of the amount before filing appeal, under sub-section (<i>1</i>) of section 51;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (z) the number of members of the National Commission under clause <i>(b)</i> of section 54;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (za) the qualifications, appointment, term of office, salaries and allowances, resignation, removal and other terms and conditions of service of the President and members of the National Commission under sub-section (<i>1</i>) of section 55;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (zb) the salaries and allowances payable to, and other terms and conditions of service of, the officers and other employees of the National Commission under sub-section (<i>3</i>) of section 57;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (zc) the other value of goods and services in respect of which the National Commission shall have jurisdiction under the proviso to sub-clause (<i>i</i>) of clause (<i>a</i>) of sub-section (<i>1</i>) of section 58;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (zd) the manner of depositing fifty per cent. of the amount under the second proviso to section 67;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (ze) the form in which the National Commission and the State Commission shall furnish information to the Central Government under sub-section (<i>4</i>) of section 70;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (zf) the persons in the consumer mediation cell under sub-section (<i>3</i>) of section 74;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (zg) the measures to be taken by the Central Government to prevent unfair trade practices in e-commerce, direct selling under section 94;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (zh) the amount for compounding offences under sub-section (<i>1</i>) of section 96;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (zi) the fund to which the penalty and amount collected shall be credited under section 97; and<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (zj) any other matter which is to be, or may be, prescribed, or in respect of which provisions are to be, or may be, made by rules<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/>",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "CENTRAL",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/538671",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Power of Central Government to make rules.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-10T22:59:34.186651Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/e6339d1b-6331-4083-8b86-e42bc3974769/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/e6339d1b-6331-4083-8b86-e42bc3974769/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/e6339d1b-6331-4083-8b86-e42bc3974769/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/e6339d1b-6331-4083-8b86-e42bc3974769/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/e6339d1b-6331-4083-8b86-e42bc3974769/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/e6339d1b-6331-4083-8b86-e42bc3974769/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/e6339d1b-6331-4083-8b86-e42bc3974769/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/e6339d1b-6331-4083-8b86-e42bc3974769/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/e6339d1b-6331-4083-8b86-e42bc3974769/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/e6339d1b-6331-4083-8b86-e42bc3974769/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/e6339d1b-6331-4083-8b86-e42bc3974769"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/7a4ed912-b84f-4502-9aec-accc0281d576"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "7a4ed912-b84f-4502-9aec-accc0281d576",
+              "uuid" : "7a4ed912-b84f-4502-9aec-accc0281d576",
+              "name" : "Power of State Government to make rules.",
+              "handle" : "123456789/538672",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T22:59:34Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2019",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CEN_21_44_00007_201935_1596441164903",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_name" : [ {
+                  "value" : "The Consumer Protection Act, 2019",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "35",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "SECTION",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "44",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Department of Consumer Affairs",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.id" : [ {
+                  "value" : "50126",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.linked_id" : [ {
+                  "value" : "RU_UP_88_1431_00002_1715260615333",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                }, {
+                  "value" : "RU_UP_88_1431_00002_1751539550146",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 1
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "21",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "Ministry of Consumer Affairs, Food and Public Distribution",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.order_number" : [ {
+                  "value" : "102",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_from" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_number" : [ {
+                  "value" : "37",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_to" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_id" : [ {
+                  "value" : "50126",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_number" : [ {
+                  "value" : "102",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_page_note" : [ {
+                  "value" : "<span style=\"margin-left: 15px;\"></span>(1) The State Governments may, by notification, make rules for carrying out the provisions of this Act:<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> Provided that the Central Government may, frame model rules in respect of all or any of the matters with respect to which the State Government may make rules under this section, and where any such model rules have been framed in respect of any such matter, they shall apply to the State until the rules in respect of that matter is made by the State Government and while making any such rules, so far as is practicable, they shall conform to such model rules.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (2) In particular, and without prejudice to the generality of the foregoing power, such rules may provide for all or any of the following matters, namely:--<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (a) the other class or classes of persons including public utility entities under clause (<i>19</i>) of section 2;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (b) the contest, lottery, game of chance or skill which are to be exempted under item <i>(b)</i> of sub-clause (<i>iii</i>) of clause (<i>47</i>) of section 2;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (c) the number of other official or non-official members of the State Council under clause <i>(b)</i> of sub-section (<i>2</i>) of section 6;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (d) the time and place of meeting of the State Council and the procedure for the transaction of its business under sub-section (<i>4</i>) of section 6;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (e) the number of other official and non-official members of District Council under clause <i>(b)</i> of sub-section (<i>2</i>) of section 8;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (f) the time and place of meeting of the District Council and procedure for the transaction of its business under sub-section (<i>4</i>) of section 8;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (g) the number of members of the District Commission under clause <i>(b)</i> of sub-section (<i>2</i>) of section 28;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (h) the salaries and allowances payable to, and other terms and conditions of service of, the President and members of the District Commission under section 30;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (i) the salaries and allowances payable to, and other terms and conditions of service of, the officers and other employees of the District Commission under sub-section (<i>3</i>) of section 33;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (j) the manner of authentication of goods sampled by the State Commission and the District Commission under clause (<i>c</i>) of sub-section (<i>2</i>) of section 38;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (k) the manner of depositing fifty per cent. of the amount before filing appeal under second proviso to section 41;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (l) the number of members of the State Commission under sub-section (<i>3</i>) of section 42;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (m) the salaries and allowances payable to, and other terms and conditions of service of, the President and members of the State Commission under section 44;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (n) the salaries and allowances payable to, and other terms and conditions of service of, the officers and other employees of the State Commission under sub-section (<i>3</i>) of section 46;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (o) the form in which the State Commission shall furnish information to the State Government under sub-section (<i>5</i>) of section 70;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (p) the persons in the consumer mediation cell under sub-section (<i>3</i>) of section 74;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (q) any other matter which is to be, or may be prescribed, or in respect of which provisions are to be, or may be, made by rules.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/>",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "CENTRAL",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/538672",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Power of State Government to make rules.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-10T22:59:34.269656Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7a4ed912-b84f-4502-9aec-accc0281d576/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7a4ed912-b84f-4502-9aec-accc0281d576/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7a4ed912-b84f-4502-9aec-accc0281d576/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7a4ed912-b84f-4502-9aec-accc0281d576/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7a4ed912-b84f-4502-9aec-accc0281d576/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7a4ed912-b84f-4502-9aec-accc0281d576/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7a4ed912-b84f-4502-9aec-accc0281d576/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7a4ed912-b84f-4502-9aec-accc0281d576/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7a4ed912-b84f-4502-9aec-accc0281d576/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7a4ed912-b84f-4502-9aec-accc0281d576/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/7a4ed912-b84f-4502-9aec-accc0281d576"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/c7e906bd-9eca-4042-ac2e-7ec7220b54a2"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "c7e906bd-9eca-4042-ac2e-7ec7220b54a2",
+              "uuid" : "c7e906bd-9eca-4042-ac2e-7ec7220b54a2",
+              "name" : "Power of National Commission to make regulations.",
+              "handle" : "123456789/538673",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T22:59:34Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2019",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CEN_21_44_00007_201935_1596441164903",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_name" : [ {
+                  "value" : "The Consumer Protection Act, 2019",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "35",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "SECTION",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "44",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Department of Consumer Affairs",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.id" : [ {
+                  "value" : "50127",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "21",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "Ministry of Consumer Affairs, Food and Public Distribution",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.order_number" : [ {
+                  "value" : "103",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_from" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_number" : [ {
+                  "value" : "37",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_to" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_id" : [ {
+                  "value" : "50127",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_number" : [ {
+                  "value" : "103",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_page_note" : [ {
+                  "value" : "<span style=\"margin-left: 15px;\"></span>(1) The National Commission may, with the previous approval of the Central Government, by notification, make regulations not inconsistent with this Act to provide for all matters for which provision is necessary or expedient for the purpose of giving effect to the provisions of this Act.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (2) In particular, and without prejudice to the generality of the foregoing power, such regulations may make provisions for--<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (a) the costs for adjournment to be imposed by the District Commission under the second proviso to sub-section (<i>7</i>) of section 38;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (b) the costs for adjournment to be imposed by the State Commission or the National Commission, as the case may be, under the second proviso to section 52;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (c) the maintenance of any other information by the consumer mediation cell under sub-section (<i>4</i>) of section 74;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (d) the manner of submission of quarterly report by consumer mediation cell to the District Commission, the State Commission or the National Commission under sub-section (<i>5</i>) of section 74;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (e) the qualifications and experience required for empanelment as mediator, the procedure for empanelment, the manner of training empanelled mediators, the fee payable to empanelled mediator, the terms and conditions for empanelment, the code of conduct for empanelled mediators, the grounds on which, and the manner in which, empanelled mediators shall be removed or empanelment shall be cancelled and the other matters relating thereto under sub-section (<i>2</i>) of section 75;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (f) the conditions for re-empanelment of mediators for another term under sub-section (<i>3</i>) of section 75;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (g) the other facts to be disclosed by mediators under clause (<i>c</i>) of section 77;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (h) the time within which, and the manner in which, mediation may be conducted under sub-section (<i>3</i>) of section 79; and<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (i) such other matter for which provision is to be, or may be, made by regulation. <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/>",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "CENTRAL",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/538673",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Power of National Commission to make regulations.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-10T22:59:34.351930Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c7e906bd-9eca-4042-ac2e-7ec7220b54a2/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c7e906bd-9eca-4042-ac2e-7ec7220b54a2/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c7e906bd-9eca-4042-ac2e-7ec7220b54a2/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c7e906bd-9eca-4042-ac2e-7ec7220b54a2/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c7e906bd-9eca-4042-ac2e-7ec7220b54a2/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c7e906bd-9eca-4042-ac2e-7ec7220b54a2/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c7e906bd-9eca-4042-ac2e-7ec7220b54a2/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c7e906bd-9eca-4042-ac2e-7ec7220b54a2/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c7e906bd-9eca-4042-ac2e-7ec7220b54a2/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c7e906bd-9eca-4042-ac2e-7ec7220b54a2/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c7e906bd-9eca-4042-ac2e-7ec7220b54a2"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/5dbbee98-968c-4df9-9490-ba0a4d7968b3"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "5dbbee98-968c-4df9-9490-ba0a4d7968b3",
+              "uuid" : "5dbbee98-968c-4df9-9490-ba0a4d7968b3",
+              "name" : "Power of Central Authority to make regulations.",
+              "handle" : "123456789/538674",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T22:59:34Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2019",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CEN_21_44_00007_201935_1596441164903",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_name" : [ {
+                  "value" : "The Consumer Protection Act, 2019",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "35",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "SECTION",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "44",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Department of Consumer Affairs",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.id" : [ {
+                  "value" : "50128",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "21",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "Ministry of Consumer Affairs, Food and Public Distribution",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.order_number" : [ {
+                  "value" : "104",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_from" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_number" : [ {
+                  "value" : "38",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_to" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_id" : [ {
+                  "value" : "50128",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_number" : [ {
+                  "value" : "104",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_page_note" : [ {
+                  "value" : "<span style=\"margin-left: 15px;\"></span>(1) The Central Authority may, with the previous approval of the Central Government, by notification, make regulations not inconsistent with this Act, for the purpose of giving effect to the provisions of this Act.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (2) In particular, and without prejudice to the generality of the foregoing power, such regulations may provide for all or any of the following matters, namely:--<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (a) the procedure for engaging experts and professionals and the number of such experts and professionals under sub-section (<i>3</i>) of section 13;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (b) the procedure for transaction of business and the allocation of business of the Chief Commissioner and Commissioner under sub-section (<i>1</i>) of section 14;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (c) the form, manner and time within which, inquiries or investigation made by the Director-General shall be submitted to the Central Authority under sub-section (<i>5</i>) of section 15; and<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (d) such other matter for which provision is to be, or may be, made by regulation. <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/>",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "CENTRAL",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/538674",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Power of Central Authority to make regulations.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-10T22:59:34.428989Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/5dbbee98-968c-4df9-9490-ba0a4d7968b3/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/5dbbee98-968c-4df9-9490-ba0a4d7968b3/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/5dbbee98-968c-4df9-9490-ba0a4d7968b3/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/5dbbee98-968c-4df9-9490-ba0a4d7968b3/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/5dbbee98-968c-4df9-9490-ba0a4d7968b3/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/5dbbee98-968c-4df9-9490-ba0a4d7968b3/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/5dbbee98-968c-4df9-9490-ba0a4d7968b3/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/5dbbee98-968c-4df9-9490-ba0a4d7968b3/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/5dbbee98-968c-4df9-9490-ba0a4d7968b3/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/5dbbee98-968c-4df9-9490-ba0a4d7968b3/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/5dbbee98-968c-4df9-9490-ba0a4d7968b3"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/ca354930-3757-4cb1-be79-1045ac3fddb7"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "ca354930-3757-4cb1-be79-1045ac3fddb7",
+              "uuid" : "ca354930-3757-4cb1-be79-1045ac3fddb7",
+              "name" : "Rules and regulations to be laid before each House of Parliament.",
+              "handle" : "123456789/538675",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T22:59:34Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2019",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CEN_21_44_00007_201935_1596441164903",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_name" : [ {
+                  "value" : "The Consumer Protection Act, 2019",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "35",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "SECTION",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "44",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Department of Consumer Affairs",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.id" : [ {
+                  "value" : "50129",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "21",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "Ministry of Consumer Affairs, Food and Public Distribution",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.order_number" : [ {
+                  "value" : "105",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_from" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_number" : [ {
+                  "value" : "38",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_to" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_id" : [ {
+                  "value" : "50129",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_number" : [ {
+                  "value" : "105",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_page_note" : [ {
+                  "value" : "<span style=\"margin-left: 15px;\"></span>(1) Every rule and every regulation made under this Act shall be laid, as soon as may be after it is made, before each House of Parliament, while it is in session, for a total period of thirty days which may be comprised in one session or in two or more successive sessions, and if, before the expiry of the session immediately following the session or the successive sessions aforesaid, both Houses agree in making any modification in the rule or regulation or both Houses agree that the rule or regulation shall thereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that any such modification or annulment shall be without prejudice to the validity of anything previously done under that rule or regulation.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>(2) Every rule made by a State Government under this Act shall be laid as soon as may be after it is made, before the State Legislature.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "CENTRAL",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/538675",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Rules and regulations to be laid before each House of Parliament.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-10T22:59:34.510146Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca354930-3757-4cb1-be79-1045ac3fddb7/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca354930-3757-4cb1-be79-1045ac3fddb7/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca354930-3757-4cb1-be79-1045ac3fddb7/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca354930-3757-4cb1-be79-1045ac3fddb7/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca354930-3757-4cb1-be79-1045ac3fddb7/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca354930-3757-4cb1-be79-1045ac3fddb7/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca354930-3757-4cb1-be79-1045ac3fddb7/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca354930-3757-4cb1-be79-1045ac3fddb7/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca354930-3757-4cb1-be79-1045ac3fddb7/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca354930-3757-4cb1-be79-1045ac3fddb7/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca354930-3757-4cb1-be79-1045ac3fddb7"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/071338ce-0652-42ab-9405-e4ddf6e56005"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "071338ce-0652-42ab-9405-e4ddf6e56005",
+              "uuid" : "071338ce-0652-42ab-9405-e4ddf6e56005",
+              "name" : "Power to Remove Difficulties.",
+              "handle" : "123456789/538677",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T22:59:34Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2019",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CEN_21_44_00007_201935_1596441164903",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_name" : [ {
+                  "value" : "The Consumer Protection Act, 2019",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "35",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "SECTION",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "44",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Department of Consumer Affairs",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.id" : [ {
+                  "value" : "50130",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "21",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "Ministry of Consumer Affairs, Food and Public Distribution",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.order_number" : [ {
+                  "value" : "106",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_from" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_number" : [ {
+                  "value" : "39",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_to" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_id" : [ {
+                  "value" : "50130",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_number" : [ {
+                  "value" : "106",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_page_note" : [ {
+                  "value" : "<span style=\"margin-left: 15px;\"></span>If any difficulty arises in giving effect to the provisions of this Act, the Central Government may, by order in the Official Gazette, make such provisions not inconsistent with the provisions of this Act as appear to it to be necessary or expedient for removing the difficulty:<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> Provided that no such order shall be made after the expiry of a period of two years from the commencement of this Act.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/>",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "CENTRAL",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/538677",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Power to Remove Difficulties.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-10T22:59:34.672720Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/071338ce-0652-42ab-9405-e4ddf6e56005/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/071338ce-0652-42ab-9405-e4ddf6e56005/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/071338ce-0652-42ab-9405-e4ddf6e56005/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/071338ce-0652-42ab-9405-e4ddf6e56005/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/071338ce-0652-42ab-9405-e4ddf6e56005/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/071338ce-0652-42ab-9405-e4ddf6e56005/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/071338ce-0652-42ab-9405-e4ddf6e56005/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/071338ce-0652-42ab-9405-e4ddf6e56005/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/071338ce-0652-42ab-9405-e4ddf6e56005/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/071338ce-0652-42ab-9405-e4ddf6e56005/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/071338ce-0652-42ab-9405-e4ddf6e56005"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/dbf7bcae-9897-44b4-8ac5-05c37a496474"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "dbf7bcae-9897-44b4-8ac5-05c37a496474",
+              "uuid" : "dbf7bcae-9897-44b4-8ac5-05c37a496474",
+              "name" : "Repeal and savings.",
+              "handle" : "123456789/538678",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T22:59:34Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2019",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CEN_21_44_00007_201935_1596441164903",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_name" : [ {
+                  "value" : "The Consumer Protection Act, 2019",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "35",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "SECTION",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "44",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Department of Consumer Affairs",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.id" : [ {
+                  "value" : "50131",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "21",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "Ministry of Consumer Affairs, Food and Public Distribution",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.next_section" : [ {
+                  "value" : "107.Repeal and savings.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.order_number" : [ {
+                  "value" : "107",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_from" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_number" : [ {
+                  "value" : "39",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_to" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_id" : [ {
+                  "value" : "50131",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_number" : [ {
+                  "value" : "107",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_page_note" : [ {
+                  "value" : "<span style=\"margin-left: 15px;\"></span>(1) The Consumer Protection Act, 1986 (68 of 1986) is hereby repealed.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (2) Notwithstanding such repeal, anything done or any action taken or purported to have been done or taken under the Act hereby repealed shall, in so far as it is not inconsistent with the provisions of this Act, be deemed to have been done or taken under the corresponding provisions of this Act.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (3) The mention of particular matters in sub-section (<i>2</i>) shall not be held to prejudice or affect the general application of section 6 of the General Clauses Act, 1897 (10 of 1897) with regard to the effect of repeal.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/>",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "CENTRAL",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/538678",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Repeal and savings.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-10T22:59:34.754179Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/dbf7bcae-9897-44b4-8ac5-05c37a496474/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/dbf7bcae-9897-44b4-8ac5-05c37a496474/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/dbf7bcae-9897-44b4-8ac5-05c37a496474/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/dbf7bcae-9897-44b4-8ac5-05c37a496474/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/dbf7bcae-9897-44b4-8ac5-05c37a496474/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/dbf7bcae-9897-44b4-8ac5-05c37a496474/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/dbf7bcae-9897-44b4-8ac5-05c37a496474/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/dbf7bcae-9897-44b4-8ac5-05c37a496474/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/dbf7bcae-9897-44b4-8ac5-05c37a496474/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/dbf7bcae-9897-44b4-8ac5-05c37a496474/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/dbf7bcae-9897-44b4-8ac5-05c37a496474"
+                }
+              }
+            }
+          }
+        } ]
+      },
+      "page" : {
+        "number" : 1,
+        "size" : 100,
+        "totalPages" : 2,
+        "totalElements" : 107
+      },
+      "_links" : {
+        "prev" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_21_44_00007_201935_1596441164903,equals&sort=dc.identifier.order_number,ASC&page=0&size=100"
+        },
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_21_44_00007_201935_1596441164903,equals&sort=dc.identifier.order_number,ASC&page=1&size=100"
+        },
+        "first" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_21_44_00007_201935_1596441164903,equals&sort=dc.identifier.order_number,ASC&page=0&size=100"
+        }
+      }
+    },
+    "facets" : [ {
+      "name" : "author",
+      "facetType" : "text",
+      "facetLimit" : 5,
+      "openByDefault" : true,
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/author?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_21_44_00007_201935_1596441164903,equals"
+        }
+      },
+      "_embedded" : {
+        "values" : [ ]
+      }
+    }, {
+      "name" : "subject",
+      "facetType" : "hierarchical",
+      "facetLimit" : 5,
+      "openByDefault" : false,
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/subject?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_21_44_00007_201935_1596441164903,equals"
+        }
+      },
+      "_embedded" : {
+        "values" : [ ]
+      }
+    }, {
+      "name" : "dateIssued",
+      "facetType" : "date",
+      "facetLimit" : 5,
+      "minValue" : "0002-11-30",
+      "maxValue" : "9668-11-25",
+      "openByDefault" : false,
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/dateIssued?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_21_44_00007_201935_1596441164903,equals"
+        }
+      },
+      "_embedded" : {
+        "values" : [ ]
+      }
+    }, {
+      "name" : "identifier_collection",
+      "facetType" : "text",
+      "facetLimit" : 10,
+      "openByDefault" : true,
+      "page" : {
+        "number" : 0,
+        "size" : 10
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/identifier_collection?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_21_44_00007_201935_1596441164903,equals&size=10"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "SECTION",
+          "count" : 107,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION,equals&f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_21_44_00007_201935_1596441164903,equals"
+            }
+          }
+        } ]
+      }
+    }, {
+      "name" : "itemtype",
+      "facetType" : "text",
+      "facetLimit" : 5,
+      "openByDefault" : true,
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/itemtype?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_21_44_00007_201935_1596441164903,equals"
+        }
+      },
+      "_embedded" : {
+        "values" : [ ]
+      }
+    } ]
+  }
+}

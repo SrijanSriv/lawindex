@@ -1,0 +1,1049 @@
+{
+  "id" : null,
+  "scope" : null,
+  "query" : null,
+  "appliedFilters" : [ {
+    "filter" : "identifier_collection",
+    "operator" : "equals",
+    "value" : "SECTION",
+    "label" : "SECTION"
+  }, {
+    "filter" : "act_id",
+    "operator" : "equals",
+    "value" : "AC_CEN_3_20_00079_202337_1703224004767",
+    "label" : "AC_CEN_3_20_00079_202337_1703224004767"
+  } ],
+  "sort" : {
+    "by" : "dc.identifier.order_number",
+    "order" : "ASC"
+  },
+  "configuration" : null,
+  "type" : "discover",
+  "_links" : {
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_3_20_00079_202337_1703224004767,equals"
+    }
+  },
+  "_embedded" : {
+    "searchResult" : {
+      "_embedded" : {
+        "objects" : [ {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/c1f3b159-78ba-4a5a-8347-98492b7615e2"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "c1f3b159-78ba-4a5a-8347-98492b7615e2",
+              "uuid" : "c1f3b159-78ba-4a5a-8347-98492b7615e2",
+              "name" : "Short title.",
+              "handle" : "123456789/544241",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T23:14:34Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2023",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CEN_3_20_00079_202337_1703224004767",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_name" : [ {
+                  "value" : "The Repealing and Amending Act, 2023",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "37",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "SECTION",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "20",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Legislative Department",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.id" : [ {
+                  "value" : "80035",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "3",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "Ministry of Law and Justice",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.next_section" : [ {
+                  "value" : "LAST SECTION",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.order_number" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_from" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_number" : [ {
+                  "value" : "2",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_to" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_id" : [ {
+                  "value" : "80035",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_number" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_page_note" : [ {
+                  "value" : "<span style=\"margin-left: 15px;\"></span>This Act may be called the Repealing and Amending Act, 2023.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/>",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "CENTRAL",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/544241",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Short title.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-10T23:14:34.779970Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c1f3b159-78ba-4a5a-8347-98492b7615e2/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c1f3b159-78ba-4a5a-8347-98492b7615e2/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c1f3b159-78ba-4a5a-8347-98492b7615e2/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c1f3b159-78ba-4a5a-8347-98492b7615e2/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c1f3b159-78ba-4a5a-8347-98492b7615e2/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c1f3b159-78ba-4a5a-8347-98492b7615e2/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c1f3b159-78ba-4a5a-8347-98492b7615e2/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c1f3b159-78ba-4a5a-8347-98492b7615e2/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c1f3b159-78ba-4a5a-8347-98492b7615e2/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c1f3b159-78ba-4a5a-8347-98492b7615e2/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c1f3b159-78ba-4a5a-8347-98492b7615e2"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/ca8f67ef-e04d-4dad-86cb-7249e4313727"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "ca8f67ef-e04d-4dad-86cb-7249e4313727",
+              "uuid" : "ca8f67ef-e04d-4dad-86cb-7249e4313727",
+              "name" : "Repeal of certain enactments.",
+              "handle" : "123456789/544242",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T23:14:34Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2023",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CEN_3_20_00079_202337_1703224004767",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_name" : [ {
+                  "value" : "The Repealing and Amending Act, 2023",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "37",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "SECTION",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "20",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Legislative Department",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.id" : [ {
+                  "value" : "80036",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "3",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "Ministry of Law and Justice",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.order_number" : [ {
+                  "value" : "2",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_from" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_number" : [ {
+                  "value" : "2",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_to" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_id" : [ {
+                  "value" : "80036",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_number" : [ {
+                  "value" : "2",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_page_note" : [ {
+                  "value" : "<span style=\"margin-left: 15px;\"></span>The enactments specified in the First Schedule and the Second Schedule are hereby repealed.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/>",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "CENTRAL",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/544242",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Repeal of certain enactments.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-10T23:14:34.831449Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca8f67ef-e04d-4dad-86cb-7249e4313727/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca8f67ef-e04d-4dad-86cb-7249e4313727/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca8f67ef-e04d-4dad-86cb-7249e4313727/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca8f67ef-e04d-4dad-86cb-7249e4313727/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca8f67ef-e04d-4dad-86cb-7249e4313727/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca8f67ef-e04d-4dad-86cb-7249e4313727/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca8f67ef-e04d-4dad-86cb-7249e4313727/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca8f67ef-e04d-4dad-86cb-7249e4313727/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca8f67ef-e04d-4dad-86cb-7249e4313727/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca8f67ef-e04d-4dad-86cb-7249e4313727/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/ca8f67ef-e04d-4dad-86cb-7249e4313727"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/357746d4-104f-464a-adb4-5e884aee13da"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "357746d4-104f-464a-adb4-5e884aee13da",
+              "uuid" : "357746d4-104f-464a-adb4-5e884aee13da",
+              "name" : "Amendment of enactments.",
+              "handle" : "123456789/544243",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T23:14:34Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2023",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CEN_3_20_00079_202337_1703224004767",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_name" : [ {
+                  "value" : "The Repealing and Amending Act, 2023",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "37",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "SECTION",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "20",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Legislative Department",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.id" : [ {
+                  "value" : "80037",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "3",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "Ministry of Law and Justice",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.order_number" : [ {
+                  "value" : "3",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_from" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_number" : [ {
+                  "value" : "2",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_to" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_id" : [ {
+                  "value" : "80037",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_number" : [ {
+                  "value" : "3",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_page_note" : [ {
+                  "value" : "<span style=\"margin-left: 15px;\"></span>The enactment specified in the Third Schedule is hereby amended to the extent and in the manner specified in the fourth column thereof.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/>",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "CENTRAL",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/544243",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Amendment of enactments.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-10T23:14:34.882422Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/357746d4-104f-464a-adb4-5e884aee13da/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/357746d4-104f-464a-adb4-5e884aee13da/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/357746d4-104f-464a-adb4-5e884aee13da/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/357746d4-104f-464a-adb4-5e884aee13da/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/357746d4-104f-464a-adb4-5e884aee13da/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/357746d4-104f-464a-adb4-5e884aee13da/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/357746d4-104f-464a-adb4-5e884aee13da/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/357746d4-104f-464a-adb4-5e884aee13da/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/357746d4-104f-464a-adb4-5e884aee13da/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/357746d4-104f-464a-adb4-5e884aee13da/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/357746d4-104f-464a-adb4-5e884aee13da"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/de0484bc-dfcd-4363-8725-e6e221b12ca6"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "de0484bc-dfcd-4363-8725-e6e221b12ca6",
+              "uuid" : "de0484bc-dfcd-4363-8725-e6e221b12ca6",
+              "name" : "Savings.",
+              "handle" : "123456789/544244",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T23:14:34Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2023",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CEN_3_20_00079_202337_1703224004767",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_name" : [ {
+                  "value" : "The Repealing and Amending Act, 2023",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "37",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "SECTION",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "20",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Legislative Department",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.id" : [ {
+                  "value" : "80038",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "3",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "Ministry of Law and Justice",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.next_section" : [ {
+                  "value" : "4.Savings.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.order_number" : [ {
+                  "value" : "4",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_from" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_number" : [ {
+                  "value" : "2",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_to" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_id" : [ {
+                  "value" : "80038",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_number" : [ {
+                  "value" : "4",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_page_note" : [ {
+                  "value" : "<span style=\"margin-left: 15px;\"></span>The repeal by this Act of any enactment shall not affect any other enactment in which the repealed enactment has been applied, incorporated or referred to;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>and this Act shall not affect the validity, invalidity, effect or consequences of anything already done or suffered, or any right, title, obligation or liability already acquired, accruedor incurred, or any remedy or proceeding in respect thereof, or any release or discharge of or from any debt, penalty, obligation, liability, claim or demand, or any indemnity already granted, or the proof of any past act or thing;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> nor shall this Act affect any principle or rule of law, or established jurisdiction, form or course of pleading, practice or procedure, or existing usage, custom, privilege, restriction, exemption, office or appointment, notwithstanding that the same respectively may have been in any manner affirmed or recognised or derived by, in or from any enactment hereby repealed;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> nor shall the repeal by this Act of any enactment revive or restore any jurisdiction, office, custom, liability, right, title, privilege, restriction, exemption, usage, practice, procedure or other matter or thing not now existing or in force.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/>",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "CENTRAL",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/544244",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Savings.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-10T23:14:34.933781Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/de0484bc-dfcd-4363-8725-e6e221b12ca6/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/de0484bc-dfcd-4363-8725-e6e221b12ca6/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/de0484bc-dfcd-4363-8725-e6e221b12ca6/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/de0484bc-dfcd-4363-8725-e6e221b12ca6/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/de0484bc-dfcd-4363-8725-e6e221b12ca6/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/de0484bc-dfcd-4363-8725-e6e221b12ca6/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/de0484bc-dfcd-4363-8725-e6e221b12ca6/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/de0484bc-dfcd-4363-8725-e6e221b12ca6/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/de0484bc-dfcd-4363-8725-e6e221b12ca6/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/de0484bc-dfcd-4363-8725-e6e221b12ca6/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/de0484bc-dfcd-4363-8725-e6e221b12ca6"
+                }
+              }
+            }
+          }
+        } ]
+      },
+      "page" : {
+        "number" : 0,
+        "size" : 100,
+        "totalPages" : 1,
+        "totalElements" : 4
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_3_20_00079_202337_1703224004767,equals&sort=dc.identifier.order_number,ASC&size=100"
+        }
+      }
+    },
+    "facets" : [ {
+      "name" : "author",
+      "facetType" : "text",
+      "facetLimit" : 5,
+      "openByDefault" : true,
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/author?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_3_20_00079_202337_1703224004767,equals"
+        }
+      },
+      "_embedded" : {
+        "values" : [ ]
+      }
+    }, {
+      "name" : "subject",
+      "facetType" : "hierarchical",
+      "facetLimit" : 5,
+      "openByDefault" : false,
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/subject?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_3_20_00079_202337_1703224004767,equals"
+        }
+      },
+      "_embedded" : {
+        "values" : [ ]
+      }
+    }, {
+      "name" : "dateIssued",
+      "facetType" : "date",
+      "facetLimit" : 5,
+      "minValue" : "0002-11-30",
+      "maxValue" : "9668-11-25",
+      "openByDefault" : false,
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/dateIssued?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_3_20_00079_202337_1703224004767,equals"
+        }
+      },
+      "_embedded" : {
+        "values" : [ ]
+      }
+    }, {
+      "name" : "identifier_collection",
+      "facetType" : "text",
+      "facetLimit" : 10,
+      "openByDefault" : true,
+      "page" : {
+        "number" : 0,
+        "size" : 10
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/identifier_collection?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_3_20_00079_202337_1703224004767,equals&size=10"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "SECTION",
+          "count" : 4,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION,equals&f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_3_20_00079_202337_1703224004767,equals"
+            }
+          }
+        } ]
+      }
+    }, {
+      "name" : "itemtype",
+      "facetType" : "text",
+      "facetLimit" : 5,
+      "openByDefault" : true,
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/itemtype?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_3_20_00079_202337_1703224004767,equals"
+        }
+      },
+      "_embedded" : {
+        "values" : [ ]
+      }
+    } ]
+  }
+}

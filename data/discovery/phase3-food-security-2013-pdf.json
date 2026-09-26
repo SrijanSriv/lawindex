@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/d7d8ba91-50a2-47d9-9d06-b5363f3964b9/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/d7d8ba91-50a2-47d9-9d06-b5363f3964b9/content",
+  "http_status": 200,
+  "curl_exit_code": 0,
+  "content_type": "application/pdf",
+  "fetched_at_utc": "2026-09-21T19:44:19.511893+00:00",
+  "sha256": "242609fda9efe99cd4a27dc2a9d42def965aecbbc91759dd7a77b7782347fd6d",
+  "bytes": 391149,
+  "body_path": "data/discovery/phase3-food-security-2013-pdf.body",
+  "note": "Exact copy of retained Phase 3 HTTP bytes; not a new acquisition. Receipt in data/phase3/acquisition/acts/food-security-2013.json"
+}

@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/2b560cc5-4037-4c10-bb6e-343da51dd42f/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/2b560cc5-4037-4c10-bb6e-343da51dd42f/content",
+  "http_status": 200,
+  "curl_exit_code": 0,
+  "content_type": "application/pdf",
+  "fetched_at_utc": "2026-09-21T19:44:31.566758+00:00",
+  "sha256": "930b257da79f774fcf3a7e03a0e658b05c148ce712ff714d36fcfccb3876a0af",
+  "bytes": 276236,
+  "body_path": "data/discovery/phase3-education-2009-pdf.body",
+  "note": "Exact copy of retained Phase 3 HTTP bytes; not a new acquisition. Receipt in data/phase3/acquisition/acts/education-2009.json"
+}

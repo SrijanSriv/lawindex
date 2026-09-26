@@ -1,0 +1,223 @@
+{
+  "id" : "10eea11f-bfda-41d0-b8dc-58176e704613",
+  "uuid" : "10eea11f-bfda-41d0-b8dc-58176e704613",
+  "name" : "The Environment (Protection) Act, 1986",
+  "handle" : "123456789/496029",
+  "metadata" : {
+    "dc.date.accessioned" : [ {
+      "value" : "2026-07-10T20:10:15Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.act_year" : [ {
+      "value" : "1986",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.enact_date" : [ {
+      "value" : "1986-05-23",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.enforcement_date" : [ {
+      "value" : "19-11-1986",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "1986-05-23",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.last_modified" : [ {
+      "value" : "2020-04-07",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "Summary of The Environment (Protection) Act, 1986\nObjective To protect and improve the environment and address related matters.\nKey Components\n1.\tDefinitions: - Environment: Encompasses water, air, land, and their inter-relationships.\n•\tEnvironmental Pollutant and Pollution: Defined in relation to harmful substances and their presence.\n•\tHazardous Substance: Substances harmful to humans, living organisms, or the environment.\n2.\tCentral Government Powers: - Regulatory Measures: Setting standards, regulating industries.\n•\tInvestigations and Directions: Power to issue enforceable directions.\n3.\tPollution Control and Abatement: - Emission Regulations: For industries and substances.\n•\tInspections and Sampling: Authorized officers' powers.\n4.\tPenalties and Fund: - Penalties for Contraventions: Including corporate and governmental entities.\n•\tEnvironmental Protection Fund: Established for environmental protection activities.\n5.\tMiscellaneous Provisions: - Good Faith Protection: For actions taken in good faith.\n•\tRule Making Power: With parliamentary oversight.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.act_id" : [ {
+      "value" : "AC_CEN_16_18_00011_198629_1517807327582",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.act_number" : [ {
+      "value" : "29",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.collection" : [ {
+      "value" : "ACT",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.givenid" : [ {
+      "value" : "198629",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.ministry_id" : [ {
+      "value" : "16",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.ministry_name" : [ {
+      "value" : "Ministry of Environment, Forest and Climate Change",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.notification_no" : [ {
+      "value" : "19th November, 1986, vide notification No. G.S.R. 1198(E), dated 12th November, 1986, see Gazette of India, Extraordinary, Part II, sec. 3(i).",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.preamble_description" : [ {
+      "value" : "<center style=\"font-size: 17px;\">THE ENVIRONMENT (PROTECTION) ACT, 1986</center> <center style=\"font-size: 16px;\">ACT NO. 29 OF 1986</center> <p style=\"text-align:right;\">[23rd May, 1986.]</p> An Act to provide for the protection and improvement of environment and for matters connected therewith.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>WHEREAS decisions were taken at the United Nations Conference on the Human Environment held at Stockholm in June, 1972, in which India participated, to take appropriate steps for the protection and improvement of human environment;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>AND WHEREAS it is considered necessary further to implement the decisions aforesaid in so far as they relate to the protection and improvement of environment and the prevention of hazards to human beings, other living creatures, plants and property;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>BE it enacted by Parliament in the Thirty-seventh Year of the Republic of India as follows:--",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.refact" : [ {
+      "value" : "0",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.reference_sites" : [ {
+      "value" : "Ministry of Environment, Forest and Climate Change https://moef.gov.in/",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Concerned Ministry/Department Acts and Rules https://moef.gov.in/environment-protection",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.identifier.repealed" : [ {
+      "value" : "false",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.state_id" : [ {
+      "value" : "1",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.state_name" : [ {
+      "value" : "CENTRAL",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "http://test1.indiacode.nic.in/handle/123456789/496029",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title" : [ {
+      "value" : "The Environment (Protection) Act, 1986",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title.long_title" : [ {
+      "value" : "An Act to provide for the protection and improvement of environment and for matters connected therewith.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "Developmental",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2026-08-24T18:58:49.291138Z",
+  "entityType" : null,
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/10eea11f-bfda-41d0-b8dc-58176e704613/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/10eea11f-bfda-41d0-b8dc-58176e704613/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/10eea11f-bfda-41d0-b8dc-58176e704613/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/10eea11f-bfda-41d0-b8dc-58176e704613/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/10eea11f-bfda-41d0-b8dc-58176e704613/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/10eea11f-bfda-41d0-b8dc-58176e704613/relationships"
+    },
+    "version" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/10eea11f-bfda-41d0-b8dc-58176e704613/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/10eea11f-bfda-41d0-b8dc-58176e704613/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/10eea11f-bfda-41d0-b8dc-58176e704613/thumbnail"
+    },
+    "submitter" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/10eea11f-bfda-41d0-b8dc-58176e704613/submitter"
+    },
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/10eea11f-bfda-41d0-b8dc-58176e704613"
+    }
+  }
+}

@@ -1,0 +1,1324 @@
+{
+  "id" : null,
+  "scope" : null,
+  "query" : null,
+  "appliedFilters" : [ {
+    "filter" : "identifier_collection",
+    "operator" : "equals",
+    "value" : "SECTION",
+    "label" : "SECTION"
+  }, {
+    "filter" : "act_id",
+    "operator" : "equals",
+    "value" : "AC_CEN_9_30_00006_195714_1517807321712",
+    "label" : "AC_CEN_9_30_00006_195714_1517807321712"
+  } ],
+  "sort" : {
+    "by" : "dc.identifier.order_number",
+    "order" : "ASC"
+  },
+  "configuration" : null,
+  "type" : "discover",
+  "_links" : {
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_9_30_00006_195714_1517807321712,equals"
+    }
+  },
+  "_embedded" : {
+    "searchResult" : {
+      "_embedded" : {
+        "objects" : [ {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/c6e7fa0d-bc1b-42f6-bb34-67c93e67da02"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "c6e7fa0d-bc1b-42f6-bb34-67c93e67da02",
+              "uuid" : "c6e7fa0d-bc1b-42f6-bb34-67c93e67da02",
+              "name" : "Orders for payment of money passed by Registrar of Copyrights and Appellate Board to be executable as a decree",
+              "handle" : "123456789/515642",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T22:00:36Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "1957",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CEN_9_30_00006_195714_1517807321712",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_name" : [ {
+                  "value" : "The Copyright Act, 1957",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "14",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "SECTION",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "61",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Department of Promotion of Industry and Internal Trade",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.id" : [ {
+                  "value" : "14603",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "11",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "Ministry of Commerce and Industry",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.next_section" : [ {
+                  "value" : "76.Protection of action taken in good faith.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.order_number" : [ {
+                  "value" : "101",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_from" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_number" : [ {
+                  "value" : "43",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_to" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_footnote" : [ {
+                  "value" : "<sup>1</sup>. Subs. by Act 7 of 2017, s.160, for \"Copyright Board\" (w.e.f. 26-5-2017).<br/><hr style=\"border: none; margin-bottom: 3px; margin-top: 0;\"/>",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_id" : [ {
+                  "value" : "14603",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_number" : [ {
+                  "value" : "75",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_page_note" : [ {
+                  "value" : "<span style=\"margin-left: 15px;\"></span><b>75. Orders for payment of money passed by Registrar of Copyrights and <sup>1</sup>[Appellate Board] to be executable as a decree.--</b>Every order made by the Registrar of Copyrights or the <sup>1</sup>[Appellate Board] under this Act for the payment of any money or by the High Court in any appeal against any such order of the <sup>1</sup>[Appellate Board] shall, on a certificate issued by the Registrar of Copyrights, the <sup>1</sup>[Appellate Board] or the Registrar of the High Court, as the case may be, be deemed to be a decree of a civil court and shall be executable in the same manner as a decree of such court.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/>",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "CENTRAL",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/515642",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Orders for payment of money passed by Registrar of Copyrights and Appellate Board to be executable as a decree",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-10T22:00:36.531811Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c6e7fa0d-bc1b-42f6-bb34-67c93e67da02/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c6e7fa0d-bc1b-42f6-bb34-67c93e67da02/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c6e7fa0d-bc1b-42f6-bb34-67c93e67da02/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c6e7fa0d-bc1b-42f6-bb34-67c93e67da02/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c6e7fa0d-bc1b-42f6-bb34-67c93e67da02/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c6e7fa0d-bc1b-42f6-bb34-67c93e67da02/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c6e7fa0d-bc1b-42f6-bb34-67c93e67da02/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c6e7fa0d-bc1b-42f6-bb34-67c93e67da02/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c6e7fa0d-bc1b-42f6-bb34-67c93e67da02/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c6e7fa0d-bc1b-42f6-bb34-67c93e67da02/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/c6e7fa0d-bc1b-42f6-bb34-67c93e67da02"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/6804aa19-a12e-4d38-93e1-68fa5dda62b9"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "6804aa19-a12e-4d38-93e1-68fa5dda62b9",
+              "uuid" : "6804aa19-a12e-4d38-93e1-68fa5dda62b9",
+              "name" : "Protection of action taken in good faith.",
+              "handle" : "123456789/515643",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T22:00:36Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "1957",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CEN_9_30_00006_195714_1517807321712",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_name" : [ {
+                  "value" : "The Copyright Act, 1957",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "14",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "SECTION",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "61",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Department of Promotion of Industry and Internal Trade",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.id" : [ {
+                  "value" : "14604",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "11",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "Ministry of Commerce and Industry",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.next_section" : [ {
+                  "value" : "77.Certain persons to be public servants.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.order_number" : [ {
+                  "value" : "102",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_from" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_number" : [ {
+                  "value" : "43",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_to" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_id" : [ {
+                  "value" : "14604",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_number" : [ {
+                  "value" : "76",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_page_note" : [ {
+                  "value" : "<span style=\"margin-left: 15px;\"></span>No suit or other legal proceeding shall lie against any person in respect of anything which is in good faith done or intended to be done in pursuance of this Act.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/>",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "CENTRAL",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/515643",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Protection of action taken in good faith.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-10T22:00:36.608649Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6804aa19-a12e-4d38-93e1-68fa5dda62b9/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6804aa19-a12e-4d38-93e1-68fa5dda62b9/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6804aa19-a12e-4d38-93e1-68fa5dda62b9/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6804aa19-a12e-4d38-93e1-68fa5dda62b9/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6804aa19-a12e-4d38-93e1-68fa5dda62b9/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6804aa19-a12e-4d38-93e1-68fa5dda62b9/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6804aa19-a12e-4d38-93e1-68fa5dda62b9/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6804aa19-a12e-4d38-93e1-68fa5dda62b9/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6804aa19-a12e-4d38-93e1-68fa5dda62b9/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6804aa19-a12e-4d38-93e1-68fa5dda62b9/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/6804aa19-a12e-4d38-93e1-68fa5dda62b9"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/27a12ab5-b1a1-4308-9a0a-b03a6988f9fb"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "27a12ab5-b1a1-4308-9a0a-b03a6988f9fb",
+              "uuid" : "27a12ab5-b1a1-4308-9a0a-b03a6988f9fb",
+              "name" : "Certain persons to be public servants.",
+              "handle" : "123456789/515644",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T22:00:36Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "1957",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CEN_9_30_00006_195714_1517807321712",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_name" : [ {
+                  "value" : "The Copyright Act, 1957",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "14",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "SECTION",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "61",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Department of Promotion of Industry and Internal Trade",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.id" : [ {
+                  "value" : "14605",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "11",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "Ministry of Commerce and Industry",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.next_section" : [ {
+                  "value" : "78.Power to make rules.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.order_number" : [ {
+                  "value" : "103",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_from" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_number" : [ {
+                  "value" : "43",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_to" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_footnote" : [ {
+                  "value" : "<sup>1</sup>. The words &quot;and every member of the Appellate Board&quot; omitted by s. 10, ibid. (w.e.f. 4-4-2021).<br/><hr style=\"border: none; margin-bottom: 3px; margin-top: 0;\"/>",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_id" : [ {
+                  "value" : "14605",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_number" : [ {
+                  "value" : "77",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_page_note" : [ {
+                  "value" : "<span style=\"margin-left: 15px;\"></span>Every officer appointed under this Act <sup>1</sup>*** shall be deemed to be a public servant within the meaning of section 21 of the Indian Penal Code (45 of 1860).<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/>",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "CENTRAL",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/515644",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Certain persons to be public servants.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-10T22:00:36.687335Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/27a12ab5-b1a1-4308-9a0a-b03a6988f9fb/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/27a12ab5-b1a1-4308-9a0a-b03a6988f9fb/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/27a12ab5-b1a1-4308-9a0a-b03a6988f9fb/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/27a12ab5-b1a1-4308-9a0a-b03a6988f9fb/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/27a12ab5-b1a1-4308-9a0a-b03a6988f9fb/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/27a12ab5-b1a1-4308-9a0a-b03a6988f9fb/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/27a12ab5-b1a1-4308-9a0a-b03a6988f9fb/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/27a12ab5-b1a1-4308-9a0a-b03a6988f9fb/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/27a12ab5-b1a1-4308-9a0a-b03a6988f9fb/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/27a12ab5-b1a1-4308-9a0a-b03a6988f9fb/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/27a12ab5-b1a1-4308-9a0a-b03a6988f9fb"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/9f8c0b12-7638-4051-87b6-bd8628a0d15e"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "9f8c0b12-7638-4051-87b6-bd8628a0d15e",
+              "uuid" : "9f8c0b12-7638-4051-87b6-bd8628a0d15e",
+              "name" : "Power to make rules.",
+              "handle" : "123456789/515645",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T22:00:36Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "1957",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CEN_9_30_00006_195714_1517807321712",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_name" : [ {
+                  "value" : "The Copyright Act, 1957",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "14",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "SECTION",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "61",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Department of Promotion of Industry and Internal Trade",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.id" : [ {
+                  "value" : "14606",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "11",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "Ministry of Commerce and Industry",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.next_section" : [ {
+                  "value" : "79.Repeals, savings and transitional provisions.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.order_number" : [ {
+                  "value" : "104",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_from" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_number" : [ {
+                  "value" : "43",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_to" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_footnote" : [ {
+                  "value" : "<sup>1</sup>. Clause (a) omitted by Act 7 of 2017, s. 160 (w.e.f. 26-5-2017). <br/><hr style=\"border: none; margin-bottom: 3px; margin-top: 0;\"/> <sup>2</sup>. Ins. by Act 27 of 2012, s. 39 (w.e.f. 21-6-2012). <br/><hr style=\"border: none; margin-bottom: 3px; margin-top: 0;\"/> <sup>3</sup>. Subs. by Act 7 of 2017, s.160, for Copyright Board (w.e.f. 26-5-2017). <br/><hr style=\"border: none; margin-bottom: 3px; margin-top: 0;\"/> <sup>4</sup>. Ins. by Act 38 of 1994, s. 24 (w.e.f. 10-5-1995). <br/><hr style=\"border: none; margin-bottom: 3px; margin-top: 0;\"/> <sup>5</sup>. Subs. by Act 38 of 1994, s. 24, for sub-clause (da) (w.e.f. 10-5-1995). <br/><hr style=\"border: none; margin-bottom: 3px; margin-top: 0;\"/> <sup>6</sup>. Omitted by Act 27 of 2012, s. 38 (w.e.f. 21-6-2012). <br/><hr style=\"border: none; margin-bottom: 3px; margin-top: 0;\"/> <sup>7</sup>. Subs. by Act 23 of 1983, s. 23, for sub-section (3) (w.e.f. 9-8-1984). <br/><hr style=\"border: none; margin-bottom: 3px; margin-top: 0;\"/> <br/><hr style=\"border: none; margin-bottom: 3px; margin-top: 0;\"/>",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_id" : [ {
+                  "value" : "14606",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_number" : [ {
+                  "value" : "78",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_page_note" : [ {
+                  "value" : "<span style=\"margin-left: 15px;\"></span>(1) The Central Government may, by notification in the Official Gazette, make rules for carrying out the purposes of this Act. <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (2) In particular, and without prejudice to the generality of the foregoing power, the Central Government may make rules to provide for all or any of the following matters, namely:-- <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> <sup>1</sup>[* <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> * <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span>* <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span>* <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span>*]; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (b) the form of complaints and applications to be made, and the licences to be granted, under this Act; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (c) the procedure to be followed in connection with any proceeding before the Registrar of Copyrights; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> <sup>2</sup>[(cA) the form and manner in which an organisation may apply to the <sup>3</sup>[Appellate Board] for compulsory licence for disabled and the fee which may accompany such application under sub-section 31B; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (cB) the manner in which a person making sound recording may give prior notice of his intention to make sound recording under sub-section (2) of section 31C; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (cC) the register and books of account and the details of existing stock which a person making sound recording may maintain under sub-section (5) of section 31C; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (cD) the manner in which prior notice may be given by a broadcasting organisation under sub-section (2) of section 31D; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (cE) the reports and accounts which may be maintained under clause (a), and the inspection of records and books of account which may be made under clause (b) or sub-section (7) of section 31D]; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> <sup>1</sup>[(ca) the conditions for submission of application under sub-section (2) of section 33; (cb) the conditions subject to which a copyright society may be registered under sub-section (3) of section 33; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (cc) the inquiry for cancellation of registration under sub-section (4) of section 33; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> <sup>5</sup>[(ccA) the manner in which a copyright society may publish its Tariff Scheme under sub-section (1) of section 33A; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (ccB) the fee which is to be paid before filing an appeal to the 3 [Appellate Board] under sub-section (2) of section 33A; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (ccC) the form of application for renewal of registration of a copyright society and the fee which may accompany such application under sub-section (3A) of section 33;] <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (cd) the conditions subject to which the copyright society may accept authorisation under clause (a) of sub-section (1) of section 34 and the conditions subject to which owners or rights have right to withdraw such authorisation under clause (d) of that sub-section; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (ce) the conditions subject to which a copyright society may issue licences, collect fees and distribute such fees amongst owners of rights under sub-section (3) of section 34;] <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (cf) the manner in which the approval of the owners of rights regarding collection and distribution of fees, approval for utilisation of any amount collected as fees and to provide to such owners information concerning activities in relation to the administration of their rights under sub-section (1) of section 35; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (cg) the returns to be filed by copyright societies to the Registrar of Copyrights under sub-section (1) of section 36;] <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (d) the manners of determining any royalties payable under this Act, and the security to be taken for the payment of such royalties; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> <sup>5</sup>[(da) the manner of payment of royalty under clause (j) of sub-section (1) of section 52; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> <sup>6</sup>* <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> * <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span>* <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span>* <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span>*] <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (e) the form of Register of Copyrights to be kept under this Act and the particulars to be entered therein; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (f) the matters in respect of which the Registrar of Copyrights and the <sup>3</sup>[ Appellate Board] shall have powers of a civil court; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (g) the fees which may be payable under this Act; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (h) the regulation of business of the Copyright Office and of all things by this Act placed under the direction or control of the Registrar of Copyrights. <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> <sup>7</sup>[(3) Every rule made under this section shall be laid, as soon as may be after it is made, before each House of Parliament, while it is in session, for a total period of thirty days which may be comprised in one session or in two or more successive sessions, and if, before the expiry of the session immediately following the session or the successive sessions aforesaid, both Houses agree in making any modification in the rule or both Houses agree that the rule should not be made, the rule shall thereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that any such modification or annulment shall be without prejudice to the validity of anything previously done under that rule.] <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/>",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "CENTRAL",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/515645",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Power to make rules.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-10T22:00:36.780406Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9f8c0b12-7638-4051-87b6-bd8628a0d15e/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9f8c0b12-7638-4051-87b6-bd8628a0d15e/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9f8c0b12-7638-4051-87b6-bd8628a0d15e/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9f8c0b12-7638-4051-87b6-bd8628a0d15e/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9f8c0b12-7638-4051-87b6-bd8628a0d15e/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9f8c0b12-7638-4051-87b6-bd8628a0d15e/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9f8c0b12-7638-4051-87b6-bd8628a0d15e/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9f8c0b12-7638-4051-87b6-bd8628a0d15e/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9f8c0b12-7638-4051-87b6-bd8628a0d15e/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9f8c0b12-7638-4051-87b6-bd8628a0d15e/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/9f8c0b12-7638-4051-87b6-bd8628a0d15e"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/83209494-cfbc-4d05-9808-68755bf7f293"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "83209494-cfbc-4d05-9808-68755bf7f293",
+              "uuid" : "83209494-cfbc-4d05-9808-68755bf7f293",
+              "name" : "Repeals, savings and transitional provisions.",
+              "handle" : "123456789/515646",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T22:00:36Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "1957",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CEN_9_30_00006_195714_1517807321712",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_name" : [ {
+                  "value" : "The Copyright Act, 1957",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "14",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "SECTION",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_id" : [ {
+                  "value" : "61",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.department_name" : [ {
+                  "value" : "Department of Promotion of Industry and Internal Trade",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.id" : [ {
+                  "value" : "14607",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "11",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "Ministry of Commerce and Industry",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.order_number" : [ {
+                  "value" : "105",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_from" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_number" : [ {
+                  "value" : "45",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.page_to" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_footnote" : [ {
+                  "value" : "<sup>1</sup>. Subs. by Act 7 of 2017, s.160, for \"Copyright Board\" (w.e.f. 26-5-2017).<br/><hr style=\"border: none; margin-bottom: 3px; margin-top: 0;\"/>",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_id" : [ {
+                  "value" : "14607",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_number" : [ {
+                  "value" : "79",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.section_page_note" : [ {
+                  "value" : "<span style=\"margin-left: 15px;\"></span>(1) The Indian Copyright Act, 1914 (3 of 1914), and the Copyright Act of 1911 passed by the Parliament of the United Kingdom as modified in its application to India by the Indian Copyright Act, 1914 ( 3 of 1914), are hereby repealed. <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (2) Where any person has, before the commencement of this Act, taken any action whereby he has incurred any expenditure or liabilities in connection with the reproduction or performance of any work in a manner which at the time was lawful or for the purpose of or with a view to the reproduction or performance of a work at a time when such reproduction or performance would, but for the coming into force of this Act, have been lawful, nothing in this section shall diminish or prejudice any rights or interests arising from or in connection with such action which are subsisting and valuable at the said date, unless the person who, by virtue of this Act, becomes entitled to restrain such reproduction or performance, agrees to pay such compensation as, failing agreement, may be determined by the <sup>1</sup>[Appellate Board]. <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (3) Copyright shall not subsist by virtue of this Act in any work in which copyright did not subsist immediately before the commencement of this Act under any Act repealed by sub-section (1). <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (4) Where copyright subsisted in any work immediately before the commencement of this Act, the rights comprising such copyright shall, as from the date of such commencement, be the rights specified in section 14 in relation to the class of works to which such work belongs, and where any new rights are conferred by that section, the owner of such rights shall be-- <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (a) in any case where copyright in the work was wholly assigned before the commencement of this Act, the assignee or his successor-in-interest; <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><span style=\"margin-left: 15px;\"></span> (b) in any other case, the person who was the first owner of the copyright in the work under any Act repealed by sub-section (1) or his legal representatives. <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (5) Except as otherwise provided in this Act, where any person is entitled immediately before the commencement of this Act to copyright in any work or any right in such copyright or to an interest in any such right, he shall continue to be entitled to such right or interest for the period for which he would have been entitled thereto if this Act has not come into force. <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (6) Nothing contained in this Act shall be deemed to render any act done before its commencement an infringement of copyright if that act would not otherwise have constituted such an infringement. <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span> (7) Save as otherwise provided in this section, nothing in this section shall be deemed to affect the application of the General Clauses Act, 1897 (10 of 1897), with respect to the effect of repeals. <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span><br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/>",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "CENTRAL",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/515646",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Repeals, savings and transitional provisions.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-07-10T22:00:36.858970Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/83209494-cfbc-4d05-9808-68755bf7f293/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/83209494-cfbc-4d05-9808-68755bf7f293/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/83209494-cfbc-4d05-9808-68755bf7f293/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/83209494-cfbc-4d05-9808-68755bf7f293/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/83209494-cfbc-4d05-9808-68755bf7f293/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/83209494-cfbc-4d05-9808-68755bf7f293/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/83209494-cfbc-4d05-9808-68755bf7f293/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/83209494-cfbc-4d05-9808-68755bf7f293/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/83209494-cfbc-4d05-9808-68755bf7f293/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/83209494-cfbc-4d05-9808-68755bf7f293/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/83209494-cfbc-4d05-9808-68755bf7f293"
+                }
+              }
+            }
+          }
+        } ]
+      },
+      "page" : {
+        "number" : 1,
+        "size" : 100,
+        "totalPages" : 2,
+        "totalElements" : 105
+      },
+      "_links" : {
+        "prev" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_9_30_00006_195714_1517807321712,equals&sort=dc.identifier.order_number,ASC&page=0&size=100"
+        },
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_9_30_00006_195714_1517807321712,equals&sort=dc.identifier.order_number,ASC&page=1&size=100"
+        },
+        "first" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_9_30_00006_195714_1517807321712,equals&sort=dc.identifier.order_number,ASC&page=0&size=100"
+        }
+      }
+    },
+    "facets" : [ {
+      "name" : "author",
+      "facetType" : "text",
+      "facetLimit" : 5,
+      "openByDefault" : true,
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/author?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_9_30_00006_195714_1517807321712,equals"
+        }
+      },
+      "_embedded" : {
+        "values" : [ ]
+      }
+    }, {
+      "name" : "subject",
+      "facetType" : "hierarchical",
+      "facetLimit" : 5,
+      "openByDefault" : false,
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/subject?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_9_30_00006_195714_1517807321712,equals"
+        }
+      },
+      "_embedded" : {
+        "values" : [ ]
+      }
+    }, {
+      "name" : "dateIssued",
+      "facetType" : "date",
+      "facetLimit" : 5,
+      "minValue" : "0002-11-30",
+      "maxValue" : "9668-11-25",
+      "openByDefault" : false,
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/dateIssued?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_9_30_00006_195714_1517807321712,equals"
+        }
+      },
+      "_embedded" : {
+        "values" : [ ]
+      }
+    }, {
+      "name" : "identifier_collection",
+      "facetType" : "text",
+      "facetLimit" : 10,
+      "openByDefault" : true,
+      "page" : {
+        "number" : 0,
+        "size" : 10
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/identifier_collection?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_9_30_00006_195714_1517807321712,equals&size=10"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "SECTION",
+          "count" : 105,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION,equals&f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_9_30_00006_195714_1517807321712,equals"
+            }
+          }
+        } ]
+      }
+    }, {
+      "name" : "itemtype",
+      "facetType" : "text",
+      "facetLimit" : 5,
+      "openByDefault" : true,
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/itemtype?f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_9_30_00006_195714_1517807321712,equals"
+        }
+      },
+      "_embedded" : {
+        "values" : [ ]
+      }
+    } ]
+  }
+}

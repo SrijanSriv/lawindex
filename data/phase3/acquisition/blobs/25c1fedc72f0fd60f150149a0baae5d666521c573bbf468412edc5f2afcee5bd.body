@@ -1,0 +1,243 @@
+{
+  "id" : "37520cf3-5c3f-4c0b-aa4a-5985e6f522bf",
+  "uuid" : "37520cf3-5c3f-4c0b-aa4a-5985e6f522bf",
+  "name" : "The Right to Information Act, 2005",
+  "handle" : "123456789/496169",
+  "metadata" : {
+    "dc.date.accessioned" : [ {
+      "value" : "2026-07-10T20:10:39Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.act_year" : [ {
+      "value" : "2005",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.enact_date" : [ {
+      "value" : "2005-06-15",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.enforcement_date" : [ {
+      "value" : "Ss. 4(1), 5(1) (2), 12, 13, 15, 16, 24, 27, 28 (15-06-2005) and rest provisions on 120th day of its enactment.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2005-06-15",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.last_modified" : [ {
+      "value" : "2025-11-18",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "Summary of the Right to Information Act, 2005 (RTI Act, 2005)\nKey Provisions\n1.\tRight to Information\n•\tAll citizens have the right to information, subject to the Act's provisions.\n2.\tObligations of Public Authorities\n•\tMaintain, computerize, and network records for easy access.\n•\tPublish various details about the authority.\n•\tProvide reasons for administrative or quasi-judicial decisions.\n•\tSuo motu disclosure of information.\n3.\tDesignation of Public Information Officers\n•\tDesignate Central/State Public Information Officers and Assistants.\n4.\tExemptions and Penalties\n•\tExemptions: For certain organisations with exceptions.\n•\tPenalties: Include fines and imprisonment for non-compliance or misconduct.\n5.\tInformation Commissions\n•\tEstablishment of Central and State Information Commissions.\n6.\tMiscellaneous\n•\tProtection of Action in Good Faith\n•\tOverriding Effect\n•\tBar on Court Jurisdiction\n•\tMonitoring and Reporting",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.act_id" : [ {
+      "value" : "AC_CEN_26_36_00004_200522_1517807322955",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.act_number" : [ {
+      "value" : "22",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.collection" : [ {
+      "value" : "ACT",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.department_id" : [ {
+      "value" : "36",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.department_name" : [ {
+      "value" : "Department of Personnel and Training",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.givenid" : [ {
+      "value" : "2005-22",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.ministry_id" : [ {
+      "value" : "26",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.ministry_name" : [ {
+      "value" : "Ministry of Personnel, Public Grievances and Pensions",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.preamble_description" : [ {
+      "value" : "<center style=\"font-size: 17px;\">THE RIGHT TO INFORMATION ACT, 2005</center> <center style=\"font-size: 16px;\">ACT NO. 22 OF 2005</center> <p style=\"text-align:right;\">[15th June, 2005.]</p> An Act to provide for setting out the practical regime of right to information for citizens to secure access to information under the control of public authorities, in order to promote transparency and accountability in the working of every public authority, the constitution of a Central Information Commission and State Information Commissions and for matters connected therewith or incidental thereto.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>WHEREAS the Constitution of India has established democratic Republic;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>AND WHEREAS democracy requires an informed citizenry and transparency of information which are vital to its functioning and also to contain corruption and to hold Governments are their instrumentalities accountable to the governed;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>AND WHEREAS revelation of information in actual practice is likely to conflict with other public interests including efficient operations of the Governments, optimum use of limited fiscal resources and the preservation of confidentiality of sensitive information;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>AND WHEREAS it is necessary to harmonise these conflicting interests while preserving the paramountcy of the democratic ideal;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>Now, THEREFORE, it is expendient to provide for furnishing certain information to citizens who desire to have it.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>BE it enacted by Parliament in the Fifty-sixth Year of the Republic of India as follows:--",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.refact" : [ {
+      "value" : "0",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.reference_sites" : [ {
+      "value" : "Ministry of Personnel, Public Grievances and Pensions https://persmin.gov.in/",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Department of Personnel and Training https://dopt.gov.in/",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Concerned Ministry/Department Acts and Rules https://dopt.gov.in/download/acts",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    } ],
+    "dc.identifier.repealed" : [ {
+      "value" : "false",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.state_id" : [ {
+      "value" : "1",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.state_name" : [ {
+      "value" : "CENTRAL",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "http://test1.indiacode.nic.in/handle/123456789/496169",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.legislation.history" : [ {
+      "value" : "<p>Legislative History: </p><p>The Right to Information Act, 2005</p><p></p><p>Short Title - The Right to Information Act, 2005</p><p>Act Number / Year - Act No. 22 of 2005</p><p>Act ID (India Code) - 200522 (Internal ID: 2005-22)</p><p>Introduced In - Lok Sabha (as The Right to Information Bill, 2004)</p><p>Presidential Assent Date - June 15, 2005</p><p>Official Gazette Publication - June 21, 2005</p><p>Enforcement Strategy - \tPhase 1 (Immediate provisions): June 15, 2005 (Ss. 4(1), 5(1)-(2), 12, 13, 15, 16, 24, 27, 28); Phase 2 (Full Enforcement): October 12, 2005 (120th day of enactment)</p><p>Nodal Ministry - Ministry of Personnel, Public Grievances and Pensions</p><p></p><p>Precedent &amp; Statutory Rationale</p><p></p><p>1.\tReplacement of the Weak 2002 Framework:</p><p>o\tThe preceding Freedom of Information Act, 2002 was widely criticized for containing excessive exemptions, weak enforcement mechanisms, and lacking proactive disclosure mandates. It was never notified into force.</p><p></p><p>2.\tPromotion of Transparency and Accountability:</p><p></p><p>o\tEnacted to provide a practical regime for citizens to secure access to information under the control of public authorities, thereby combating systemic corruption, promoting governmental transparency, and establishing independent appeal bodies. </p><p></p><p>Parliamentary Trajectory &amp; Enactment</p><p></p><p>•\tDecember 2004: The Right to Information Bill, 2004 was introduced in the Lok Sabha, reflecting wide inputs from the National Advisory Council (NAC) and civil society organizations.</p><p>•\tMay 2005: Passed by the Lok Sabha (May 11, 2005) and Rajya Sabha (May 12, 2005) with significant amendments strengthening penalty structures and disclosure rules.</p><p>•\tJune 15, 2005: Received Presidential Assent as Act No. 22 of 2005. </p><p>•\tOctober 12, 2005: Came into full operational effect across India upon the completion of the 120-day statutory transition window. </p><p></p><p>Core Statutory Framework Established</p><p></p><p>1.\tObligation of Public Authorities (Section 4): Mandates every public authority to maintain records duly cataloged and proactively publish vast categories of administrative data.</p><p>2.\tPublic Information Officers (Section 5): Requires public authorities to designate Central/State Public Information Officers (CPIOs/SPIOs) to process information requests within strict timeframes (typically 30 days).</p><p>3.\tInformation Commissions (Sections 12 &amp; 15): Establishes the autonomous Central Information Commission (CIC) and State Information Commissions (SICs) vested with powers of a civil court to penalize non-compliance and hear second appeals</p><p></p><p>Source: Official Records of Parliament, India Code, and Ministry of Personnel, Public Grievances and Pensions</p><p></p><p></p><p></p><p></p>",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title" : [ {
+      "value" : "The Right to Information Act, 2005",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title.long_title" : [ {
+      "value" : "An Act to provide for setting out the practical regime of right to information for citizens to secure access to information under the control of public authorities, in order to promote transparency and accountability in the working of every public authority, the constitution of a Central Information Commission and State Information Commissions and for matters connected therewith or incidental thereto.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "Social",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2026-09-12T18:02:24.194212Z",
+  "entityType" : null,
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/37520cf3-5c3f-4c0b-aa4a-5985e6f522bf/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/37520cf3-5c3f-4c0b-aa4a-5985e6f522bf/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/37520cf3-5c3f-4c0b-aa4a-5985e6f522bf/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/37520cf3-5c3f-4c0b-aa4a-5985e6f522bf/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/37520cf3-5c3f-4c0b-aa4a-5985e6f522bf/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/37520cf3-5c3f-4c0b-aa4a-5985e6f522bf/relationships"
+    },
+    "version" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/37520cf3-5c3f-4c0b-aa4a-5985e6f522bf/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/37520cf3-5c3f-4c0b-aa4a-5985e6f522bf/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/37520cf3-5c3f-4c0b-aa4a-5985e6f522bf/thumbnail"
+    },
+    "submitter" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/37520cf3-5c3f-4c0b-aa4a-5985e6f522bf/submitter"
+    },
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/37520cf3-5c3f-4c0b-aa4a-5985e6f522bf"
+    }
+  }
+}

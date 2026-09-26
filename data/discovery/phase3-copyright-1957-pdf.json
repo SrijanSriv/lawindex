@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/696240f0-b1ef-42f3-972d-9d03b1a6066f/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/696240f0-b1ef-42f3-972d-9d03b1a6066f/content",
+  "http_status": 200,
+  "curl_exit_code": 0,
+  "content_type": "application/pdf",
+  "fetched_at_utc": "2026-09-21T19:42:05.245495+00:00",
+  "sha256": "fc1e8ab7dee763fcda531eedc44de835c8e2bc4b9aaaf8cf29730e45b4289523",
+  "bytes": 615402,
+  "body_path": "data/discovery/phase3-copyright-1957-pdf.body",
+  "note": "Exact copy of retained Phase 3 HTTP bytes; not a new acquisition. Receipt in data/phase3/acquisition/acts/copyright-1957.json"
+}

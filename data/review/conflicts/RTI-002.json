@@ -1,0 +1,17 @@
+{
+  "issue_id": "RTI-002",
+  "scope": {"act_slug": "rti-2005", "provision_key": "rti-2005:6", "field": "dc.identifier.page_number vs. verified PDF anchor"},
+  "observations": [
+    {"representation": "structured_metadata", "field": "dc.identifier.page_number", "value": "7"},
+    {"representation": "pdf_verified_anchor", "capture": "rti-2005-pdf", "sha256": "c1ef189ec4f34d4f346886d6c2fc4a6e8aec2da0eedcfeff9c10401ec9cfb2f5", "pdf_page": 9}
+  ],
+  "classification": "anchor",
+  "selected_representation": "pdf_verified_anchor",
+  "selected_value_rationale": "The source-provided page hint (7) is preserved as metadata but is not used as the anchor. The importer independently locates and verifies section 6 text on PDF page 9 of the exact retained file hash and uses that as the bound anchor.",
+  "review_evidence_ref": "data/review/rti-2005-section-6.review.json",
+  "disposition": "selected_with_disclosed_conflict",
+  "admission": {"pdf_verified_anchor": "admitted", "source_page_hint": "retained_as_metadata_only"},
+  "recheck_trigger": ["source_sha256_change:rti-2005-pdf"],
+  "legal_effect_determined": false,
+  "generalization_warning": "Do not infer a universal offset (e.g. +2) from this single fixture; each provision's anchor must be independently verified against its own retained file."
+}

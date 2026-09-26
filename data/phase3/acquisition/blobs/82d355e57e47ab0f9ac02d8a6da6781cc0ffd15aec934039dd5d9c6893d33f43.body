@@ -1,0 +1,58 @@
+{
+  "_embedded" : {
+    "bitstreams" : [ {
+      "id" : "8a8b564a-d85c-4143-8588-94e607ea79e0",
+      "uuid" : "8a8b564a-d85c-4143-8588-94e607ea79e0",
+      "name" : "a2003-12.pdf",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "a2003-12.pdf",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "bundleName" : "ORIGINAL",
+      "sizeBytes" : 523245,
+      "checkSum" : {
+        "checkSumAlgorithm" : "MD5",
+        "value" : "5ce95dd6c5c53d02c71ba8ae8e390fe0"
+      },
+      "sequenceId" : 1,
+      "type" : "bitstream",
+      "_links" : {
+        "content" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/8a8b564a-d85c-4143-8588-94e607ea79e0/content"
+        },
+        "bundle" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/8a8b564a-d85c-4143-8588-94e607ea79e0/bundle"
+        },
+        "accessStatus" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/8a8b564a-d85c-4143-8588-94e607ea79e0/accessStatus"
+        },
+        "format" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/8a8b564a-d85c-4143-8588-94e607ea79e0/format"
+        },
+        "thumbnail" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/8a8b564a-d85c-4143-8588-94e607ea79e0/thumbnail"
+        },
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/8a8b564a-d85c-4143-8588-94e607ea79e0"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 1
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/core/bundles/ea9fc5ec-e0e8-4945-80e6-58b90c5bb7d2/bitstreams?size=100"
+    }
+  }
+}

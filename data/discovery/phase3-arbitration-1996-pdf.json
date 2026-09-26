@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/c368a901-3738-47f6-acb8-9885147945ec/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/c368a901-3738-47f6-acb8-9885147945ec/content",
+  "http_status": 200,
+  "curl_exit_code": 0,
+  "content_type": "application/pdf",
+  "fetched_at_utc": "2026-09-21T19:45:22.109179+00:00",
+  "sha256": "6fb32e5ffe2581740345d948c1e362bfbb5018ca7958932cde8ca92436485b6c",
+  "bytes": 845504,
+  "body_path": "data/discovery/phase3-arbitration-1996-pdf.body",
+  "note": "Exact copy of retained Phase 3 HTTP bytes; not a new acquisition. Receipt in data/phase3/acquisition/acts/arbitration-1996.json"
+}

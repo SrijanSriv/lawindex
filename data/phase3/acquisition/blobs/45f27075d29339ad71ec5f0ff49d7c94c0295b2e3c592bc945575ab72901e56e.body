@@ -1,0 +1,243 @@
+{
+  "id" : "63a1a7f4-fc92-49c3-808b-6f0bc3ede89c",
+  "uuid" : "63a1a7f4-fc92-49c3-808b-6f0bc3ede89c",
+  "name" : "The Mental Healthcare Act, 2017",
+  "handle" : "123456789/495991",
+  "metadata" : {
+    "dc.date.accessioned" : [ {
+      "value" : "2026-07-10T20:10:10Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.act_year" : [ {
+      "value" : "2017",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.enact_date" : [ {
+      "value" : "2017-04-07",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.enforcement_date" : [ {
+      "value" : "29-05-2018",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2017-04-07",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.last_modified" : [ {
+      "value" : "2018-12-27",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "Summary of the Mental Health Care Act, 2017\n•\tAct Name: The Mental Healthcare Act, 2017\n•\tExtent: Whole of India\n•\tObjective: Provide mental healthcare and services, protect, promote, and fulfill the rights of persons with mental illness, with a structured governance framework.\nGovernance & Decision Making\n•\tCentral Mental Health Authority (CMHA) & State Mental Health Authorities: Oversee mental healthcare, register establishments, and set norms. Decision Making: Authorities may have a presiding member with a second or casting vote to ensure decisive governance.\n•\tMental Health Review Boards (MHRBs): Review admissions, treatments, and decisions, ensuring patient rights.\nKey Provisions\n•\tAdvance Directives: Allowed for mental healthcare decisions.\n•\tNominated Representatives: Can be appointed for decision-making in the patient's best interest.\n•\tEmergency Treatment: Permitted without consent in life-threatening situations, with strict limitations.\n•\tProhibited Procedures: Electro-convulsive therapy without anesthesia, for minors, and psychosurgery without consent and Board approval.\nPenalties & Protections\n•\tPenalties: For unauthorized mental health establishments and violations.\n•\tProtection of Action Taken in Good Faith: For professionals acting in good faith.\n•\tOverriding Effect: This Act supersedes conflicting laws.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.act_id" : [ {
+      "value" : "AC_CEN_12_13_00024_201710_1517807327874",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.act_number" : [ {
+      "value" : "10",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.collection" : [ {
+      "value" : "ACT",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.department_id" : [ {
+      "value" : "13",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.department_name" : [ {
+      "value" : "Department of Health and Family Welfare",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.givenid" : [ {
+      "value" : "201710",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.ministry_id" : [ {
+      "value" : "12",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.ministry_name" : [ {
+      "value" : "Ministry of Health and Family Welfare",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.notification_no" : [ {
+      "value" : "S.O. 2173(E), Part II, sec. 3(ii).",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.preamble_description" : [ {
+      "value" : "<center style=\"font-size: 17px;\">THE MENTAL HEALTHCARE ACT, 2017</center> <center style=\"font-size: 16px;\">ACT NO. 10 OF 2017</center> <p style=\"text-align:right;\">[<i>7th April, 2017.</i>]</p> An Act to provide for mental healthcare and services for persons with mental illness and to protect, promote and fulfil the rights of such persons during delivery of mental healthcare and services and for matters connected therewith or incidental thereto.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>WHEREAS the Convention on Rights of Persons with Disabilities and its Optional Protocol was adopted on the 13th December, 2006 at United Nations Headquarters in New York and came into force on the 3rd May, 2008;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>AND WHEREAS India has signed and ratified the said Convention on the 1st day of October, 2007;<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>AND WHEREAS it is necessary to align and harmonise the existing laws with the said Convention.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>BE it enacted by Parliament in the Sixty-eighth Year of the Republic of India as follows:---",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.refact" : [ {
+      "value" : "0",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.reference_sites" : [ {
+      "value" : "Ministry of Health and Family Welfare  https://www.mohfw.gov.in/",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Department of Health and Family Welfare https://www.mohfw-dohfw.gov.in/",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Concerned Ministry/Department Acts and Rules https://www.mohfw-dohfw.gov.in/documents/acts-and-policies/list-of-acts-rules-regulations-faqs-of-department-of-heath-and-family-welfare-ADN5EjNtQWa",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    } ],
+    "dc.identifier.repealed" : [ {
+      "value" : "false",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.state_id" : [ {
+      "value" : "1",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.state_name" : [ {
+      "value" : "CENTRAL",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "http://test1.indiacode.nic.in/handle/123456789/495991",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title" : [ {
+      "value" : "The Mental Healthcare Act, 2017",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title.long_title" : [ {
+      "value" : "An Act to provide for mental healthcare and services for persons with mental illness and to protect, promote and fulfil the rights of such persons during delivery of mental healthcare and services and for matters connected therewith or incidental thereto.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "Social",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2026-09-12T18:06:35.938644Z",
+  "entityType" : null,
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/63a1a7f4-fc92-49c3-808b-6f0bc3ede89c/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/63a1a7f4-fc92-49c3-808b-6f0bc3ede89c/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/63a1a7f4-fc92-49c3-808b-6f0bc3ede89c/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/63a1a7f4-fc92-49c3-808b-6f0bc3ede89c/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/63a1a7f4-fc92-49c3-808b-6f0bc3ede89c/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/63a1a7f4-fc92-49c3-808b-6f0bc3ede89c/relationships"
+    },
+    "version" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/63a1a7f4-fc92-49c3-808b-6f0bc3ede89c/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/63a1a7f4-fc92-49c3-808b-6f0bc3ede89c/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/63a1a7f4-fc92-49c3-808b-6f0bc3ede89c/thumbnail"
+    },
+    "submitter" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/63a1a7f4-fc92-49c3-808b-6f0bc3ede89c/submitter"
+    },
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/63a1a7f4-fc92-49c3-808b-6f0bc3ede89c"
+    }
+  }
+}

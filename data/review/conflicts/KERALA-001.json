@@ -1,0 +1,41 @@
+{
+  "issue_id": "KERALA-001",
+  "scope": {"act_slug": "kerala-name-2026", "provision_key": null, "field": "enactment date"},
+  "observations": [
+    {"representation": "collection_listing", "value": "25-08-2026", "value_field_label": "enactment-date column (as narratively described during Phase 0 discovery; the raw listing API/HTML response itself was not retained, only a rendered-browser description)"},
+    {"representation": "act_details_page", "value": "14-08-2026", "value_field_label": "dc.date.enact_date / Enact Date row"}
+  ],
+  "classification": "metadata",
+  "investigation_pass2": {
+    "performed_by": "data/review/reviewer-pass2.json",
+    "method": "Rendered and visually inspected the retained Kerala PDF's cover page and Act-preamble page (data/discovery/derived/kerala-name-2026-page-01.png, -page-4.png, -page-5.png), then cross-checked the same structural positions against the retained RTI Act PDF, whose enact_date_raw (15-06-2005) and last_modified_display (18-11-2025) are already independently known from structured metadata.",
+    "findings": [
+      "The Kerala PDF's own preamble page prints 'ACT NO. 18 OF 2026 [14th August, 2026.]' immediately before the 'An Act to alter the name of the State of Kerala' enacting clause -- exactly the position where the RTI PDF prints 'ACT NO. 22 OF 2005 [15th June, 2005.]', which independently and exactly equals RTI's known enact_date_raw. This is a calibrated, source-internal convention (2 of 2 sampled Acts agree), not a guess: the bracketed date in that position is the printed assent/enactment date.",
+      "The Kerala PDF's cover page prints '[As on the 25th August, 2026]', in exactly the position where the RTI PDF prints '[As on the 18th November, 2025]', which independently and exactly equals RTI's known last_modified_display (a consolidation-currency marker, not an enactment date).",
+      "Independently, section 1(2)'s footnote on the Kerala PDF reads '1. 25th day of August, 2026, vide Notifn. No. S.O. 4712 (E), dated 25th August, 2026, see Gazette of India, Extraordinary, Part II, s. 3 (ii).' -- i.e. 25 August 2026 is also this Act's commencement/appointed-day date, fixed by a separate government notification. This gives a second, independent, textually-confirmed reason 25 August 2026 is a real and important date for this Act that is nonetheless NOT the enactment date."
+    ],
+    "residual_uncertainty": "This investigation confirms, from retained PDF evidence and cross-Act calibration, which date concept each of the two ORIGINAL observations most likely represents. It does NOT independently confirm which backend field literally populated the '25 August 2026' figure in the live collection-listing UI, because Phase 0 only retained a narrative description of that listing (the raw listing API/HTML response was never captured -- see data/discovery/central-collection-page.body, which is only the client-rendered application shell, not list data). Confirming that exact field-population mechanism would require a fresh, live capture of the collection-listing response for this Act, which this session does not perform (no additional India Code requests are made; retained evidence only).",
+    "evidence": [
+      "data/discovery/kerala-name-2026-pdf.body",
+      "data/discovery/derived/kerala-name-2026.txt",
+      "data/discovery/derived/kerala-name-2026-page-01.png",
+      "data/discovery/derived/kerala-name-2026-page-4.png",
+      "data/discovery/derived/kerala-name-2026-page-5.png",
+      "data/discovery/derived/rti-2005.txt (calibration reference)"
+    ]
+  },
+  "selected_representation": "act_details_page",
+  "selected_value_rationale": "14-08-2026 is the Act's own printed enactment/assent date, confirmed by direct visual inspection and by a convention independently calibrated against the RTI Act in this same corpus. 25-08-2026 is not treated as a competing enactment-date claim; retained PDF evidence shows it corresponds to two other well-defined, textually-confirmed date concepts (this PDF's 'as on' consolidation-currency marker, and this Act's commencement/appointed-day notification date) -- neither of which is the enactment date.",
+  "review_evidence_ref": "data/review/conflicts/KERALA-001.json#investigation_pass2",
+  "disposition": "resolved_by_calibrated_evidence",
+  "resolution": {
+    "resolved": true,
+    "field": "canonical_enactment_date",
+    "value": "14-08-2026",
+    "confidence_note": "High confidence on 'what is the enactment date' (direct textual evidence, calibrated convention). Not a claim of current legal effect, and not a confirmation of the live listing UI's internal field mapping -- see residual_uncertainty above."
+  },
+  "admission": {"document_metadata": "excluded_from_first_slice", "canonical_enactment_date": "resolved_to_14-08-2026"},
+  "recheck_trigger": ["a retained live-listing capture for this Act contradicts this resolution"],
+  "legal_effect_determined": false,
+  "scope_note": "This fixture stays outside the ten-Act phase1_candidate slice and outside the reviewed provisions slice regardless of this date resolution; resolving the enactment date does not lift the quarantine or admit any provision text for this Act. That remains a separate, unchanged decision."
+}

@@ -1,0 +1,54 @@
+{
+  "provision_key": "rti-2005:6",
+  "act_slug": "rti-2005",
+  "act_uuid": "37520cf3-5c3f-4c0b-aa4a-5985e6f522bf",
+  "section_number": "6",
+  "heading": "Request for obtaining information.",
+  "selected_representation": "structured_html",
+  "selected_representation_reason": "The structured dc.identifier.section_page_note HTML for section 6 was compared clause-by-clause against the retained PDF (pdftotext extraction of page index 8, i.e. printed PDF page 9) and against the rendered page image data/discovery/derived/rti-2005-page-9.png. Wording, clause markers (1)/(2)/(3), (a)/(b), (i)/(ii), and the two provisos match exactly. Differences are formatting-only (HTML uses '--' where the PDF renders an em dash, and HTML uses <br/>/<hr/> for paragraph breaks). No substantive conflict was found for section 6 text itself.",
+  "source_representation": {
+    "kind": "structured_html",
+    "capture": "rti-sections-page-0",
+    "sha256": "343f0d19662e38e02e33934d6e2340e1cf498576e54fdc1e539758846aa52f5b",
+    "field": "dc.identifier.section_page_note",
+    "section_item_uuid": "822280bc-89b4-4a39-aa10-72163b7c22f6"
+  },
+  "pdf_anchor": {
+    "capture": "rti-2005-pdf",
+    "sha256": "c1ef189ec4f34d4f346886d6c2fc4a6e8aec2da0eedcfeff9c10401ec9cfb2f5",
+    "pdf_page_from": 9,
+    "pdf_page_to": 9,
+    "pdf_page_note": "RTI-002: source metadata dc.identifier.page_number reports '7'; the verified PDF anchor for this retained file is printed/PDF page 9. Both are preserved; the source hint is not treated as the anchor.",
+    "source_page_hint_raw": "7"
+  },
+  "review": {
+    "reviewer_ref": "data/review/reviewer.json",
+    "scope": "Compared full section 6 text (subsections (1)-(3), both provisos, clause markers) between structured HTML, pdftotext extraction, and the rendered PDF page 9 image. Verified the section heading, clause boundaries, and the transfer proviso wording survive intact.",
+    "evidence": [
+      "data/discovery/rti-sections-page-0.body",
+      "data/discovery/derived/rti-2005.txt",
+      "data/discovery/derived/rti-2005-page-9.png",
+      "data/discovery/derived/rti-section-6.json"
+    ],
+    "checked_scope": "whole_provision_including_footnotes_and_provisos",
+    "footnotes_present": false
+  },
+  "known_conflicts": ["RTI-002"],
+  "classification": "formatting_only_verified_equivalent",
+  "disposition": "verified_equivalent",
+  "admission_status": "admitted",
+  "watermark_stripping_rule": "The retained PDF renders a diagonal 'IndiaCode' watermark. pdftotext -layout emits it as five standalone, heavily right-indented lines per page reading 'In', 'di', 'aC', 'od', 'e' (reversed, they spell IndiaCode). These exact five tokens, each alone on a line with 10+ leading spaces, are stripped by the offline importer as a documented, tested normalization rule; no other text is altered. See scripts/offline_importer.py WATERMARK_LINE_RE.",
+  "extraction_method_version": "offline-importer-v2",
+  "expected_output": {
+    "body_text_sha256": "2dd2b9b6d5a14ef0e449a9188c2f3a6574ded936c31c9835ba7d585b65476531",
+    "footnote_text_sha256": "no-footnote-expected",
+    "established_by": "data/review/reviewer-remediation.json",
+    "established_note": "Digest baseline established during the 2026-09-20 remediation session (docs/phase-0/INSPECTION_FOLLOWUP.md Finding 1), NOT during the original review above -- it did not exist then. It was computed by re-running the current extraction pipeline against the exact retained source bytes this record already binds to (source_representation.sha256 and pdf_anchor.sha256), and confirming the result against this record's own review.scope and evidence, not by trusting the run's own output uninspected. Reconfirmed byte-identical during the 2026-09-21 page-footer extraction fix (data/review/reviewer-remediation-2.json): this provision's body text comes from the structured_html representation, not PDF extraction, so it was never affected by that bug. Only extraction_method_version above was bumped, to keep this record's admission bound to the current (fixed) code version rather than the one it was actually last re-run against."
+  },
+  "recheck_triggers": [
+    "source_sha256_change:rti-sections-page-0",
+    "source_sha256_change:rti-2005-pdf",
+    "extraction_method_version_change",
+    "expected_output_digest_mismatch"
+  ]
+}

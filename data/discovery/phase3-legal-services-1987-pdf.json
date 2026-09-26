@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/287546b4-d237-4ff1-8c79-09712f336adf/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/287546b4-d237-4ff1-8c79-09712f336adf/content",
+  "http_status": 200,
+  "curl_exit_code": 0,
+  "content_type": "application/pdf",
+  "fetched_at_utc": "2026-09-21T19:44:43.558878+00:00",
+  "sha256": "fb28f68a782d3e9dd398fcbb4564d82dceed6fd62ebd0e05dcaf749d5e899c59",
+  "bytes": 167903,
+  "body_path": "data/discovery/phase3-legal-services-1987-pdf.body",
+  "note": "Exact copy of retained Phase 3 HTTP bytes; not a new acquisition. Receipt in data/phase3/acquisition/acts/legal-services-1987.json"
+}

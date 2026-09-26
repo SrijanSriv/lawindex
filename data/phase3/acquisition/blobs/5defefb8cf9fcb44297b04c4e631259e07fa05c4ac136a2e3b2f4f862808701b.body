@@ -1,0 +1,237 @@
+{
+  "id" : "5a5bb080-385a-4542-8b8e-ac42e773708e",
+  "uuid" : "5a5bb080-385a-4542-8b8e-ac42e773708e",
+  "name" : "The Merchant Shipping Act, 2025",
+  "handle" : "123456789/496078",
+  "metadata" : {
+    "dc.date.accessioned" : [ {
+      "value" : "2026-07-10T20:10:23Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.act_year" : [ {
+      "value" : "2025",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.enact_date" : [ {
+      "value" : "2025-08-18",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.enforcement_date" : [ {
+      "value" : "15-03-2026",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.entry_date" : [ {
+      "value" : "2026-04-27",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2025-08-18",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "Summary of Merchant Shipping Act, 2025\nAct aligns Indian shipping laws with international maritime conventions, strengthens vessel safety, environmental protection, and seafarer welfare, while promoting the development of the Indian shipping industry and ensuring ease of doing business.\nKey Provisions\n1. Registration and Regulation of Vessels\nMandatory Registration: Indian vessels must be registered in accordance with the provisions of the Act.\nSurvey and Certification: Vessels are required to undergo periodic surveys, audits, and certification to ensure seaworthiness and compliance with safety standards.\n2. Seafarer Welfare and Maritime Education\nSeafarers' Rights: Provides for the welfare, training, certification, employment, and working conditions of seafarers.\nMaritime Education: Establishes standards for maritime education and training institutions to ensure competent maritime professionals.\n3. Safety and Environmental Protection\nSafety Measures: Prescribes requirements for vessel safety, security, emergency preparedness, and accident prevention.\nPollution Control: Provides measures for the prevention and containment of pollution from vessels and establishes liability for environmental damage.\n4. Maritime Liability and Investigation\nCompensation and Liability: Lays down provisions relating to collisions, maritime claims, limitation of liability, and compensation for oil pollution damage.\nMarine Casualty Investigation: Establishes procedures for investigating marine accidents, casualties, and wrecks to improve maritime safety.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.act_id" : [ {
+      "value" : "AC_CEN_198_0_00006_2025-24_1777264737276",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.act_number" : [ {
+      "value" : "24",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.collection" : [ {
+      "value" : "ACT",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.givenid" : [ {
+      "value" : "2025-24",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.ministry_id" : [ {
+      "value" : "198",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.ministry_name" : [ {
+      "value" : "Ministry of Ports, Shipping and Waterways",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.no_of_chapter" : [ {
+      "value" : "0",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.no_of_section" : [ {
+      "value" : "0",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.preamble_description" : [ {
+      "value" : "<center style=\"font-size: 17px;\">THE MERCHANT SHIPPING ACT, 2025 <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> ACT NO. 24 OF 2025</center><br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <p style=\"text-align:right;\">[18<i>th August,</i> 2025.]</p> <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> An Act to consolidate and amend the law relating to merchant shipping to ensure compliance with India's obligation under the maritime treaties and international instruments to which India is a party and also to ensure the development of Indian shipping and efficient maintenance of Indian mercantile marine in a manner best suited to serve the national interest and for matters connected therewith or incidental thereto.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>BE it enacted by Parliament in the Seventy-sixth Year of the Republic of India as follows:--- <br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/>",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.refact" : [ {
+      "value" : "0",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.reference_sites" : [ {
+      "value" : "Ministry of Ports, Shipping and Waterways https://shipmin.gov.in/",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Concerned Ministry/Department Acts and Rules https://shipmin.gov.in/en/act-and-rules/Act",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.identifier.repealed" : [ {
+      "value" : "false",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.state_id" : [ {
+      "value" : "1",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.state_name" : [ {
+      "value" : "CENTRAL",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "http://test1.indiacode.nic.in/handle/123456789/496078",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.legislation.history" : [ {
+      "value" : "Legislative History:\nThe Merchant Shipping Act, 2025 \n\nSource: Official Record of Parliament, India Code, and Ministry of Ports, Shipping and Waterways \n\nAct Title - The Merchant Shipping Act, 2025\nAct Number - Act No. 24 of 2025 \nAct ID (India Code) - 202524 \n Presidential Assent date - August 18, 2025 \n Enforcement Date - April 15, 2026\nNodal Ministry - Ministry of Ports, Shipping and Waterways \n\nPrecedent & Historical Rationale\n●\tOverhaul & Modernization of Legacy Maritime Laws: Repeals the sprawling Merchant Shipping Act, 1958 and the colonial-era Coasting Vessels Act, 1838, replacing 561 outdated sections with 325 streamlined clauses across 15 clean parts.\n●\tCompliance with Global Conventions & Seafarer Welfare: Codifies Indian obligations under key International Maritime Organization (IMO) and ILO conventions—including SOLAS, MARPOL, the Nairobi Wreck Removal Convention, and the Maritime Labour Convention (MLC, 2006). It expands vessel ownership eligibility (permitting OCIs, NRIs, and bareboat charters) and introduces unified \"Marine Casualty\" investigation protocols.\n \nParliamentary Trajectory & Enactment\n●\tFormulation: Introduced by the Union Minister of Ports, Shipping and Waterways, Shri Sarbananda Sonowal, as the Merchant Shipping Bill, 2024 (Bill No. 183C of 2024) to reduce compliance burdens, digitize ship registration, and support Maritime India Vision 2030.\n●\tParliamentary Passage: Introduced in the Lok Sabha on December 10, 2024; passed by the Lok Sabha on August 6, 2025; and passed by the Rajya Sabha on August 11, 2025.\n●\tPresidential Assent: Received the assent of the President of India on August 18, 2025.\n●\tEnforcement: Enforced on April 15, 2026.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title" : [ {
+      "value" : "The Merchant Shipping Act, 2025",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title.long_title" : [ {
+      "value" : "An Act to consolidate and amend the law relating to merchant shipping to ensure compliance with India's obligation under the maritime treaties and international instruments to which India is a party and also to ensure the development of Indian shipping and efficient maintenance of Indian mercantile marine in a manner best suited to serve the national interest and for matters connected therewith or incidental thereto.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "Economic",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2026-09-01T11:21:20.260186Z",
+  "entityType" : null,
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/5a5bb080-385a-4542-8b8e-ac42e773708e/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/5a5bb080-385a-4542-8b8e-ac42e773708e/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/5a5bb080-385a-4542-8b8e-ac42e773708e/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/5a5bb080-385a-4542-8b8e-ac42e773708e/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/5a5bb080-385a-4542-8b8e-ac42e773708e/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/5a5bb080-385a-4542-8b8e-ac42e773708e/relationships"
+    },
+    "version" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/5a5bb080-385a-4542-8b8e-ac42e773708e/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/5a5bb080-385a-4542-8b8e-ac42e773708e/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/5a5bb080-385a-4542-8b8e-ac42e773708e/thumbnail"
+    },
+    "submitter" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/5a5bb080-385a-4542-8b8e-ac42e773708e/submitter"
+    },
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/5a5bb080-385a-4542-8b8e-ac42e773708e"
+    }
+  }
+}

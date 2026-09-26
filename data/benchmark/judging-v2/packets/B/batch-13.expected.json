@@ -1,0 +1,47 @@
+{
+  "judge": "B",
+  "batch": 13,
+  "corpus_fingerprint": "sha256:0a0ad6cfbde118c65753fd3b10d36325f0167d25d7bc1ec0410bfb45ea18ff4e",
+  "queries": {
+    "B-143": [
+      "dpdp-2023:13",
+      "dpdp-2023:40",
+      "dpdp-2023:21",
+      "dpdp-2023:41",
+      "dpdp-2023:4",
+      "dpdp-2023:9"
+    ],
+    "B-144": [
+      "fcra-2010:23",
+      "fcra-2010:42"
+    ],
+    "B-145": [
+      "arbitration-1996:42B",
+      "arbitration-1996:66",
+      "arbitration-1996:68",
+      "arbitration-1996:3",
+      "arbitration-1996:59",
+      "arbitration-1996:50"
+    ],
+    "B-147": [
+      "mental-healthcare-2017:76",
+      "mental-healthcare-2017:49",
+      "mental-healthcare-2017:112",
+      "mental-healthcare-2017:38",
+      "mental-healthcare-2017:40",
+      "mental-healthcare-2017:118",
+      "mental-healthcare-2017:37"
+    ],
+    "B-158": [
+      "arbitration-1996:54",
+      "arbitration-1996:48",
+      "arbitration-1996:1",
+      "arbitration-1996:46",
+      "arbitration-1996:52"
+    ],
+    "B-159": [
+      "food-security-2013:39",
+      "food-security-2013:45"
+    ]
+  }
+}

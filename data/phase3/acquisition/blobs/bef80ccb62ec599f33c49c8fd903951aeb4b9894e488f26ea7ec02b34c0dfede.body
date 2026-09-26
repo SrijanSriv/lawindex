@@ -1,0 +1,58 @@
+{
+  "_embedded" : {
+    "bitstreams" : [ {
+      "id" : "52f9ecbb-b927-4ba6-ae6f-ca2fac50d4df",
+      "uuid" : "52f9ecbb-b927-4ba6-ae6f-ca2fac50d4df",
+      "name" : "a2023-22.pdf",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "a2023-22.pdf",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "bundleName" : "ORIGINAL",
+      "sizeBytes" : 382467,
+      "checkSum" : {
+        "checkSumAlgorithm" : "MD5",
+        "value" : "fb46e9c3389fc29a88bdd34cb5356112"
+      },
+      "sequenceId" : 1,
+      "type" : "bitstream",
+      "_links" : {
+        "content" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/52f9ecbb-b927-4ba6-ae6f-ca2fac50d4df/content"
+        },
+        "bundle" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/52f9ecbb-b927-4ba6-ae6f-ca2fac50d4df/bundle"
+        },
+        "accessStatus" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/52f9ecbb-b927-4ba6-ae6f-ca2fac50d4df/accessStatus"
+        },
+        "format" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/52f9ecbb-b927-4ba6-ae6f-ca2fac50d4df/format"
+        },
+        "thumbnail" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/52f9ecbb-b927-4ba6-ae6f-ca2fac50d4df/thumbnail"
+        },
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/52f9ecbb-b927-4ba6-ae6f-ca2fac50d4df"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 1
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/core/bundles/0f8d55d1-edab-4a75-9223-c5ddf86d9ce2/bitstreams?size=100"
+    }
+  }
+}

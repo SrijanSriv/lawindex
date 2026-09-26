@@ -1,0 +1,344 @@
+{
+  "id" : null,
+  "scope" : null,
+  "query" : null,
+  "appliedFilters" : [ {
+    "filter" : "identifier_collection",
+    "operator" : "equals",
+    "value" : "ACT",
+    "label" : "ACT"
+  }, {
+    "filter" : "title",
+    "operator" : "contains",
+    "value" : "Competition Act, 2002",
+    "label" : "Competition Act, 2002"
+  } ],
+  "sort" : null,
+  "configuration" : null,
+  "type" : "discover",
+  "_links" : {
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT,equals&f.title=Competition%20Act,%202002,contains"
+    }
+  },
+  "_embedded" : {
+    "searchResult" : {
+      "_embedded" : {
+        "objects" : [ {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/679c33d2-a217-4e57-8e28-51dd4208371f"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "679c33d2-a217-4e57-8e28-51dd4208371f",
+              "uuid" : "679c33d2-a217-4e57-8e28-51dd4208371f",
+              "name" : "The Competition Act, 2002",
+              "handle" : "123456789/496125",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-10T20:10:31Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "2003",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enact_date" : [ {
+                  "value" : "2003-01-13",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.enforcement_date" : [ {
+                  "value" : "31-03-2003",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2003-01-13",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.last_modified" : [ {
+                  "value" : "2019-11-29",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_id" : [ {
+                  "value" : "AC_CEN_22_29_00005_200312_1517807324781",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "12",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "ACT",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.givenid" : [ {
+                  "value" : "200312",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_id" : [ {
+                  "value" : "22",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.ministry_name" : [ {
+                  "value" : "Ministry of Corporate Affairs",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.notification_no" : [ {
+                  "value" : "31st March, 2003 s. 1, cls. (d), (g), (j), (k), (l) and (n) of s. 2, ss. 8, 9, 10, 14, 16, 17, sub-sec. (1) of s. 63, cls. (a), (b), (d), (e), (f) and (g) of sub-sec. (2) of s. 63; 19th June, 2003 s. 2 except cls. (d), (g), (j), (k), (l) and (n), ss. 7, 11, 12, 13, 15, 22, 23, 36, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, s. 63 except cls. (a), (b), (d), (e), (f), (g) and (n) of sub-sec. (2), 64, 65",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.preamble_description" : [ {
+                  "value" : "<center style=\"font-size: 17px;\">THE COMPETITION ACT, 2002</center> <center style=\"font-size: 16px;\">ACT NO. 12 OF 2003</center> <p style=\"text-align:right;\">[13th January, 2003.]</p> An Act to provide, keeping in view of the economic development of the country, for the establishment of a Commission to prevent practices having adverse effect on competition, to promote and sustain competition in markets, to protect the interests of consumers and to ensure freedom of trade carried on by other participants in markets, in India, and for matters connected therewith or incidental thereto.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>BE it enacted by Parliament in the Fifty-third Year of the Republic of India as follows:--",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.refact" : [ {
+                  "value" : "0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.repealed" : [ {
+                  "value" : "false",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_id" : [ {
+                  "value" : "1",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.state_name" : [ {
+                  "value" : "CENTRAL",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test1.indiacode.nic.in/handle/123456789/496125",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "The Competition Act, 2002",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title.long_title" : [ {
+                  "value" : "An Act to provide, keeping in view of the economic development of the country, for the establishment of a Commission to prevent practices having adverse effect on competition, to promote and sustain competition in markets, to protect the interests of consumers and to ensure freedom of trade carried on by other participants in markets, in India, and for matters connected therewith or incidental thereto.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-08-11T23:38:34.500476Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/679c33d2-a217-4e57-8e28-51dd4208371f/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/679c33d2-a217-4e57-8e28-51dd4208371f/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/679c33d2-a217-4e57-8e28-51dd4208371f/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/679c33d2-a217-4e57-8e28-51dd4208371f/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/679c33d2-a217-4e57-8e28-51dd4208371f/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/679c33d2-a217-4e57-8e28-51dd4208371f/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/679c33d2-a217-4e57-8e28-51dd4208371f/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/679c33d2-a217-4e57-8e28-51dd4208371f/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/679c33d2-a217-4e57-8e28-51dd4208371f/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/679c33d2-a217-4e57-8e28-51dd4208371f/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/679c33d2-a217-4e57-8e28-51dd4208371f"
+                }
+              }
+            }
+          }
+        } ]
+      },
+      "page" : {
+        "number" : 0,
+        "size" : 100,
+        "totalPages" : 1,
+        "totalElements" : 1
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT,equals&f.title=Competition Act, 2002,contains&size=100"
+        }
+      }
+    },
+    "facets" : [ {
+      "name" : "author",
+      "facetType" : "text",
+      "facetLimit" : 5,
+      "openByDefault" : true,
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/author?f.identifier_collection=ACT,equals&f.title=Competition Act, 2002,contains"
+        }
+      },
+      "_embedded" : {
+        "values" : [ ]
+      }
+    }, {
+      "name" : "subject",
+      "facetType" : "hierarchical",
+      "facetLimit" : 5,
+      "openByDefault" : false,
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/subject?f.identifier_collection=ACT,equals&f.title=Competition Act, 2002,contains"
+        }
+      },
+      "_embedded" : {
+        "values" : [ ]
+      }
+    }, {
+      "name" : "dateIssued",
+      "facetType" : "date",
+      "facetLimit" : 5,
+      "minValue" : "0002-11-30",
+      "maxValue" : "9668-11-25",
+      "openByDefault" : false,
+      "page" : {
+        "number" : 0,
+        "size" : 5
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/dateIssued?f.identifier_collection=ACT,equals&f.title=Competition Act, 2002,contains&size=5"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "2003",
+          "count" : 1,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT,equals&f.title=Competition%20Act,%202002,contains&f.dateIssued=2003,equals"
+            }
+          }
+        } ]
+      }
+    }, {
+      "name" : "identifier_collection",
+      "facetType" : "text",
+      "facetLimit" : 10,
+      "openByDefault" : true,
+      "page" : {
+        "number" : 0,
+        "size" : 10
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/identifier_collection?f.identifier_collection=ACT,equals&f.title=Competition Act, 2002,contains&size=10"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "ACT",
+          "count" : 1,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT,equals&f.identifier_collection=ACT,equals&f.title=Competition%20Act,%202002,contains"
+            }
+          }
+        } ]
+      }
+    }, {
+      "name" : "itemtype",
+      "facetType" : "text",
+      "facetLimit" : 5,
+      "openByDefault" : true,
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/itemtype?f.identifier_collection=ACT,equals&f.title=Competition Act, 2002,contains"
+        }
+      },
+      "_embedded" : {
+        "values" : [ ]
+      }
+    } ]
+  }
+}

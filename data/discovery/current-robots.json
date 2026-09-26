@@ -1,0 +1,14 @@
+{
+  "requested_url": "https://indiacode.gov.in/robots.txt",
+  "effective_url": "https://indiacode.gov.in/robots.txt",
+  "fetched_at_utc": "2026-09-20T06:01:01.069994+00:00",
+  "http_status": 502,
+  "content_type": "text/html",
+  "curl_exit_code": 0,
+  "error": null,
+  "bytes": 150,
+  "sha256": "61b30d408583991fd69f3dec694e154cb652471e663328ad9c8482c9021ab5db",
+  "body_path": "data/discovery/current-robots.body",
+  "elapsed_seconds": 0.160603,
+  "note": "HTTP success alone does not establish valid source content; inspect body."
+}

@@ -1,0 +1,14 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/6d3f9e24-6cd6-430c-9f38-b4b3b11ce348/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/6d3f9e24-6cd6-430c-9f38-b4b3b11ce348/content",
+  "fetched_at_utc": "2026-09-20T06:10:01.172307+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf;charset=UTF-8",
+  "curl_exit_code": 0,
+  "error": null,
+  "bytes": 306206,
+  "sha256": "b00ce2f336413b2805eedc8974925949e9e1ea45158393a6d5cfd641c7501252",
+  "body_path": "data/discovery/kerala-name-2026-pdf.body",
+  "elapsed_seconds": 0.468479,
+  "note": "HTTP success alone does not establish valid source content; inspect body."
+}

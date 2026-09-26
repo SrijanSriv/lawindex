@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+data/import/
+.venv/
+data/index/
+# Local source evidence is not a cleared public corpus distribution.
+data/discovery/*.body
+data/discovery/derived/

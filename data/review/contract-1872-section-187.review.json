@@ -1,0 +1,64 @@
+{
+  "provision_key": "contract-1872:187",
+  "act_slug": "contract-1872",
+  "act_uuid": "0e782442-f035-4d53-aace-81b1552a8cf2",
+  "section_number": "187",
+  "heading": "Definitions of express and implied authority.",
+  "selected_representation": "structured_html",
+  "selected_representation_reason": "Whole body agrees with the retained PDF at normalization level quote; admitted under this Act's sampled visual review, not individually compared.",
+  "source_representation": {
+    "kind": "structured_html",
+    "capture": "phase3-contract-1872-sections-page-1",
+    "sha256": "8c182788a1bf69613008bee1bf3cf8b845033e4130f7dc3965d2fbb6e996c8b9",
+    "field": "dc.identifier.section_page_note",
+    "section_item_uuid": "d602d4f1-7677-4fa3-bcaf-b374f5fde800",
+    "act_id": "AC_CEN_3_20_00035_187209_1523268996428"
+  },
+  "pdf_anchor": {
+    "capture": "phase3-contract-1872-pdf",
+    "sha256": "85a7a066098255c93001d678aeaf483f91d3080918363c03b78d40c3eeb8b386",
+    "pdf_page_from": 43,
+    "pdf_page_to": 43
+  },
+  "agreement": {
+    "normalization_level": 2,
+    "normalizations": [
+      "dash",
+      "quote"
+    ],
+    "page_break_gap_count": 0,
+    "footnote_normalization_level": null,
+    "method": "enumerated typographic normalization applied to both representations"
+  },
+  "review": {
+    "reviewer_ref": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "review_class": "text_agreement_sampled_visual",
+    "checked_scope": "act_sample_plus_whole_body_automated_agreement",
+    "visually_reviewed": false,
+    "footnotes_present": false,
+    "sample_plan": {
+      "path": "data/phase3/review-plans/contract-1872.json",
+      "sha256": "8d48b8d759fa8189e2497b6e333e27c46001d291e8706a364c82fecf379eae99",
+      "plan_digest": "3572203580d1471ed5bcbd9cc3d9175808ec5315c15d37d81a1e539eca2f946c",
+      "population_count": 200,
+      "selected_count": 36
+    },
+    "scope": "Each selected section was compared whole against its rendered PDF pages: heading, beginning and end, numbered parts, provisos and footnotes. Sections outside selected_keys were not looked at individually; they rest on automated whole-body agreement plus this sample.",
+    "evidence": [
+      "data/discovery/phase3-contract-1872-sections-page-1.body",
+      "data/discovery/phase3-contract-1872-pdf.body",
+      "data/phase3/review-plans/contract-1872.json"
+    ]
+  },
+  "known_conflicts": [],
+  "classification": "typographic_equivalence_verified",
+  "disposition": "verified_equivalent",
+  "admission_status": "admitted",
+  "extraction_method_version": "phase3-sampled-agreement-v1",
+  "expected_output": {
+    "body_text_sha256": "95f654b2acddb05264241af4e951d09e297e4ca6f11979f18f23a8288e9f0925",
+    "footnote_text_sha256": "no-footnote-expected",
+    "established_by": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "established_note": "Established by automated whole-body agreement recorded in the sample plan; individually compared only if visually_reviewed."
+  }
+}

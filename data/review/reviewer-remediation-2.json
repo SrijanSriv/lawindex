@@ -1,0 +1,29 @@
+{
+  "reviewer_id": "agent:claude-sonnet-5:2026-09-21-session4-footer-extraction-fix",
+  "reviewer_type": "automated_agent_review",
+  "is_independent_legal_expert_review": false,
+  "disclosure": "This is a second REMEDIATION session, performed by the same kind of AI coding agent (Claude Sonnet 5) that built the offline importer and its prior review/remediation records, on 2026-09-21, responding to a UI-phase browser review (docs/phase-1/REVIEW_FOLLOWUP.md, finding 3) that found a standalone PDF page-footer digit ('10' on RTI section 8, '4' on Environment section 3) inside admitted body text, between clause (i) and its continuation proviso for RTI section 8, and inside the sub-section (2) enumerated list for Environment section 3. It is not an independent reviewer in the sense of a different, disinterested party, and it is not an independent legal-expert review of any provision's meaning, currency, or applicability. No qualified human legal reviewer has signed off on any of this text.",
+  "session_date": "2026-09-21",
+  "root_cause": "scripts/offline_importer.py's extract_pdf_range() joined raw pdftotext -layout page output with only watermark stripping applied; it did not distinguish a PDF's own printed page-number footer (rendered by pdftotext as a lone, heavily right-indented digit line at the very end of each page) from legal text. A provision whose admitted range spans a page boundary -- rti-2005:8 (PDF pages 10-11) and environment-1986:3 (PDF pages 4-5) -- absorbed the donor page's trailing footer digit into the middle of its own body text. environment-1986:5A (single page 5, body ends before the section-6 heading which itself precedes the page-5 footer) and rti-2005:6 (structured_html representation, not PDF-extracted at all) were not affected.",
+  "fix": "Added scripts/offline_importer.py:strip_page_footers(), applied to each PDF's per-page text immediately after pdftotext_layout() and before extract_pdf_range() joins pages together. It removes a page's trailing line only when that line is digits-only AND textually equal to the page's own 1-based position in the extracted PDF -- an exact, verifiable identity that a legitimate in-body number (such as RTI section 8's own lone amendment-marker digit '1' preceding '[(j) information which relates to personal information;]', which is never the last line of a page) does not coincidentally share. Bumped EXTRACTION_METHOD_VERSION from 'offline-importer-v1' to 'offline-importer-v2' so this behavior change to extraction output is versioned rather than silently changing output under an unchanged version label (see docs/phase-0/INSPECTION_FOLLOWUP.md Finding 1 and data/review/reviewer-remediation.json, which is the existing safeguard this fix is itself now subject to).",
+  "expected_output_baseline_method": "For rti-2005:8 and environment-1986:3, re-ran the fixed extraction (pdftotext_layout -> strip_page_footers -> extract_pdf_range) against the exact retained source bytes those provisions' review records already bind to (source_representation.sha256), using the same declared PDF page ranges and section boundaries. Computed sha256 over the resulting body text (footnote text is unaffected in both cases: RTI section 8's footnote match is unrelated to a page boundary, and environment-1986:3 has no footnote). Visually re-confirmed the corrected text against the same retained page renders already cited by these provisions' original review records (data/discovery/derived/rti-2005-page-10.png, data/discovery/derived/environment-1986-page-04.png, -05.png): the footer digit is gone from the running text in both cases, and RTI section 8's amendment bracket '1 [(j) information which relates to personal information;]' is intact and unchanged. For rti-2005:6 and environment-1986:5A, re-ran the same fixed pipeline and confirmed their body_text_sha256/footnote_text_sha256 are byte-identical to the digests already recorded by data/review/reviewer-remediation.json -- these two provisions' admitted text is unchanged by this fix, only their extraction_method_version label was bumped to match the new code version.",
+  "digest_changes": {
+    "rti-2005:8": {
+      "body_text_sha256": {
+        "old": "bd82a40c51bd8c1bcd8260abb55de74a448ec0bea7a5b000f9c4a65bcbf877bc",
+        "new": "aa79a80a7994e80a87e09e706f713cb288b33cff7d4aee878423c42d3bc71c5e"
+      },
+      "footnote_text_sha256": "unchanged (8dedf6d2c2040c48b520ec914788aff5e08eab00d290c5dc10ff7b7bdf0a0679)"
+    },
+    "environment-1986:3": {
+      "body_text_sha256": {
+        "old": "871db79f624c7b58248d3091cd12fc811b06c0f142003ff6d36d4d0393695854",
+        "new": "a5e1930904d83ec0bfee89982087e1b74c957b5d0678e590ee038c2e05e27fe6"
+      },
+      "footnote_text_sha256": "unchanged (no-footnote-expected)"
+    },
+    "environment-1986:5A": "unchanged (4dccff1c08ab29e99633d9bdc2216c7b7d69f88285c2155a8b71f66576a0c7f7 / d3e94443b889287b3ac72f4f0f3773c3a5098171b9232482e6c4aac2dc2cc0e6) -- extraction_method_version label bumped only",
+    "rti-2005:6": "unchanged (2dd2b9b6d5a14ef0e449a9188c2f3a6574ded936c31c9835ba7d585b65476531 / no-footnote-expected) -- extraction_method_version label bumped only, and this provision is not PDF-extracted at all"
+  },
+  "supersedes_note": "Does not replace data/review/reviewer.json, data/review/reviewer-pass2.json, or data/review/reviewer-remediation.json for original text-fidelity provenance. This file is cited only by the updated extraction_method_version field and the updated expected_output digests on the four review records, to disclose this specific extraction bug fix."
+}

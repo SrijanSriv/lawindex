@@ -1,0 +1,224 @@
+{
+  "id" : "68f0e43a-9120-4028-8e08-0f63f5a0e061",
+  "uuid" : "68f0e43a-9120-4028-8e08-0f63f5a0e061",
+  "name" : "The Occupational Safety, Health and Working Conditions Code, 2020",
+  "handle" : "123456789/496701",
+  "metadata" : {
+    "dc.date.accessioned" : [ {
+      "value" : "2026-07-10T20:13:36Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.act_year" : [ {
+      "value" : "2020",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.enact_date" : [ {
+      "value" : "2020-09-28",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.enforcement_date" : [ {
+      "value" : "21-11-2025",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.entry_date" : [ {
+      "value" : "2025-12-01",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2020-09-28",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.last_modified" : [ {
+      "value" : "2025-12-03",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "Summary of The Code on Social Security, 2020\nOverview\n*Title: The Code on Social Security, 2020 *Scope: Consolidates and amends laws to extend social security to all employees and workers in India, including those in unorganized, gig, and platform sectors.\nKey Components\n1. Social Security Governance\n*Boards and Corporations:\n•\tEmployees' Provident Fund Board of Trustees (Central Board): Oversees provident fund schemes.\n•\tEmployees' State Insurance Corporation (Corporation): Manages health and insurance schemes.\n•\tNational and State Social Security Boards: Focus on unorganized workers' welfare.\n•\tState Building Workers' Welfare Boards: Dedicated to building construction workers.\n2. Coverage and Benefits\n*Unorganized, Gig, and Platform Workers:\n•\tMandatory Registration: With conditions (age, self-declaration, Aadhaar).\n•\tSchemes:\n•\tLife, Health, Old Age, Education benefits for unorganized workers.\n•\tSpecific schemes for gig and platform workers, funded by aggregators (1-2% of annual turnover).\n3. Governance and Regulatory Powers\n*Central Government:\n•\tPowers to frame schemes, make rules, and give directions.\n•\tAuthority to exempt aggregators under certain conditions. *State Government:\n•\tPower to make rules consistent with the Code for state-level implementation. *Corporation's Regulatory Powers:\n•\tMake regulations for the administration of its affairs and specified chapters.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.act_id" : [ {
+      "value" : "AC_CEN_6_0_00037_2020-37_1764583355013",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.act_number" : [ {
+      "value" : "37",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.collection" : [ {
+      "value" : "ACT",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.givenid" : [ {
+      "value" : "2020-37",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.ministry_id" : [ {
+      "value" : "6",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.ministry_name" : [ {
+      "value" : "Ministry of Labour and Employment",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.no_of_chapter" : [ {
+      "value" : "0",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.no_of_section" : [ {
+      "value" : "0",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.refact" : [ {
+      "value" : "0",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.reference_sites" : [ {
+      "value" : "Ministry of Labour and Employment https://www.labour.gov.in/",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.repealed" : [ {
+      "value" : "false",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.state_id" : [ {
+      "value" : "1",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.state_name" : [ {
+      "value" : "CENTRAL",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "http://test1.indiacode.nic.in/handle/123456789/496701",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title" : [ {
+      "value" : "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title.long_title" : [ {
+      "value" : "An Act to consolidate and amend the laws regulating the occupational safety, health and working conditions of the persons employed in an establishment and for matters connected therewith or incidental thereto.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "Social",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2026-08-11T23:43:50.023092Z",
+  "entityType" : null,
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/68f0e43a-9120-4028-8e08-0f63f5a0e061/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/68f0e43a-9120-4028-8e08-0f63f5a0e061/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/68f0e43a-9120-4028-8e08-0f63f5a0e061/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/68f0e43a-9120-4028-8e08-0f63f5a0e061/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/68f0e43a-9120-4028-8e08-0f63f5a0e061/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/68f0e43a-9120-4028-8e08-0f63f5a0e061/relationships"
+    },
+    "version" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/68f0e43a-9120-4028-8e08-0f63f5a0e061/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/68f0e43a-9120-4028-8e08-0f63f5a0e061/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/68f0e43a-9120-4028-8e08-0f63f5a0e061/thumbnail"
+    },
+    "submitter" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/68f0e43a-9120-4028-8e08-0f63f5a0e061/submitter"
+    },
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/68f0e43a-9120-4028-8e08-0f63f5a0e061"
+    }
+  }
+}

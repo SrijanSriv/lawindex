@@ -1,0 +1,591 @@
+{
+  "schema_version": 1,
+  "planner_version": "phase3-sample-plan-v1",
+  "parser_version": "phase3-html-pdf-agreement-v2",
+  "act_slug": "posh-2013",
+  "candidates_sha256": "5f37672a2e677a903e071007f68deeca39e53f4b0850cbe38c2a82bb38196c8e",
+  "pdf_sha256": "2c758fdba9409e931b6ee3add6c4068a90142d3cae49e23884553d964e52a9e6",
+  "source_acquisition_sha256": "73fd233920f7a61cca3013548d1b0384b99a33c0b212f151fd8d28a1e0c2ee9a",
+  "seed": "9737c6dd2e6505d50c7dc3c38ef6e33a8d9c675ccbdbbc11c2b9ea01253c525c",
+  "selection_rule": {
+    "mandatory": "every aligned candidate with a footnote or a page-break footnote gap",
+    "stratified": "per most-tolerant-normalization stratum, max(2, ceil(10%))",
+    "deterministic": "seed = sha256(planner_version|act_slug|candidates_sha256); re-running cannot re-roll the sample"
+  },
+  "population": [
+    {
+      "key": "posh-2013:1",
+      "section_number": "1",
+      "heading": "Short title, extent and commencement.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 3,
+      "pdf_page_to": 3,
+      "body_text_sha256": "2b74a5e664401699da5ff5c2e32c80b96018d9a57958418bc827fe97b1f3f9b0",
+      "footnote_text_sha256": "7308b671140062a6c6d6e34723085820c5d7a41bb91b387a7b16948d3f9d1609",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "e42b70d6-eabd-45ee-8622-c1e7476cc784"
+    },
+    {
+      "key": "posh-2013:10",
+      "section_number": "10",
+      "heading": "Conciliation.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 8,
+      "pdf_page_to": 8,
+      "body_text_sha256": "9796b9d54f5cd25d49946dd5c0b91b995d9b038351c5ea88ee4c5a3c8e7daf80",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "c8977896-9bb0-4fb7-9ebc-8da8e7a79568"
+    },
+    {
+      "key": "posh-2013:11",
+      "section_number": "11",
+      "heading": "Inquiry into complaint.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 8,
+      "pdf_page_to": 9,
+      "body_text_sha256": "78752cd3a7a459bddf2f5b56957904668ff0dbabaabee9a1dd1ca234e7b0ff19",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "415bf722-0908-480b-a1c8-c2863602e8b4"
+    },
+    {
+      "key": "posh-2013:12",
+      "section_number": "12",
+      "heading": "Action during pendency of inquiry.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 9,
+      "pdf_page_to": 9,
+      "body_text_sha256": "1c7aa5a8b0550d34fd0f98fe5ce19aca8c086fe4e459c92e178c06e43339bce4",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "556e672f-ce35-4d19-8cf9-0b22aeb8029a"
+    },
+    {
+      "key": "posh-2013:13",
+      "section_number": "13",
+      "heading": "Inquiry report.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 9,
+      "pdf_page_to": 10,
+      "body_text_sha256": "07752440cb85b0f3f9ed0715bbce66040a4b56a0798035ef69b094c1d685328c",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "b7ade06e-fc55-40d7-a7c2-eed45c150bca"
+    },
+    {
+      "key": "posh-2013:14",
+      "section_number": "14",
+      "heading": "Punishment for false or malicious complaint and false evidence.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 10,
+      "pdf_page_to": 10,
+      "body_text_sha256": "6493dca3cdab3aec1bbe88d48e1c5dd9054d1d034bd28e8c59e4b13e34b9b8d1",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "54b896cc-6ac0-41cf-9a43-1bc201a02765"
+    },
+    {
+      "key": "posh-2013:15",
+      "section_number": "15",
+      "heading": "Determination of compensation.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 10,
+      "pdf_page_to": 10,
+      "body_text_sha256": "d8257c1ebfff782bb85c7d449a00e819bc1c46937cfa300fb7e1b646fe39954a",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "40e0cc7a-11b1-4d64-ae49-8ae9d7d80379"
+    },
+    {
+      "key": "posh-2013:16",
+      "section_number": "16",
+      "heading": "Prohibition of publication or making known contents of complaint and inquiry proceedings.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 11,
+      "pdf_page_to": 11,
+      "body_text_sha256": "e466b4b1e62e4e020a0cbdd415f0623fede857729b505d24bbb4e3255ff780bc",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "92fdb549-ce03-4507-9f80-02e02e6e602e"
+    },
+    {
+      "key": "posh-2013:17",
+      "section_number": "17",
+      "heading": "Penalty for publication or making known contents of complaint and inquiry proceedings.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 11,
+      "pdf_page_to": 11,
+      "body_text_sha256": "53204b0899a2586882db4bb801dc7e8026a85398bbafa8751e6b893f9fc2d340",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "aaa98c5f-bbe5-4a6b-bd7c-175e8d7a0662"
+    },
+    {
+      "key": "posh-2013:18",
+      "section_number": "18",
+      "heading": "Appeal.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "hyphen",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen"
+      ],
+      "pdf_page_from": 11,
+      "pdf_page_to": 11,
+      "body_text_sha256": "f6e1f35c78649dca189ff432be9b611491d0741100a336c68924bd01edaaea59",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "f8aba209-d6ee-46fc-b3dc-caf52ddd59ce"
+    },
+    {
+      "key": "posh-2013:19",
+      "section_number": "19",
+      "heading": "Duties of employer.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 11,
+      "pdf_page_to": 12,
+      "body_text_sha256": "462b043b3153785ff7a758af85d4c4741a17f6f9c5f3a48a13c22d59e2d0a8ff",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "15fb407e-a92f-47cc-ac63-edc971661e16"
+    },
+    {
+      "key": "posh-2013:20",
+      "section_number": "20",
+      "heading": "Duties and powers of District Officer.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 12,
+      "pdf_page_to": 12,
+      "body_text_sha256": "618107c5f86e9b6ebb81e9d3d81ae08cb386b346f5a5df22832f212e1611e9a4",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "3e530c8c-5d38-4114-ad5f-c07f0625464e"
+    },
+    {
+      "key": "posh-2013:21",
+      "section_number": "21",
+      "heading": "Committee to submit annual report.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 12,
+      "pdf_page_to": 12,
+      "body_text_sha256": "5c7ffa4e044461f33ce10f7d74a17d22fc6ca38bab460dfb29398d2c62a47633",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "eba9a15d-bdfc-4441-b792-8be2656383d5"
+    },
+    {
+      "key": "posh-2013:22",
+      "section_number": "22",
+      "heading": "Employer to include information in annual report.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 12,
+      "pdf_page_to": 12,
+      "body_text_sha256": "7a1baa317e15d33edabe03b47bf90dfc168e57d454f15299f0668a98d03dbc72",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "fc5fd4a9-a537-4e7e-9b60-0cab5ade7fe8"
+    },
+    {
+      "key": "posh-2013:23",
+      "section_number": "23",
+      "heading": "Appropriate Government to monitor implementation and maintain data.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 12,
+      "pdf_page_to": 12,
+      "body_text_sha256": "d72111fad5e890299dd9e0e3c22d148eebf90ae32b521ae3408eb38bf70127e9",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "312fcb31-4538-43fd-a30e-0c934432beca"
+    },
+    {
+      "key": "posh-2013:24",
+      "section_number": "24",
+      "heading": "Appropriate Government to take measures to publicise the Act.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 12,
+      "pdf_page_to": 12,
+      "body_text_sha256": "16de6c1738673a37cf6f1ae05fbc06414bdd242510d99f9afa83dbd2c67ba24d",
+      "footnote_text_sha256": "10cd082d7b34c08ed295f0c22bfd47d203cd70ae7c487fedd85176f5558ce536",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "7b40286c-d1bc-4964-abfc-d4788b385b7b"
+    },
+    {
+      "key": "posh-2013:25",
+      "section_number": "25",
+      "heading": "Power to call for information and inspection of records.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 12,
+      "pdf_page_to": 12,
+      "body_text_sha256": "26e7e0de6ba43b58b4a3b3cfd075258793894134b6e083a540fba8b5f925d1f0",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "b252219b-f8e5-405f-9d77-d8708af1dd69"
+    },
+    {
+      "key": "posh-2013:26",
+      "section_number": "26",
+      "heading": "Penalty for non-compliance with provisions of Act.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 12,
+      "pdf_page_to": 13,
+      "body_text_sha256": "c2670a3ec297c83ad6a02966cb3174f751cd436824eec93fd88cab576343c5d3",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "b009cc64-3d55-48b5-b3e7-00dafa29b9a1"
+    },
+    {
+      "key": "posh-2013:27",
+      "section_number": "27",
+      "heading": "Cognizance of offence by courts.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 13,
+      "pdf_page_to": 13,
+      "body_text_sha256": "1a269d0c5c13b68b0c2cbf271104dabc9b1a230e20ab639d2fe457338997cadb",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "81915899-0242-4a37-8bd2-fa4f77d3b1d8"
+    },
+    {
+      "key": "posh-2013:28",
+      "section_number": "28",
+      "heading": "Act not in derogation of any other law.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 13,
+      "pdf_page_to": 13,
+      "body_text_sha256": "22d7fbff2a7849accb0a72f3644d674ffc168b62a8216c2499a337dcf2a3b0db",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "45cfbf13-5afd-42f5-bbd8-5b73fce1c0fe"
+    },
+    {
+      "key": "posh-2013:29",
+      "section_number": "29",
+      "heading": "Power of appropriate Government to make rules.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 13,
+      "pdf_page_to": 14,
+      "body_text_sha256": "3c9a1c5a388f5e274b6df7b3a970b6cacee462a35dc83ecef3470af8c4f7fad9",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "678cf936-792e-411b-b10b-dad8c84ef29e"
+    },
+    {
+      "key": "posh-2013:3",
+      "section_number": "3",
+      "heading": "Prevention of sexual harassment.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 5,
+      "pdf_page_to": 5,
+      "body_text_sha256": "819182450701a7d26312221aa8367ecedcc8cc1ed20d582ac90ac998535d2aa1",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "b6c50523-cf22-4a80-a93b-ac5f0203a5a6"
+    },
+    {
+      "key": "posh-2013:5",
+      "section_number": "5",
+      "heading": "Notification of District Officer.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 6,
+      "pdf_page_to": 6,
+      "body_text_sha256": "9c0e6d69118df8ffc39f574fba779a43b13b62f4a1abab93254540388841fe8c",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "e0e8c8d1-0143-45f9-bb38-913947d9079c"
+    },
+    {
+      "key": "posh-2013:7",
+      "section_number": "7",
+      "heading": "Composition tenure and other terms and conditions of Local Committee.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 7,
+      "pdf_page_to": 7,
+      "body_text_sha256": "7b13438d3598dea985b7df8b0d5ac7ac9469be6bb251e73a3e412d745def27ae",
+      "footnote_text_sha256": "bb93bbc6cfde34890291c622b752092719d3c1eb1df8990adb2a533e9ac51574",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "b6e5946f-60a3-42c3-b889-37fd2b8e191d"
+    },
+    {
+      "key": "posh-2013:8",
+      "section_number": "8",
+      "heading": "Grants and audit.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "hyphen",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 7,
+      "pdf_page_to": 8,
+      "body_text_sha256": "30983de0d0aabc814a2826a2d6e069ab934d6da3828701b345e3e6e226888bc7",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "efc52ce9-0a4a-493f-bfb2-8e0d663e3bb8"
+    },
+    {
+      "key": "posh-2013:9",
+      "section_number": "9",
+      "heading": "Complaint of sexual harassment.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 8,
+      "pdf_page_to": 8,
+      "body_text_sha256": "ddf9a6e17e99c8920eb4ee8d3d48956272c5585a3c1e9c81e838811f45e627f1",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "6967ac76-85a2-4909-aee7-397a6912b4b8"
+    }
+  ],
+  "population_count": 26,
+  "mandatory_keys": [
+    "posh-2013:1",
+    "posh-2013:24",
+    "posh-2013:26",
+    "posh-2013:7",
+    "posh-2013:8"
+  ],
+  "sampled_keys": [
+    "posh-2013:15",
+    "posh-2013:18",
+    "posh-2013:3"
+  ],
+  "selected_keys": [
+    "posh-2013:1",
+    "posh-2013:15",
+    "posh-2013:18",
+    "posh-2013:24",
+    "posh-2013:26",
+    "posh-2013:3",
+    "posh-2013:7",
+    "posh-2013:8"
+  ],
+  "strata": {
+    "exact": {
+      "population": 20,
+      "sampled": 2,
+      "keys": [
+        "posh-2013:15",
+        "posh-2013:3"
+      ]
+    },
+    "hyphen": {
+      "population": 1,
+      "sampled": 1,
+      "keys": [
+        "posh-2013:18"
+      ]
+    }
+  },
+  "renders": {
+    "posh-2013:1": [
+      "data/phase3/review-renders/posh-2013/page-3.png"
+    ],
+    "posh-2013:15": [
+      "data/phase3/review-renders/posh-2013/page-10.png"
+    ],
+    "posh-2013:18": [
+      "data/phase3/review-renders/posh-2013/page-11.png"
+    ],
+    "posh-2013:24": [
+      "data/phase3/review-renders/posh-2013/page-12.png"
+    ],
+    "posh-2013:26": [
+      "data/phase3/review-renders/posh-2013/page-12.png",
+      "data/phase3/review-renders/posh-2013/page-13.png"
+    ],
+    "posh-2013:3": [
+      "data/phase3/review-renders/posh-2013/page-5.png"
+    ],
+    "posh-2013:7": [
+      "data/phase3/review-renders/posh-2013/page-7.png"
+    ],
+    "posh-2013:8": [
+      "data/phase3/review-renders/posh-2013/page-7.png",
+      "data/phase3/review-renders/posh-2013/page-8.png"
+    ]
+  },
+  "render_sha256": {
+    "data/phase3/review-renders/posh-2013/page-3.png": "4d18d25b17efe1370c3cb31ad177f3c049302a1d44ced5811bde32fa71a0aa61",
+    "data/phase3/review-renders/posh-2013/page-5.png": "d87dfd5d7f6617fd6342aebe0437effd6c1a87baaafe6cc502c4a03538c2ba3f",
+    "data/phase3/review-renders/posh-2013/page-7.png": "9c141e3aa10fd1d4b8d3442cbc4707106a7a46f00cd841b4665c45f4d7ac2162",
+    "data/phase3/review-renders/posh-2013/page-8.png": "aafb782501a02378e48b95f645bb7de37106418679c2eebe6a284be4cbb7e112",
+    "data/phase3/review-renders/posh-2013/page-10.png": "461431b1c3621bc4e84c75089ba4f840c9098fa083974ec06d8328253d3337e4",
+    "data/phase3/review-renders/posh-2013/page-11.png": "76ad313d3ae275d4c7637106d19ccac54458f1249c3684363cfd590940d79a89",
+    "data/phase3/review-renders/posh-2013/page-12.png": "896f85bd07118e3504d4d748d1defc3ec36344e915169ec4f744e75bb3e96693",
+    "data/phase3/review-renders/posh-2013/page-13.png": "e8c8f92b5c561d16c286c959e1f22a4fa866d9b935dcafbd26d90c55ee701992"
+  },
+  "status": "reviewed",
+  "review": {
+    "reviewer_ref": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "reviewer_sha256": "109ba542b1054cd0f750fece16fdf06fec99b8a227238432c9f10ddcb6fe8303",
+    "session_date": "2026-09-22",
+    "outcomes": {
+      "posh-2013:1": {
+        "decision": "verified_equivalent",
+        "note": "Page 3: (1)-(3) match; the commencement footnote is present and correct; ends before s.2."
+      },
+      "posh-2013:15": {
+        "decision": "verified_equivalent",
+        "note": "Page 10: lead-in and (a)-(e) match exactly; ends before s.16."
+      },
+      "posh-2013:18": {
+        "decision": "verified_equivalent",
+        "note": "Page 11: (1) with its long tail and (2) match; \"sub-section\"/\"subsection\" line-break hyphenation is the recorded hyphen level; ends before CHAPTER VI."
+      },
+      "posh-2013:24": {
+        "decision": "verified_equivalent",
+        "note": "Page 12: lead-in, (a), (b) match; the footnote is the same text as PDF footnote 1 under a different number, which is the recorded marker level; ends before s.25."
+      },
+      "posh-2013:26": {
+        "decision": "verified_equivalent",
+        "note": "Pages 12-13: (1)(a)-(c) with its tail, (2)(i) with proviso and (ii) match; the skipped page-12 block is the Local Committee footnote, not s.26 text; ends before s.27."
+      },
+      "posh-2013:3": {
+        "decision": "verified_equivalent",
+        "note": "Page 5: (1), (2)(i)-(v) match, including the stray space in \"her employment ; or\"; ends before CHAPTER II."
+      },
+      "posh-2013:7": {
+        "decision": "verified_equivalent",
+        "note": "Page 7: the HTML body repeats the section number and heading exactly as the PDF prints them; (1)(a)-(d), two provisos, (2), (3)(a)-(d) with its tail, (4) all match; only the amendment-marker numbers differ (HTML 1, PDF 2), which is the recorded marker level."
+      },
+      "posh-2013:8": {
+        "decision": "verified_equivalent",
+        "note": "Pages 7-8: (1)-(4) match, including the source typo \"my think fit\"; the skipped page-7 block is the footnote pair for ss.6-7, not s.8 text; ends before CHAPTER IV."
+      }
+    },
+    "decision": "act_batch_admitted",
+    "failed_keys": [],
+    "decision_note": "All eight selected sections compared whole against their rendered PDF pages; every one agreed, including the two page-break footnote skips and the amendment-marker renumbering.",
+    "render_evidence": {
+      "data/phase3/review-renders/posh-2013/page-3.png": "4d18d25b17efe1370c3cb31ad177f3c049302a1d44ced5811bde32fa71a0aa61",
+      "data/phase3/review-renders/posh-2013/page-5.png": "d87dfd5d7f6617fd6342aebe0437effd6c1a87baaafe6cc502c4a03538c2ba3f",
+      "data/phase3/review-renders/posh-2013/page-7.png": "9c141e3aa10fd1d4b8d3442cbc4707106a7a46f00cd841b4665c45f4d7ac2162",
+      "data/phase3/review-renders/posh-2013/page-8.png": "aafb782501a02378e48b95f645bb7de37106418679c2eebe6a284be4cbb7e112",
+      "data/phase3/review-renders/posh-2013/page-10.png": "461431b1c3621bc4e84c75089ba4f840c9098fa083974ec06d8328253d3337e4",
+      "data/phase3/review-renders/posh-2013/page-11.png": "76ad313d3ae275d4c7637106d19ccac54458f1249c3684363cfd590940d79a89",
+      "data/phase3/review-renders/posh-2013/page-12.png": "896f85bd07118e3504d4d748d1defc3ec36344e915169ec4f744e75bb3e96693",
+      "data/phase3/review-renders/posh-2013/page-13.png": "e8c8f92b5c561d16c286c959e1f22a4fa866d9b935dcafbd26d90c55ee701992"
+    },
+    "scope_note": "Each selected section was compared whole against its rendered PDF pages: heading, beginning and end, numbered parts, provisos and footnotes. Sections outside selected_keys were not looked at individually; they rest on automated whole-body agreement plus this sample."
+  },
+  "admits_nothing_note": "A passing review authorizes admission of this Act's aligned candidates through the canonical importer under review class text_agreement_sampled_visual. Provisions not in selected_keys are admitted on automated whole-body agreement plus this sample, and must never be presented as individually reviewed."
+}

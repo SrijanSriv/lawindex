@@ -1,0 +1,9 @@
+{
+  "reviewer_id": "agent:claude-sonnet-5:2026-09-20-session",
+  "reviewer_type": "automated_agent_review",
+  "is_independent_legal_expert_review": false,
+  "disclosure": "This review was performed by an AI coding agent (Claude Sonnet 5) inside a single automated session on 2026-09-20. It compared retained PDF page renders against pdftotext extraction and against the retained structured-HTML section records. It is a fidelity/extraction check, not an independent legal-expert review of the provisions' meaning, currency, or applicability. No qualified human legal reviewer has signed off on this text.",
+  "actual_review_time_note": "Wall-clock review duration was not separately instrumented or timed; the comparison work is recorded only by session date because no sub-session timer was available. This is stated explicitly rather than fabricating a duration.",
+  "session_date": "2026-09-20",
+  "tools_used": ["pdftotext -layout (Poppler)", "pdftoppm (Poppler, page 10 rendered during this session; pages 9 and 11 were already retained as PNGs)", "manual visual comparison of rendered page images against extracted text", "byte-for-byte comparison against retained structured-HTML section fields"]
+}

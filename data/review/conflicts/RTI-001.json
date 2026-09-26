@@ -1,0 +1,31 @@
+{
+  "issue_id": "RTI-001",
+  "scope": {"act_slug": "rti-2005", "provision_key": "rti-2005:8", "field": "section_page_note clause (j)"},
+  "observations": [
+    {
+      "representation": "structured_html",
+      "capture": "rti-sections-page-0",
+      "sha256": "343f0d19662e38e02e33934d6e2340e1cf498576e54fdc1e539758846aa52f5b",
+      "value_excerpt": "(j) information which, having no relationship to any public activity or interest, or which would cause unwarranted invasion of the privacy of the individual ..."
+    },
+    {
+      "representation": "pdf",
+      "capture": "rti-2005-pdf",
+      "sha256": "c1ef189ec4f34d4f346886d6c2fc4a6e8aec2da0eedcfeff9c10401ec9cfb2f5",
+      "pdf_page": 11,
+      "value_excerpt": "1[(j) information which relates to personal information;]",
+      "footnote": "1. Subs. by Act 22 of 2023, s. 44 for clause (j) (w.e.f. 13-11-2025)."
+    }
+  ],
+  "classification": "substantive_text",
+  "selected_representation": "pdf",
+  "selected_value_rationale": "See data/review/rti-2005-section-8.review.json. The retained PDF (cover dated 18 November 2025) is used as the reference candidate for the whole of section 8; the conflicting HTML is retained as evidence and excluded from admission.",
+  "review_evidence_ref": "data/review/rti-2005-section-8.review.json",
+  "disposition": "selected_with_disclosed_conflict",
+  "admission": {
+    "pdf_representation": "admitted",
+    "structured_html_representation": "excluded"
+  },
+  "recheck_trigger": ["source_sha256_change:rti-2005-pdf", "source_sha256_change:rti-sections-page-0"],
+  "legal_effect_determined": false
+}

@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "planner_version": "phase3-sample-plan-v1",
+  "parser_version": "phase3-html-pdf-agreement-v2",
+  "act_slug": "repealing-amending-2023",
+  "candidates_sha256": "59bf01b31f77aef46a48f39fa86eea44a321850e0b5d5d9f8e6915f2a9e06b48",
+  "pdf_sha256": "cb66cf6e0767829ca1f3f91abd9d5b26952ec67fad6d195bc6e243f9af383c20",
+  "source_acquisition_sha256": "cb22650f69b6a0cfdb60f3b83eae342681355640fc1d9b9ec8b53d51d15f60de",
+  "seed": "68e57dd9ea02a5f4fdd45c37b1047a090fef2777b2d2b7109db783a2fbca95dc",
+  "selection_rule": {
+    "mandatory": "every aligned candidate with a footnote or a page-break footnote gap",
+    "stratified": "per most-tolerant-normalization stratum, max(2, ceil(10%))",
+    "deterministic": "seed = sha256(planner_version|act_slug|candidates_sha256); re-running cannot re-roll the sample"
+  },
+  "population": [
+    {
+      "key": "repealing-amending-2023:1",
+      "section_number": "1",
+      "heading": "Short title.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 3,
+      "pdf_page_to": 3,
+      "body_text_sha256": "264c83b2737227e49ac284bd4fa131fc513acb3ba46b8eb211028f7e178f7f96",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "c1f3b159-78ba-4a5a-8347-98492b7615e2"
+    },
+    {
+      "key": "repealing-amending-2023:2",
+      "section_number": "2",
+      "heading": "Repeal of certain enactments.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 3,
+      "pdf_page_to": 3,
+      "body_text_sha256": "bcccbaba3e1ddbc07ecd7b6a87cd8f3864572152464b89425911865583585f81",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "ca8f67ef-e04d-4dad-86cb-7249e4313727"
+    },
+    {
+      "key": "repealing-amending-2023:3",
+      "section_number": "3",
+      "heading": "Amendment of enactments.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 3,
+      "pdf_page_to": 3,
+      "body_text_sha256": "47383771021f967e9bc7730d9231837ba4efbf3f089fa5683982c1d417e36b0e",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "357746d4-104f-464a-adb4-5e884aee13da"
+    },
+    {
+      "key": "repealing-amending-2023:4",
+      "section_number": "4",
+      "heading": "Savings.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 3,
+      "pdf_page_to": 3,
+      "body_text_sha256": "fff1dc277a75d5880929d76ba7f4ac78592c0a54c12473813320a6dc80ae9268",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "de0484bc-dfcd-4363-8725-e6e221b12ca6"
+    }
+  ],
+  "population_count": 4,
+  "mandatory_keys": [],
+  "sampled_keys": [
+    "repealing-amending-2023:1",
+    "repealing-amending-2023:4"
+  ],
+  "selected_keys": [
+    "repealing-amending-2023:1",
+    "repealing-amending-2023:4"
+  ],
+  "strata": {
+    "exact": {
+      "population": 4,
+      "sampled": 2,
+      "keys": [
+        "repealing-amending-2023:1",
+        "repealing-amending-2023:4"
+      ]
+    }
+  },
+  "renders": {
+    "repealing-amending-2023:1": [
+      "data/phase3/review-renders/repealing-amending-2023/page-3.png"
+    ],
+    "repealing-amending-2023:4": [
+      "data/phase3/review-renders/repealing-amending-2023/page-3.png"
+    ]
+  },
+  "render_sha256": {
+    "data/phase3/review-renders/repealing-amending-2023/page-3.png": "c0a2b31f8cc25ee821c9cc0ddea7f1d40c205d1613e86e7439800a3c008f046a"
+  },
+  "status": "reviewed",
+  "review": {
+    "reviewer_ref": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "reviewer_sha256": "109ba542b1054cd0f750fece16fdf06fec99b8a227238432c9f10ddcb6fe8303",
+    "session_date": "2026-09-22",
+    "outcomes": {
+      "repealing-amending-2023:1": {
+        "decision": "verified_equivalent",
+        "note": "Page 3: single sentence matches exactly; bounded by the enacting formula above and s.2 below."
+      },
+      "repealing-amending-2023:4": {
+        "decision": "verified_equivalent",
+        "note": "Page 3: all four savings paragraphs match, including the source typo \"accruedor\"; ends \"not now existing or in force.\" and is the last section on the page."
+      }
+    },
+    "decision": "act_batch_admitted",
+    "failed_keys": [],
+    "decision_note": "Both selected sections compared whole against the rendered page; both agreed.",
+    "render_evidence": {
+      "data/phase3/review-renders/repealing-amending-2023/page-3.png": "c0a2b31f8cc25ee821c9cc0ddea7f1d40c205d1613e86e7439800a3c008f046a"
+    },
+    "scope_note": "Each selected section was compared whole against its rendered PDF pages: heading, beginning and end, numbered parts, provisos and footnotes. Sections outside selected_keys were not looked at individually; they rest on automated whole-body agreement plus this sample."
+  },
+  "admits_nothing_note": "A passing review authorizes admission of this Act's aligned candidates through the canonical importer under review class text_agreement_sampled_visual. Provisions not in selected_keys are admitted on automated whole-body agreement plus this sample, and must never be presented as individually reviewed."
+}

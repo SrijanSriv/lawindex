@@ -1,0 +1,933 @@
+{
+  "schema_version": 1,
+  "planner_version": "phase3-sample-plan-v1",
+  "parser_version": "phase3-html-pdf-agreement-v2",
+  "act_slug": "dpdp-2023",
+  "candidates_sha256": "91755d6ce6bf956f7390443b94b1f4d259ea8a2400c4a2fcb223519db66d075b",
+  "pdf_sha256": "dda561b9fd6420e1b99157b60f92bb0470a6154c6d559bbee3482ac255ac2c24",
+  "source_acquisition_sha256": "84b3e8f625e503fe2947a29bf7b6de9684183a2806fca2d9af224b8bf11a5e00",
+  "seed": "488014fab0744e0f67f00dea3316ee9c006b79e50443bfa275f603ad98d288e0",
+  "selection_rule": {
+    "mandatory": "every aligned candidate with a footnote or a page-break footnote gap",
+    "stratified": "per most-tolerant-normalization stratum, max(2, ceil(10%))",
+    "deterministic": "seed = sha256(planner_version|act_slug|candidates_sha256); re-running cannot re-roll the sample"
+  },
+  "population": [
+    {
+      "key": "dpdp-2023:1",
+      "section_number": "1",
+      "heading": "Short title and commencement.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "punct-space",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space"
+      ],
+      "pdf_page_from": 5,
+      "pdf_page_to": 5,
+      "body_text_sha256": "4f3df89d0030cddd15e8fd2f2359372a558ef9e4659b4731603ca68e16adac1a",
+      "footnote_text_sha256": "63f47d9f20f764e6f96dbba4a46bb0a8e4684d2041e4e27c60a7067f4bc32d9d",
+      "footnote_normalization_level": 6,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "36286f63-f23d-42e0-abbc-096783609884"
+    },
+    {
+      "key": "dpdp-2023:11",
+      "section_number": "11",
+      "heading": "Right to access information about personal data.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 12,
+      "pdf_page_to": 13,
+      "body_text_sha256": "6268033ed1e2b9346c9657eb806f85f0c89e0c69057e8ea74f5dd640ad742365",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "86c9a8bf-7ed4-4b53-a751-a166a6cd1692"
+    },
+    {
+      "key": "dpdp-2023:12",
+      "section_number": "12",
+      "heading": "Right to correction and erasure of personal data.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 13,
+      "pdf_page_to": 13,
+      "body_text_sha256": "2f66a947ede40b74c236a66bb861658b12459d108db37d74224c3586c05e31fc",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "64df6425-076d-41f7-b5cc-28e21b0359fe"
+    },
+    {
+      "key": "dpdp-2023:13",
+      "section_number": "13",
+      "heading": "Right of grievance redressal.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 13,
+      "pdf_page_to": 13,
+      "body_text_sha256": "d8bb78adf942e01d71ea705168ed3b489c336c55ecfde4d912a3068ba4a796df",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "e7b2ce20-380c-474c-ab8f-2796f9846092"
+    },
+    {
+      "key": "dpdp-2023:14",
+      "section_number": "14",
+      "heading": "Right to nominate.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote",
+      "normalizations": [
+        "dash",
+        "quote"
+      ],
+      "pdf_page_from": 13,
+      "pdf_page_to": 13,
+      "body_text_sha256": "3a12fc6181e0fb685112be71aa387298e548de8f5f314f2f5f9b9902d8a82f04",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "f4511600-e57e-4546-8fbe-6c162711e8d5"
+    },
+    {
+      "key": "dpdp-2023:15",
+      "section_number": "15",
+      "heading": "Duties of Data Principal.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 13,
+      "pdf_page_to": 14,
+      "body_text_sha256": "52732e9052fabd89e29c4ca32f7fbe3df2ef134d714423b1c218831279f3bd17",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "dfe1d9be-ffe7-40b4-97fe-4160704cbd68"
+    },
+    {
+      "key": "dpdp-2023:16",
+      "section_number": "16",
+      "heading": "Processing of personal data outside India.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 14,
+      "pdf_page_to": 14,
+      "body_text_sha256": "5d2336084023f354e17df34b76226dd43057405f0d1f6940c7e5b0ba814c6b15",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "6387180a-0def-4f62-baca-0c092c1dc2a1"
+    },
+    {
+      "key": "dpdp-2023:18",
+      "section_number": "18",
+      "heading": "Establishment of Board.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 15,
+      "pdf_page_to": 15,
+      "body_text_sha256": "378cf21202f2e3d337a14853b8881ee77d59306ceb4b708d2b57d81a654d21a6",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "9646583c-fdc4-404d-8bf7-8b713ab663f8"
+    },
+    {
+      "key": "dpdp-2023:19",
+      "section_number": "19",
+      "heading": "Composition and qualifications for appointment of Chairperson and members.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 15,
+      "pdf_page_to": 15,
+      "body_text_sha256": "a3890bbf721d8a24c6456d880818a7dd9b86396e6b57ba5d83d088242f1a3621",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "7b4130a4-a06f-47a0-a0be-1c82e692fce4"
+    },
+    {
+      "key": "dpdp-2023:20",
+      "section_number": "20",
+      "heading": "Salary, allowances payable to and term of office.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 15,
+      "pdf_page_to": 16,
+      "body_text_sha256": "adaed4f87801eba4ffa79f1c10031b15f72bb3e82ddecb439775fc2447735486",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "34cb4639-1baf-45d1-9f99-4a0c8fc35f2c"
+    },
+    {
+      "key": "dpdp-2023:21",
+      "section_number": "21",
+      "heading": "Disqualifications for appointment and continuation as Chairperson and Members of Board.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 16,
+      "pdf_page_to": 16,
+      "body_text_sha256": "fabce363c7b0e60534ef2e22cde29a23db2d78189f5d23b4357578c6b6ba24b5",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "023b6fe4-49e5-4cdc-a84b-6e95511538e4"
+    },
+    {
+      "key": "dpdp-2023:22",
+      "section_number": "22",
+      "heading": "Resignation by Members and filling of vacancy.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 16,
+      "pdf_page_to": 16,
+      "body_text_sha256": "f30373b3436dd6f2af2455f4d482391457c1e09ef5eebaa1e31c0cddc773fa43",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "4058a34a-33b3-496a-a130-b222cacf912c"
+    },
+    {
+      "key": "dpdp-2023:23",
+      "section_number": "23",
+      "heading": "Proceedings of Board.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 16,
+      "pdf_page_to": 16,
+      "body_text_sha256": "a49b20f66d2edad812209087d3abb226ca4fe2e205fa9390adc817a02e61728b",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "316cb0cb-27fa-4582-af7b-611b064760e5"
+    },
+    {
+      "key": "dpdp-2023:24",
+      "section_number": "24",
+      "heading": "Officers and employees of Board.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 16,
+      "pdf_page_to": 16,
+      "body_text_sha256": "90ea0facfa181b243d0969e87fcbe3ce20fe0ea755d4dab1b051a664f2d00d92",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "1ba9058e-f5f7-42ec-aa16-b9d9a1125159"
+    },
+    {
+      "key": "dpdp-2023:25",
+      "section_number": "25",
+      "heading": "Members and officers to be public servants.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 17,
+      "pdf_page_to": 17,
+      "body_text_sha256": "a75c68b833b4f9d7f085e5edd1d44a43f5b52a5178570408c343e9a516209da8",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "38aadcab-2783-4236-af0d-f89b01045e2a"
+    },
+    {
+      "key": "dpdp-2023:26",
+      "section_number": "26",
+      "heading": "Powers of Chairperson.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 17,
+      "pdf_page_to": 17,
+      "body_text_sha256": "c99aeb4461660a1947599ecc60bd0cf46bc19a130ce05fdf4a5ae2ce176ff0f9",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "5627906c-fa77-4f89-a5ed-a8fc36231ac1"
+    },
+    {
+      "key": "dpdp-2023:27",
+      "section_number": "27",
+      "heading": "Powers and functions of Board.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 17,
+      "pdf_page_to": 17,
+      "body_text_sha256": "9dd3f0e83d9ac69c1e6188aaea03ecee3e29ae9ae5f7ccb9f175d5b230f34127",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "f5134fe0-6922-4977-82f4-c8ac3b7368d7"
+    },
+    {
+      "key": "dpdp-2023:28",
+      "section_number": "28",
+      "heading": "Procedure to be followed by Board.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 17,
+      "pdf_page_to": 18,
+      "body_text_sha256": "73a618e901738747cb31366326db10053ea1aeb29ff62a702cd93c22d93d6ee5",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "55f89c14-4757-48c4-918c-d405b6c6f69e"
+    },
+    {
+      "key": "dpdp-2023:29",
+      "section_number": "29",
+      "heading": "Appeal to Appellate Tribunal.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "hyphen",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen"
+      ],
+      "pdf_page_from": 18,
+      "pdf_page_to": 19,
+      "body_text_sha256": "d737767ee0d8494c85d90b0bb0ef8621235788eb4f888998262b932dee1dda23",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "75371b2b-3d28-49d6-b621-f66109f78980"
+    },
+    {
+      "key": "dpdp-2023:3",
+      "section_number": "3",
+      "heading": "Application of Act.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop"
+      ],
+      "pdf_page_from": 7,
+      "pdf_page_to": 7,
+      "body_text_sha256": "d97ab7c4e1e4b68a8d299d6974eab4d8de82bfdb2c196fc818c96edb5caa2e51",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "a59b64a8-df56-4342-9563-908ebd044c87"
+    },
+    {
+      "key": "dpdp-2023:30",
+      "section_number": "30",
+      "heading": "Orders passed by Appellate Tribunal to be executable as decree.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 19,
+      "pdf_page_to": 19,
+      "body_text_sha256": "1e4cfcf94bb4a5fb424443e1e2121177253cf53615a9da28549f689b7c89b3b5",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "725d7693-9803-4e81-a8e1-0de444c1270c"
+    },
+    {
+      "key": "dpdp-2023:31",
+      "section_number": "31",
+      "heading": "Alternate dispute resolution.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 19,
+      "pdf_page_to": 19,
+      "body_text_sha256": "6c4833aa8d11b12c356cd2a35af05bbaef8097f739ffd71d7d3b9f81dc6c6c7c",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "524e186c-fac1-4bad-8918-b9f26c019b12"
+    },
+    {
+      "key": "dpdp-2023:32",
+      "section_number": "32",
+      "heading": "Voluntary undertaking.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 19,
+      "pdf_page_to": 19,
+      "body_text_sha256": "d79c67d73caf6d817310d7a64d5297feba62952bebc0614b635faf13c050b4ec",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "1021576a-32e0-4621-9169-0fff8ad21bb5"
+    },
+    {
+      "key": "dpdp-2023:33",
+      "section_number": "33",
+      "heading": "Penalties.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 20,
+      "pdf_page_to": 20,
+      "body_text_sha256": "5b6d2edb332ec634b6e50c80621e0e92326ec3dc9b66507d3a1b226db6839540",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "836f9047-235a-4bda-8b8d-2121aec568d9"
+    },
+    {
+      "key": "dpdp-2023:34",
+      "section_number": "34",
+      "heading": "Crediting sums realised by way of penalties to Consolidated Fund of India.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 20,
+      "pdf_page_to": 20,
+      "body_text_sha256": "9a029b17f3164fb59e735f7e6577fdd18718257d20f6075a127cf73f7bc112c6",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "b0a56ff1-218b-40a0-866c-fdfadef6f146"
+    },
+    {
+      "key": "dpdp-2023:35",
+      "section_number": "35",
+      "heading": "Protection of action taken in good faith.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 20,
+      "pdf_page_to": 20,
+      "body_text_sha256": "568eef284259689dfb5e80eec361202f0caf63dd98140c24b902e5a95f1e9e90",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "1f6d8fa9-9911-45da-8833-4b184aa3452d"
+    },
+    {
+      "key": "dpdp-2023:36",
+      "section_number": "36",
+      "heading": "Power to call for information.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 20,
+      "pdf_page_to": 20,
+      "body_text_sha256": "b6bfe772a5bd63c0e4bf69966def19ac0776ff97e15f73811cf29b23bb87af24",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "b4c1d070-3918-42f2-a0eb-5083acd929da"
+    },
+    {
+      "key": "dpdp-2023:37",
+      "section_number": "37",
+      "heading": "Power of Central Government to issue directions.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote",
+      "normalizations": [
+        "dash",
+        "quote"
+      ],
+      "pdf_page_from": 20,
+      "pdf_page_to": 21,
+      "body_text_sha256": "518494f4461e2189ffc35d304c6da473c001b0df683a3ff9f4e666ed9debdda2",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "bba960e1-2811-4a36-9db0-cff949139461"
+    },
+    {
+      "key": "dpdp-2023:38",
+      "section_number": "38",
+      "heading": "Consistency with other laws.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 21,
+      "pdf_page_to": 21,
+      "body_text_sha256": "31cc2ac18bed43a8b6ab18852faae0cbe4bdd41a81a773e4c442b0d0f76f55e3",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "1fee5dbb-c147-4c02-804d-76b5714b2621"
+    },
+    {
+      "key": "dpdp-2023:39",
+      "section_number": "39",
+      "heading": "Bar of jurisdiction.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 21,
+      "pdf_page_to": 21,
+      "body_text_sha256": "2d8abc5d0fda5c746004461a34ab257ca1cd75baeac970a00979abf78276af42",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "65e5bdcf-6ea7-42f2-adf5-4e234825f7be"
+    },
+    {
+      "key": "dpdp-2023:4",
+      "section_number": "4",
+      "heading": "Grounds for processing personal data.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote",
+      "normalizations": [
+        "dash",
+        "quote"
+      ],
+      "pdf_page_from": 7,
+      "pdf_page_to": 7,
+      "body_text_sha256": "53eb47a1f4e42a718a5a1b96b4aa95df399b40b1d91c8c0bb848ff871eaff319",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "2bf75e47-d3c4-48f4-8bb8-dcd076d076e5"
+    },
+    {
+      "key": "dpdp-2023:40",
+      "section_number": "40",
+      "heading": "Power to make rules.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 21,
+      "pdf_page_to": 22,
+      "body_text_sha256": "c4494998ff840265352f6ac55935bee91b6393f5e29cb1cd6402c9334d5b7955",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "c06449f4-bd62-400f-8450-0bebdf17d74e"
+    },
+    {
+      "key": "dpdp-2023:41",
+      "section_number": "41",
+      "heading": "Laying of rules and certain notification.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 22,
+      "pdf_page_to": 22,
+      "body_text_sha256": "5249aaf9f6036ab3936544cf99dd5ba1b98c928fd0ee4b3f98c607d9f0dc0b27",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "929e4eb8-c458-47ed-a1c7-fa8e31a062ba"
+    },
+    {
+      "key": "dpdp-2023:42",
+      "section_number": "42",
+      "heading": "Power to amend Schedule.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 22,
+      "pdf_page_to": 22,
+      "body_text_sha256": "b5eeb53be113797408ea3a386d4de6cbc9a3ad96c4e5ec19eb2c26c2be763ba8",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "a02af7cd-de67-4bec-92fe-2a04b45b8517"
+    },
+    {
+      "key": "dpdp-2023:43",
+      "section_number": "43",
+      "heading": "Power to remove difficulties.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 22,
+      "pdf_page_to": 23,
+      "body_text_sha256": "2a6f9eea82936e3cc41f998486b0b8a20d52667ed26b04a475b14682fc8c3439",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "01f35199-6c46-4a81-8b6b-6e9f034bd9f4"
+    },
+    {
+      "key": "dpdp-2023:44",
+      "section_number": "44",
+      "heading": "Amendments to certain Acts.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote",
+      "normalizations": [
+        "dash",
+        "quote"
+      ],
+      "pdf_page_from": 23,
+      "pdf_page_to": 23,
+      "body_text_sha256": "45ac23780a9a16d83c6806209bd06517ed046c15541a0942cdf93f64bfb7bb38",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "666a8e47-1bcb-490f-951e-18ad6a6bebc3"
+    },
+    {
+      "key": "dpdp-2023:5",
+      "section_number": "5",
+      "heading": "Notice.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop"
+      ],
+      "pdf_page_from": 7,
+      "pdf_page_to": 8,
+      "body_text_sha256": "e69cc94aa8d4d3fee6387200819a120558a4c793f1ee0d95574e89307f7b07ed",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "d3389719-f844-427c-9d95-b36595014c6b"
+    },
+    {
+      "key": "dpdp-2023:6",
+      "section_number": "6",
+      "heading": "Consent.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 8,
+      "pdf_page_to": 9,
+      "body_text_sha256": "0eb4f7b4b1439dd8803437d430a6fa4116dc09eee5ad83ec52cdf238d287bcec",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "873b8099-5c49-48cc-978e-27a6af264dcf"
+    },
+    {
+      "key": "dpdp-2023:8",
+      "section_number": "8",
+      "heading": "General obligations of Data Fiduciary.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop"
+      ],
+      "pdf_page_from": 10,
+      "pdf_page_to": 11,
+      "body_text_sha256": "74a9e5b4e9681b9bd6a27ee06baf12c11f6473ed4401c354602fd5aa19de7667",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "a375f206-ad0c-49f8-bc11-70035dc0f388"
+    },
+    {
+      "key": "dpdp-2023:9",
+      "section_number": "9",
+      "heading": "Processing of personal data of children.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "punct-space",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space"
+      ],
+      "pdf_page_from": 11,
+      "pdf_page_to": 12,
+      "body_text_sha256": "5c1f60bb8337d984993bbe1f6eb4af701ecdb6d002e42e36798c063b7c9bbc31",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "c9957fc0-4184-48d4-a80f-0ab0c72b3ab3"
+    }
+  ],
+  "population_count": 40,
+  "mandatory_keys": [
+    "dpdp-2023:1"
+  ],
+  "sampled_keys": [
+    "dpdp-2023:12",
+    "dpdp-2023:13",
+    "dpdp-2023:14",
+    "dpdp-2023:29",
+    "dpdp-2023:3",
+    "dpdp-2023:31",
+    "dpdp-2023:37",
+    "dpdp-2023:40",
+    "dpdp-2023:5",
+    "dpdp-2023:9"
+  ],
+  "selected_keys": [
+    "dpdp-2023:1",
+    "dpdp-2023:12",
+    "dpdp-2023:13",
+    "dpdp-2023:14",
+    "dpdp-2023:29",
+    "dpdp-2023:3",
+    "dpdp-2023:31",
+    "dpdp-2023:37",
+    "dpdp-2023:40",
+    "dpdp-2023:5",
+    "dpdp-2023:9"
+  ],
+  "strata": {
+    "dash": {
+      "population": 10,
+      "sampled": 2,
+      "keys": [
+        "dpdp-2023:12",
+        "dpdp-2023:40"
+      ]
+    },
+    "dash-drop": {
+      "population": 3,
+      "sampled": 2,
+      "keys": [
+        "dpdp-2023:3",
+        "dpdp-2023:5"
+      ]
+    },
+    "exact": {
+      "population": 20,
+      "sampled": 2,
+      "keys": [
+        "dpdp-2023:13",
+        "dpdp-2023:31"
+      ]
+    },
+    "hyphen": {
+      "population": 1,
+      "sampled": 1,
+      "keys": [
+        "dpdp-2023:29"
+      ]
+    },
+    "punct-space": {
+      "population": 1,
+      "sampled": 1,
+      "keys": [
+        "dpdp-2023:9"
+      ]
+    },
+    "quote": {
+      "population": 4,
+      "sampled": 2,
+      "keys": [
+        "dpdp-2023:14",
+        "dpdp-2023:37"
+      ]
+    }
+  },
+  "renders": {
+    "dpdp-2023:1": [
+      "data/phase3/review-renders/dpdp-2023/page-5.png"
+    ],
+    "dpdp-2023:12": [
+      "data/phase3/review-renders/dpdp-2023/page-13.png"
+    ],
+    "dpdp-2023:13": [
+      "data/phase3/review-renders/dpdp-2023/page-13.png"
+    ],
+    "dpdp-2023:14": [
+      "data/phase3/review-renders/dpdp-2023/page-13.png"
+    ],
+    "dpdp-2023:29": [
+      "data/phase3/review-renders/dpdp-2023/page-18.png",
+      "data/phase3/review-renders/dpdp-2023/page-19.png"
+    ],
+    "dpdp-2023:3": [
+      "data/phase3/review-renders/dpdp-2023/page-7.png"
+    ],
+    "dpdp-2023:31": [
+      "data/phase3/review-renders/dpdp-2023/page-19.png"
+    ],
+    "dpdp-2023:37": [
+      "data/phase3/review-renders/dpdp-2023/page-20.png",
+      "data/phase3/review-renders/dpdp-2023/page-21.png"
+    ],
+    "dpdp-2023:40": [
+      "data/phase3/review-renders/dpdp-2023/page-21.png",
+      "data/phase3/review-renders/dpdp-2023/page-22.png"
+    ],
+    "dpdp-2023:5": [
+      "data/phase3/review-renders/dpdp-2023/page-7.png",
+      "data/phase3/review-renders/dpdp-2023/page-8.png"
+    ],
+    "dpdp-2023:9": [
+      "data/phase3/review-renders/dpdp-2023/page-11.png",
+      "data/phase3/review-renders/dpdp-2023/page-12.png"
+    ]
+  },
+  "render_sha256": {
+    "data/phase3/review-renders/dpdp-2023/page-5.png": "9995b29bf8835b45822bf2797a7a0214886f8f166114135bde015ae1d948b210",
+    "data/phase3/review-renders/dpdp-2023/page-7.png": "7809e1a27b6ab26a37d06618f5f304a1f758eb2353fabb12d396e76660cf0c79",
+    "data/phase3/review-renders/dpdp-2023/page-8.png": "50d5c61d0acfed538bbf4f7fe6f717c5a9efb5540b9870fbf87c03a94b5d0fdd",
+    "data/phase3/review-renders/dpdp-2023/page-11.png": "a07fc1816f0446e75f37c45a2e534bc4ce8b49984d30a4222db9b641e4f59a90",
+    "data/phase3/review-renders/dpdp-2023/page-12.png": "b1b6b912e9d8b074530800c72e7a57e120a8081f37018957ca6759d537cc3a28",
+    "data/phase3/review-renders/dpdp-2023/page-13.png": "b37f42bef3366e7809bce5c40de46b966991c30318c872317c8cf585d432731b",
+    "data/phase3/review-renders/dpdp-2023/page-18.png": "f76526ceee07585f2bc9d54e866751d12159bbad89ba72075fec48d95c416311",
+    "data/phase3/review-renders/dpdp-2023/page-19.png": "f5f887450057ee7762a0872444dee7b0321a61d059ce5f661b1373dfbc0366f7",
+    "data/phase3/review-renders/dpdp-2023/page-20.png": "911856f94aedbcd1935b79df3b936410a48a3b05e88babb8aaec57662e141379",
+    "data/phase3/review-renders/dpdp-2023/page-21.png": "ee7ad94e9abf6ff1c58d089fd349471bf753a05f100fbb131b46222ba782a712",
+    "data/phase3/review-renders/dpdp-2023/page-22.png": "5d12a64fb9a3b22b763db42ad9326a5fb5a45cc96250c340c976ff7fd502b6f0"
+  },
+  "status": "reviewed",
+  "review": {
+    "reviewer_ref": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "reviewer_sha256": "109ba542b1054cd0f750fece16fdf06fec99b8a227238432c9f10ddcb6fe8303",
+    "session_date": "2026-09-22",
+    "outcomes": {
+      "dpdp-2023:1": {
+        "decision": "verified_equivalent",
+        "note": "Page 5: (1) and (2) match; the asterisk reference mark before \"different dates\" in the PDF is the recorded marker level; the multi-part commencement footnote matches."
+      },
+      "dpdp-2023:12": {
+        "decision": "verified_equivalent",
+        "note": "Page 13: (1), (2)(a)-(c), (3) match; ends before s.13."
+      },
+      "dpdp-2023:13": {
+        "decision": "verified_equivalent",
+        "note": "Page 13: (1)-(3) match exactly; ends before s.14."
+      },
+      "dpdp-2023:14": {
+        "decision": "verified_equivalent",
+        "note": "Page 13: (1) and (2) match; ends before s.15."
+      },
+      "dpdp-2023:29": {
+        "decision": "verified_equivalent",
+        "note": "Pages 18-19: (1)-(10) match; ends before s.30."
+      },
+      "dpdp-2023:3": {
+        "decision": "verified_equivalent",
+        "note": "Page 7: lead-in, (a)(i),(ii), (b), (c)(i),(ii)(A),(B) and the Illustration match; ends before CHAPTER II."
+      },
+      "dpdp-2023:31": {
+        "decision": "verified_equivalent",
+        "note": "Page 19: single paragraph matches exactly; ends before s.32."
+      },
+      "dpdp-2023:37": {
+        "decision": "verified_equivalent",
+        "note": "Pages 20-21: (1)(a),(b) with its tail, (2) and (3) match; ends before s.38."
+      },
+      "dpdp-2023:40": {
+        "decision": "verified_equivalent",
+        "note": "Pages 21-22: (1) and (2)(a)-(z) match in full; ends before s.41."
+      },
+      "dpdp-2023:5": {
+        "decision": "verified_equivalent",
+        "note": "Pages 7-8: (1)(i)-(iii) with its tail and Illustration, (2)(a)(i)-(iii) with tail, (2)(b) with Illustration, and (3) all match; ends before s.6."
+      },
+      "dpdp-2023:9": {
+        "decision": "verified_equivalent",
+        "note": "Pages 11-12: (1) with its Explanation, (2)-(5) match; ends before s.10."
+      }
+    },
+    "decision": "act_batch_admitted",
+    "failed_keys": [],
+    "decision_note": "All eleven selected sections compared whole against their rendered PDF pages; every one agreed, including the illustrations, which this Act prints inside its sections.",
+    "render_evidence": {
+      "data/phase3/review-renders/dpdp-2023/page-5.png": "9995b29bf8835b45822bf2797a7a0214886f8f166114135bde015ae1d948b210",
+      "data/phase3/review-renders/dpdp-2023/page-7.png": "7809e1a27b6ab26a37d06618f5f304a1f758eb2353fabb12d396e76660cf0c79",
+      "data/phase3/review-renders/dpdp-2023/page-8.png": "50d5c61d0acfed538bbf4f7fe6f717c5a9efb5540b9870fbf87c03a94b5d0fdd",
+      "data/phase3/review-renders/dpdp-2023/page-11.png": "a07fc1816f0446e75f37c45a2e534bc4ce8b49984d30a4222db9b641e4f59a90",
+      "data/phase3/review-renders/dpdp-2023/page-12.png": "b1b6b912e9d8b074530800c72e7a57e120a8081f37018957ca6759d537cc3a28",
+      "data/phase3/review-renders/dpdp-2023/page-13.png": "b37f42bef3366e7809bce5c40de46b966991c30318c872317c8cf585d432731b",
+      "data/phase3/review-renders/dpdp-2023/page-18.png": "f76526ceee07585f2bc9d54e866751d12159bbad89ba72075fec48d95c416311",
+      "data/phase3/review-renders/dpdp-2023/page-19.png": "f5f887450057ee7762a0872444dee7b0321a61d059ce5f661b1373dfbc0366f7",
+      "data/phase3/review-renders/dpdp-2023/page-20.png": "911856f94aedbcd1935b79df3b936410a48a3b05e88babb8aaec57662e141379",
+      "data/phase3/review-renders/dpdp-2023/page-21.png": "ee7ad94e9abf6ff1c58d089fd349471bf753a05f100fbb131b46222ba782a712",
+      "data/phase3/review-renders/dpdp-2023/page-22.png": "5d12a64fb9a3b22b763db42ad9326a5fb5a45cc96250c340c976ff7fd502b6f0"
+    },
+    "scope_note": "Each selected section was compared whole against its rendered PDF pages: heading, beginning and end, numbered parts, provisos and footnotes. Sections outside selected_keys were not looked at individually; they rest on automated whole-body agreement plus this sample."
+  },
+  "admits_nothing_note": "A passing review authorizes admission of this Act's aligned candidates through the canonical importer under review class text_agreement_sampled_visual. Provisions not in selected_keys are admitted on automated whole-body agreement plus this sample, and must never be presented as individually reviewed."
+}

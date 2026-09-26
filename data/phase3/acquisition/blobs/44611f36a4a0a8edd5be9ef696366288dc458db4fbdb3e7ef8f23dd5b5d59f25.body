@@ -1,0 +1,58 @@
+{
+  "_embedded" : {
+    "bitstreams" : [ {
+      "id" : "619a9e8c-ddcd-4afa-9d51-1116134912d7",
+      "uuid" : "619a9e8c-ddcd-4afa-9d51-1116134912d7",
+      "name" : "2025-24.pdf",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "2025-24.pdf",
+          "language" : "English",
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "bundleName" : "ORIGINAL",
+      "sizeBytes" : 1205818,
+      "checkSum" : {
+        "checkSumAlgorithm" : "MD5",
+        "value" : "9b3a8e7c0c09cdd1976b87b975e3f2e2"
+      },
+      "sequenceId" : 6,
+      "type" : "bitstream",
+      "_links" : {
+        "content" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/619a9e8c-ddcd-4afa-9d51-1116134912d7/content"
+        },
+        "bundle" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/619a9e8c-ddcd-4afa-9d51-1116134912d7/bundle"
+        },
+        "accessStatus" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/619a9e8c-ddcd-4afa-9d51-1116134912d7/accessStatus"
+        },
+        "format" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/619a9e8c-ddcd-4afa-9d51-1116134912d7/format"
+        },
+        "thumbnail" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/619a9e8c-ddcd-4afa-9d51-1116134912d7/thumbnail"
+        },
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/619a9e8c-ddcd-4afa-9d51-1116134912d7"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 1
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/core/bundles/46ac13eb-0977-43a6-bdb8-48b83c554a85/bitstreams?size=100"
+    }
+  }
+}

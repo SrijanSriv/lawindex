@@ -1,0 +1,67 @@
+{
+  "provision_key": "arbitration-1996:47",
+  "act_slug": "arbitration-1996",
+  "act_uuid": "51601006-0e76-4a81-83ce-739f3a021112",
+  "section_number": "47",
+  "heading": "Evidence.",
+  "selected_representation": "structured_html",
+  "selected_representation_reason": "Whole body agrees with the retained PDF at normalization level marker; admitted under this Act's sampled visual review and individually compared in that sample.",
+  "source_representation": {
+    "kind": "structured_html",
+    "capture": "phase3-arbitration-1996-sections-page-0",
+    "sha256": "acda6d59b30d5ab113f35a3d3f48deddccfc7b2c5206a556cfe63da6b1512798",
+    "field": "dc.identifier.section_page_note",
+    "section_item_uuid": "f2f1f183-fa7b-4753-8c70-899daa14815d",
+    "act_id": "AC_CEN_3_46_00004_199626_1517807323919"
+  },
+  "pdf_anchor": {
+    "capture": "phase3-arbitration-1996-pdf",
+    "sha256": "6fb32e5ffe2581740345d948c1e362bfbb5018ca7958932cde8ca92436485b6c",
+    "pdf_page_from": 32,
+    "pdf_page_to": 32
+  },
+  "agreement": {
+    "normalization_level": 4,
+    "normalizations": [
+      "dash",
+      "quote",
+      "ellipsis",
+      "marker"
+    ],
+    "page_break_gap_count": 0,
+    "footnote_normalization_level": 0,
+    "method": "enumerated typographic normalization applied to both representations"
+  },
+  "review": {
+    "reviewer_ref": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "review_class": "text_agreement_sampled_visual",
+    "checked_scope": "act_sample_plus_whole_body_automated_agreement",
+    "visually_reviewed": true,
+    "footnotes_present": true,
+    "sample_plan": {
+      "path": "data/phase3/review-plans/arbitration-1996.json",
+      "sha256": "7e09501fa372695a19791bb13541b5bac36b36387c31cdb74254dee3a8b5b6ae",
+      "plan_digest": "fb64991b5e5895eb2af822ccfdfc11fdde79e7bd7c660dd44f179815d92297d4",
+      "population_count": 69,
+      "selected_count": 24
+    },
+    "scope": "Each selected section was compared whole against its rendered PDF pages: heading, beginning and end, numbered parts, provisos and footnotes. Sections outside selected_keys were not looked at individually; they rest on automated whole-body agreement plus this sample.",
+    "evidence": [
+      "data/phase3/review-renders/arbitration-1996/page-32.png",
+      "data/discovery/phase3-arbitration-1996-sections-page-0.body",
+      "data/discovery/phase3-arbitration-1996-pdf.body",
+      "data/phase3/review-plans/arbitration-1996.json"
+    ]
+  },
+  "known_conflicts": [],
+  "classification": "typographic_equivalence_verified",
+  "disposition": "verified_equivalent",
+  "admission_status": "admitted",
+  "extraction_method_version": "phase3-sampled-agreement-v1",
+  "expected_output": {
+    "body_text_sha256": "3580b771a954c927142d7c236a0b3a792efc02f746990f4f86d531a939e2c277",
+    "footnote_text_sha256": "a435fdbc01c85330fa8922ec6199b556d46001660c96126cdac54ad78aea3003",
+    "established_by": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "established_note": "Established by automated whole-body agreement recorded in the sample plan; individually compared only if visually_reviewed."
+  }
+}

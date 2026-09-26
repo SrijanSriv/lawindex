@@ -1,0 +1,14 @@
+{
+  "requested_url": "https://indiacode.gov.in/assets/config.json",
+  "effective_url": "https://indiacode.gov.in/assets/config.json",
+  "fetched_at_utc": "2026-09-20T06:01:59.467334+00:00",
+  "http_status": 200,
+  "content_type": "application/json; charset=UTF-8",
+  "curl_exit_code": 0,
+  "error": null,
+  "bytes": 15747,
+  "sha256": "f39ae6e907e43551ea6db3538ef2da515c553bde5a642af648a6ce599320e9d0",
+  "body_path": "data/discovery/current-config.body",
+  "elapsed_seconds": 0.214634,
+  "note": "HTTP success alone does not establish valid source content; inspect body."
+}

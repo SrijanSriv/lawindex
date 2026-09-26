@@ -1,0 +1,10 @@
+{
+  "url": "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT%2Cequals&f.title=Competition+Act%2C+2002%2Ccontains&page=0&size=100",
+  "status": 200,
+  "sha256": "bb1b5a464a1278bf9c38e2f8c0992fec973fcb339c23b372e00cee8432bae3bd",
+  "bytes": 13790,
+  "fetched_at": "2026-09-21T20:13:07.777605+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "attempt": 1
+}

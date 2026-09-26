@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/8a8b564a-d85c-4143-8588-94e607ea79e0/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/8a8b564a-d85c-4143-8588-94e607ea79e0/content",
+  "http_status": 200,
+  "curl_exit_code": 0,
+  "content_type": "application/pdf",
+  "fetched_at_utc": "2026-09-21T20:32:15.370520+00:00",
+  "sha256": "34fd8fbb31622200943f374538bd54bb7307de18ffb0b73d6fc5dfd9ca5dc14f",
+  "bytes": 638611,
+  "body_path": "data/discovery/phase3-competition-2002-pdf.body",
+  "note": "Exact copy of retained Phase 3 HTTP bytes; not a new acquisition. Receipt in data/phase3/acquisition/acts/competition-2002.json"
+}

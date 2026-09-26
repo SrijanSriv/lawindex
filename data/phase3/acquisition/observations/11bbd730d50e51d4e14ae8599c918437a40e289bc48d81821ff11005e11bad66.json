@@ -1,0 +1,10 @@
+{
+  "url": "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT%2Cequals&f.title=Information+Technology+Act%2C+2000%2Ccontains&page=0&size=100",
+  "status": 200,
+  "sha256": "9629a10afc4daa6051a41d232f87d0b976adf9113bde300807dad397c83995e3",
+  "bytes": 74869,
+  "fetched_at": "2026-09-21T19:43:42.652486+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "attempt": 1
+}

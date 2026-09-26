@@ -1,0 +1,10 @@
+{
+  "url": "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION%2Cequals&f.act_id=AC_CEN_17_19_00033_201616_1517807328405%2Cequals&sort=dc.identifier.order_number%2CASC&page=0&size=100",
+  "status": 200,
+  "sha256": "743391859955af4c790280d1da7dcf1bfc5e92d461302925b51cc43e8f245ad2",
+  "bytes": 1019882,
+  "fetched_at": "2026-09-21T19:56:46.489062+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "attempt": 1
+}

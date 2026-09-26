@@ -1,0 +1,250 @@
+{
+  "id" : "fd1a7f72-25b4-48af-82d0-6c3c6509b098",
+  "uuid" : "fd1a7f72-25b4-48af-82d0-6c3c6509b098",
+  "name" : "The Repealing and Amending Act, 2023",
+  "handle" : "123456789/496459",
+  "metadata" : {
+    "dc.date.accessioned" : [ {
+      "value" : "2026-07-10T20:12:00Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.act_year" : [ {
+      "value" : "2023",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.enact_date" : [ {
+      "value" : "2023-12-17",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.entry_date" : [ {
+      "value" : "2023-12-22",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2023-12-17",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "Summary of Repealing and Amendment Act, 2023 \n*The Repealing and Amending Act, 2023 repeals a total of 72 enactments across various domains. *Amends one enactment, The Factoring Regulation Act, 2011, with a minor textual correction. *Saves all previous actions, rights, and proceedings under the repealed acts.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.act_id" : [ {
+      "value" : "AC_CEN_3_20_00079_202337_1703224004767",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.act_number" : [ {
+      "value" : "37",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.collection" : [ {
+      "value" : "ACT",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.department_id" : [ {
+      "value" : "20",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.department_name" : [ {
+      "value" : "Legislative Department",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.givenid" : [ {
+      "value" : "202337",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.ministry_id" : [ {
+      "value" : "3",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.ministry_name" : [ {
+      "value" : "Ministry of Law and Justice",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.no_of_chapter" : [ {
+      "value" : "0",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.no_of_section" : [ {
+      "value" : "0",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.preamble_description" : [ {
+      "value" : "<center style=\"font-size: 17px;\">THE REPEALING AND AMENDING ACT, 2023</center> <center style=\"font-size: 16px;\">ACT NO. 37 OF 2023</center> <p style=\"text-align:right;\">[17th December, 2023.]</p> An Act to repeal certain enactments and to amend an enactment.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> BE it enacted by Parliament in the Seventy-fourth Year of the Republic of India as follows:--<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/>",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.refact" : [ {
+      "value" : "0",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.reference_sites" : [ {
+      "value" : "Ministry Of Law and  Justice https://www.lawmin.gov.in/",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Legislative Department https://www.legislative.gov.in/",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Concerned Ministry/Department Acts and Rules https://www.legislative.gov.in/documents/acts-and-policies/repeal-of-redundant-and-obsolete-laws-gTN1EjMtQWa?pageTitle=Repeal-of-Redundant-and-Obsolete-Laws",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    } ],
+    "dc.identifier.repealed" : [ {
+      "value" : "false",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.state_id" : [ {
+      "value" : "1",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.state_name" : [ {
+      "value" : "CENTRAL",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "http://test1.indiacode.nic.in/handle/123456789/496459",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.legislation.history" : [ {
+      "value" : "Legislative History:\n The Repealing and Amending Act, 2023 \n\nSource: Official Record of Parliament, India Code, and Ministry of Law and Justice \n\nAct Title - The Repealing and Amending Act, 2023 \nAct Number - Act No. 37 of 2023 \nAct ID (India Code) - 202337\n Presidential Assent date - December 17, 2023 \n Enforcement Date - December 17, 2023 \nNodal Ministry - Ministry of Law and Justice \n\nPrecedent & Historical Rationale\n\n●\tPurging Obsolete and Redundant Laws: Formally repeals 65 obsolete and redundant enactments—including legacy amending Acts and outdated principal statutes—to clean up the statute book and eliminate statutory congestion.\n●\tCorrection of Minor Drafting and Technical Errors: Introduces minor typographical, formal, and textual corrections in the Factoring Regulation Act, 2011, without altering the substantive legal provisions or intent of the underlying law.\n \nParliamentary Trajectory & Enactment\n●\tFormulation: Introduced by the Union Minister of Law and Justice as part of the government's ongoing initiative to review, streamline, and periodically repeal unnecessary laws to enhance ease of living and administrative clarity.\n●\tParliamentary Passage: Introduced in the Lok Sabha on December 19, 2022; passed by the Lok Sabha on July 27, 2023; and passed by the Rajya Sabha on December 4, 2023.\n●\tPresidential Assent: Received the assent of the President of India on December 17, 2023.\n●\tEnforcement: Enforced on December 17, 2023 .",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title" : [ {
+      "value" : "The Repealing and Amending Act, 2023",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title.long_title" : [ {
+      "value" : "An Act to repeal certain enactments and to amend an enactment.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "Historical",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2026-09-12T18:21:34.931171Z",
+  "entityType" : null,
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/fd1a7f72-25b4-48af-82d0-6c3c6509b098/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/fd1a7f72-25b4-48af-82d0-6c3c6509b098/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/fd1a7f72-25b4-48af-82d0-6c3c6509b098/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/fd1a7f72-25b4-48af-82d0-6c3c6509b098/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/fd1a7f72-25b4-48af-82d0-6c3c6509b098/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/fd1a7f72-25b4-48af-82d0-6c3c6509b098/relationships"
+    },
+    "version" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/fd1a7f72-25b4-48af-82d0-6c3c6509b098/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/fd1a7f72-25b4-48af-82d0-6c3c6509b098/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/fd1a7f72-25b4-48af-82d0-6c3c6509b098/thumbnail"
+    },
+    "submitter" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/fd1a7f72-25b4-48af-82d0-6c3c6509b098/submitter"
+    },
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/fd1a7f72-25b4-48af-82d0-6c3c6509b098"
+    }
+  }
+}

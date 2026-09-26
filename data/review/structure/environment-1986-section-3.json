@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "provision_key": "environment-1986:3",
+  "status": "reviewed_boundaries",
+  "body_sha256": "a5e1930904d83ec0bfee89982087e1b74c957b5d0678e590ee038c2e05e27fe6",
+  "source_sha256": "d9712743c39faeb1019c08af3b0b2856ca3c905c4bd6299ee4a928576fdc9169",
+  "reviewer": "Codex AI-agent visual boundary review; not independent legal-expert review",
+  "independent_legal_expert": false,
+  "review_date": "2026-09-21",
+  "review_time": "not separately instrumented",
+  "evidence": [
+    "data/discovery/environment-1986-pdf.body",
+    "data/import/structure-review/environment-04.png",
+    "data/import/structure-review/environment-05.png"
+  ],
+  "scope": "Subsections (1)-(3), clauses (i)-(xiv) of (2), and (a)/(b) inside (2)(i). Checked against rendered pages 4-5. Clause (iv) retains its entire proviso; subsection (3) begins on page 5 and ends before section 4. Root section remains mandatory context; child search admission is not granted.",
+  "nodes": [
+    {
+      "path": "1",
+      "kind": "subsection",
+      "start_text": "(1)\nSubject to"
+    },
+    {
+      "path": "2",
+      "kind": "subsection",
+      "start_text": "(2) In particular"
+    },
+    {
+      "path": "2/i",
+      "kind": "clause",
+      "start_text": "(i) co-ordination"
+    },
+    {
+      "path": "2/i/a",
+      "kind": "clause",
+      "start_text": "(a) under this Act"
+    },
+    {
+      "path": "2/i/b",
+      "kind": "clause",
+      "start_text": "(b) under any other law"
+    },
+    {
+      "path": "2/ii",
+      "kind": "clause",
+      "start_text": "(ii) planning"
+    },
+    {
+      "path": "2/iii",
+      "kind": "clause",
+      "start_text": "(iii) laying down standards for the quality"
+    },
+    {
+      "path": "2/iv",
+      "kind": "clause",
+      "start_text": "(iv) laying down standards for emission"
+    },
+    {
+      "path": "2/v",
+      "kind": "clause",
+      "start_text": "(v) restriction"
+    },
+    {
+      "path": "2/vi",
+      "kind": "clause",
+      "start_text": "(vi) laying down procedures"
+    },
+    {
+      "path": "2/vii",
+      "kind": "clause",
+      "start_text": "(vii) laying down procedures"
+    },
+    {
+      "path": "2/viii",
+      "kind": "clause",
+      "start_text": "(viii) examination"
+    },
+    {
+      "path": "2/ix",
+      "kind": "clause",
+      "start_text": "(ix) carrying out"
+    },
+    {
+      "path": "2/x",
+      "kind": "clause",
+      "start_text": "(x) inspection"
+    },
+    {
+      "path": "2/xi",
+      "kind": "clause",
+      "start_text": "(xi) establishment"
+    },
+    {
+      "path": "2/xii",
+      "kind": "clause",
+      "start_text": "(xii) collection"
+    },
+    {
+      "path": "2/xiii",
+      "kind": "clause",
+      "start_text": "(xiii) preparation"
+    },
+    {
+      "path": "2/xiv",
+      "kind": "clause",
+      "start_text": "(xiv) such other matters"
+    },
+    {
+      "path": "3",
+      "kind": "subsection",
+      "start_text": "(3) The Central Government"
+    }
+  ]
+}

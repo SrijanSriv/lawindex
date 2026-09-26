@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/71c2a162-a610-4f69-afae-1150c8e3ffb7/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/71c2a162-a610-4f69-afae-1150c8e3ffb7/content",
+  "http_status": 200,
+  "curl_exit_code": 0,
+  "content_type": "application/pdf",
+  "fetched_at_utc": "2026-09-21T20:13:06.169830+00:00",
+  "sha256": "128c22b4061a92f4b8da8dc4ec5f6baf232dd173437c41901a01a5e3b01906f2",
+  "bytes": 561781,
+  "body_path": "data/discovery/phase3-real-estate-2016-pdf.body",
+  "note": "Exact copy of retained Phase 3 HTTP bytes; not a new acquisition. Receipt in data/phase3/acquisition/acts/real-estate-2016.json"
+}

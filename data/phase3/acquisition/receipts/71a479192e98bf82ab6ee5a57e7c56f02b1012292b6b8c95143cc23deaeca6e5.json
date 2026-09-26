@@ -1,0 +1,10 @@
+{
+  "url": "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT%2Cequals&f.title=National+Food+Security+Act%2C+2013%2Ccontains&page=0&size=100",
+  "status": 200,
+  "sha256": "d5f8c815626fe2ed4f58577e9720780fd82da742b6dbc7ac685e11bef6649b7e",
+  "bytes": 131246,
+  "fetched_at": "2026-09-21T19:44:11.493485+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "attempt": 1
+}

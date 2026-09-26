@@ -1,0 +1,14 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/619a9e8c-ddcd-4afa-9d51-1116134912d7/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/619a9e8c-ddcd-4afa-9d51-1116134912d7/content",
+  "fetched_at_utc": "2026-09-20T06:09:58.492699+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf;charset=UTF-8",
+  "curl_exit_code": 0,
+  "error": null,
+  "bytes": 1545323,
+  "sha256": "bd83f120d732e9ac89e7918dcc9b919494019e5bd78a9b9d855a4a41a998ff6e",
+  "body_path": "data/discovery/merchant-shipping-2025-pdf.body",
+  "elapsed_seconds": 0.648705,
+  "note": "HTTP success alone does not establish valid source content; inspect body."
+}

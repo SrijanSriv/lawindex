@@ -1,0 +1,14 @@
+{
+  "requested_url": "https://indiacode.gov.in/main.180788d40520b64b.js",
+  "effective_url": "https://indiacode.gov.in/main.180788d40520b64b.js",
+  "fetched_at_utc": "2026-09-20T06:01:16.627837+00:00",
+  "http_status": 200,
+  "content_type": "application/javascript; charset=UTF-8",
+  "curl_exit_code": 0,
+  "error": null,
+  "bytes": 3472320,
+  "sha256": "0dd4d6e7877d7558e35d0b4dd5a4a2561401453480cd61dae924afb3d37fc6c1",
+  "body_path": "data/discovery/current-main-js.body",
+  "elapsed_seconds": 0.737871,
+  "note": "HTTP success alone does not establish valid source content; inspect body."
+}

@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION%2Cequals&f.act_id=AC_CEN_12_13_00024_201710_1517807327874%2Cequals&sort=dc.identifier.order_number%2CASC&page=0&size=100",
+  "effective_url": "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION%2Cequals&f.act_id=AC_CEN_12_13_00024_201710_1517807327874%2Cequals&sort=dc.identifier.order_number%2CASC&page=0&size=100",
+  "http_status": 200,
+  "curl_exit_code": 0,
+  "content_type": "application/hal+json",
+  "fetched_at_utc": "2026-09-21T19:42:12.588829+00:00",
+  "sha256": "d55250883381325be0d04f893cbbef292af95b16e126692df98563dd46a60d8a",
+  "bytes": 1152942,
+  "body_path": "data/discovery/phase3-mental-healthcare-2017-sections-page-0.body",
+  "note": "Exact copy of retained Phase 3 HTTP bytes; not a new acquisition. Receipt in data/phase3/acquisition/acts/mental-healthcare-2017.json"
+}

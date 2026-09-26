@@ -1,0 +1,773 @@
+{
+  "schema_version": 1,
+  "planner_version": "phase3-sample-plan-v1",
+  "parser_version": "phase3-html-pdf-agreement-v2",
+  "act_slug": "legal-services-1987",
+  "candidates_sha256": "44eb8fe4582be981737992cbe414b9f78fa814c75ce99ae54baf7b9e14486bea",
+  "pdf_sha256": "fb28f68a782d3e9dd398fcbb4564d82dceed6fd62ebd0e05dcaf749d5e899c59",
+  "source_acquisition_sha256": "d27df33e3d9f97bb2cc7a873116efcf47666b3c9859229b266b066e1b3ff8ffd",
+  "seed": "0eb540dd0feaac89999c98cc32ff67704b3a8e8182b757f652c97f9b8dc4c66f",
+  "selection_rule": {
+    "mandatory": "every aligned candidate with a footnote or a page-break footnote gap",
+    "stratified": "per most-tolerant-normalization stratum, max(2, ceil(10%))",
+    "deterministic": "seed = sha256(planner_version|act_slug|candidates_sha256); re-running cannot re-roll the sample"
+  },
+  "population": [
+    {
+      "key": "legal-services-1987:1",
+      "section_number": "1",
+      "heading": "Short title, extent and commencement.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote",
+      "normalizations": [
+        "dash",
+        "quote"
+      ],
+      "pdf_page_from": 3,
+      "pdf_page_to": 3,
+      "body_text_sha256": "8a2ae569fe0ba8e173fc0b73acbe1dfe556439a9fd2e1aacf44eee16c1c03415",
+      "footnote_text_sha256": "077b4a1de5d45be8c6e7fbfb862bfaea58bcc000e3ae5ced9e2b196de89149c0",
+      "footnote_normalization_level": 2,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "a7e954e4-5336-4109-a3ff-1f19e43a4173"
+    },
+    {
+      "key": "legal-services-1987:11",
+      "section_number": "11",
+      "heading": "District Authority to act in coordination with other agencies and be subject to directions given by the Central Authority, etc.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 9,
+      "pdf_page_to": 9,
+      "body_text_sha256": "99c16b9406285e6e76bcb004209db42a32f5c2e231248719db24a859d311a579",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "1a4a0011-d306-4a67-b43c-b1bed4577ca5"
+    },
+    {
+      "key": "legal-services-1987:11A",
+      "section_number": "11A",
+      "heading": "Taluk Legal Services Committee.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 9,
+      "pdf_page_to": 9,
+      "body_text_sha256": "9474759a59440f4e0a55394d6d301d676649bb41486dcc260532897e2970b48c",
+      "footnote_text_sha256": "06bef9c27e09e52d2cfa99b1cb42ce2365e9656786a029cf59c4887a415973d0",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "2abeb2a5-17d8-4e37-9b67-a18dcb690596"
+    },
+    {
+      "key": "legal-services-1987:13",
+      "section_number": "13",
+      "heading": "Entitlement of legal services.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "space-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "space-drop"
+      ],
+      "pdf_page_from": 10,
+      "pdf_page_to": 10,
+      "body_text_sha256": "85a675c1e2961d4349c419d228fd74fcd47931d90ccba3635e12419a9289fa1e",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "0fadebfd-70e3-4f20-9873-8874f9b21e00"
+    },
+    {
+      "key": "legal-services-1987:14",
+      "section_number": "14",
+      "heading": "Grants by the Central Government.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 10,
+      "pdf_page_to": 10,
+      "body_text_sha256": "3f32feec7376cdf105a0a2e36465d0f25af90e0cbde358e534a7a6fcfe13528e",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "6a524409-d253-45e8-a966-07a1c8b2272a"
+    },
+    {
+      "key": "legal-services-1987:15",
+      "section_number": "15",
+      "heading": "National Legal Aid Fund.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 10,
+      "pdf_page_to": 10,
+      "body_text_sha256": "ef4f77e324a7d4b098e8bc802d2cde2731333f3424e6e1a54f0eedf92cad9321",
+      "footnote_text_sha256": "b7f3e185c3b1353a7dad439a407c40a97baa984b235d110d8efeb708c76524c0",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "7afbe533-4495-47fc-b467-885bdc334c58"
+    },
+    {
+      "key": "legal-services-1987:16",
+      "section_number": "16",
+      "heading": "State Legal Aid Fund.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 10,
+      "pdf_page_to": 11,
+      "body_text_sha256": "37e39150b1815f7b2ded1e50cdf1e1820d8d0c3bba3df97cb06e3ef75f2bf37f",
+      "footnote_text_sha256": "658b8f3f23dfc972fcd34ab988dd3b5fc600ce37c4384b1e6b36f771701b3a77",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "ee130724-2ccd-4b32-8d7e-961913e28768"
+    },
+    {
+      "key": "legal-services-1987:17",
+      "section_number": "17",
+      "heading": "District Legal Aid Fund.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "space-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "space-drop"
+      ],
+      "pdf_page_from": 11,
+      "pdf_page_to": 11,
+      "body_text_sha256": "f4c88ef6eab38b57799cc284f0cfaaa083bca5608c2caa82e6541594f57d0db9",
+      "footnote_text_sha256": "3d3156ea1b99bf8ee2c04861224c654ed21f2c8ee8b41c0a947020864059e8d8",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "7d3e5657-05dd-47b4-83f0-1fdab0579637"
+    },
+    {
+      "key": "legal-services-1987:18",
+      "section_number": "18",
+      "heading": "Accounts and audit.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "hyphen",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen"
+      ],
+      "pdf_page_from": 11,
+      "pdf_page_to": 11,
+      "body_text_sha256": "b7de54c799730ba4066af75c9da157b4484f1a4acbc302c647a1b2c61711617c",
+      "footnote_text_sha256": "5039ebd2783c2beca50811ecdcb46954deb5c1080f02a40b0b44c34e78f4551a",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "8fd1b049-bedc-4c29-bda7-d2edf7173b6e"
+    },
+    {
+      "key": "legal-services-1987:21",
+      "section_number": "21",
+      "heading": "Award of Lok Adalat.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "space-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "space-drop"
+      ],
+      "pdf_page_from": 13,
+      "pdf_page_to": 13,
+      "body_text_sha256": "b2f853cf070f481beee799bebcfa9cd74cdb8fe2f19d0ca59dfbf07307cdd497",
+      "footnote_text_sha256": "1a1a8193aedf04ec753279101e3788234f46c46a816e9aef1c40073e4354907b",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "e5e50da5-ca26-4bdd-95d5-05fd83735b71"
+    },
+    {
+      "key": "legal-services-1987:22",
+      "section_number": "22",
+      "heading": "Powers of Lok Adalat or Permanent Lok Adalat.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "space-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "space-drop"
+      ],
+      "pdf_page_from": 13,
+      "pdf_page_to": 13,
+      "body_text_sha256": "b2849b78ff4db5c033744d0c0b90518a1930ebb37108de12f9005b4d60fda865",
+      "footnote_text_sha256": "12711ef0a939d5dbdb92dc0f4e086d41680e4a8d635ed3cf89ff7adb111c2ee9",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "9689e11c-1410-4f8e-824e-85c077f5b076"
+    },
+    {
+      "key": "legal-services-1987:22C",
+      "section_number": "22C",
+      "heading": "Cognizance of cases by Permanent Lok Adalat.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "space-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "space-drop",
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 14,
+      "pdf_page_to": 15,
+      "body_text_sha256": "9c343b1058ddb6554810fa70abfd917bd4a6c7ce7ef5a201d47e5c539b75ec6c",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "31897a12-39cf-4624-b85d-71de6934efa6"
+    },
+    {
+      "key": "legal-services-1987:22D",
+      "section_number": "22D",
+      "heading": "Procedure of Permanent Lok Adalat.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 15,
+      "pdf_page_to": 15,
+      "body_text_sha256": "cc83a582761581e4a41242f49c7e54c6f0e890a1eb9cdfc94937ebf8d5c58ac7",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "6e50a9a0-98be-4a59-ab32-9b89653a61a4"
+    },
+    {
+      "key": "legal-services-1987:22E",
+      "section_number": "22E",
+      "heading": "Award of Permanent Lok Adalat to be final.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 15,
+      "pdf_page_to": 15,
+      "body_text_sha256": "20d52188c2eee62070ff8bcded230640cc553c7522892f1d7bd7ea8342d781a2",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "3ce8605b-3dc1-4348-9d59-93d1bd9169d1"
+    },
+    {
+      "key": "legal-services-1987:24",
+      "section_number": "24",
+      "heading": "Protection of action taken in good faith.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 16,
+      "pdf_page_to": 16,
+      "body_text_sha256": "469759be921fa053b874c822924dec87adb9125cf7b79f859d0f1276b89711e3",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "0d81169c-e742-43ab-bc1c-feecd93aa869"
+    },
+    {
+      "key": "legal-services-1987:25",
+      "section_number": "25",
+      "heading": "Act to have overriding effect.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 16,
+      "pdf_page_to": 16,
+      "body_text_sha256": "b477a8c4aed6aefe6ffb713dcd2ca8edf9226516a17af3f8ffc93d7bc5511544",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "a87ea21e-684f-47da-9a88-610570664d04"
+    },
+    {
+      "key": "legal-services-1987:26",
+      "section_number": "26",
+      "heading": "Power to remove difficulties.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 16,
+      "pdf_page_to": 16,
+      "body_text_sha256": "2aff0310c083fe681c242225754a7cb3ec98e937bedf7d24f874d4be389909fc",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "ed2334aa-0225-4045-8ec2-64d79a83efb1"
+    },
+    {
+      "key": "legal-services-1987:29",
+      "section_number": "29",
+      "heading": "Power of Central Authority to make regulations.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "space-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "space-drop"
+      ],
+      "pdf_page_from": 18,
+      "pdf_page_to": 18,
+      "body_text_sha256": "dd15e8c75c04d599bb8a7cdff3c9f14c526a3e5dce26273bc25289124c10e505",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "8f49f369-606e-402c-9a9f-ebb43d168330"
+    },
+    {
+      "key": "legal-services-1987:3",
+      "section_number": "3",
+      "heading": "Constitution of the National Legal Services Authority.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "space-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "space-drop"
+      ],
+      "pdf_page_from": 4,
+      "pdf_page_to": 4,
+      "body_text_sha256": "8f4f67027f251a248d499410b09855dd22a3e8849cd7d1d75b69c6fc6a303920",
+      "footnote_text_sha256": "8eed19d4a41b3fe1003d242ca2e04d6234b6e35087048cde8f955fa62c4abf70",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "8156b0a0-45f2-4102-ac34-a805f329fdec"
+    },
+    {
+      "key": "legal-services-1987:30",
+      "section_number": "30",
+      "heading": "Laying of rules and regulations",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 18,
+      "pdf_page_to": 19,
+      "body_text_sha256": "30141bdc7e4f5966dbe9a1c64d4c059b6425f49e18719a6b962c094fee7a7f1b",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "4a6cbb0e-3a42-4507-8905-aeab1b2a0353"
+    },
+    {
+      "key": "legal-services-1987:3A",
+      "section_number": "3A",
+      "heading": "Supreme Court Legal Services Committee.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 4,
+      "pdf_page_to": 5,
+      "body_text_sha256": "9e361b43f3694d5fb8cfcebe3a7b89ca28a24d25467e32f6157ea8ce13c58deb",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "33d531e7-d96e-4f43-8023-840c5b9ddadc"
+    },
+    {
+      "key": "legal-services-1987:5",
+      "section_number": "5",
+      "heading": "Central Authority to work in coordination with other agencies.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 6,
+      "pdf_page_to": 6,
+      "body_text_sha256": "d1a87f9ee342cc075233c10d5e78b261d63a6eeb527ce5f4661bccfc88f2dca6",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "289ac9f8-69ce-4c0e-9fb9-f60663e03624"
+    },
+    {
+      "key": "legal-services-1987:7",
+      "section_number": "7",
+      "heading": "Functions of the State Authority.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "space-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "space-drop"
+      ],
+      "pdf_page_from": 7,
+      "pdf_page_to": 7,
+      "body_text_sha256": "1854231832cabbf50aa0be0673ebcfd5c2aaa582109ae2489ebc1615528862d4",
+      "footnote_text_sha256": "b76a536d93f0c3aa8bd9532a7b9ac0fdc5a6edd2b4ef0eccb546f037fb1195d7",
+      "footnote_normalization_level": 11,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "2c136f9d-398b-49d6-a1e7-19da58fe4a1e"
+    },
+    {
+      "key": "legal-services-1987:8",
+      "section_number": "8",
+      "heading": "State Authority to act in coordination with other agencies, etc., and be subject to directions given by the Central Authority.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "space-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "space-drop"
+      ],
+      "pdf_page_from": 7,
+      "pdf_page_to": 7,
+      "body_text_sha256": "2c390419c179cbfe188edd27b497fa0dde5b669fca1fea5ca3df2a9861bce8b5",
+      "footnote_text_sha256": "1221606baf32f20f2e85577317242f50a1595457309c3d18626cc3a16d261413",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "c2134322-884e-4ecb-b261-f62f43e6abe5"
+    },
+    {
+      "key": "legal-services-1987:9",
+      "section_number": "9",
+      "heading": "District Legal Services Authority.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "space-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "space-drop"
+      ],
+      "pdf_page_from": 8,
+      "pdf_page_to": 8,
+      "body_text_sha256": "40abee01d6446b310b5da0bb83d8369456f05c2c5b552123a69f93056104eedd",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "76739e1c-2057-4ec7-ab87-9c8133e66b48"
+    }
+  ],
+  "population_count": 25,
+  "mandatory_keys": [
+    "legal-services-1987:1",
+    "legal-services-1987:11A",
+    "legal-services-1987:15",
+    "legal-services-1987:16",
+    "legal-services-1987:17",
+    "legal-services-1987:18",
+    "legal-services-1987:21",
+    "legal-services-1987:22",
+    "legal-services-1987:3",
+    "legal-services-1987:3A",
+    "legal-services-1987:7",
+    "legal-services-1987:8"
+  ],
+  "sampled_keys": [
+    "legal-services-1987:24",
+    "legal-services-1987:25",
+    "legal-services-1987:29",
+    "legal-services-1987:9"
+  ],
+  "selected_keys": [
+    "legal-services-1987:1",
+    "legal-services-1987:11A",
+    "legal-services-1987:15",
+    "legal-services-1987:16",
+    "legal-services-1987:17",
+    "legal-services-1987:18",
+    "legal-services-1987:21",
+    "legal-services-1987:22",
+    "legal-services-1987:24",
+    "legal-services-1987:25",
+    "legal-services-1987:29",
+    "legal-services-1987:3",
+    "legal-services-1987:3A",
+    "legal-services-1987:7",
+    "legal-services-1987:8",
+    "legal-services-1987:9"
+  ],
+  "strata": {
+    "exact": {
+      "population": 9,
+      "sampled": 2,
+      "keys": [
+        "legal-services-1987:24",
+        "legal-services-1987:25"
+      ]
+    },
+    "space-drop": {
+      "population": 4,
+      "sampled": 2,
+      "keys": [
+        "legal-services-1987:29",
+        "legal-services-1987:9"
+      ]
+    }
+  },
+  "renders": {
+    "legal-services-1987:1": [
+      "data/phase3/review-renders/legal-services-1987/page-3.png"
+    ],
+    "legal-services-1987:11A": [
+      "data/phase3/review-renders/legal-services-1987/page-9.png"
+    ],
+    "legal-services-1987:15": [
+      "data/phase3/review-renders/legal-services-1987/page-10.png"
+    ],
+    "legal-services-1987:16": [
+      "data/phase3/review-renders/legal-services-1987/page-10.png",
+      "data/phase3/review-renders/legal-services-1987/page-11.png"
+    ],
+    "legal-services-1987:17": [
+      "data/phase3/review-renders/legal-services-1987/page-11.png"
+    ],
+    "legal-services-1987:18": [
+      "data/phase3/review-renders/legal-services-1987/page-11.png"
+    ],
+    "legal-services-1987:21": [
+      "data/phase3/review-renders/legal-services-1987/page-13.png"
+    ],
+    "legal-services-1987:22": [
+      "data/phase3/review-renders/legal-services-1987/page-13.png"
+    ],
+    "legal-services-1987:24": [
+      "data/phase3/review-renders/legal-services-1987/page-16.png"
+    ],
+    "legal-services-1987:25": [
+      "data/phase3/review-renders/legal-services-1987/page-16.png"
+    ],
+    "legal-services-1987:29": [
+      "data/phase3/review-renders/legal-services-1987/page-18.png"
+    ],
+    "legal-services-1987:3": [
+      "data/phase3/review-renders/legal-services-1987/page-4.png"
+    ],
+    "legal-services-1987:3A": [
+      "data/phase3/review-renders/legal-services-1987/page-4.png",
+      "data/phase3/review-renders/legal-services-1987/page-5.png"
+    ],
+    "legal-services-1987:7": [
+      "data/phase3/review-renders/legal-services-1987/page-7.png"
+    ],
+    "legal-services-1987:8": [
+      "data/phase3/review-renders/legal-services-1987/page-7.png"
+    ],
+    "legal-services-1987:9": [
+      "data/phase3/review-renders/legal-services-1987/page-8.png"
+    ]
+  },
+  "render_sha256": {
+    "data/phase3/review-renders/legal-services-1987/page-3.png": "351a11c9e305314f0cb4ae78f51b8094b43d610cd755688065218889d6670c08",
+    "data/phase3/review-renders/legal-services-1987/page-4.png": "8fdb71e8edfb0a88c50a694479eb82ea908fd06cf7c974b52294eb83ff200f1d",
+    "data/phase3/review-renders/legal-services-1987/page-5.png": "27ba05a49ed828fd562333c5763d6b2e13f2e1f4acb6bd4a2ad1928bbcd21ff4",
+    "data/phase3/review-renders/legal-services-1987/page-7.png": "cdd87af704682071979940114fb8169e5693ad71121a482eddb4d7ee1d0fed69",
+    "data/phase3/review-renders/legal-services-1987/page-8.png": "099e750a956dadedad79e3df777bd1ed111b1cca7b76a146db8437f4ae376e15",
+    "data/phase3/review-renders/legal-services-1987/page-9.png": "57e0b832b0a42d80fd31295e75b3359e10508e6fd7e6137eea52dea5fce0fbe0",
+    "data/phase3/review-renders/legal-services-1987/page-10.png": "1b9c337cada3d18a148e7810ad1d9c3749e712ed4a5b48f0a830bb9c6db7378b",
+    "data/phase3/review-renders/legal-services-1987/page-11.png": "600a65eab19c19937830add9a0cd60c41cce9925e05ee5171765d1dfb4a68d26",
+    "data/phase3/review-renders/legal-services-1987/page-13.png": "82ae24f9d5eefd2fcf71847604d25b147806d251e062015fae55e9ddc921675b",
+    "data/phase3/review-renders/legal-services-1987/page-16.png": "4b264e559f47a7513e65037f753cc16bddc43e8527d25d1beaedb1591c279830",
+    "data/phase3/review-renders/legal-services-1987/page-18.png": "eac12a42de1ce819e461b5766cfa52b1e2741d24628c165ed4725d16d0ad2dd8"
+  },
+  "status": "reviewed",
+  "review": {
+    "reviewer_ref": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "reviewer_sha256": "109ba542b1054cd0f750fece16fdf06fec99b8a227238432c9f10ddcb6fe8303",
+    "session_date": "2026-09-22",
+    "outcomes": {
+      "legal-services-1987:1": {
+        "decision": "verified_equivalent",
+        "note": "Page 3: the PDF prints no \"(1)\" marker before \"This Act may be called\", exactly as the HTML body has it; (2) with its omission asterisks and (3) match; both footnotes belong to this section."
+      },
+      "legal-services-1987:11A": {
+        "decision": "verified_equivalent",
+        "note": "Page 9: the inserted section with its number and heading, (1), (2)(a),(b), (3)-(5) match; both footnotes belong to it; ends before 11B."
+      },
+      "legal-services-1987:15": {
+        "decision": "verified_equivalent",
+        "note": "Page 10: (1)(a)-(c) and (2)(a)-(c) match, closing with the substitution bracket; ends before s.16."
+      },
+      "legal-services-1987:16": {
+        "decision": "verified_equivalent",
+        "note": "Pages 10-11: (1)(a)-(c) and (2)(a)-(c) match; the skipped page-10 block is the two footnotes, not s.16 text; ends before s.17."
+      },
+      "legal-services-1987:17": {
+        "decision": "verified_equivalent",
+        "note": "Page 11: (1)(a)-(c) and (2)(a),(b) including the inserted 3[and 11B] match; ends before s.18."
+      },
+      "legal-services-1987:18": {
+        "decision": "verified_equivalent",
+        "note": "Page 11: (1)-(4) and the inserted 4[(5),(6)] match; ends before CHAPTER VI."
+      },
+      "legal-services-1987:21": {
+        "decision": "verified_equivalent",
+        "note": "Page 13: the substituted (1) with its closing bracket and (2) match; ends before s.22."
+      },
+      "legal-services-1987:22": {
+        "decision": "verified_equivalent",
+        "note": "Page 13: the section number and heading are carried in the body as the PDF prints them; (1)(a)-(e), (2), (3) match, including the PDF's own \"sections 193,219\" and \"section195\" spacing."
+      },
+      "legal-services-1987:24": {
+        "decision": "verified_equivalent",
+        "note": "Page 16: lead-in, (a)-(e) and the closing tail match; ends before s.25."
+      },
+      "legal-services-1987:25": {
+        "decision": "verified_equivalent",
+        "note": "Page 16: single paragraph matches exactly; ends before s.26."
+      },
+      "legal-services-1987:29": {
+        "decision": "verified_equivalent",
+        "note": "Page 18: (1) and (2)(a),(b) match; ends before 29A."
+      },
+      "legal-services-1987:3": {
+        "decision": "verified_equivalent",
+        "note": "Page 4: the substituted section including its number and heading, (1)-(9), all match; the PDF's own missing spaces (\"theChief\", \"section3A\") are the recorded space-drop level, the wording is identical."
+      },
+      "legal-services-1987:3A": {
+        "decision": "verified_equivalent",
+        "note": "Pages 4-5: (1), (2)(a),(b) with its tail, (3)-(6) match, closing with the insertion bracket; the skipped page-4 block is the two footnotes, not s.3A text."
+      },
+      "legal-services-1987:7": {
+        "decision": "verified_equivalent",
+        "note": "Page 7: (1), (2)(a)-(d) match; ends before s.8."
+      },
+      "legal-services-1987:8": {
+        "decision": "verified_equivalent",
+        "note": "Page 7: the substituted section carries its own number and heading including the source's \"agencies., etc.,\"; ends before 8A."
+      },
+      "legal-services-1987:9": {
+        "decision": "verified_equivalent",
+        "note": "Page 8: (1), (2)(a),(b), (3)-(9) match, closing with the substitution bracket; ends before s.10."
+      }
+    },
+    "decision": "act_batch_admitted",
+    "failed_keys": [],
+    "decision_note": "All sixteen selected sections compared whole against their rendered PDF pages; every one agreed. This Act's PDF itself drops spaces around cross-references (\"section3A\", \"section195\", \"theChief\"), which is why many provisions needed the space-drop level; the wording is identical throughout.",
+    "render_evidence": {
+      "data/phase3/review-renders/legal-services-1987/page-3.png": "351a11c9e305314f0cb4ae78f51b8094b43d610cd755688065218889d6670c08",
+      "data/phase3/review-renders/legal-services-1987/page-4.png": "8fdb71e8edfb0a88c50a694479eb82ea908fd06cf7c974b52294eb83ff200f1d",
+      "data/phase3/review-renders/legal-services-1987/page-5.png": "27ba05a49ed828fd562333c5763d6b2e13f2e1f4acb6bd4a2ad1928bbcd21ff4",
+      "data/phase3/review-renders/legal-services-1987/page-7.png": "cdd87af704682071979940114fb8169e5693ad71121a482eddb4d7ee1d0fed69",
+      "data/phase3/review-renders/legal-services-1987/page-8.png": "099e750a956dadedad79e3df777bd1ed111b1cca7b76a146db8437f4ae376e15",
+      "data/phase3/review-renders/legal-services-1987/page-9.png": "57e0b832b0a42d80fd31295e75b3359e10508e6fd7e6137eea52dea5fce0fbe0",
+      "data/phase3/review-renders/legal-services-1987/page-10.png": "1b9c337cada3d18a148e7810ad1d9c3749e712ed4a5b48f0a830bb9c6db7378b",
+      "data/phase3/review-renders/legal-services-1987/page-11.png": "600a65eab19c19937830add9a0cd60c41cce9925e05ee5171765d1dfb4a68d26",
+      "data/phase3/review-renders/legal-services-1987/page-13.png": "82ae24f9d5eefd2fcf71847604d25b147806d251e062015fae55e9ddc921675b",
+      "data/phase3/review-renders/legal-services-1987/page-16.png": "4b264e559f47a7513e65037f753cc16bddc43e8527d25d1beaedb1591c279830",
+      "data/phase3/review-renders/legal-services-1987/page-18.png": "eac12a42de1ce819e461b5766cfa52b1e2741d24628c165ed4725d16d0ad2dd8"
+    },
+    "scope_note": "Each selected section was compared whole against its rendered PDF pages: heading, beginning and end, numbered parts, provisos and footnotes. Sections outside selected_keys were not looked at individually; they rest on automated whole-body agreement plus this sample."
+  },
+  "admits_nothing_note": "A passing review authorizes admission of this Act's aligned candidates through the canonical importer under review class text_agreement_sampled_visual. Provisions not in selected_keys are admitted on automated whole-body agreement plus this sample, and must never be presented as individually reviewed."
+}

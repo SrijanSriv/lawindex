@@ -1,0 +1,65 @@
+{
+  "provision_key": "rti-2005:1",
+  "act_slug": "rti-2005",
+  "act_uuid": "37520cf3-5c3f-4c0b-aa4a-5985e6f522bf",
+  "section_number": "1",
+  "heading": "Short title, extent and commencement.",
+  "selected_representation": "structured_html",
+  "selected_representation_reason": "Whole body agrees with the retained PDF at normalization level quote; admitted under this Act's sampled visual review and individually compared in that sample.",
+  "source_representation": {
+    "kind": "structured_html",
+    "capture": "phase3-rti-2005-sections-page-0",
+    "sha256": "c3164b70bdafff382b784334f87e7436ae78cb728227bcd9f7fab40de8cb41e6",
+    "field": "dc.identifier.section_page_note",
+    "section_item_uuid": "6423b46e-ea8e-486c-9be2-5fbe686730d0",
+    "act_id": "AC_CEN_26_36_00004_200522_1517807322955"
+  },
+  "pdf_anchor": {
+    "capture": "phase3-rti-2005-pdf",
+    "sha256": "c1ef189ec4f34d4f346886d6c2fc4a6e8aec2da0eedcfeff9c10401ec9cfb2f5",
+    "pdf_page_from": 5,
+    "pdf_page_to": 5
+  },
+  "agreement": {
+    "normalization_level": 2,
+    "normalizations": [
+      "dash",
+      "quote"
+    ],
+    "page_break_gap_count": 0,
+    "footnote_normalization_level": 2,
+    "method": "enumerated typographic normalization applied to both representations"
+  },
+  "review": {
+    "reviewer_ref": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "review_class": "text_agreement_sampled_visual",
+    "checked_scope": "act_sample_plus_whole_body_automated_agreement",
+    "visually_reviewed": true,
+    "footnotes_present": true,
+    "sample_plan": {
+      "path": "data/phase3/review-plans/rti-2005.json",
+      "sha256": "d2269653f5de871f4bbf4285ef7a48ad5e5558467ee94c320acd64268ff37ed9",
+      "plan_digest": "a1c16005dfb8a4f9fb2b0cbdc5105c95f99ecdd8d4bcd58756fde1af7de2124e",
+      "population_count": 27,
+      "selected_count": 10
+    },
+    "scope": "Each selected section was compared whole against its rendered PDF pages: heading, beginning and end, numbered parts, provisos and footnotes. Sections outside selected_keys were not looked at individually; they rest on automated whole-body agreement plus this sample.",
+    "evidence": [
+      "data/phase3/review-renders/rti-2005/page-5.png",
+      "data/discovery/phase3-rti-2005-sections-page-0.body",
+      "data/discovery/phase3-rti-2005-pdf.body",
+      "data/phase3/review-plans/rti-2005.json"
+    ]
+  },
+  "known_conflicts": [],
+  "classification": "typographic_equivalence_verified",
+  "disposition": "verified_equivalent",
+  "admission_status": "admitted",
+  "extraction_method_version": "phase3-sampled-agreement-v1",
+  "expected_output": {
+    "body_text_sha256": "0034ab4951be85376f3207a645b92a78ba4d31797d7723a6ed6ed2c087d5313e",
+    "footnote_text_sha256": "e8791e97bcf5c0b2ca6d46e38ceaaad26f8d16b9cf2618cf0dcb7b490bb87466",
+    "established_by": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "established_note": "Established by automated whole-body agreement recorded in the sample plan; individually compared only if visually_reviewed."
+  }
+}

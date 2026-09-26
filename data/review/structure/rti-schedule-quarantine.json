@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "capture": "rti-2005-pdf",
+  "source_sha256": "c1ef189ec4f34d4f346886d6c2fc4a6e8aec2da0eedcfeff9c10401ec9cfb2f5",
+  "reviewer": "Codex AI-agent visual layout review; not independent legal-expert review",
+  "review_date": "2026-09-21",
+  "review_time": "not separately instrumented",
+  "scope": "Negative parser fixtures only; no schedule text is admitted or republished.",
+  "cases": [
+    {
+      "page": 23,
+      "text_sha256": "005fcdb90a9c7c0d317cc24e0594fc462bc5cc778e5f421b97462f836f77d6f1",
+      "expected_status": "quarantined_structure",
+      "expected_reason": "stacked_oath_alternatives",
+      "evidence": "data/import/structure-review/rti-23.png"
+    },
+    {
+      "page": 24,
+      "text_sha256": "e1e6768e12384515726078abe5ecdee16ad63b71f5b77e6340061a656bef02af",
+      "expected_status": "quarantined_structure",
+      "expected_reason": "amendment_markers_and_footnote_numbering",
+      "evidence": "data/import/structure-review/rti-24.png"
+    }
+  ]
+}

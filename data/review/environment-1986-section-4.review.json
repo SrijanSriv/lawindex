@@ -1,0 +1,48 @@
+{
+  "provision_key": "environment-1986:4",
+  "act_slug": "environment-1986",
+  "act_uuid": "10eea11f-bfda-41d0-b8dc-58176e704613",
+  "section_number": "4",
+  "heading": "Appointment of officers and their powers and functions.",
+  "selected_representation": "structured_html",
+  "selected_representation_reason": "Whole section visually compared against retained PDF page; wording, boundaries, numbered parts and provisos agree. Whitespace formatting differences retained; no footnote belongs to this section.",
+  "source_representation": {
+    "kind": "structured_html",
+    "capture": "phase3-environment-1986-sections-page-0",
+    "sha256": "c680d2161af6d2194fab0ab28b4878e3de22a215e308e7e1e551fdfb2a1c5f1f",
+    "field": "dc.identifier.section_page_note",
+    "section_item_uuid": "4504807f-e2a4-45e5-87ca-4f06cdd37dbf",
+    "act_id": "AC_CEN_16_18_00011_198629_1517807327582"
+  },
+  "pdf_anchor": {
+    "capture": "phase3-environment-1986-pdf",
+    "sha256": "d9712743c39faeb1019c08af3b0b2856ca3c905c4bd6299ee4a928576fdc9169",
+    "pdf_page_from": 5,
+    "pdf_page_to": 5
+  },
+  "review": {
+    "reviewer_ref": "data/review/reviewer-phase3-batch1.json",
+    "scope": "Whole section including heading, beginning/end, numbered paragraphs and every proviso; checked against the rendered PDF. No relevant footnotes. No neighboring-section text included.",
+    "checked_scope": "whole_provision_including_footnotes_and_provisos",
+    "footnotes_present": false,
+    "evidence": [
+      "data/phase3/review-batch-1/environment-1986-page-5.png",
+      "data/discovery/phase3-environment-1986-sections-page-0.body",
+      "data/discovery/phase3-environment-1986-pdf.body"
+    ]
+  },
+  "known_conflicts": [],
+  "classification": "formatting_only_verified_equivalent",
+  "disposition": "verified_equivalent",
+  "admission_status": "admitted",
+  "extraction_method_version": "phase3-reviewed-html-v1",
+  "expected_output": {
+    "body_text_sha256": "ebee09d3eac76c15ac69c0f389dd23a2c6ec3be5d67eedf173968a8dedc49b69",
+    "footnote_text_sha256": "no-footnote-expected",
+    "established_by": "data/review/reviewer-phase3-batch1.json",
+    "established_note": "Established after visual PDF comparison in this batch; not independent review."
+  },
+  "render_sha256": {
+    "data/phase3/review-batch-1/environment-1986-page-5.png": "f74eabfc1d2faa8878d40b2b1c213d0dcacd398dd1862946ebbe6804d69b10f7"
+  }
+}

@@ -1,0 +1,878 @@
+{
+  "schema_version": 1,
+  "planner_version": "phase3-sample-plan-v1",
+  "parser_version": "phase3-html-pdf-agreement-v2",
+  "act_slug": "competition-2002",
+  "candidates_sha256": "e2e72eb795e6da38828b4f01b1fdef5787b0ead87827f301a423604f513bdce8",
+  "pdf_sha256": "34fd8fbb31622200943f374538bd54bb7307de18ffb0b73d6fc5dfd9ca5dc14f",
+  "source_acquisition_sha256": "569096abccc5deb79bd0dba963b154c7f95c0b39da968004dbf2f94aa6be536e",
+  "seed": "bad8eb9d38762ce3356593971c34e56cbbd5bd7f70442919e3a5c86ed289e1ed",
+  "selection_rule": {
+    "mandatory": "every aligned candidate with a footnote or a page-break footnote gap",
+    "stratified": "per most-tolerant-normalization stratum, max(2, ceil(10%))",
+    "deterministic": "seed = sha256(planner_version|act_slug|candidates_sha256); re-running cannot re-roll the sample"
+  },
+  "population": [
+    {
+      "key": "competition-2002:11",
+      "section_number": "11",
+      "heading": "Resignation, removal and suspension of Chairperson and other members.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 15,
+      "pdf_page_to": 15,
+      "body_text_sha256": "ffcf0bf4ee8c7d782f1c6ce0640879628dbc9f6f9973a1b390ce31c9ed59cf65",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "4126c4ce-3de0-4e91-b0a6-220d32e0363d"
+    },
+    {
+      "key": "competition-2002:12",
+      "section_number": "12",
+      "heading": "Restriction on employment of Chairperson and other Members.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 15,
+      "pdf_page_to": 16,
+      "body_text_sha256": "20218dc711284dc9d03d54a56bdb4e8275d400cda184e01421d0c13c9f9bdeeb",
+      "footnote_text_sha256": "817844b036215a285a284a6991fbd2ceb3531e3046e41f6f4f60c375ed7c88f9",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "e27c53c9-0227-4ec6-839f-3528c13b2d92"
+    },
+    {
+      "key": "competition-2002:14",
+      "section_number": "14",
+      "heading": "Salary and allowances and other terms and conditions of service of Chairperson and other Members.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 16,
+      "pdf_page_to": 16,
+      "body_text_sha256": "a64d6853e2485a3d30d3be65831980824ef56297ca6e63f6d22a367a51fb5bcd",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "51ddfb48-c56f-4fa9-8c3d-c1a8e45a7871"
+    },
+    {
+      "key": "competition-2002:15",
+      "section_number": "15",
+      "heading": "Vacancy, etc., not to invalidate proceedings of Commission.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 16,
+      "pdf_page_to": 16,
+      "body_text_sha256": "4c4b5c66cb6a5450def45b984a50df84fbf33eac1e9758b3b2dc7d5347251828",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "9b9b8819-95e0-4c4d-adaa-e8d6e046275d"
+    },
+    {
+      "key": "competition-2002:18",
+      "section_number": "18",
+      "heading": "Duties and functions of Commission.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 17,
+      "pdf_page_to": 17,
+      "body_text_sha256": "6886c6b473fe9b1d9465b795b0a0c215396ea3a541a8739606420dc4f02e222b",
+      "footnote_text_sha256": "08340e55b1341618059e6a6a33d6e048b79e8629cf8e1d00364454c81b19aea2",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "c61bbd88-93b4-4078-9480-f8db7c00ccfd"
+    },
+    {
+      "key": "competition-2002:21",
+      "section_number": "21",
+      "heading": "Reference by statutory authority.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "case",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case"
+      ],
+      "pdf_page_from": 20,
+      "pdf_page_to": 20,
+      "body_text_sha256": "ccdd723e9e872cf532946ba3c88b4f8163a7599818ac8f969e2ead0c5ad5af77",
+      "footnote_text_sha256": "6f09f0717f88ee13c9c3feba654a625a423f8302b4e9f3c0e512eddc8ede1f83",
+      "footnote_normalization_level": 8,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "e415f577-2c06-4837-b751-e40eaa93a65f"
+    },
+    {
+      "key": "competition-2002:23",
+      "section_number": "23",
+      "heading": "Omitted.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "bracket-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop"
+      ],
+      "pdf_page_from": 21,
+      "pdf_page_to": 21,
+      "body_text_sha256": "c499b7b34e63cf5f30689c8fb9f2db3941bb20c59d083685d121f82c5b60beaf",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "7a7a1129-68e1-45c3-a7b1-bb240ed446f9"
+    },
+    {
+      "key": "competition-2002:24",
+      "section_number": "24",
+      "heading": "Omitted.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "bracket-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop"
+      ],
+      "pdf_page_from": 21,
+      "pdf_page_to": 21,
+      "body_text_sha256": "35fa09d329b522a19ec4c8d8bd593c2e36260ed7e1a6376fbcb0f351f306b7c7",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "41bb6cd8-f09a-40a6-987f-b0600f7f5a62"
+    },
+    {
+      "key": "competition-2002:25",
+      "section_number": "25",
+      "heading": "Omitted.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "bracket-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop"
+      ],
+      "pdf_page_from": 21,
+      "pdf_page_to": 21,
+      "body_text_sha256": "847ace849e13013c898dd53d2e76f0c4558381cfb2f2f43d88c3f330eba5bd67",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "8b99c840-82e6-4a3e-8269-7f7a1c37c108"
+    },
+    {
+      "key": "competition-2002:33",
+      "section_number": "33",
+      "heading": "Power to issue interim orders.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 26,
+      "pdf_page_to": 26,
+      "body_text_sha256": "5f72e2508b1cda70ed6be9dd465968a73da38da764ce5e6ce01fdc15444c0160",
+      "footnote_text_sha256": "d399a17206ff0e6b97294029f524bb035157c0657a621e6be3744d9e6aa48ee1",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "eac629c9-fb60-4ae7-b0a4-356b9126c94d"
+    },
+    {
+      "key": "competition-2002:35",
+      "section_number": "35",
+      "heading": "Appearance before Commission",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "hyphen",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen"
+      ],
+      "pdf_page_from": 26,
+      "pdf_page_to": 26,
+      "body_text_sha256": "a2f74c7c6b392e6672964b5fae7c024b62bca3509d72c6b51a5978e6691eadf0",
+      "footnote_text_sha256": "b218f0e8dad6c6af89668585c1086d14834669ff4c330368bd21ba26f14f62f9",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "4c1a5221-056d-4912-9326-cfca05e1f3ec"
+    },
+    {
+      "key": "competition-2002:37",
+      "section_number": "37",
+      "heading": "Omitted.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 27,
+      "pdf_page_to": 27,
+      "body_text_sha256": "41e4b7a44d731a54359cf3caed68903524c74a08e0c10775e0acb710c6c26cc2",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "462ac98c-4e03-4f1d-9517-8964154b4e8c"
+    },
+    {
+      "key": "competition-2002:38",
+      "section_number": "38",
+      "heading": "Rectification of orders",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 27,
+      "pdf_page_to": 27,
+      "body_text_sha256": "679cfe39df8298d9929c5eb20cb3084b0b103bb2f65ec5b742f5a55db80f8825",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "259837d8-ca17-401c-973d-0c2cb69f4e4c"
+    },
+    {
+      "key": "competition-2002:40",
+      "section_number": "40",
+      "heading": "Omitted.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "space-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "space-drop"
+      ],
+      "pdf_page_from": 28,
+      "pdf_page_to": 28,
+      "body_text_sha256": "2b7f0b62f4931b0a4734e8a001ba6f98e0ad81c20c14cb874c0c803e4dfe5126",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "06da4aee-411d-4df0-8c1d-10aa2db493aa"
+    },
+    {
+      "key": "competition-2002:48",
+      "section_number": "48",
+      "heading": "Contravention by companies.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "bracket-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop"
+      ],
+      "pdf_page_from": 32,
+      "pdf_page_to": 32,
+      "body_text_sha256": "bf2e48caa01f14933547a554ca9595fbc7af2af309df2abf55e54e7709b53aad",
+      "footnote_text_sha256": "5498b8f22115000c85f0a4222769434585cfeb8b77d288db92f75e3192d40419",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "f6e22c1f-05f5-4869-affb-269c1efc9082"
+    },
+    {
+      "key": "competition-2002:48A",
+      "section_number": "48A",
+      "heading": "Settlement.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "bracket-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 32,
+      "pdf_page_to": 33,
+      "body_text_sha256": "84aa6f28ed45d459735f864634d2ac9d780932d89ba3320f51829f590a6ae44d",
+      "footnote_text_sha256": "5498b8f22115000c85f0a4222769434585cfeb8b77d288db92f75e3192d40419",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "e25c5ec0-6a9f-4f5b-ad62-517f4f25f804"
+    },
+    {
+      "key": "competition-2002:50",
+      "section_number": "50",
+      "heading": "Grants by Central Government.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 34,
+      "pdf_page_to": 34,
+      "body_text_sha256": "4d11b664eaf237eecc2dcfab0b5aaf6c82a22325a1da9ce1e5aa8a283d76c786",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "4bf34e19-31a7-45cb-870b-a1fa4bc3fb9d"
+    },
+    {
+      "key": "competition-2002:53",
+      "section_number": "53",
+      "heading": "Furnishing of returns, etc., to Central Government.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 35,
+      "pdf_page_to": 35,
+      "body_text_sha256": "106bbd7d343d2680eec86ce6b5f99bf31dae49831fa7961dbb389c24d68206fd",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "56ccd5f5-36f6-4371-b0e2-8173c977585c"
+    },
+    {
+      "key": "competition-2002:54",
+      "section_number": "54",
+      "heading": "Power to exempt.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash",
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 38,
+      "pdf_page_to": 39,
+      "body_text_sha256": "274b7dcc200665bbddc5154247d21f843d75ffb217ca265ad7d4b1bccd1c2ac9",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "c907193f-5d34-442d-9b1a-147640a4b658"
+    },
+    {
+      "key": "competition-2002:55",
+      "section_number": "55",
+      "heading": "Power of Central Government to issue directions.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 39,
+      "pdf_page_to": 39,
+      "body_text_sha256": "cabccd211b4d4a657c931dac0bb6cb0df261092b6595e42f3270b5135936f03c",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "4dc6b7bc-c406-46b6-9e57-e55c480b1215"
+    },
+    {
+      "key": "competition-2002:57",
+      "section_number": "57",
+      "heading": "Restriction on disclosure of information",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote",
+      "normalizations": [
+        "dash",
+        "quote"
+      ],
+      "pdf_page_from": 40,
+      "pdf_page_to": 40,
+      "body_text_sha256": "0f50b7cf53f54f958c367cadbce7af564a526eaae39ff0a994a9fef89a76a2b2",
+      "footnote_text_sha256": "7b77e37b2840ee92dcc2ae9a98f93e54b9f2208b8a39179f73f47afff45b5b8a",
+      "footnote_normalization_level": 2,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "fbdca470-1c88-4c2a-a2d6-d78c8c3d920b"
+    },
+    {
+      "key": "competition-2002:59A",
+      "section_number": "59A",
+      "heading": "Compounding of certain offences.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 40,
+      "pdf_page_to": 40,
+      "body_text_sha256": "7bebbf6bbe55b1bb5f5fe50d103f72cbdeb36732ed676872000471d68f59a2cb",
+      "footnote_text_sha256": "52f7a73e9972ad32113361ee98e345d444382d89586b230b7f4b3ef77963acb1",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "916b84b2-220d-4c8f-9bbb-c28dbcf619c5"
+    },
+    {
+      "key": "competition-2002:60",
+      "section_number": "60",
+      "heading": "Act to have overriding effect",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 40,
+      "pdf_page_to": 40,
+      "body_text_sha256": "1fbd54077baf48e056fe5e88fc3f0ce8bd38ea86e7813f8e6b1566e464bbc9d4",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "61750fc8-b4b8-4376-8fda-9d638071350a"
+    },
+    {
+      "key": "competition-2002:62",
+      "section_number": "62",
+      "heading": "Application of other laws not barred.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 40,
+      "pdf_page_to": 40,
+      "body_text_sha256": "895b460a5f44c522a1ea1f4464c095c20965d07962570c767c0b5880426b856f",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "7a0e3af9-a469-4898-bb3c-609ecfa14d49"
+    },
+    {
+      "key": "competition-2002:65",
+      "section_number": "65",
+      "heading": "Power to remove difficulties.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 43,
+      "pdf_page_to": 44,
+      "body_text_sha256": "99ad1a4ddeb3445f0aad6ec979aa456817b70f814a1aa97e5ac3b2cf8d79c64b",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "2398d7c8-967d-48bd-9eb6-03463dd14ce1"
+    },
+    {
+      "key": "competition-2002:7",
+      "section_number": "7",
+      "heading": "Establishment of Commission.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote",
+      "normalizations": [
+        "dash",
+        "quote"
+      ],
+      "pdf_page_from": 14,
+      "pdf_page_to": 14,
+      "body_text_sha256": "f00fe870f9877728772480387f7226a0c253b1cffd761397539fd142c9ae3844",
+      "footnote_text_sha256": "22eee1c412c9f2f0e0df54df5d6e13946da7e0f1b46c813f096710c4e4b6be02",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "fbd333d0-d20b-4edb-9a83-1c683ffaf0f4"
+    },
+    {
+      "key": "competition-2002:8",
+      "section_number": "8",
+      "heading": "Composition of Commission.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 14,
+      "pdf_page_to": 14,
+      "body_text_sha256": "0991a27a7b2678d873cb3e2fba26af88a4a8223d30f5bafe81227d860f080242",
+      "footnote_text_sha256": "b0614d7ee4475474b32b8c8cbb9f3fc305c823c061e5b9bb0410daf388678ac7",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "13af5887-189b-479c-8b41-e032195db4e5"
+    },
+    {
+      "key": "competition-2002:9",
+      "section_number": "9",
+      "heading": "Selection Committee for Chairperson and Members of Commission.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 14,
+      "pdf_page_to": 14,
+      "body_text_sha256": "39cdd7db983f4069c13e67e6c86fa7a6ae7c9e3a2d51eebc75ea3141702100d4",
+      "footnote_text_sha256": "bae2a78f9aa048c1a468e259cfed6731df6362afb8c8c4ba9a26c4f357d1fb12",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "5b505607-6a74-450c-ae8c-aff370633910"
+    }
+  ],
+  "population_count": 28,
+  "mandatory_keys": [
+    "competition-2002:12",
+    "competition-2002:18",
+    "competition-2002:21",
+    "competition-2002:33",
+    "competition-2002:35",
+    "competition-2002:48",
+    "competition-2002:48A",
+    "competition-2002:54",
+    "competition-2002:57",
+    "competition-2002:59A",
+    "competition-2002:65",
+    "competition-2002:7",
+    "competition-2002:8",
+    "competition-2002:9"
+  ],
+  "sampled_keys": [
+    "competition-2002:11",
+    "competition-2002:15",
+    "competition-2002:23",
+    "competition-2002:24",
+    "competition-2002:40",
+    "competition-2002:60",
+    "competition-2002:62"
+  ],
+  "selected_keys": [
+    "competition-2002:11",
+    "competition-2002:12",
+    "competition-2002:15",
+    "competition-2002:18",
+    "competition-2002:21",
+    "competition-2002:23",
+    "competition-2002:24",
+    "competition-2002:33",
+    "competition-2002:35",
+    "competition-2002:40",
+    "competition-2002:48",
+    "competition-2002:48A",
+    "competition-2002:54",
+    "competition-2002:57",
+    "competition-2002:59A",
+    "competition-2002:60",
+    "competition-2002:62",
+    "competition-2002:65",
+    "competition-2002:7",
+    "competition-2002:8",
+    "competition-2002:9"
+  ],
+  "strata": {
+    "bracket-drop": {
+      "population": 3,
+      "sampled": 2,
+      "keys": [
+        "competition-2002:23",
+        "competition-2002:24"
+      ]
+    },
+    "dash": {
+      "population": 3,
+      "sampled": 2,
+      "keys": [
+        "competition-2002:11",
+        "competition-2002:15"
+      ]
+    },
+    "exact": {
+      "population": 7,
+      "sampled": 2,
+      "keys": [
+        "competition-2002:60",
+        "competition-2002:62"
+      ]
+    },
+    "space-drop": {
+      "population": 1,
+      "sampled": 1,
+      "keys": [
+        "competition-2002:40"
+      ]
+    }
+  },
+  "renders": {
+    "competition-2002:11": [
+      "data/phase3/review-renders/competition-2002/page-15.png"
+    ],
+    "competition-2002:12": [
+      "data/phase3/review-renders/competition-2002/page-15.png",
+      "data/phase3/review-renders/competition-2002/page-16.png"
+    ],
+    "competition-2002:15": [
+      "data/phase3/review-renders/competition-2002/page-16.png"
+    ],
+    "competition-2002:18": [
+      "data/phase3/review-renders/competition-2002/page-17.png"
+    ],
+    "competition-2002:21": [
+      "data/phase3/review-renders/competition-2002/page-20.png"
+    ],
+    "competition-2002:23": [
+      "data/phase3/review-renders/competition-2002/page-21.png"
+    ],
+    "competition-2002:24": [
+      "data/phase3/review-renders/competition-2002/page-21.png"
+    ],
+    "competition-2002:33": [
+      "data/phase3/review-renders/competition-2002/page-26.png"
+    ],
+    "competition-2002:35": [
+      "data/phase3/review-renders/competition-2002/page-26.png"
+    ],
+    "competition-2002:40": [
+      "data/phase3/review-renders/competition-2002/page-28.png"
+    ],
+    "competition-2002:48": [
+      "data/phase3/review-renders/competition-2002/page-32.png"
+    ],
+    "competition-2002:48A": [
+      "data/phase3/review-renders/competition-2002/page-32.png",
+      "data/phase3/review-renders/competition-2002/page-33.png"
+    ],
+    "competition-2002:54": [
+      "data/phase3/review-renders/competition-2002/page-38.png",
+      "data/phase3/review-renders/competition-2002/page-39.png"
+    ],
+    "competition-2002:57": [
+      "data/phase3/review-renders/competition-2002/page-40.png"
+    ],
+    "competition-2002:59A": [
+      "data/phase3/review-renders/competition-2002/page-40.png"
+    ],
+    "competition-2002:60": [
+      "data/phase3/review-renders/competition-2002/page-40.png"
+    ],
+    "competition-2002:62": [
+      "data/phase3/review-renders/competition-2002/page-40.png"
+    ],
+    "competition-2002:65": [
+      "data/phase3/review-renders/competition-2002/page-43.png",
+      "data/phase3/review-renders/competition-2002/page-44.png"
+    ],
+    "competition-2002:7": [
+      "data/phase3/review-renders/competition-2002/page-14.png"
+    ],
+    "competition-2002:8": [
+      "data/phase3/review-renders/competition-2002/page-14.png"
+    ],
+    "competition-2002:9": [
+      "data/phase3/review-renders/competition-2002/page-14.png"
+    ]
+  },
+  "render_sha256": {
+    "data/phase3/review-renders/competition-2002/page-14.png": "2ba4ed3c948673576ef3238286b3f7360d40c80cdf7500e1da3bcd3232594d68",
+    "data/phase3/review-renders/competition-2002/page-15.png": "eba299c35dba5fc3a302037f277bf1042d1e08c61cc3f781f04ca5b44648c7cd",
+    "data/phase3/review-renders/competition-2002/page-16.png": "a840d39d8b3896bfcf138e234a49b708f639fadf79861c93015277595048e3a8",
+    "data/phase3/review-renders/competition-2002/page-17.png": "7f323dbcf969ddaa2c791b7d394225050342a74e46b7a2f92104908e566bda3a",
+    "data/phase3/review-renders/competition-2002/page-20.png": "3c1b24a9d5b70fe5672bddef6c24f96875201d9da41a4f50ca783189e86374dc",
+    "data/phase3/review-renders/competition-2002/page-21.png": "b91362cf120b54f4f50607b9343f6d63257fc090458dcb3f6d155bb6c09b5055",
+    "data/phase3/review-renders/competition-2002/page-26.png": "2ccc9cb2839efaed0b71c02832ea4151cd64b0978ca5bd870833eacd255aa9f0",
+    "data/phase3/review-renders/competition-2002/page-28.png": "43838607ab2d20462761f832440d837248efce058e83bc8cac558670f21558ac",
+    "data/phase3/review-renders/competition-2002/page-32.png": "79e3cbf01b4901680c939111123468401afaccc3cb3d63d7532965ab9ec7d34a",
+    "data/phase3/review-renders/competition-2002/page-33.png": "c85af483dc6790e1340973a25024b95d207d2042be2053ed2b131b38130eff49",
+    "data/phase3/review-renders/competition-2002/page-38.png": "91de59c7f4c1a963fc0139fc4b54496818bb46f8dbea79f9389cc1edfa3ef87a",
+    "data/phase3/review-renders/competition-2002/page-39.png": "3dd194374396e1b530f75cf634bf0aac651a81d2c6c26da32aab24d5315c386e",
+    "data/phase3/review-renders/competition-2002/page-40.png": "b8a9b72b9351093f53d223f4e24c28405a630a24914d0fec346be94dbe6864e5",
+    "data/phase3/review-renders/competition-2002/page-43.png": "e2af1dcf45579178ee9f55a79c6c228a0bc506ebb62aefbfa08df34e3bb9bc08",
+    "data/phase3/review-renders/competition-2002/page-44.png": "2953efe0c91c4547620a42219b55c1984120991ee7372758942993f90168f354"
+  },
+  "status": "reviewed",
+  "review": {
+    "reviewer_ref": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "reviewer_sha256": "109ba542b1054cd0f750fece16fdf06fec99b8a227238432c9f10ddcb6fe8303",
+    "session_date": "2026-09-22",
+    "outcomes": {
+      "competition-2002:11": {
+        "decision": "verified_equivalent",
+        "note": "Page 15: (1) with proviso, (2)(a)-(f) and (3) match; ends before s.12."
+      },
+      "competition-2002:12": {
+        "decision": "verified_equivalent",
+        "note": "Pages 15-16: the substituted section with its number and heading, (1)(a),(b), (2) and the proviso match; the skipped page-15 block is the two footnotes, not s.12 text."
+      },
+      "competition-2002:15": {
+        "decision": "verified_equivalent",
+        "note": "Page 16: lead-in and (a)-(c) match exactly; ends before s.16."
+      },
+      "competition-2002:18": {
+        "decision": "verified_equivalent",
+        "note": "Page 17: the substituted section with its number and heading and both provisos match; ends before s.19."
+      },
+      "competition-2002:21": {
+        "decision": "verified_equivalent",
+        "note": "Page 20: (1) with the substituted proviso and the substituted (2) match; ends before 21A."
+      },
+      "competition-2002:23": {
+        "decision": "verified_equivalent",
+        "note": "Page 21: the omitted-section entry matches; the PDF opens the bracket at the marginal note and closes after the amendment citation, which is the recorded bracket-drop level."
+      },
+      "competition-2002:24": {
+        "decision": "verified_equivalent",
+        "note": "Page 21: the omitted-section entry matches, same bracket placement as s.23; ends before s.25."
+      },
+      "competition-2002:33": {
+        "decision": "verified_equivalent",
+        "note": "Page 26: the substituted section with its number and heading matches in full; ends before s.34."
+      },
+      "competition-2002:35": {
+        "decision": "verified_equivalent",
+        "note": "Page 26: the renumbered 1[1], the substituted 2[A party], the Explanation (a)-(d) and the inserted 6[(2)] all match; ends before s.36."
+      },
+      "competition-2002:40": {
+        "decision": "verified_equivalent",
+        "note": "Page 28: the omitted-section entry matches; the PDF hyphenates the date across a line (\"12-10- 2007\"), which is the recorded space-drop level."
+      },
+      "competition-2002:48": {
+        "decision": "verified_equivalent",
+        "note": "Page 32: the substituted section with its number and heading, (1) with proviso, (2), (3) with proviso, and the Explanation (a)-(c) all match; ends before 48A."
+      },
+      "competition-2002:48A": {
+        "decision": "verified_equivalent",
+        "note": "Pages 32-33: (1)-(8) match; the skipped page-32 block is the substitution footnote, not s.48A text; ends before 48B."
+      },
+      "competition-2002:54": {
+        "decision": "verified_equivalent",
+        "note": "Pages 38-39: lead-in, (a)-(c) and the proviso match; the skipped page-38 block is the three footnotes, not s.54 text; ends before s.55."
+      },
+      "competition-2002:57": {
+        "decision": "verified_equivalent",
+        "note": "Page 40: single paragraph including the substituted 1[the Commission or the Appellate Tribunal] matches; ends before s.58."
+      },
+      "competition-2002:59A": {
+        "decision": "verified_equivalent",
+        "note": "Page 40: the inserted section with its number and heading matches; ends before s.60."
+      },
+      "competition-2002:60": {
+        "decision": "verified_equivalent",
+        "note": "Page 40: single paragraph matches exactly; ends before s.61."
+      },
+      "competition-2002:62": {
+        "decision": "verified_equivalent",
+        "note": "Page 40: single paragraph matches exactly, including the source's missing final period; ends before s.63."
+      },
+      "competition-2002:65": {
+        "decision": "verified_equivalent",
+        "note": "Pages 43-44: (1) with proviso and (2) match; the skipped page-43 block is the insertion footnote, not s.65 text; ends before s.66."
+      },
+      "competition-2002:7": {
+        "decision": "verified_equivalent",
+        "note": "Page 14: (1)-(4) match, including the asterisk head-office reference mark; ends before s.8."
+      },
+      "competition-2002:8": {
+        "decision": "verified_equivalent",
+        "note": "Page 14: the substituted section with its number and heading, (1)-(3) including the inserted 3[technology,], all match; ends before s.9."
+      },
+      "competition-2002:9": {
+        "decision": "verified_equivalent",
+        "note": "Page 14: the substituted section with its number and heading, (1)(a)-(d) with their dotted leaders, and (2) match; ends before s.10."
+      }
+    },
+    "decision": "act_batch_admitted",
+    "failed_keys": [],
+    "decision_note": "All twenty-one selected sections compared whole against their rendered PDF pages; every one agreed, including four omitted-section entries whose amendment brackets the two representations place differently.",
+    "render_evidence": {
+      "data/phase3/review-renders/competition-2002/page-14.png": "2ba4ed3c948673576ef3238286b3f7360d40c80cdf7500e1da3bcd3232594d68",
+      "data/phase3/review-renders/competition-2002/page-15.png": "eba299c35dba5fc3a302037f277bf1042d1e08c61cc3f781f04ca5b44648c7cd",
+      "data/phase3/review-renders/competition-2002/page-16.png": "a840d39d8b3896bfcf138e234a49b708f639fadf79861c93015277595048e3a8",
+      "data/phase3/review-renders/competition-2002/page-17.png": "7f323dbcf969ddaa2c791b7d394225050342a74e46b7a2f92104908e566bda3a",
+      "data/phase3/review-renders/competition-2002/page-20.png": "3c1b24a9d5b70fe5672bddef6c24f96875201d9da41a4f50ca783189e86374dc",
+      "data/phase3/review-renders/competition-2002/page-21.png": "b91362cf120b54f4f50607b9343f6d63257fc090458dcb3f6d155bb6c09b5055",
+      "data/phase3/review-renders/competition-2002/page-26.png": "2ccc9cb2839efaed0b71c02832ea4151cd64b0978ca5bd870833eacd255aa9f0",
+      "data/phase3/review-renders/competition-2002/page-28.png": "43838607ab2d20462761f832440d837248efce058e83bc8cac558670f21558ac",
+      "data/phase3/review-renders/competition-2002/page-32.png": "79e3cbf01b4901680c939111123468401afaccc3cb3d63d7532965ab9ec7d34a",
+      "data/phase3/review-renders/competition-2002/page-33.png": "c85af483dc6790e1340973a25024b95d207d2042be2053ed2b131b38130eff49",
+      "data/phase3/review-renders/competition-2002/page-38.png": "91de59c7f4c1a963fc0139fc4b54496818bb46f8dbea79f9389cc1edfa3ef87a",
+      "data/phase3/review-renders/competition-2002/page-39.png": "3dd194374396e1b530f75cf634bf0aac651a81d2c6c26da32aab24d5315c386e",
+      "data/phase3/review-renders/competition-2002/page-40.png": "b8a9b72b9351093f53d223f4e24c28405a630a24914d0fec346be94dbe6864e5",
+      "data/phase3/review-renders/competition-2002/page-43.png": "e2af1dcf45579178ee9f55a79c6c228a0bc506ebb62aefbfa08df34e3bb9bc08",
+      "data/phase3/review-renders/competition-2002/page-44.png": "2953efe0c91c4547620a42219b55c1984120991ee7372758942993f90168f354"
+    },
+    "scope_note": "Each selected section was compared whole against its rendered PDF pages: heading, beginning and end, numbered parts, provisos and footnotes. Sections outside selected_keys were not looked at individually; they rest on automated whole-body agreement plus this sample."
+  },
+  "admits_nothing_note": "A passing review authorizes admission of this Act's aligned candidates through the canonical importer under review class text_agreement_sampled_visual. Provisions not in selected_keys are admitted on automated whole-body agreement plus this sample, and must never be presented as individually reviewed."
+}

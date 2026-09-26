@@ -1,0 +1,14 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/78f68a27-8902-4081-8d53-a3932264ca52/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/78f68a27-8902-4081-8d53-a3932264ca52/content",
+  "fetched_at_utc": "2026-09-20T06:06:37.896866+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf;charset=UTF-8",
+  "curl_exit_code": 0,
+  "error": null,
+  "bytes": 447103,
+  "sha256": "c1ef189ec4f34d4f346886d6c2fc4a6e8aec2da0eedcfeff9c10401ec9cfb2f5",
+  "body_path": "data/discovery/rti-2005-pdf.body",
+  "elapsed_seconds": 0.785634,
+  "note": "HTTP success alone does not establish valid source content; inspect body."
+}

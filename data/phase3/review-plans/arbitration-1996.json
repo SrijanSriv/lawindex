@@ -1,0 +1,1573 @@
+{
+  "schema_version": 1,
+  "planner_version": "phase3-sample-plan-v1",
+  "parser_version": "phase3-html-pdf-agreement-v2",
+  "act_slug": "arbitration-1996",
+  "candidates_sha256": "db1f41f1feb4d3c2f7a8d8613597ccbb7fa214f14dfd9ccd896416109eb1e8b8",
+  "pdf_sha256": "6fb32e5ffe2581740345d948c1e362bfbb5018ca7958932cde8ca92436485b6c",
+  "source_acquisition_sha256": "f7f18476e28bda9ef69e093bc06c78ac1bb08c42028266e4689beb7c5e6aa712",
+  "seed": "885f8657d32cf309e5177a8a6e44d6e946aaf97914707e2bcef46ce9f7c1b199",
+  "selection_rule": {
+    "mandatory": "every aligned candidate with a footnote or a page-break footnote gap",
+    "stratified": "per most-tolerant-normalization stratum, max(2, ceil(10%))",
+    "deterministic": "seed = sha256(planner_version|act_slug|candidates_sha256); re-running cannot re-roll the sample"
+  },
+  "population": [
+    {
+      "key": "arbitration-1996:1",
+      "section_number": "1",
+      "heading": "Short title, extent and commencement.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "punct-space",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space"
+      ],
+      "pdf_page_from": 7,
+      "pdf_page_to": 7,
+      "body_text_sha256": "a2d7146ec0610afc1e7e545097f3f46b724672ad33dd1deae8dc61a0321a4b1b",
+      "footnote_text_sha256": "5c775aeeca624cbb3a0484c7d3705f2214c4e7f4fc8345e4e7e5c1f36f2b5933",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "8f35eaf4-d7a5-4eb2-a3db-b239a86f435f"
+    },
+    {
+      "key": "arbitration-1996:10",
+      "section_number": "10",
+      "heading": "Number of arbitrators.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 12,
+      "pdf_page_to": 12,
+      "body_text_sha256": "8d7a7a930fbe6cfdf57a7078834f131f6c847c427052af1f1f9d2a5be1b1fb65",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "9df0e7b3-c6f1-42d5-bb8d-b05cdf5825c4"
+    },
+    {
+      "key": "arbitration-1996:13",
+      "section_number": "13",
+      "heading": "Challenge procedure.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 15,
+      "pdf_page_to": 15,
+      "body_text_sha256": "aa25f6db2124f35283b7fe79fa89d2ca202dc02c058df2d8220d4d684524a9eb",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "5fd4b682-c109-41c0-b722-84e185ccb6b9"
+    },
+    {
+      "key": "arbitration-1996:14",
+      "section_number": "14",
+      "heading": "Failure or impossibility to act.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 15,
+      "pdf_page_to": 15,
+      "body_text_sha256": "48dcc9f92e79afa1cd8cebb1c9ca738da9a891fab60e214e1e93316dff3933a1",
+      "footnote_text_sha256": "7fd52e7bca074da82583d4d5e0e9ade1a7d4690e4117467a402afe12b1ad602b",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "b25da21e-2f33-42d4-becd-f1b02c3a1a0e"
+    },
+    {
+      "key": "arbitration-1996:15",
+      "section_number": "15",
+      "heading": "Termination of mandate and substitution of arbitrator.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 15,
+      "pdf_page_to": 16,
+      "body_text_sha256": "9fbea2ae98c085e328cf27f7b02af1844083dfd00687fadf70c61195814e068c",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "65395d74-0652-4a3b-8f3d-73d4760e545f"
+    },
+    {
+      "key": "arbitration-1996:16",
+      "section_number": "16",
+      "heading": "Competence of arbitral tribunal to rule on its jurisdiction.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 16,
+      "pdf_page_to": 16,
+      "body_text_sha256": "995a2ea1f21a35785afcc5e89e7a42c423d1be8c786b48315778e9936f66331c",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "4a8ea143-7b3b-482f-8c9a-c35e00dd9773"
+    },
+    {
+      "key": "arbitration-1996:19",
+      "section_number": "19",
+      "heading": "Determination of rules of procedure.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 17,
+      "pdf_page_to": 17,
+      "body_text_sha256": "2801339a8ef130facd145faaaa00fe78c05ed5836ee04492026c3456edcea0e6",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "f07ad7da-dbdf-4f13-a560-10ee0378200b"
+    },
+    {
+      "key": "arbitration-1996:20",
+      "section_number": "20",
+      "heading": "Place of arbitration.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "space-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "space-drop"
+      ],
+      "pdf_page_from": 17,
+      "pdf_page_to": 17,
+      "body_text_sha256": "3307d0fd5498ec4f0c515b08be8fbc5fc70d137dbaa9600591fbb5c8775baca1",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "c07f076f-d026-4174-82f6-4dba83239504"
+    },
+    {
+      "key": "arbitration-1996:21",
+      "section_number": "21",
+      "heading": "Commencement of arbitral proceedings.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 17,
+      "pdf_page_to": 17,
+      "body_text_sha256": "6075d3e40cdf4e11d3e88c3fed8df7d30ec4259357b6ad3313987a05223a1af2",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "4ee95ad3-6ba6-40d3-beae-28df36f5f356"
+    },
+    {
+      "key": "arbitration-1996:22",
+      "section_number": "22",
+      "heading": "Language.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 17,
+      "pdf_page_to": 17,
+      "body_text_sha256": "4447a4ae5908959a51d3b2eba6332a38534c5b38ebaad33ae2961a22c679be7a",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "9aa0c9cb-bc6a-40e2-ac96-066ac89d75d9"
+    },
+    {
+      "key": "arbitration-1996:25",
+      "section_number": "25",
+      "heading": "Default of a party.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 18,
+      "pdf_page_to": 18,
+      "body_text_sha256": "342f902c947c9d0aa1c26ff28b483308511837bf2aedbed05f869d715c747cbe",
+      "footnote_text_sha256": "baf45c88ab5870d31fbebab6bcad80d518f6fb8457bc821d264e98724ba86673",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "5c75175f-de73-484f-9b7e-4c9ad70e61d5"
+    },
+    {
+      "key": "arbitration-1996:26",
+      "section_number": "26",
+      "heading": "Expert appointed by arbitral tribunal.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 18,
+      "pdf_page_to": 18,
+      "body_text_sha256": "8bef0810e86755d43304902e94222ee527be61995580f65b46ac9e9b95552d77",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "4a9b0dea-af01-4193-907c-d26287296f8b"
+    },
+    {
+      "key": "arbitration-1996:27",
+      "section_number": "27",
+      "heading": "Court assistance in taking evidence.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote",
+      "normalizations": [
+        "dash",
+        "quote",
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 18,
+      "pdf_page_to": 19,
+      "body_text_sha256": "205125006bd83321cf146135cd2a03472bbe4063c4e5b5108203d310edf66437",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "8ce125a4-5fef-471e-bae5-ecb983282318"
+    },
+    {
+      "key": "arbitration-1996:28",
+      "section_number": "28",
+      "heading": "Rules applicable to substance of dispute.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 19,
+      "pdf_page_to": 19,
+      "body_text_sha256": "96b966dd832aade7b48f0fef3cea608f719f86d29de50905d3eed9c1b5a1b3fb",
+      "footnote_text_sha256": "f6bceaaf50a7a9da31e53eb062f17f148c17966788ba652331aa53892d69d0ef",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "63dc17b5-d742-46b2-b34e-27851f8c3059"
+    },
+    {
+      "key": "arbitration-1996:29",
+      "section_number": "29",
+      "heading": "Decision making by panel of arbitrators.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 19,
+      "pdf_page_to": 19,
+      "body_text_sha256": "97146d8d7fb893faac0dc3cc5602bf1bdc09c27a903e7301442d89a134ec0af6",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "e6c77baa-0dfc-424b-835c-541a9c4d4983"
+    },
+    {
+      "key": "arbitration-1996:3",
+      "section_number": "3",
+      "heading": "Receipt of written communications.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 9,
+      "pdf_page_to": 9,
+      "body_text_sha256": "4dc3abb2020f5d154eab6507270669118c6c1c1d75ac3936fd56f86f09857d37",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "4da1f8e6-350a-412a-ad7c-c9a6e55a01ba"
+    },
+    {
+      "key": "arbitration-1996:30",
+      "section_number": "30",
+      "heading": "Settlement.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 21,
+      "pdf_page_to": 21,
+      "body_text_sha256": "acf2fac19ce7ca66f08f84b67602325521093b1dbe6f7897ea34cce38af29392",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "d8ade075-30b4-4a03-bdd1-b853541be23a"
+    },
+    {
+      "key": "arbitration-1996:32",
+      "section_number": "32",
+      "heading": "Termination of proceedings.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 23,
+      "pdf_page_to": 23,
+      "body_text_sha256": "cb5ffa64207ee9ab1b08fe8ceacdd986c8cc7c5a29f2fdba2176e393221e1c9f",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "fbfbda3a-136e-41de-a6f1-3d97f51a4811"
+    },
+    {
+      "key": "arbitration-1996:33",
+      "section_number": "33",
+      "heading": "Correction and interpretation of award; additional award.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 23,
+      "pdf_page_to": 23,
+      "body_text_sha256": "a2ce873ce1c0ed301e42111c8816598a129b351f66b288a731bcd2eea723e03c",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "01e0bd16-0316-4c3f-961a-6bd734906930"
+    },
+    {
+      "key": "arbitration-1996:35",
+      "section_number": "35",
+      "heading": "Finality of arbitral awards.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 25,
+      "pdf_page_to": 25,
+      "body_text_sha256": "8e0adaaff3c50f020df16952b82cc0f38ed70d5374170461aa2f8de5886c5da5",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "b7f089ac-5ad9-42fd-a317-5d08807a2676"
+    },
+    {
+      "key": "arbitration-1996:38",
+      "section_number": "38",
+      "heading": "Deposits.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 26,
+      "pdf_page_to": 26,
+      "body_text_sha256": "2dde54fb922343ffead7d442373b843c4a23f8b6f022cc2472b67e27e98a2834",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "b9d7661c-d2e5-467d-aaed-9e40a58f0e1f"
+    },
+    {
+      "key": "arbitration-1996:39",
+      "section_number": "39",
+      "heading": "Lien on arbitral award and deposits as to costs.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 27,
+      "pdf_page_to": 27,
+      "body_text_sha256": "5bc6e39649a45ef14ce694ec5c691e7ff4b7febbcb5328c1c7e50b31681ec5b9",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "c4731dc0-983d-4017-9818-7b31238f55a1"
+    },
+    {
+      "key": "arbitration-1996:4",
+      "section_number": "4",
+      "heading": "Waiver of right to object.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 9,
+      "pdf_page_to": 9,
+      "body_text_sha256": "440345426825f6e37c835a4449080ab096ff7b1bb4f321275812486a886be1f7",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "7a13dc3f-34ce-41f6-a5e1-164763c65b68"
+    },
+    {
+      "key": "arbitration-1996:40",
+      "section_number": "40",
+      "heading": "Arbitration agreement not to be discharged by death of party thereto.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "space-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "space-drop"
+      ],
+      "pdf_page_from": 27,
+      "pdf_page_to": 27,
+      "body_text_sha256": "252a27b70bfb7d3302503cccee91ca09bdf89d2f109bdf2c0a097852c7603d46",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "d28d5165-603e-4155-8822-8616324aafc0"
+    },
+    {
+      "key": "arbitration-1996:41",
+      "section_number": "41",
+      "heading": "Provisions in case of insolvency.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote",
+      "normalizations": [
+        "dash",
+        "quote"
+      ],
+      "pdf_page_from": 27,
+      "pdf_page_to": 27,
+      "body_text_sha256": "f75ccba1515754f0a9b09f7ccbe8280b2118df14d817161c8ec6fe78c746e485",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "bec71812-772f-4708-bc90-2e8da0b3cae8"
+    },
+    {
+      "key": "arbitration-1996:42A",
+      "section_number": "42A",
+      "heading": "Confidentiality of information.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "bracket-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop"
+      ],
+      "pdf_page_from": 27,
+      "pdf_page_to": 27,
+      "body_text_sha256": "9aa4d7cbef826675e69bb528a1fee66a09e719fb66d346edd71a347f8f63a702",
+      "footnote_text_sha256": "e7026e3780a14495f9abd7b093cf531459e74332d6dd16a8cbbcf11e96a758e0",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "09cc1aa9-4115-472a-a3ff-4131e3a044e8"
+    },
+    {
+      "key": "arbitration-1996:42B",
+      "section_number": "42B",
+      "heading": "Protection of action taken in good faith.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "bracket-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop"
+      ],
+      "pdf_page_from": 27,
+      "pdf_page_to": 27,
+      "body_text_sha256": "b51b9bdd163e3392f6fc8f4c166464c89d58fc6090b1f298f0dce2c4eeaabd12",
+      "footnote_text_sha256": "e7026e3780a14495f9abd7b093cf531459e74332d6dd16a8cbbcf11e96a758e0",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "ab58a1ff-86f0-4d6b-a3cd-86be87c1ff5e"
+    },
+    {
+      "key": "arbitration-1996:43",
+      "section_number": "43",
+      "heading": "Limitations.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 28,
+      "pdf_page_to": 28,
+      "body_text_sha256": "5da319759b3ed2827c7923134a0a22355b3f68bc9e6d5fc5ab07081f1e00ab07",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "44fb6dd0-fc9d-42e7-965b-ee1660eebf7c"
+    },
+    {
+      "key": "arbitration-1996:44",
+      "section_number": "44",
+      "heading": "Definition.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote",
+      "normalizations": [
+        "dash",
+        "quote"
+      ],
+      "pdf_page_from": 31,
+      "pdf_page_to": 31,
+      "body_text_sha256": "f62cc58361c6710352a607533d2ca34d75fc00ecef6646512575dfdc2741fcf9",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "2c983610-25d4-46d8-8cb9-bb342a925c2c"
+    },
+    {
+      "key": "arbitration-1996:45",
+      "section_number": "45",
+      "heading": "Power of judicial authority to refer parties to arbitration.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 31,
+      "pdf_page_to": 31,
+      "body_text_sha256": "3950c5a460b144bae3293153789ac32f9ed60397762a519f28d2cb2c1e572936",
+      "footnote_text_sha256": "4ae6bcccbee6acfe6b67cfec3114a3543124e81968e7c381988ff1468b8dbc75",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "97d9df7e-2329-492b-9746-fc975e7d78fb"
+    },
+    {
+      "key": "arbitration-1996:46",
+      "section_number": "46",
+      "heading": "When foreign award binding.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 31,
+      "pdf_page_to": 31,
+      "body_text_sha256": "106a40bfeef9a446197f54bff7e63c859b0b2a7d83545c3fb70a475cb24368e1",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "885527c7-3b4e-4036-b51c-0d9967379c14"
+    },
+    {
+      "key": "arbitration-1996:47",
+      "section_number": "47",
+      "heading": "Evidence.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 32,
+      "pdf_page_to": 32,
+      "body_text_sha256": "3580b771a954c927142d7c236a0b3a792efc02f746990f4f86d531a939e2c277",
+      "footnote_text_sha256": "a435fdbc01c85330fa8922ec6199b556d46001660c96126cdac54ad78aea3003",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "f2f1f183-fa7b-4753-8c70-899daa14815d"
+    },
+    {
+      "key": "arbitration-1996:48",
+      "section_number": "48",
+      "heading": "Conditions for enforcement of foreign awards.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "punct-space",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 32,
+      "pdf_page_to": 33,
+      "body_text_sha256": "b94d5f50400118f8cc43eee9bba66f42307f10a58cdb16bf2e1dcfdc4ebc8c6e",
+      "footnote_text_sha256": "e5da58d82d2070c0589f37dfac4300bbe5dcce6dd81756cca98666793f3a69c8",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "fc2f0b77-8e24-41f8-b5bd-3120dba5ce6b"
+    },
+    {
+      "key": "arbitration-1996:49",
+      "section_number": "49",
+      "heading": "Enforcement of foreign awards.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 33,
+      "pdf_page_to": 33,
+      "body_text_sha256": "744d3bffbae4e9f9a6886224611494982b84de5007e9b6c3af65a3602d476310",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "59dce55d-16f5-49a3-b948-f0dc4301bb4d"
+    },
+    {
+      "key": "arbitration-1996:5",
+      "section_number": "5",
+      "heading": "Extent of judicial intervention.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 9,
+      "pdf_page_to": 9,
+      "body_text_sha256": "3efcdf82569eac3bf11ec3fb5fb5a779af31c0d8478ddcfbef43a1af886bf726",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "3604712e-3751-4719-b4f1-1070ff3c5b3e"
+    },
+    {
+      "key": "arbitration-1996:50",
+      "section_number": "50",
+      "heading": "Appealable orders.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote",
+      "normalizations": [
+        "dash",
+        "quote"
+      ],
+      "pdf_page_from": 33,
+      "pdf_page_to": 33,
+      "body_text_sha256": "fc78c56774463f5ca1b4e9b1c54d2ab14b39adf3986d927a8fba8918f17421ae",
+      "footnote_text_sha256": "f60f3d0cd59da5d9670fcff09bd1fd6c99c819325a4d5b11ff05989b1beb1142",
+      "footnote_normalization_level": 2,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "0bc2e049-19ef-4988-a779-df45aa4e4c55"
+    },
+    {
+      "key": "arbitration-1996:52",
+      "section_number": "52",
+      "heading": "Chapter II not to apply.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 33,
+      "pdf_page_to": 33,
+      "body_text_sha256": "0051dae3eefabb8b1d6ce5dc5f9eabdaa1cf7679f43b24763bf3306635ed0182",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "fe7c34ea-16b0-4318-ac33-3a3cfd3028a8"
+    },
+    {
+      "key": "arbitration-1996:53",
+      "section_number": "53",
+      "heading": "Interpretation.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote",
+      "normalizations": [
+        "dash",
+        "quote"
+      ],
+      "pdf_page_from": 33,
+      "pdf_page_to": 33,
+      "body_text_sha256": "d8a9ba327a10e8acde0896ca926f0c0ed960f6061ab7c0e3ff17d27631fd964b",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "84933a1f-5a76-4d8a-8d8b-1b8b5b0d74f7"
+    },
+    {
+      "key": "arbitration-1996:54",
+      "section_number": "54",
+      "heading": "Power of judicial authority to refer parties to arbitration.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 33,
+      "pdf_page_to": 33,
+      "body_text_sha256": "877326fcc0f35f0c8bc18eda6511271dfb0b00acb0c19ea46f1254265929ebc9",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "b6f901a2-601d-42e4-b591-803ae9370602"
+    },
+    {
+      "key": "arbitration-1996:55",
+      "section_number": "55",
+      "heading": "Foreign awards when binding.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 31,
+      "pdf_page_to": 31,
+      "body_text_sha256": "106a40bfeef9a446197f54bff7e63c859b0b2a7d83545c3fb70a475cb24368e1",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "41c05b40-cd8d-4548-8528-914655b21eb4"
+    },
+    {
+      "key": "arbitration-1996:56",
+      "section_number": "56",
+      "heading": "Evidence.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 34,
+      "pdf_page_to": 34,
+      "body_text_sha256": "8f6a86ffaf53c9aede2bdde8c5569986c77fe1f9b6406deb08a036427db9de43",
+      "footnote_text_sha256": "3dd9efa6f6751e783cf6194e717fe2fa679d99f4ad8cbbae1f3ec407948910bf",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "ec7f9fd1-dbbe-47b7-adcc-61b218429eeb"
+    },
+    {
+      "key": "arbitration-1996:58",
+      "section_number": "58",
+      "heading": "Enforcement of foreign awards.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 35,
+      "pdf_page_to": 35,
+      "body_text_sha256": "fa341d06124692b65a0f0f28c520d6538690f75804625c13c4553a480a4f7c57",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "ee033eb2-7ed2-4d6f-9cd6-754c80755823"
+    },
+    {
+      "key": "arbitration-1996:59",
+      "section_number": "59",
+      "heading": "Appealable orders.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 35,
+      "pdf_page_to": 35,
+      "body_text_sha256": "2b517f6ee6d7657583dbde0c883e61e8cc9ba59783ca780d243d975bef2dc427",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "aac573ec-1e5f-4eaa-a48b-9b1c03892521"
+    },
+    {
+      "key": "arbitration-1996:6",
+      "section_number": "6",
+      "heading": "Administrative assistance.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 9,
+      "pdf_page_to": 9,
+      "body_text_sha256": "3155ced8210eaf76d7ee03f4b4e24856baa58f14aa935cd3f350d1a147a7e91b",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "a3474c27-fa1a-4a97-923d-882043b31cd2"
+    },
+    {
+      "key": "arbitration-1996:61",
+      "section_number": "61",
+      "heading": "Application and scope.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 35,
+      "pdf_page_to": 35,
+      "body_text_sha256": "2df7467a4b6642f6f00295fc560f197b81f215744139deee66ffa0acc852b4b7",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "0054c64e-3099-4980-9f89-770e2ed42e48"
+    },
+    {
+      "key": "arbitration-1996:62",
+      "section_number": "62",
+      "heading": "Commencement of conciliation proceedings.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 35,
+      "pdf_page_to": 35,
+      "body_text_sha256": "04e81cae7ac2bb65fcc82063d8bcac606e48c70e2e3e3da8afd35fe3ea3aceb9",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "576f00b7-8501-4e24-8323-af3a24bd10ec"
+    },
+    {
+      "key": "arbitration-1996:63",
+      "section_number": "63",
+      "heading": "Number of conciliators.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 35,
+      "pdf_page_to": 35,
+      "body_text_sha256": "89b38bc7ef0813b76e1eca4cfa696c2cb60e49f06d9645902d9bea054f5096f1",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "253a7e86-c184-4ed1-bad2-32cc8e13323c"
+    },
+    {
+      "key": "arbitration-1996:65",
+      "section_number": "65",
+      "heading": "Submission of statements to conciliator.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 36,
+      "pdf_page_to": 36,
+      "body_text_sha256": "6c5cb03fd537f1dc64cd477ac88a33439fbd74af0abe601b998d4f8a2a07d372",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "7f515af6-c933-454f-a970-c94c08321f86"
+    },
+    {
+      "key": "arbitration-1996:66",
+      "section_number": "66",
+      "heading": "Conciliator not bound by certain enactments.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 36,
+      "pdf_page_to": 36,
+      "body_text_sha256": "1d388f29a66c3a5461d6b29531cef38e60b658ad3362f5502f7e32f74d293241",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "96e1712c-794a-4a4c-a0ac-49a49366c825"
+    },
+    {
+      "key": "arbitration-1996:67",
+      "section_number": "67",
+      "heading": "Role of conciliator.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 36,
+      "pdf_page_to": 36,
+      "body_text_sha256": "99174520a85081bac64408fd2146895da6ca580a1667b973fba12f72a6c6933a",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "0fab5f47-d00b-482e-b798-f8788c393bfb"
+    },
+    {
+      "key": "arbitration-1996:68",
+      "section_number": "68",
+      "heading": "Administrative assistance.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 36,
+      "pdf_page_to": 36,
+      "body_text_sha256": "6518a56874dcafe2eb8e7b1e9459b27e5855984473573e5117dc63684fcd9c16",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "32d67d84-61fe-4a34-bed4-1c61b5fc275d"
+    },
+    {
+      "key": "arbitration-1996:69",
+      "section_number": "69",
+      "heading": "Communication between conciliator and parties.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 36,
+      "pdf_page_to": 36,
+      "body_text_sha256": "a9bbff387b5a2430c483e54e0850f29ce30b32f5fb5c331ac8353ca7af6ab4a0",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "6e541721-2ee8-4b11-95fa-65163fd78fbf"
+    },
+    {
+      "key": "arbitration-1996:7",
+      "section_number": "7",
+      "heading": "Arbitration agreement.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 9,
+      "pdf_page_to": 10,
+      "body_text_sha256": "ed931b65408a93e90b3350a4d8d1ca7ac0cf0121c78383413b955dbbe8125a7a",
+      "footnote_text_sha256": "cc966e7d874756fadf9b168cb25f17e97dea2423e6ab360d528d00e2665ae17f",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "4eda67f0-8989-4d1b-bc28-d2949da9e168"
+    },
+    {
+      "key": "arbitration-1996:70",
+      "section_number": "70",
+      "heading": "Disclosure of information.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 37,
+      "pdf_page_to": 37,
+      "body_text_sha256": "c6839eaa416b1ab528ccb4c187e39a4a2dd2a51e34b1607638485953bacf13ac",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "06917a3a-9c54-4be2-8685-7f6ee4f76010"
+    },
+    {
+      "key": "arbitration-1996:71",
+      "section_number": "71",
+      "heading": "Co-operation of parties with conciliator.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 37,
+      "pdf_page_to": 37,
+      "body_text_sha256": "5c66d4716de44e186ab9d4800d6dc9dbcbcc8a10aca1cb9fb076395f3e03f5c2",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "9a49a728-2c4a-43ac-afd2-aeb7e0f33f24"
+    },
+    {
+      "key": "arbitration-1996:72",
+      "section_number": "72",
+      "heading": "Suggestions by parties for settlement of dispute.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 37,
+      "pdf_page_to": 37,
+      "body_text_sha256": "0e7dcb72858f95aeb90879aaa8f3270025111debd9256f98190ccdd2615a9d0b",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "a7ad37d9-289a-4033-a955-58df5bcc43d5"
+    },
+    {
+      "key": "arbitration-1996:73",
+      "section_number": "73",
+      "heading": "Settlement agreement.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 37,
+      "pdf_page_to": 37,
+      "body_text_sha256": "c978c2222ebe1d4e1eaa9fe799f18c076e50c4592d1c21802bccf163c7384e72",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "381b8a41-d8ec-4916-bacc-a478628f283e"
+    },
+    {
+      "key": "arbitration-1996:74",
+      "section_number": "74",
+      "heading": "Status and effect of settlement agreement.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 37,
+      "pdf_page_to": 37,
+      "body_text_sha256": "2c35a8f9ee4e782e1c852e8504827348e4ed860fffea51e073a186a369af07cc",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "036b6a65-cb7c-4aa0-90b4-987b77891954"
+    },
+    {
+      "key": "arbitration-1996:75",
+      "section_number": "75",
+      "heading": "Confidentiality.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 37,
+      "pdf_page_to": 37,
+      "body_text_sha256": "556aa127f43402a7d3f25e6af47fdc16f229002b3a3b0440794b00d731391982",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "c36e64c7-8352-414f-8553-12c6935876d3"
+    },
+    {
+      "key": "arbitration-1996:76",
+      "section_number": "76",
+      "heading": "Termination of conciliation proceedings.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 37,
+      "pdf_page_to": 37,
+      "body_text_sha256": "8fd958af8d572d88c424afa42314e792a22989367fa1faa35bf68571b8f10054",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "40372165-0b09-42aa-b5f0-fb6b1be26907"
+    },
+    {
+      "key": "arbitration-1996:77",
+      "section_number": "77",
+      "heading": "Resort to arbitral or judicial proceedings.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "hyphen",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen"
+      ],
+      "pdf_page_from": 37,
+      "pdf_page_to": 37,
+      "body_text_sha256": "7d08c5a2bb57050245fc1d90acde0b5a95e793746fda0d6c1d57f3e7028d3fca",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "49e69175-fd8f-4c83-bda6-8f4f621b926e"
+    },
+    {
+      "key": "arbitration-1996:79",
+      "section_number": "79",
+      "heading": "Deposits.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 38,
+      "pdf_page_to": 38,
+      "body_text_sha256": "3601ec9cff4ab530298a1368f4c41886af65a21e2ac1e944e4526536fd5ba26a",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "86bddacb-35c9-4a52-8a6e-cf710bbf7a9a"
+    },
+    {
+      "key": "arbitration-1996:80",
+      "section_number": "80",
+      "heading": "Role of conciliator in other proceedings.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 38,
+      "pdf_page_to": 38,
+      "body_text_sha256": "4f9078afef175ba4226f253d869ae6fbf770cf2b9d49780ffaddc0d61d8855cb",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "b34c6232-7ea6-4f16-99c7-7a5e08136625"
+    },
+    {
+      "key": "arbitration-1996:81",
+      "section_number": "81",
+      "heading": "Admissibility of evidence in other proceedings.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 38,
+      "pdf_page_to": 38,
+      "body_text_sha256": "b3b7999cef404dc3cdda6daf2eaafb05aaaba97f4b02ba348be6356be78353fd",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "a91e7356-850d-4e4b-b627-37a933342e7c"
+    },
+    {
+      "key": "arbitration-1996:82",
+      "section_number": "82",
+      "heading": "Power of High Court to make rules.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 38,
+      "pdf_page_to": 38,
+      "body_text_sha256": "c119c54362a142defba5741149870f95454ffa5a9397c008675dd2611dec773a",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "7ee526b9-0e4d-4a7f-a3a7-3f2e3f4ecd83"
+    },
+    {
+      "key": "arbitration-1996:83",
+      "section_number": "83",
+      "heading": "Removal of difficulties.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 38,
+      "pdf_page_to": 38,
+      "body_text_sha256": "c8d366425abd4a612c564cf4b91da66c2cb0d2881c88abd2b4812f1defef61a5",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "baba0050-01d7-4ea4-9053-5e30e3d11048"
+    },
+    {
+      "key": "arbitration-1996:84",
+      "section_number": "84",
+      "heading": "Power to make rules.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 38,
+      "pdf_page_to": 39,
+      "body_text_sha256": "33f9f9a0443b19fa378437bc3d027c3321c709b953fda4b3886e18120ed23497",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "837d4f5a-ede7-4506-ab63-c106784e97cc"
+    },
+    {
+      "key": "arbitration-1996:85",
+      "section_number": "85",
+      "heading": "Repeal and savings.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 39,
+      "pdf_page_to": 39,
+      "body_text_sha256": "9b2c4b98ce98d458055f8027d6beb2a9f6b3c6c6902a35608640a7f18fa7f4c4",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "46f9a655-9f3d-44a0-a0f6-2c7427d16c07"
+    },
+    {
+      "key": "arbitration-1996:86",
+      "section_number": "86",
+      "heading": "Repeal and saving.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "space-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "space-drop"
+      ],
+      "pdf_page_from": 39,
+      "pdf_page_to": 39,
+      "body_text_sha256": "564239d496fab01d52692e15524a24eeab7e1d958d960a3205fe1060cb55687b",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "1d7e878a-583f-4a85-813e-d3d9d74507f8"
+    }
+  ],
+  "population_count": 69,
+  "mandatory_keys": [
+    "arbitration-1996:1",
+    "arbitration-1996:14",
+    "arbitration-1996:15",
+    "arbitration-1996:25",
+    "arbitration-1996:27",
+    "arbitration-1996:28",
+    "arbitration-1996:42A",
+    "arbitration-1996:42B",
+    "arbitration-1996:45",
+    "arbitration-1996:47",
+    "arbitration-1996:48",
+    "arbitration-1996:50",
+    "arbitration-1996:56",
+    "arbitration-1996:7"
+  ],
+  "sampled_keys": [
+    "arbitration-1996:20",
+    "arbitration-1996:38",
+    "arbitration-1996:40",
+    "arbitration-1996:41",
+    "arbitration-1996:53",
+    "arbitration-1996:58",
+    "arbitration-1996:68",
+    "arbitration-1996:71",
+    "arbitration-1996:76",
+    "arbitration-1996:77"
+  ],
+  "selected_keys": [
+    "arbitration-1996:1",
+    "arbitration-1996:14",
+    "arbitration-1996:15",
+    "arbitration-1996:20",
+    "arbitration-1996:25",
+    "arbitration-1996:27",
+    "arbitration-1996:28",
+    "arbitration-1996:38",
+    "arbitration-1996:40",
+    "arbitration-1996:41",
+    "arbitration-1996:42A",
+    "arbitration-1996:42B",
+    "arbitration-1996:45",
+    "arbitration-1996:47",
+    "arbitration-1996:48",
+    "arbitration-1996:50",
+    "arbitration-1996:53",
+    "arbitration-1996:56",
+    "arbitration-1996:58",
+    "arbitration-1996:68",
+    "arbitration-1996:7",
+    "arbitration-1996:71",
+    "arbitration-1996:76",
+    "arbitration-1996:77"
+  ],
+  "strata": {
+    "exact": {
+      "population": 48,
+      "sampled": 5,
+      "keys": [
+        "arbitration-1996:38",
+        "arbitration-1996:58",
+        "arbitration-1996:68",
+        "arbitration-1996:71",
+        "arbitration-1996:76"
+      ]
+    },
+    "hyphen": {
+      "population": 1,
+      "sampled": 1,
+      "keys": [
+        "arbitration-1996:77"
+      ]
+    },
+    "quote": {
+      "population": 3,
+      "sampled": 2,
+      "keys": [
+        "arbitration-1996:41",
+        "arbitration-1996:53"
+      ]
+    },
+    "space-drop": {
+      "population": 3,
+      "sampled": 2,
+      "keys": [
+        "arbitration-1996:20",
+        "arbitration-1996:40"
+      ]
+    }
+  },
+  "renders": {
+    "arbitration-1996:1": [
+      "data/phase3/review-renders/arbitration-1996/page-7.png"
+    ],
+    "arbitration-1996:14": [
+      "data/phase3/review-renders/arbitration-1996/page-15.png"
+    ],
+    "arbitration-1996:15": [
+      "data/phase3/review-renders/arbitration-1996/page-15.png",
+      "data/phase3/review-renders/arbitration-1996/page-16.png"
+    ],
+    "arbitration-1996:20": [
+      "data/phase3/review-renders/arbitration-1996/page-17.png"
+    ],
+    "arbitration-1996:25": [
+      "data/phase3/review-renders/arbitration-1996/page-18.png"
+    ],
+    "arbitration-1996:27": [
+      "data/phase3/review-renders/arbitration-1996/page-18.png",
+      "data/phase3/review-renders/arbitration-1996/page-19.png"
+    ],
+    "arbitration-1996:28": [
+      "data/phase3/review-renders/arbitration-1996/page-19.png"
+    ],
+    "arbitration-1996:38": [
+      "data/phase3/review-renders/arbitration-1996/page-26.png"
+    ],
+    "arbitration-1996:40": [
+      "data/phase3/review-renders/arbitration-1996/page-27.png"
+    ],
+    "arbitration-1996:41": [
+      "data/phase3/review-renders/arbitration-1996/page-27.png"
+    ],
+    "arbitration-1996:42A": [
+      "data/phase3/review-renders/arbitration-1996/page-27.png"
+    ],
+    "arbitration-1996:42B": [
+      "data/phase3/review-renders/arbitration-1996/page-27.png"
+    ],
+    "arbitration-1996:45": [
+      "data/phase3/review-renders/arbitration-1996/page-31.png"
+    ],
+    "arbitration-1996:47": [
+      "data/phase3/review-renders/arbitration-1996/page-32.png"
+    ],
+    "arbitration-1996:48": [
+      "data/phase3/review-renders/arbitration-1996/page-32.png",
+      "data/phase3/review-renders/arbitration-1996/page-33.png"
+    ],
+    "arbitration-1996:50": [
+      "data/phase3/review-renders/arbitration-1996/page-33.png"
+    ],
+    "arbitration-1996:53": [
+      "data/phase3/review-renders/arbitration-1996/page-33.png"
+    ],
+    "arbitration-1996:56": [
+      "data/phase3/review-renders/arbitration-1996/page-34.png"
+    ],
+    "arbitration-1996:58": [
+      "data/phase3/review-renders/arbitration-1996/page-35.png"
+    ],
+    "arbitration-1996:68": [
+      "data/phase3/review-renders/arbitration-1996/page-36.png"
+    ],
+    "arbitration-1996:7": [
+      "data/phase3/review-renders/arbitration-1996/page-9.png",
+      "data/phase3/review-renders/arbitration-1996/page-10.png"
+    ],
+    "arbitration-1996:71": [
+      "data/phase3/review-renders/arbitration-1996/page-37.png"
+    ],
+    "arbitration-1996:76": [
+      "data/phase3/review-renders/arbitration-1996/page-37.png"
+    ],
+    "arbitration-1996:77": [
+      "data/phase3/review-renders/arbitration-1996/page-37.png"
+    ]
+  },
+  "render_sha256": {
+    "data/phase3/review-renders/arbitration-1996/page-7.png": "05e97acdb9e44f63b968448d5e120bc46e98aff73b1d4403dd4df286d4fd40e0",
+    "data/phase3/review-renders/arbitration-1996/page-9.png": "583650eee2caa71e425ef715ad32257a8124bf13dc7b3d5a53a7774c7cba8f67",
+    "data/phase3/review-renders/arbitration-1996/page-10.png": "0d23d98d13d5d14213c4534816155c23d6b5a9954fc2bab4c2a4ba6d93048d4e",
+    "data/phase3/review-renders/arbitration-1996/page-15.png": "e26395c611bdd1f94a161f02b645d3d30703cd5a469a176eee8bd83a4066d0e7",
+    "data/phase3/review-renders/arbitration-1996/page-16.png": "3e551162f8f5e91a8313a6b934506925d98c4c602f4b520faed8070e88a03ebe",
+    "data/phase3/review-renders/arbitration-1996/page-17.png": "70dc717bc84031b9aef1d307cb1bc041494108511f14489ea2d3176e8a6ea5c5",
+    "data/phase3/review-renders/arbitration-1996/page-18.png": "68b2f4cce050b2aed14f8aff3cd43926fe1de7579f54be3d9e8cc1ddeb4e68eb",
+    "data/phase3/review-renders/arbitration-1996/page-19.png": "8850e132d041f842a720b5e2cca6774220d24c595fea1966f155bc567109623c",
+    "data/phase3/review-renders/arbitration-1996/page-26.png": "348664ea542b456c416893f044b3b375170f48bf81df9f91b24f38a041a72457",
+    "data/phase3/review-renders/arbitration-1996/page-27.png": "8dd919db9d11f5c82df7faa9b1c3530a2ba0e02d54b878adaf1293add5532ce5",
+    "data/phase3/review-renders/arbitration-1996/page-31.png": "62a42dede7c7ec817aaf7cceefd4849237f074332f36189d615f8e0a2add38c8",
+    "data/phase3/review-renders/arbitration-1996/page-32.png": "1447eafd47fdc59cef35292fe765b0a1f5b4e91713d7cefcd7c117ce7d8df6f5",
+    "data/phase3/review-renders/arbitration-1996/page-33.png": "fb29ff4e1976310f55e6df57a0dceda30821260e4e0c3bd0baafffc6a0588f31",
+    "data/phase3/review-renders/arbitration-1996/page-34.png": "7f7298556701755023d8bb102eb04c78dba2848a2857713f935f9d98f5a1840e",
+    "data/phase3/review-renders/arbitration-1996/page-35.png": "c2922f27c683aafd4d6195c179b5ea17d55b977f676d48df5b6aa571dbbe01e4",
+    "data/phase3/review-renders/arbitration-1996/page-36.png": "efe5a2b17e8beec9069e67229004611eab45ebc27ddbed4011569bb2df220f25",
+    "data/phase3/review-renders/arbitration-1996/page-37.png": "601fec27c831c59ffc1fd273c164acf3f7024e68d83102d007a528c11592df4e"
+  },
+  "status": "reviewed",
+  "review": {
+    "reviewer_ref": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "reviewer_sha256": "109ba542b1054cd0f750fece16fdf06fec99b8a227238432c9f10ddcb6fe8303",
+    "session_date": "2026-09-22",
+    "outcomes": {
+      "arbitration-1996:1": {
+        "decision": "verified_equivalent",
+        "note": "Page 7: (1), (2) with its omission asterisks, and (3) match; both footnotes belong to this section; ends before PART I."
+      },
+      "arbitration-1996:14": {
+        "decision": "verified_equivalent",
+        "note": "Page 15: (1) with the substituted 2[The mandate ... if] opening, (a),(b), (2) and (3) match; the footnote belongs to this section."
+      },
+      "arbitration-1996:15": {
+        "decision": "verified_equivalent",
+        "note": "Pages 15-16: (1)(a),(b), (2)-(4) match; the skipped page-15 block is the footnotes for ss.12 and 14, not s.15 text; ends before CHAPTER IV."
+      },
+      "arbitration-1996:20": {
+        "decision": "verified_equivalent",
+        "note": "Page 17: (1)-(3) match; the PDF prints \"anyplace\", which is the recorded space-drop level; ends before s.21."
+      },
+      "arbitration-1996:25": {
+        "decision": "verified_equivalent",
+        "note": "Page 18: lead-in, (a), (b) with the inserted 3[and shall have the discretion ...] and (c) match; ends before s.26."
+      },
+      "arbitration-1996:27": {
+        "decision": "verified_equivalent",
+        "note": "Pages 18-19: (1), (2)(a)-(c)(i),(ii), (3)-(6) match; the skipped page-18 block is the three footnotes for ss.23-25, not s.27 text; ends before CHAPTER VI."
+      },
+      "arbitration-1996:28": {
+        "decision": "verified_equivalent",
+        "note": "Page 19: (1)(a),(b)(i)-(iii), (2) and the substituted 1[(3)] match; ends before s.29."
+      },
+      "arbitration-1996:38": {
+        "decision": "verified_equivalent",
+        "note": "Page 26: (1) with proviso, (2) with two provisos, and (3) match; ends before s.39."
+      },
+      "arbitration-1996:40": {
+        "decision": "verified_equivalent",
+        "note": "Page 27: (1)-(3) match, including the source's \"been forceable\"; ends before s.41."
+      },
+      "arbitration-1996:41": {
+        "decision": "verified_equivalent",
+        "note": "Page 27: (1)-(3) match; ends before s.42."
+      },
+      "arbitration-1996:42A": {
+        "decision": "verified_equivalent",
+        "note": "Page 27: the inserted section matches; the PDF opens one amendment bracket before 42A and closes it after 42B, which is the recorded bracket-drop level; footnote matches."
+      },
+      "arbitration-1996:42B": {
+        "decision": "verified_equivalent",
+        "note": "Page 27: the inserted section matches, sharing 42A's amendment bracket in the PDF; footnote matches; ends before 43."
+      },
+      "arbitration-1996:45": {
+        "decision": "verified_equivalent",
+        "note": "Page 31: single paragraph with its 2[unless it prima facie finds] substitution matches; ends before s.46."
+      },
+      "arbitration-1996:47": {
+        "decision": "verified_equivalent",
+        "note": "Page 32: (1)(a)-(c), (2) and the substituted 1[Explanation] match; ends before s.48."
+      },
+      "arbitration-1996:48": {
+        "decision": "verified_equivalent",
+        "note": "Pages 32-33: (1)(a)-(e) with the proviso under (c), (2)(a),(b), the substituted 2[Explanation 1 and 2] and (3) match; the skipped page-32 block is the two footnotes, not s.48 text."
+      },
+      "arbitration-1996:50": {
+        "decision": "verified_equivalent",
+        "note": "Page 33: (1) with its 1[Notwithstanding ...] substitution, (a),(b) with tail, and (2) match; ends before s.51."
+      },
+      "arbitration-1996:53": {
+        "decision": "verified_equivalent",
+        "note": "Page 33: lead-in, (a)-(c) and the closing tail match; ends before s.54."
+      },
+      "arbitration-1996:56": {
+        "decision": "verified_equivalent",
+        "note": "Page 34: (1)(a)-(c), (2) and the substituted 1[Explanation] match; ends before s.57."
+      },
+      "arbitration-1996:58": {
+        "decision": "verified_equivalent",
+        "note": "Page 35: single paragraph matches exactly; ends before s.59."
+      },
+      "arbitration-1996:68": {
+        "decision": "verified_equivalent",
+        "note": "Page 36: single paragraph matches exactly; ends before s.69."
+      },
+      "arbitration-1996:7": {
+        "decision": "verified_equivalent",
+        "note": "Pages 9-10: (1)-(3), (4)(a)-(c) with the inserted 1[including communication through electronic means], and (5) match; the skipped page-9 block is this section's own footnote; ends before s.8."
+      },
+      "arbitration-1996:71": {
+        "decision": "verified_equivalent",
+        "note": "Page 37: single paragraph matches exactly; ends before s.72."
+      },
+      "arbitration-1996:76": {
+        "decision": "verified_equivalent",
+        "note": "Page 37: lead-in and (a)-(d) match; ends before s.77."
+      },
+      "arbitration-1996:77": {
+        "decision": "verified_equivalent",
+        "note": "Page 37: single paragraph matches; \"subject-matter\" hyphenated across a line is the recorded hyphen level; ends before s.78."
+      }
+    },
+    "decision": "act_batch_admitted",
+    "failed_keys": [],
+    "decision_note": "All twenty-four selected sections compared whole against their rendered PDF pages; every one agreed.",
+    "render_evidence": {
+      "data/phase3/review-renders/arbitration-1996/page-7.png": "05e97acdb9e44f63b968448d5e120bc46e98aff73b1d4403dd4df286d4fd40e0",
+      "data/phase3/review-renders/arbitration-1996/page-9.png": "583650eee2caa71e425ef715ad32257a8124bf13dc7b3d5a53a7774c7cba8f67",
+      "data/phase3/review-renders/arbitration-1996/page-10.png": "0d23d98d13d5d14213c4534816155c23d6b5a9954fc2bab4c2a4ba6d93048d4e",
+      "data/phase3/review-renders/arbitration-1996/page-15.png": "e26395c611bdd1f94a161f02b645d3d30703cd5a469a176eee8bd83a4066d0e7",
+      "data/phase3/review-renders/arbitration-1996/page-16.png": "3e551162f8f5e91a8313a6b934506925d98c4c602f4b520faed8070e88a03ebe",
+      "data/phase3/review-renders/arbitration-1996/page-17.png": "70dc717bc84031b9aef1d307cb1bc041494108511f14489ea2d3176e8a6ea5c5",
+      "data/phase3/review-renders/arbitration-1996/page-18.png": "68b2f4cce050b2aed14f8aff3cd43926fe1de7579f54be3d9e8cc1ddeb4e68eb",
+      "data/phase3/review-renders/arbitration-1996/page-19.png": "8850e132d041f842a720b5e2cca6774220d24c595fea1966f155bc567109623c",
+      "data/phase3/review-renders/arbitration-1996/page-26.png": "348664ea542b456c416893f044b3b375170f48bf81df9f91b24f38a041a72457",
+      "data/phase3/review-renders/arbitration-1996/page-27.png": "8dd919db9d11f5c82df7faa9b1c3530a2ba0e02d54b878adaf1293add5532ce5",
+      "data/phase3/review-renders/arbitration-1996/page-31.png": "62a42dede7c7ec817aaf7cceefd4849237f074332f36189d615f8e0a2add38c8",
+      "data/phase3/review-renders/arbitration-1996/page-32.png": "1447eafd47fdc59cef35292fe765b0a1f5b4e91713d7cefcd7c117ce7d8df6f5",
+      "data/phase3/review-renders/arbitration-1996/page-33.png": "fb29ff4e1976310f55e6df57a0dceda30821260e4e0c3bd0baafffc6a0588f31",
+      "data/phase3/review-renders/arbitration-1996/page-34.png": "7f7298556701755023d8bb102eb04c78dba2848a2857713f935f9d98f5a1840e",
+      "data/phase3/review-renders/arbitration-1996/page-35.png": "c2922f27c683aafd4d6195c179b5ea17d55b977f676d48df5b6aa571dbbe01e4",
+      "data/phase3/review-renders/arbitration-1996/page-36.png": "efe5a2b17e8beec9069e67229004611eab45ebc27ddbed4011569bb2df220f25",
+      "data/phase3/review-renders/arbitration-1996/page-37.png": "601fec27c831c59ffc1fd273c164acf3f7024e68d83102d007a528c11592df4e"
+    },
+    "scope_note": "Each selected section was compared whole against its rendered PDF pages: heading, beginning and end, numbered parts, provisos and footnotes. Sections outside selected_keys were not looked at individually; they rest on automated whole-body agreement plus this sample."
+  },
+  "admits_nothing_note": "A passing review authorizes admission of this Act's aligned candidates through the canonical importer under review class text_agreement_sampled_visual. Provisions not in selected_keys are admitted on automated whole-body agreement plus this sample, and must never be presented as individually reviewed."
+}

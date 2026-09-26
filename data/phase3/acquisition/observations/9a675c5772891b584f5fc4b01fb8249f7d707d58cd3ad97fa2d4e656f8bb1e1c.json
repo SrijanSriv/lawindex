@@ -1,0 +1,10 @@
+{
+  "url": "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT%2Cequals&f.title=Consumer+Protection+Act%2C+2019%2Ccontains&page=0&size=100",
+  "status": 200,
+  "sha256": "0aad22b41d159d43629417646b51421fd5ab443f81ea65124d814fa6f760f2e1",
+  "bytes": 91178,
+  "fetched_at": "2026-09-21T19:43:28.747137+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "attempt": 1
+}

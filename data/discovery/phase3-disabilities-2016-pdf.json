@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/5fe6c4cd-2647-4c68-b1fb-4e631c535984/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/5fe6c4cd-2647-4c68-b1fb-4e631c535984/content",
+  "http_status": 200,
+  "curl_exit_code": 0,
+  "content_type": "application/pdf",
+  "fetched_at_utc": "2026-09-21T19:44:08.921832+00:00",
+  "sha256": "79d0d12e62bf34ab7259c833125f4441d2d7eceddeb52853fa5c7540ac557ef1",
+  "bytes": 412283,
+  "body_path": "data/discovery/phase3-disabilities-2016-pdf.body",
+  "note": "Exact copy of retained Phase 3 HTTP bytes; not a new acquisition. Receipt in data/phase3/acquisition/acts/disabilities-2016.json"
+}

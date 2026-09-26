@@ -1,0 +1,14 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/discover/search/objects?sort=dc.identifier.order_number,ASC&page=0&size=10&f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_26_36_00004_200522_1517807322955,equals",
+  "effective_url": "https://indiacode.gov.in/server/api/discover/search/objects?sort=dc.identifier.order_number,ASC&page=0&size=10&f.identifier_collection=SECTION,equals&f.act_id=AC_CEN_26_36_00004_200522_1517807322955,equals",
+  "fetched_at_utc": "2026-09-20T06:12:31.102792+00:00",
+  "http_status": 200,
+  "content_type": "application/hal+json;charset=UTF-8",
+  "curl_exit_code": 0,
+  "error": null,
+  "bytes": 139105,
+  "sha256": "343f0d19662e38e02e33934d6e2340e1cf498576e54fdc1e539758846aa52f5b",
+  "body_path": "data/discovery/rti-sections-page-0.body",
+  "elapsed_seconds": 1.032225,
+  "note": "HTTP success alone does not establish valid source content; inspect body."
+}

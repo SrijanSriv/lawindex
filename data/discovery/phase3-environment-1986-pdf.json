@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/2eeec562-717d-4070-b70e-a91a4269c9ca/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/2eeec562-717d-4070-b70e-a91a4269c9ca/content",
+  "http_status": 200,
+  "curl_exit_code": 0,
+  "content_type": "application/pdf",
+  "sha256": "d9712743c39faeb1019c08af3b0b2856ca3c905c4bd6299ee4a928576fdc9169",
+  "bytes": 239190,
+  "body_path": "data/discovery/phase3-environment-1986-pdf.body",
+  "note": "Exact copy of retained Phase 3 HTTP bytes; not a new acquisition. Receipt in data/phase3/acquisition/acts/environment-1986.json; fetched_at_utc copied from the matching Phase 3 receipt (same URL and sha256)",
+  "fetched_at_utc": "2026-09-21T19:41:21.146793+00:00"
+}

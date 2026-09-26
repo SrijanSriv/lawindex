@@ -1,0 +1,61 @@
+{
+  "provision_key": "posh-2013:23",
+  "act_slug": "posh-2013",
+  "act_uuid": "6497706b-d8a5-4486-a968-9975498de966",
+  "section_number": "23",
+  "heading": "Appropriate Government to monitor implementation and maintain data.",
+  "selected_representation": "structured_html",
+  "selected_representation_reason": "Whole body agrees with the retained PDF at normalization level exact; admitted under this Act's sampled visual review, not individually compared.",
+  "source_representation": {
+    "kind": "structured_html",
+    "capture": "phase3-posh-2013-sections-page-0",
+    "sha256": "e17a21d657409f56a594277572acd17e99e64e3894a2bc5e6ec859e7fbd6eeda",
+    "field": "dc.identifier.section_page_note",
+    "section_item_uuid": "312fcb31-4538-43fd-a30e-0c934432beca",
+    "act_id": "AC_CEN_13_14_00009_201314_1517807327213"
+  },
+  "pdf_anchor": {
+    "capture": "phase3-posh-2013-pdf",
+    "sha256": "2c758fdba9409e931b6ee3add6c4068a90142d3cae49e23884553d964e52a9e6",
+    "pdf_page_from": 12,
+    "pdf_page_to": 12
+  },
+  "agreement": {
+    "normalization_level": 0,
+    "normalizations": [],
+    "page_break_gap_count": 0,
+    "footnote_normalization_level": null,
+    "method": "enumerated typographic normalization applied to both representations"
+  },
+  "review": {
+    "reviewer_ref": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "review_class": "text_agreement_sampled_visual",
+    "checked_scope": "act_sample_plus_whole_body_automated_agreement",
+    "visually_reviewed": false,
+    "footnotes_present": false,
+    "sample_plan": {
+      "path": "data/phase3/review-plans/posh-2013.json",
+      "sha256": "80ed0c9119547b556a397b42f8d52c107a043ab1f5d110d9320171c28b567e6c",
+      "plan_digest": "ae1c809c2a6cb7c9195cc72e000329e073892b1216f18e4a71843bc22c38a3e1",
+      "population_count": 26,
+      "selected_count": 8
+    },
+    "scope": "Each selected section was compared whole against its rendered PDF pages: heading, beginning and end, numbered parts, provisos and footnotes. Sections outside selected_keys were not looked at individually; they rest on automated whole-body agreement plus this sample.",
+    "evidence": [
+      "data/discovery/phase3-posh-2013-sections-page-0.body",
+      "data/discovery/phase3-posh-2013-pdf.body",
+      "data/phase3/review-plans/posh-2013.json"
+    ]
+  },
+  "known_conflicts": [],
+  "classification": "formatting_only_verified_equivalent",
+  "disposition": "verified_equivalent",
+  "admission_status": "admitted",
+  "extraction_method_version": "phase3-sampled-agreement-v1",
+  "expected_output": {
+    "body_text_sha256": "d72111fad5e890299dd9e0e3c22d148eebf90ae32b521ae3408eb38bf70127e9",
+    "footnote_text_sha256": "no-footnote-expected",
+    "established_by": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "established_note": "Established by automated whole-body agreement recorded in the sample plan; individually compared only if visually_reviewed."
+  }
+}

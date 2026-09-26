@@ -1,0 +1,76 @@
+{
+  "judge": "B",
+  "batch": 10,
+  "corpus_fingerprint": "sha256:0a0ad6cfbde118c65753fd3b10d36325f0167d25d7bc1ec0410bfb45ea18ff4e",
+  "queries": {
+    "B-116": [
+      "information-technology-2000:44",
+      "food-security-2013:33",
+      "information-technology-2000:72",
+      "copyright-1957:68A",
+      "rti-2005:20",
+      "information-technology-2000:66C",
+      "posh-2013:17"
+    ],
+    "B-117": [
+      "consumer-protection-2019:64",
+      "competition-2002:57",
+      "merchant-shipping-2025:269",
+      "competition-2002:62",
+      "competition-2002:15",
+      "arbitration-1996:81",
+      "food-security-2013:21",
+      "real-estate-2016:55"
+    ],
+    "B-118": [
+      "merchant-shipping-2025:187",
+      "merchant-shipping-2025:108",
+      "merchant-shipping-2025:163",
+      "contract-1872:93",
+      "contract-1872:247",
+      "contract-1872:168",
+      "merchant-shipping-2025:208",
+      "contract-1872:119",
+      "contract-1872:246"
+    ],
+    "B-120": [
+      "contract-1872:240",
+      "contract-1872:178A",
+      "contract-1872:168",
+      "contract-1872:179",
+      "contract-1872:166",
+      "real-estate-2016:18"
+    ],
+    "B-121": [
+      "food-security-2013:44",
+      "contract-1872:155",
+      "food-security-2013:9",
+      "contract-1872:157",
+      "food-security-2013:5",
+      "food-security-2013:23"
+    ],
+    "B-122": [
+      "education-2009:7",
+      "education-2009:38",
+      "education-2009:20"
+    ],
+    "B-123": [
+      "food-security-2013:11",
+      "food-security-2013:45",
+      "food-security-2013:3",
+      "food-security-2013:10",
+      "food-security-2013:44"
+    ],
+    "B-124": [
+      "merchant-shipping-2025:40",
+      "merchant-shipping-2025:242",
+      "merchant-shipping-2025:122",
+      "merchant-shipping-2025:105",
+      "merchant-shipping-2025:309",
+      "merchant-shipping-2025:80",
+      "merchant-shipping-2025:307",
+      "merchant-shipping-2025:138",
+      "merchant-shipping-2025:289"
+    ]
+  }
+}

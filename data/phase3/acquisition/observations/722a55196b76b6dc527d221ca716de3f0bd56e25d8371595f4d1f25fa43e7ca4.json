@@ -1,0 +1,10 @@
+{
+  "url": "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT%2Cequals&f.title=Legal+Services+Authorities+Act%2C+1987%2Ccontains&page=0&size=100",
+  "status": 200,
+  "sha256": "c89bd680ee69427130703a0ea1ff21ef87b07470390ea15b4193773cb1942b35",
+  "bytes": 110108,
+  "fetched_at": "2026-09-21T19:44:35.914270+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "attempt": 1
+}

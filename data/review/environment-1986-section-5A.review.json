@@ -1,0 +1,47 @@
+{
+  "provision_key": "environment-1986:5A",
+  "act_slug": "environment-1986",
+  "act_uuid": "10eea11f-bfda-41d0-b8dc-58176e704613",
+  "section_number": "5A",
+  "heading": "Appeal to National Green Tribunal.",
+  "selected_representation": "pdf",
+  "selected_representation_reason": "As with section 3, no structured-text section record was retained for this Act; this provision is admitted PDF-only, labeled as such.",
+  "pdf_only_no_structured_comparison_available": true,
+  "source_representation": {
+    "kind": "pdf",
+    "capture": "environment-1986-pdf",
+    "sha256": "d9712743c39faeb1019c08af3b0b2856ca3c905c4bd6299ee4a928576fdc9169",
+    "pdf_page_from": 5,
+    "pdf_page_to": 5
+  },
+  "review": {
+    "reviewer_ref": "data/review/reviewer-pass2.json",
+    "scope": "Chosen because it is a lettered provision (5A, not a plain integer section number) inserted wholesale by amendment: the entire section is wrapped in a superscript-numbered bracket, '1[5A. ... in accordance with the provisions of that Act.]', with a matching footnote 'Ins. by Act 19 of 2010, s. 36 and Schedule III (w.e.f. 18-10-2010).' at the foot of PDF page 5. Visually confirmed against data/discovery/derived/environment-1986-page-05.png that the extracted text preserves the opening bracket/marker and the closing bracket exactly, and preserves the source's own wording verbatim including its apparent grammatical slip ('any directions issues under section 5' -- the source PDF's own text, not a transcription error introduced here).",
+    "evidence": [
+      "data/discovery/environment-1986-pdf.body",
+      "data/discovery/derived/environment-1986.txt",
+      "data/discovery/derived/environment-1986-page-05.png"
+    ],
+    "checked_scope": "whole_provision_including_insertion_marker_and_footnote",
+    "footnotes_present": true,
+    "footnote_pattern": "^1\\. Ins\\. by Act 19 of 2010, s\\. 36 and Schedule III \\(w\\.e\\.f\\. 18-10-2010\\)\\.$"
+  },
+  "known_conflicts": [],
+  "classification": "pdf_only_no_comparison_representation",
+  "disposition": "verified_pdf_only",
+  "admission_status": "admitted",
+  "admission_note": "Admitted from the sole retained representation (PDF), including its amendment-insertion marker and footnote. Not verified against any structured text because none was retained for this Act. Does not imply any other Environment Act provision has been reviewed, and does not establish that the National Green Tribunal Act cross-reference is itself in force or unamended.",
+  "watermark_stripping_rule": "Same rule as documented in data/review/rti-2005-section-6.review.json.",
+  "extraction_method_version": "offline-importer-v2",
+  "expected_output": {
+    "body_text_sha256": "4dccff1c08ab29e99633d9bdc2216c7b7d69f88285c2155a8b71f66576a0c7f7",
+    "footnote_text_sha256": "d3e94443b889287b3ac72f4f0f3773c3a5098171b9232482e6c4aac2dc2cc0e6",
+    "established_by": "data/review/reviewer-remediation.json",
+    "established_note": "Digest baseline established during the 2026-09-20 remediation session (docs/phase-0/INSPECTION_FOLLOWUP.md Finding 1), NOT during the original review above -- it did not exist then. It was computed by re-running the current extraction pipeline against the exact retained source bytes this record already binds to, and confirming the result against this record's own review.scope and evidence, not by trusting the run's own output uninspected. Reconfirmed byte-identical during the 2026-09-21 page-footer extraction fix (data/review/reviewer-remediation-2.json): this provision's body ends before the section-6 heading, which itself precedes the page-5 footer digit, so it was never affected by that bug. Only extraction_method_version above was bumped, to keep this record's admission bound to the current (fixed) code version rather than the one it was actually last re-run against."
+  },
+  "recheck_triggers": [
+    "source_sha256_change:environment-1986-pdf",
+    "extraction_method_version_change",
+    "expected_output_digest_mismatch"
+  ]
+}

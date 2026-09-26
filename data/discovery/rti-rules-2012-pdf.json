@@ -1,0 +1,14 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/538b3925-cbee-41f4-bd95-c7ca0c9f0003/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/538b3925-cbee-41f4-bd95-c7ca0c9f0003/content",
+  "fetched_at_utc": "2026-09-20T06:11:42.140380+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf;charset=UTF-8",
+  "curl_exit_code": 0,
+  "error": null,
+  "bytes": 135240,
+  "sha256": "6d6fc910b44240f39a2c00b4cdc3c39f163777cfa59778b7c2ca449de298e865",
+  "body_path": "data/discovery/rti-rules-2012-pdf.body",
+  "elapsed_seconds": 0.449172,
+  "note": "HTTP success alone does not establish valid source content; inspect body."
+}

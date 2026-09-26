@@ -1,0 +1,10 @@
+{
+  "url": "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT%2Cequals&f.title=Rights+of+Persons+with+Disabilities+Act%2C+2016%2Ccontains&page=0&size=100",
+  "status": 200,
+  "sha256": "30decccb6b3435b49615267adcad2c7c320421bd9dc42422ba841f3b907ec88f",
+  "bytes": 137167,
+  "fetched_at": "2026-09-21T19:43:56.871040+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "attempt": 1
+}

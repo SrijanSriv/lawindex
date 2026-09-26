@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/d546dfb5-3044-4661-981d-3e1771c290b9/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/d546dfb5-3044-4661-981d-3e1771c290b9/content",
+  "http_status": 200,
+  "curl_exit_code": 0,
+  "content_type": "application/pdf",
+  "fetched_at_utc": "2026-09-21T19:43:40.769066+00:00",
+  "sha256": "4bbed366bc2206bb1c3b1817c5ccdd652d1e66d9476c6779cf5239e71e3ba2a7",
+  "bytes": 626810,
+  "body_path": "data/discovery/phase3-consumer-protection-2019-pdf.body",
+  "note": "Exact copy of retained Phase 3 HTTP bytes; not a new acquisition. Receipt in data/phase3/acquisition/acts/consumer-protection-2019.json"
+}

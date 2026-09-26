@@ -1,0 +1,21 @@
+--- /tmp/lawindex-backup/G4/lawindex/search.py	2026-09-25 15:18:15
++++ lawindex/search.py	2026-09-25 15:18:31
+@@ -20,7 +20,17 @@
+ 
+ ROOT = Path(__file__).resolve().parents[1]
+ METHOD = "sqlite-fts5-bm25-v1"
+-ALIASES = {"rti-2005": ["RTI"], "environment-1986": ["Environment", "EPA"], "posh-2013": ["POSH", "POSH Act", "Sexual Harassment of Women at Workplace Act"]}
++ALIASES = {
++    "rti-2005": ["RTI"],
++    "environment-1986": ["Environment", "EPA"],
++    "posh-2013": ["POSH", "POSH Act", "Sexual Harassment of Women at Workplace Act"],
++    "dpdp-2023": ["DPDP", "DPDP Act"],
++    "real-estate-2016": ["RERA"],
++    "education-2009": ["RTE", "RTE Act"],
++    "information-technology-2000": ["IT Act"],
++    "consumer-protection-2019": ["CPA"],
++    "fcra-2010": ["FCRA"],
++}
+ STOPWORDS = set("a an the and or of to in on for with under is are do does i my me what which how can need want act section sections s".split())
+ TOKEN = re.compile(r"[^\W_]+", re.UNICODE)
+ SECTION = re.compile(r"\b(?:sections?|s)\.?\s*(\d+[a-z]?)\b", re.I)

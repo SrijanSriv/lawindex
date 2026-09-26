@@ -1,0 +1,47 @@
+{
+  "provision_key": "environment-1986:3",
+  "act_slug": "environment-1986",
+  "act_uuid": "10eea11f-bfda-41d0-b8dc-58176e704613",
+  "section_number": "3",
+  "heading": "Power of Central Government to take measures to protect and improve environment.",
+  "selected_representation": "pdf",
+  "selected_representation_reason": "No structured-text (HTML/JSON) section record was retained for the Environment (Protection) Act, 1986 during Phase 0 discovery -- only the Act-level metadata record and the retained PDF. This provision is therefore admitted PDF-only. This is a labeled limitation, not a claim that a structured representation was checked and found to agree; there is nothing retained to compare it against.",
+  "pdf_only_no_structured_comparison_available": true,
+  "source_representation": {
+    "kind": "pdf",
+    "capture": "environment-1986-pdf",
+    "sha256": "d9712743c39faeb1019c08af3b0b2856ca3c905c4bd6299ee4a928576fdc9169",
+    "pdf_page_from": 4,
+    "pdf_page_to": 5
+  },
+  "review": {
+    "reviewer_ref": "data/review/reviewer-pass2.json",
+    "scope": "This provision was deliberately chosen for structural complexity rather than ease: subsections (1)-(3), an enumerated list (i)-(xiv) inside sub-section (2), a nested lettered sub-list (a)/(b) inside item (i), and a proviso inside item (iv). Rendered PDF pages 4-5 (data/discovery/derived/environment-1986-page-04.png, -05.png) with pdftoppm during this session (not previously rendered in Phase 0) and visually compared every clause, proviso, and boundary against the pdftotext -layout extraction. Confirmed the full nested structure, including the (iv) proviso and item (i)'s (a)/(b) sub-clauses, survives intact and that the extraction's boundary correctly stops before section 4 without swallowing sub-section (3), which appears at the top of PDF page 5 continuing the same section.",
+    "evidence": [
+      "data/discovery/environment-1986-pdf.body",
+      "data/discovery/derived/environment-1986.txt",
+      "data/discovery/derived/environment-1986-page-04.png",
+      "data/discovery/derived/environment-1986-page-05.png"
+    ],
+    "checked_scope": "whole_provision_spanning_two_pdf_pages_no_footnotes",
+    "footnotes_present": false
+  },
+  "known_conflicts": [],
+  "classification": "pdf_only_no_comparison_representation",
+  "disposition": "verified_pdf_only",
+  "admission_status": "admitted",
+  "admission_note": "Admitted from the sole retained representation (PDF). Not verified against any structured text because none was retained for this Act. Does not imply any other Environment Act provision has been reviewed.",
+  "watermark_stripping_rule": "Same rule as documented in data/review/rti-2005-section-6.review.json; independently confirmed against this document's 65 watermark-fragment lines during this session's second-pass review (see docs/phase-0/READINESS_MANIFEST.md for the false-positive check).",
+  "extraction_method_version": "offline-importer-v2",
+  "expected_output": {
+    "body_text_sha256": "a5e1930904d83ec0bfee89982087e1b74c957b5d0678e590ee038c2e05e27fe6",
+    "footnote_text_sha256": "no-footnote-expected",
+    "established_by": "data/review/reviewer-remediation-2.json",
+    "established_note": "body_text_sha256 updated during the 2026-09-21 remediation session (docs/phase-1/REVIEW_FOLLOWUP.md finding 3): the prior baseline (871db79f624c7b58248d3091cd12fc811b06c0f142003ff6d36d4d0393695854, established 2026-09-20) included a standalone PDF page-4 footer digit '4' inside the sub-section (2) enumerated list, at the page-4/page-5 boundary, which was not legal text. scripts/offline_importer.py's extraction now strips a page's own trailing page-number footer line before joining pages; see data/review/reviewer-remediation-2.json for the exact fix and re-confirmation against data/discovery/derived/environment-1986-page-04.png and -05.png. This provision has no footnote, so footnote_text_sha256 is unaffected."
+  },
+  "recheck_triggers": [
+    "source_sha256_change:environment-1986-pdf",
+    "extraction_method_version_change",
+    "expected_output_digest_mismatch"
+  ]
+}

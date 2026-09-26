@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/41300e0a-e7cc-48ed-985e-1e150c8cfae1/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/41300e0a-e7cc-48ed-985e-1e150c8cfae1/content",
+  "http_status": 200,
+  "curl_exit_code": 0,
+  "content_type": "application/pdf",
+  "fetched_at_utc": "2026-09-21T19:43:09.924191+00:00",
+  "sha256": "cb66cf6e0767829ca1f3f91abd9d5b26952ec67fad6d195bc6e243f9af383c20",
+  "bytes": 247782,
+  "body_path": "data/discovery/phase3-repealing-amending-2023-pdf.body",
+  "note": "Exact copy of retained Phase 3 HTTP bytes; not a new acquisition. Receipt in data/phase3/acquisition/acts/repealing-amending-2023.json"
+}

@@ -1,0 +1,14 @@
+{
+  "requested_url": "https://indiacode.gov.in/collections/69a0c1fb-7b22-4481-b16a-1dc59b5d02e6",
+  "effective_url": "https://indiacode.gov.in/collections/69a0c1fb-7b22-4481-b16a-1dc59b5d02e6",
+  "fetched_at_utc": "2026-09-20T06:02:06.192668+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "curl_exit_code": 0,
+  "error": null,
+  "bytes": 6762,
+  "sha256": "fca958f7b6c8fad3849ac69a36988b95e61517e3b63302bd0832e00d9a7413ad",
+  "body_path": "data/discovery/central-collection-page.body",
+  "elapsed_seconds": 0.220541,
+  "note": "HTTP success alone does not establish valid source content; inspect body."
+}

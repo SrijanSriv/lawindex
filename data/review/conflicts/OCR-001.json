@@ -1,0 +1,30 @@
+{
+  "issue_id": "OCR-001",
+  "scope": {"act_slug": "rti-rules-2012", "provision_key": null, "field": "extracted text quality"},
+  "observations": [
+    {"representation": "existing_ocr_text_layer", "capture": "rti-rules-2012-pdf", "sha256": "6d6fc910b44240f39a2c00b4cdc3c39f163777cfa59778b7c2ca449de298e865", "note": "pdftotext extraction succeeds and produces thousands of characters, but the file's embedded OCR layer contains distorted words and malformed list markers on visual inspection of the rendered page 1 image."}
+  ],
+  "classification": "ocr",
+  "selected_representation": null,
+  "selected_value_rationale": "Extractable text is not evidence of accurate text. No confidence scores are available for the existing OCR layer. The rule text is excluded from the searchable slice; only the parent-instrument metadata and source link are retained.",
+  "review_evidence_ref": null,
+  "disposition": "excluded",
+  "assessment_pass2": {
+    "performed_by": "data/review/reviewer-pass2.json",
+    "full_writeup_ref": "docs/phase-0/RTI_RULES_OCR_ASSESSMENT.md",
+    "observed_error_types": [
+      "digit_letter_confusion (e.g. '1.' read as 'I.'; 'II' read as '11')",
+      "clause_marker_corruption (the same source clause '(f)' decoded two different wrong ways in two places: '(Call' and '(Ono')",
+      "missing_clause_marker (rule 11 item (i) has no label at all, though (ii)-(vi) are present)",
+      "letter_pair_word_merge_errors (e.g. 'InforrnationAct', 'pUblication', space replaced by colon or apostrophe)",
+      "complete_failure_on_handwritten_or_stamped_content (a handwritten reference stamp extracted as unreadable garbage)",
+      "complete_failure_on_non_latin_script (a bilingual Gazette footer line extracted as meaningless ASCII symbols)"
+    ],
+    "conclusion": "No confidence-threshold policy would have caught these; the retained embedded OCR layer carries no per-token confidence at all. Deferred, not attempted, in this session -- see the full writeup for future acceptance criteria.",
+    "new_ocr_stack_installed_this_session": false,
+    "additional_pages_processed_this_session": false
+  },
+  "admission": {"rule_text": "excluded", "parent_metadata_and_source_link": "retained"},
+  "recheck_trigger": ["new_ocr_engine_introduced_and_reviewed"],
+  "legal_effect_determined": false
+}

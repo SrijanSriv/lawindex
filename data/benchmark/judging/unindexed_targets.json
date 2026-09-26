@@ -1,0 +1,822 @@
+{
+  "B-010": [
+    {
+      "target": "dpdp-2023:7",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Section 7 (certain legitimate uses) sets out when data may be processed without consent, a key qualification to the consent rule, but is not admitted."
+      }
+    }
+  ],
+  "B-012": [
+    {
+      "target": "copyright-1957:52",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 52 (acts not constituting infringement, i.e. fair dealing) is the section that directly answers this query but is not admitted in the index.",
+        "B": "Section 52 lists the acts not constituting infringement (fair dealing for research, criticism, reporting etc.) but is not admitted."
+      }
+    }
+  ],
+  "B-014": [
+    {
+      "target": "posh-2013:4",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 4 (Constitution of Internal Committee) directly states the Committee's composition and is the section the query most needs, but it is not admitted in the index.",
+        "B": "Section 4 (constitution of Internal Committee by every employer, its composition and tenure) is the direct answer but is not admitted."
+      }
+    }
+  ],
+  "B-015": [
+    {
+      "target": "fcra-2010:11",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 11 (registration/prior permission required for associations to accept foreign contribution) directly answers 'how' an association becomes eligible to accept contributions, but it is not admitted in the index.",
+        "B": "Section 11 (associations with definite programmes may accept foreign contribution only after registration or prior permission) is the direct answer but not admitted."
+      }
+    },
+    {
+      "target": "fcra-2010:12",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 12 (grant of certificate of registration or prior permission) sets out the procedure an association must follow to accept foreign contribution, but it is not admitted in the index.",
+        "B": "Section 12 (grant of certificate of registration or prior permission and its conditions) is not admitted."
+      }
+    },
+    {
+      "target": "fcra-2010:3",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 3 (prohibition on acceptance of foreign contribution by certain persons) is the central provision answering 'whether' associations may accept, but it is not admitted in the index.",
+        "B": "Section 3 (persons prohibited from accepting foreign contribution) is not admitted."
+      }
+    }
+  ],
+  "B-018": [
+    {
+      "target": "repealing-amending-2023:First Schedule",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "The enactments repealed are listed in the First Schedule, which is not indexed."
+      }
+    },
+    {
+      "target": "repealing-amending-2023:Second Schedule",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Further repealed enactments are listed in the Second Schedule, which is not indexed."
+      }
+    },
+    {
+      "target": "repealing-amending-2023:Third Schedule",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "The enactment amended and the amendment are set out in the Third Schedule, which is not indexed."
+      }
+    },
+    {
+      "target": "repealing-amending-2023:schedule",
+      "judges": [
+        "A"
+      ],
+      "rationales": {
+        "A": "The actual list of repealed/amended enactments lives in the First, Second and Third Schedules of the Act, which are not admitted (only 4 operative sections are indexed)."
+      }
+    }
+  ],
+  "B-021": [
+    {
+      "target": "RTI Rules, 2012, rule 3",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "The application fee amount (Rs. 10) is prescribed in rule 3 of the Right to Information Rules, 2012, which are subordinate legislation not indexed."
+      }
+    },
+    {
+      "target": "rti-2005-rules-2012:5",
+      "judges": [
+        "A"
+      ],
+      "rationales": {
+        "A": "The RTI Rules, 2012, rule 5 fixes the application fee (Rs. 10) and related charges; this is subordinate legislation, not part of the Act, and is not indexed."
+      }
+    }
+  ],
+  "B-022": [
+    {
+      "target": "EIA Notification, 2006 (S.O. 1533(E)) issued under Environment (Protection) Act s. 3",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "The prior environmental clearance requirement for mining projects is set by subordinate notification, which is not indexed; no admitted section states it."
+      }
+    },
+    {
+      "target": "EIA-Notification-2006 (S.O. 1533(E), issued under ss.3 and 5 of the Environment (Protection) Act, 1986) and the Mines and Minerals (Development and Regulation) Act, 1957",
+      "judges": [
+        "A"
+      ],
+      "rationales": {
+        "A": "Environmental clearance for mining projects is governed by the EIA Notification, 2006 (subordinate legislation) and the MMDR Act; neither is indexed in this corpus."
+      }
+    }
+  ],
+  "B-026": [
+    {
+      "target": "National Green Tribunal Act, 2010, s. 16",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "The NGT's appellate jurisdiction and limitation period for appeals against Environment Act directions are in the NGT Act, which is not indexed."
+      }
+    }
+  ],
+  "B-035": [
+    {
+      "target": "contract-1872:73",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 73, \"Compensation for loss or damage caused by breach of contract,\" is the section the query cites but is not admitted (missing from the --act listing between sections 72 and 75).",
+        "B": "Section 73 (compensation for loss caused by breach of contract) is the cited section but is not admitted in the index."
+      }
+    }
+  ],
+  "B-043": [
+    {
+      "target": "environment-1986:15",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "The general penalty for contravening the Act, rules, orders or directions (the section the query cites) is not admitted/indexed; the current scheme appears to have been restructured around sections 14B/15A-15C in the 2023 amendment.",
+        "B": "Section 15 (penalty for contravention of the Act, rules, orders or directions) is the cited section but is not admitted."
+      }
+    }
+  ],
+  "B-044": [
+    {
+      "target": "competition-2002:4",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 4 (Prohibition of abuse of dominant position) is exactly what the query asks for but is not admitted/indexed.",
+        "B": "Section 4 (abuse of dominant position) is the cited section but is not admitted."
+      }
+    }
+  ],
+  "B-045": [
+    {
+      "target": "dpdp-2023:10",
+      "judges": [
+        "A"
+      ],
+      "rationales": {
+        "A": "Section 10 (Additional obligations of Significant Data Fiduciary) directly extends the general-obligations answer but is not admitted/indexed."
+      }
+    }
+  ],
+  "B-049": [
+    {
+      "target": "legal-services-1987:4",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 4, \"Functions of the Central Authority\" (NALSA), is the direct answer but is not admitted.",
+        "B": "Section 4 (Functions of the Central Authority) directly lists NALSA's functions but is not admitted."
+      }
+    }
+  ],
+  "B-051": [
+    {
+      "target": "information-technology-2000:70B",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 70B establishes CERT-In and defines its functions and powers, but is not admitted.",
+        "B": "Section 70B establishes CERT-In and sets its functions and powers but is not admitted."
+      }
+    }
+  ],
+  "B-057": [
+    {
+      "target": "consumer-protection-2019:2",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Definitions of \"e-commerce\" and \"unfair trade practice\" in section 2 are not admitted."
+      }
+    }
+  ],
+  "B-060": [
+    {
+      "target": "contract-1872:130",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 130 (revocation of a continuing guarantee by notice to the creditor) is the most direct answer but is not admitted in the corpus.",
+        "B": "Section 130 (revocation of a continuing guarantee by notice to the creditor) is not admitted."
+      }
+    }
+  ],
+  "B-061": [
+    {
+      "target": "contract-1872:200",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 200 (ratification cannot be made so as to injure a third person) is a key qualification on ratification's effect but is not admitted in the corpus.",
+        "B": "Section 200 (ratification of an unauthorised act cannot injure a third person) is not admitted."
+      }
+    }
+  ],
+  "B-062": [
+    {
+      "target": "arbitration-1996:11",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 11 (Appointment of arbitrators, including court appointment on party default) is the direct answer to this query but is not admitted in the corpus.",
+        "B": "Section 11 (appointment of arbitrators, including by the Supreme Court/High Court or designated institution when parties fail to agree) is not admitted."
+      }
+    }
+  ],
+  "B-084": [
+    {
+      "target": "posh-2013:4",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Section 4 requires every employer to constitute an Internal Committee, the body that receives complaints, but is not admitted."
+      }
+    },
+    {
+      "target": "posh-2013:6",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Section 6 sets up the Local Committee for workplaces with fewer than ten workers or complaints against the employer, but is not admitted."
+      }
+    }
+  ],
+  "B-085": [
+    {
+      "target": "education-2009:2",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Section 2 defines 'capitation fee' and 'screening procedure', which give section 13 its scope, but is not admitted."
+      }
+    }
+  ],
+  "B-089": [
+    {
+      "target": "contract-1872:2",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Section 2(d) defining consideration (and 2(g) void agreement) is needed context but not admitted."
+      }
+    },
+    {
+      "target": "contract-1872:25",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Not admitted; this is the actual rule (agreement without consideration is void, unless in writing/registered, natural love and affection, compensation for a past voluntary act, or a time-barred debt) that directly answers the query.",
+        "B": "Section 25 (agreement without consideration void, with its exceptions) is the direct answer but is not admitted."
+      }
+    }
+  ],
+  "B-090": [
+    {
+      "target": "contract-1872:11",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Not admitted; this is the section stating who is competent to contract, expressly excluding minors, which directly answers the query.",
+        "B": "Section 11 (who are competent to contract: age of majority, sound mind) is the direct answer but is not admitted."
+      }
+    },
+    {
+      "target": "contract-1872:68",
+      "judges": [
+        "A"
+      ],
+      "rationales": {
+        "A": "Not admitted; deals with liability for necessaries supplied to a person incapable of contracting (including a minor), a companion rule to minors' incapacity to contract."
+      }
+    }
+  ],
+  "B-091": [
+    {
+      "target": "contract-1872:151",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Section 151 (bailee's standard of care), which section 71 imports for finders, is not admitted."
+      }
+    }
+  ],
+  "B-097": [
+    {
+      "target": "dpdp-2023:Schedule",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "The Schedule fixing the penalty amounts for each breach (e.g. security safeguards failure) is not indexed."
+      }
+    }
+  ],
+  "B-103": [
+    {
+      "target": "legal-services-1987:12",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 12 lists the criteria for entitlement to free legal services, including the income-based poverty ground, but is not admitted (missing from the --act listing).",
+        "B": "Section 12 lists the criteria (SC/ST, women, children, disabled, low income, etc.) for free legal services but is not admitted."
+      }
+    }
+  ],
+  "B-107": [
+    {
+      "target": "fcra-2010:11",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Registration/prior-permission requirement for associations to receive foreign contribution, the direct answer to what NGOs need; not admitted.",
+        "B": "Section 11 (registration or prior permission required before accepting foreign contribution) is the core answer but is not admitted."
+      }
+    },
+    {
+      "target": "fcra-2010:12",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Procedure for grant of certificate of registration or prior permission under FCRA; not admitted.",
+        "B": "Section 12 (grant of the registration certificate and its conditions) is not admitted."
+      }
+    },
+    {
+      "target": "fcra-2010:3",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Core prohibition on acceptance of foreign contribution by specified persons without registration/permission; not admitted (missing from --act listing).",
+        "B": "Section 3 (persons prohibited from accepting any foreign contribution) is not admitted."
+      }
+    }
+  ],
+  "B-111": [
+    {
+      "target": "arbitration-1996:8",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "The general domestic 'power to refer parties to arbitration where there is an arbitration agreement' — the direct answer to this query; not admitted (missing between sections 7 and 10).",
+        "B": "Section 8 (a judicial authority must refer parties to arbitration where there is an arbitration agreement, for domestic arbitrations) is the core answer but is not admitted."
+      }
+    }
+  ],
+  "B-116": [
+    {
+      "target": "dpdp-2023:Schedule",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "The Schedule fixes the penalty amounts (e.g. up to Rs 250 crore for failing to take reasonable security safeguards) but schedules are not indexed."
+      }
+    },
+    {
+      "target": "information-technology-2000:72A",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Punishment for disclosure of personal information in breach of lawful contract (a direct 'leaking' offence) is not admitted."
+      }
+    }
+  ],
+  "B-119": [
+    {
+      "target": "contract-1872:73",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Section 73 (compensation for loss or damage caused by breach) is the companion rule but is not admitted."
+      }
+    },
+    {
+      "target": "contract-1872:74",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 74 (compensation for breach where a penalty/liquidated sum is stipulated) is the provision that directly answers this query but is not an admitted/indexed provision.",
+        "B": "Section 74 (compensation for breach of contract where penalty stipulated for) is the direct answer but is not admitted."
+      }
+    }
+  ],
+  "B-120": [
+    {
+      "target": "contract-1872:176",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 176 (pawnee's right to sue or sell the pledge on the pawnor's default) directly answers the intent but is not an admitted/indexed provision.",
+        "B": "Section 176 (pawnee's right to sue or sell the pledged goods on the pawnor's default, after reasonable notice) is the direct answer but is not admitted."
+      }
+    },
+    {
+      "target": "contract-1872:177",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Section 177 (defaulting pawnor's right to redeem before actual sale) qualifies the pawnee's rights but is not admitted."
+      }
+    }
+  ],
+  "B-121": [
+    {
+      "target": "food-security-2013:schedule-I",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Schedule I sets the subsidised issue prices of rice, wheat and coarse grains referred to in section 3; schedules are not indexed."
+      }
+    }
+  ],
+  "B-122": [
+    {
+      "target": "food-security-2013:schedule-II",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Schedule II sets the nutritional standards the mid-day meal must meet; schedules are not indexed."
+      }
+    }
+  ],
+  "B-123": [
+    {
+      "target": "food-security-2013:4",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 4 (nutritional support to pregnant women and lactating mothers, including maternity benefit) is the direct answer but is not an admitted/indexed provision.",
+        "B": "Section 4 gives pregnant women and lactating mothers free meals and maternity benefit of at least Rs 6000, but it is not admitted."
+      }
+    },
+    {
+      "target": "food-security-2013:schedule-II",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Schedule II sets nutritional standards for meals to pregnant women and lactating mothers; schedules are not indexed."
+      }
+    }
+  ],
+  "B-128": [
+    {
+      "target": "information-technology-2000:43",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 43 defines the acts of unauthorised access/damage to a computer that section 66 punishes as hacking, but is not an admitted/indexed provision.",
+        "B": "Section 43 (penalty and compensation for unauthorised access to a computer) is the core civil provision for hacking but is not admitted."
+      }
+    },
+    {
+      "target": "information-technology-2000:66",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 66 (computer related offences / punishment for hacking, read with section 43) is the direct answer but is not an admitted/indexed provision.",
+        "B": "Section 66 (computer related offences punishing dishonest or fraudulent section 43 acts) is the core hacking offence but is not admitted."
+      }
+    },
+    {
+      "target": "information-technology-2000:70",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Section 70 punishes unauthorised access to protected systems but is not admitted."
+      }
+    }
+  ],
+  "B-129": [
+    {
+      "target": "information-technology-2000:66E",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 66E (violation of privacy: capturing/publishing images of a person's private area without consent) is the squarely-on-point offence but is not admitted in the index.",
+        "B": "Section 66E (punishment for violation of privacy by capturing or publishing images of private areas) is the direct answer but is not admitted."
+      }
+    }
+  ],
+  "B-133": [
+    {
+      "target": "information-technology-2000:85",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "IT Act section 85 (offences by companies) is an instance of the thing asked but is not admitted."
+      }
+    }
+  ],
+  "B-135": [
+    {
+      "target": "copyright-1957:72",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 72 (appeal to the High Court against orders of the Registrar of Copyrights/Appellate Board), referenced by sections 73 and 75 shown in the pool, is not admitted in the index.",
+        "B": "Section 72 (appeals against orders of the Registrar and Appellate Board, which section 73 shows go to the High Court) is not admitted."
+      }
+    },
+    {
+      "target": "information-technology-2000:62",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "IT Act section 62 (appeal to High Court) is not admitted."
+      }
+    }
+  ],
+  "B-137": [
+    {
+      "target": "education-2009:16",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Section 16, prohibition of holding back and expulsion of children, is not admitted."
+      }
+    },
+    {
+      "target": "education-2009:3",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Section 3, the core right of every child to free and compulsory elementary education, is not admitted."
+      }
+    }
+  ],
+  "B-138": [
+    {
+      "target": "environment-1986:15",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Section 15, general penalty for contravening provisions, orders or directions under the Environment Act, is not admitted."
+      }
+    },
+    {
+      "target": "information-technology-2000:68",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Section 68, power of the Controller to give directions and the penalty for failing to comply, is not admitted."
+      }
+    }
+  ],
+  "B-140": [
+    {
+      "target": "real-estate-2016:84",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 84, 'Power of appropriate Government to make rules', is the direct rule-making power for the 2016 RERA Act but is missing from the admitted section list.",
+        "B": "Section 84, power of the appropriate Government to make rules under RERA, is not admitted."
+      }
+    },
+    {
+      "target": "real-estate-2016:85",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Section 85, power of the Authority to make regulations under RERA, is not admitted."
+      }
+    }
+  ],
+  "B-143": [
+    {
+      "target": "dpdp-2023:Schedule",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "The Schedule setting the penalty amount for each breach is not indexed."
+      }
+    }
+  ],
+  "B-144": [
+    {
+      "target": "fcra-2010:11",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Section 11, the requirement to obtain registration or prior permission before accepting foreign contribution, is not admitted."
+      }
+    },
+    {
+      "target": "fcra-2010:12",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 12, 'Grant of certificate of registration', is the core provision on how an FCRA registration certificate is granted but is missing from the admitted section list.",
+        "B": "Section 12, grant of certificate of registration with conditions and time limits, is not admitted."
+      }
+    }
+  ],
+  "B-146": [
+    {
+      "target": "consumer-protection-2019:2",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Section 2 defines 'complaint' and 'complainant' but the definitions section is not admitted."
+      }
+    }
+  ],
+  "B-147": [
+    {
+      "target": "mental-healthcare-2017:46",
+      "judges": [
+        "A"
+      ],
+      "rationales": {
+        "A": "Composition of State Authority, referenced by section 47's cross-reference, exists in the Act but is not admitted."
+      }
+    }
+  ],
+  "B-155": [
+    {
+      "target": "Consumer Protection (E-Commerce) Rules, 2020, rule 4",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "The grievance officer requirement is in the E-Commerce Rules, which are subordinate legislation and not indexed."
+      }
+    },
+    {
+      "target": "consumer-protection-ecommerce-rules-2020:5(3)",
+      "judges": [
+        "A"
+      ],
+      "rationales": {
+        "A": "The grievance officer requirement for e-commerce entities is set by Rule 5(3) of the Consumer Protection (E-Commerce) Rules, 2020, subordinate legislation not indexed by this system."
+      }
+    }
+  ],
+  "B-158": [
+    {
+      "target": "Supreme Court case law on seat of arbitration",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "The intent asks for judicial decisions on the seat, which are not indexed; only the statutory place-of-arbitration section is available."
+      }
+    },
+    {
+      "target": "arbitration-1996:2",
+      "judges": [
+        "A",
+        "B"
+      ],
+      "rationales": {
+        "A": "Section 2 (definitions and Part I's territorial scope, the proviso on Part I applying only where the place of arbitration is in India) is central to seat-of-arbitration case law like BALCO but is not admitted.",
+        "B": "Section 2(2) applies Part I where the place of arbitration is in India, central to seat questions, but is not admitted."
+      }
+    }
+  ],
+  "B-159": [
+    {
+      "target": "food-security-2013:4",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "Section 4 (meals for pregnant women and lactating mothers meeting Schedule II standards) is not admitted."
+      }
+    },
+    {
+      "target": "food-security-2013:Schedule II",
+      "judges": [
+        "B"
+      ],
+      "rationales": {
+        "B": "The nutritional standards themselves are in Schedule II, which is not indexed."
+      }
+    },
+    {
+      "target": "food-security-2013:Schedule-II",
+      "judges": [
+        "A"
+      ],
+      "rationales": {
+        "A": "Schedule II sets out the actual nutritional standards for meals; it is a Schedule, not an Act section, and is not admitted."
+      }
+    }
+  ]
+}

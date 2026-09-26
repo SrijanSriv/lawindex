@@ -1,0 +1,10 @@
+{
+  "url": "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT%2Cequals&f.title=Real+Estate+%28Regulation+and+Development%29+Act%2C+2016%2Ccontains&page=0&size=100",
+  "status": 200,
+  "sha256": "bbac97fdeb631f6de0211d8ac7ff4d9ec41202ba5302de149e41eacc00860b3b",
+  "bytes": 105049,
+  "fetched_at": "2026-09-21T19:56:09.149443+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "attempt": 1
+}

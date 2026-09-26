@@ -1,0 +1,106 @@
+{
+  "_embedded" : {
+    "bitstreams" : [ {
+      "id" : "9c58229e-ff70-4764-9e9d-dc960c2adab7",
+      "uuid" : "9c58229e-ff70-4764-9e9d-dc960c2adab7",
+      "name" : "a2010-42.pdf",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "a2010-42.pdf",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "bundleName" : "ORIGINAL",
+      "sizeBytes" : 280797,
+      "checkSum" : {
+        "checkSumAlgorithm" : "MD5",
+        "value" : "bf3e21e2f573c77dd703fa9779b35dff"
+      },
+      "sequenceId" : 1,
+      "type" : "bitstream",
+      "_links" : {
+        "content" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/9c58229e-ff70-4764-9e9d-dc960c2adab7/content"
+        },
+        "bundle" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/9c58229e-ff70-4764-9e9d-dc960c2adab7/bundle"
+        },
+        "accessStatus" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/9c58229e-ff70-4764-9e9d-dc960c2adab7/accessStatus"
+        },
+        "format" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/9c58229e-ff70-4764-9e9d-dc960c2adab7/format"
+        },
+        "thumbnail" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/9c58229e-ff70-4764-9e9d-dc960c2adab7/thumbnail"
+        },
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/9c58229e-ff70-4764-9e9d-dc960c2adab7"
+        }
+      }
+    }, {
+      "id" : "73704ecf-287a-4f98-bc0e-22fe7bdd34b2",
+      "uuid" : "73704ecf-287a-4f98-bc0e-22fe7bdd34b2",
+      "name" : "H201042.pdf",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "H201042.pdf",
+          "language" : "Hindi",
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        }, {
+          "value" : "H201042.pdf",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 1
+        } ]
+      },
+      "bundleName" : "ORIGINAL",
+      "sizeBytes" : 663919,
+      "checkSum" : {
+        "checkSumAlgorithm" : "MD5",
+        "value" : "874d819f2c3f0cf64ac4fef159f8d4f8"
+      },
+      "sequenceId" : 4,
+      "type" : "bitstream",
+      "_links" : {
+        "content" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/73704ecf-287a-4f98-bc0e-22fe7bdd34b2/content"
+        },
+        "bundle" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/73704ecf-287a-4f98-bc0e-22fe7bdd34b2/bundle"
+        },
+        "accessStatus" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/73704ecf-287a-4f98-bc0e-22fe7bdd34b2/accessStatus"
+        },
+        "format" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/73704ecf-287a-4f98-bc0e-22fe7bdd34b2/format"
+        },
+        "thumbnail" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/73704ecf-287a-4f98-bc0e-22fe7bdd34b2/thumbnail"
+        },
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/73704ecf-287a-4f98-bc0e-22fe7bdd34b2"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 2
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/core/bundles/1274671c-f77e-4622-ad87-3745ae2e26d9/bitstreams?size=100"
+    }
+  }
+}

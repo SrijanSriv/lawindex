@@ -1,0 +1,10 @@
+{
+  "url": "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT%2Cequals&f.title=Arbitration+and+Conciliation+Act%2C+1996%2Ccontains&page=0&size=100",
+  "status": 200,
+  "sha256": "c24217e2c49c2af73f0219838d2a80f55e1fe3d099bd003726487eaea54bd34c",
+  "bytes": 43693,
+  "fetched_at": "2026-09-21T19:45:05.014533+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "attempt": 1
+}

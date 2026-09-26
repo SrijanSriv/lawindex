@@ -1,0 +1,243 @@
+{
+  "id" : "e62ef217-2250-4380-935c-d9ad915454b1",
+  "uuid" : "e62ef217-2250-4380-935c-d9ad915454b1",
+  "name" : "The Foreign Contribution (Regulation) Act, 2010",
+  "handle" : "123456789/496570",
+  "metadata" : {
+    "dc.date.accessioned" : [ {
+      "value" : "2026-07-10T20:12:41Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.act_year" : [ {
+      "value" : "2010",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.enact_date" : [ {
+      "value" : "2010-09-26",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.enforcement_date" : [ {
+      "value" : "01-05-2011",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2010-09-26",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.last_modified" : [ {
+      "value" : "2020-04-06",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "Summary of the Foreign Contribution (Regulation) Act, 2010\nKey Provisions\n1.\tDefinitions \n•\tForeign Contribution: Donations, currency, securities, or hospitality from foreign sources.\n•\tForeign Hospitality: Non-casual offers of travel, boarding, etc., from foreign sources.\n•\tForeign Source: Includes foreign governments, international agencies, foreign companies, etc.\n2.\tRegulation of Foreign Contribution & Hospitality\n•\tProhibitions and Restrictions:\n•\tOrganisations of Political Nature: Designation process outlined, emphasizing transparency and due process.\n•\tRestrictions on Foreign Hospitality: Prohibits acceptance without prior Central Government permission, with exceptions for emergency medical aid.\n•\tProhibition on Transfer of Foreign Contributions: Strict ban on transferring received foreign contributions to other persons.\n•\tLimitations on Administrative Expenses : Caps administrative expenses to 20% of foreign contributions, with possibilities for approval of excess.\n3.\tRegistration, Prior Permission, and Reporting\n•\tRegistration Requirement: Mandatory for consistent foreign contribution recipients, with a streamlined 5-year renewal process.\n•\tPrior Permission: Required for non-registered entities, with a clarified application process for specific purposes or sources.\n•\tFCRA Account and Reporting: Mandatory account with specified banking channels; tightened reporting timelines, especially for election candidates (within 180 days before nomination).\n4.\tPower of Central Government\n•\tSpecification of Organisations of Political Nature: Detailed process for designation, including notice, representation, and decision timelines (up to 180 days).\n•\tProhibition and Regulation Powers: Authority to prohibit foreign contributions or hospitality based on national interest, public interest, electoral fairness, foreign relations, or social harmony.\n•\tExemption Power: Central Government can exempt entities in the public interest.\n5.\tCompliance and Penalties\n•\tEnhanced Audit Powers: With confidentiality for information obtained.\n•\tPenalties for Non-Compliance: Includes suspension, cancellation of registration, and legal action for violations.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.act_id" : [ {
+      "value" : "AC_CEN_5_24_00024_201042_1517807327802",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.act_number" : [ {
+      "value" : "42",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.collection" : [ {
+      "value" : "ACT",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.department_id" : [ {
+      "value" : "23",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.department_name" : [ {
+      "value" : "Department of Internal Security",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.givenid" : [ {
+      "value" : "201042",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.ministry_id" : [ {
+      "value" : "5",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.ministry_name" : [ {
+      "value" : "Ministry of Home Affairs",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.notification_no" : [ {
+      "value" : "1st May, 2011, vide notification No. S.O. 909(E), dated 29th April, 2011, see Gazette of India, Extraordinary, Part II, sec. 3(ii).",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.preamble_description" : [ {
+      "value" : "<center style=\"font-size: 17px;\">THE FOREIGN CONTRIBUTION (REGULATION) ACT, 2010</center> <center style=\"font-size: 16px;\">ACT NO. 42 OF 2010</center> <p style=\"text-align:right;\">[26th September, 2010.]</p> An Act to consolidate the law to regulate the acceptance and utilisation of foreign contribution or foreign hospitality by certain individuals or associations or companies and to prohibit acceptance and utilisation of foreign contribution or foreign hospitality for any activities detrimental to the national interest and for matters connected therewith or incidental thereto.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>BE it enacted by Parliament in the Sixty-first Year of the Republic of India as follows:--",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.refact" : [ {
+      "value" : "0",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.reference_sites" : [ {
+      "value" : "Ministry of Home Affairs https://www.mha.gov.in/en",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Department of Internal Security https://www.mha.gov.in/en/departments/department-internal-security",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Concerned Ministry/Department Acts and Rules https://www.mha.gov.in/en/divisionofmha/internal-security-i-division",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    } ],
+    "dc.identifier.repealed" : [ {
+      "value" : "false",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.state_id" : [ {
+      "value" : "1",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.state_name" : [ {
+      "value" : "CENTRAL",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "http://test1.indiacode.nic.in/handle/123456789/496570",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title" : [ {
+      "value" : "The Foreign Contribution (Regulation) Act, 2010",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title.long_title" : [ {
+      "value" : "An Act to consolidate the law to regulate the acceptance and utilisation of foreign contribution or foreign hospitality by certain individuals or associations or companies and to prohibit acceptance and utilisation of foreign contribution or foreign hospitality for any activities detrimental to the national interest and for matters connected therewith or incidental thereto.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "Developmental",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2026-08-24T19:20:12.399425Z",
+  "entityType" : null,
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/e62ef217-2250-4380-935c-d9ad915454b1/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/e62ef217-2250-4380-935c-d9ad915454b1/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/e62ef217-2250-4380-935c-d9ad915454b1/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/e62ef217-2250-4380-935c-d9ad915454b1/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/e62ef217-2250-4380-935c-d9ad915454b1/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/e62ef217-2250-4380-935c-d9ad915454b1/relationships"
+    },
+    "version" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/e62ef217-2250-4380-935c-d9ad915454b1/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/e62ef217-2250-4380-935c-d9ad915454b1/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/e62ef217-2250-4380-935c-d9ad915454b1/thumbnail"
+    },
+    "submitter" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/e62ef217-2250-4380-935c-d9ad915454b1/submitter"
+    },
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/e62ef217-2250-4380-935c-d9ad915454b1"
+    }
+  }
+}

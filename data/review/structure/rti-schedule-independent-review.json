@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "artifact_sha256": "a111a35d9a490fe6a2f789c41e21648c4a4e565333db0d7d153fdbe671544288",
+  "profile_sha256": "5ddf98803c577ec72d7cc3a9face1370612b5cacb59cdc2bd026b5ccddb580ac",
+  "source_sha256": "c1ef189ec4f34d4f346886d6c2fc4a6e8aec2da0eedcfeff9c10401ec9cfb2f5",
+  "parser_version": "rti-schedule-layout-v1",
+  "pages": [23, 24],
+  "reviewer": {
+    "id": "agent:claude-opus-5:2026-09-21-independent-schedule-review",
+    "independent_of_implementation": true,
+    "type": "ai_agent",
+    "independent_legal_expert": false
+  },
+  "decision": "accept_layout",
+  "findings": []
+}

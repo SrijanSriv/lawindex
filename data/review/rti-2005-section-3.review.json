@@ -1,0 +1,48 @@
+{
+  "provision_key": "rti-2005:3",
+  "act_slug": "rti-2005",
+  "act_uuid": "37520cf3-5c3f-4c0b-aa4a-5985e6f522bf",
+  "section_number": "3",
+  "heading": "Right to information.",
+  "selected_representation": "structured_html",
+  "selected_representation_reason": "Whole section visually compared against retained PDF page; wording, boundaries, numbered parts and provisos agree. Whitespace formatting differences retained; no footnote belongs to this section.",
+  "source_representation": {
+    "kind": "structured_html",
+    "capture": "phase3-rti-2005-sections-page-0",
+    "sha256": "c3164b70bdafff382b784334f87e7436ae78cb728227bcd9f7fab40de8cb41e6",
+    "field": "dc.identifier.section_page_note",
+    "section_item_uuid": "4706576b-ebac-4bcc-8c6f-d51b1e106e35",
+    "act_id": "AC_CEN_26_36_00004_200522_1517807322955"
+  },
+  "pdf_anchor": {
+    "capture": "phase3-rti-2005-pdf",
+    "sha256": "c1ef189ec4f34d4f346886d6c2fc4a6e8aec2da0eedcfeff9c10401ec9cfb2f5",
+    "pdf_page_from": 7,
+    "pdf_page_to": 7
+  },
+  "review": {
+    "reviewer_ref": "data/review/reviewer-phase3-batch1.json",
+    "scope": "Whole section including heading, beginning/end, numbered paragraphs and every proviso; checked against the rendered PDF. No relevant footnotes. No neighboring-section text included.",
+    "checked_scope": "whole_provision_including_footnotes_and_provisos",
+    "footnotes_present": false,
+    "evidence": [
+      "data/phase3/review-batch-1/rti-2005-page-7.png",
+      "data/discovery/phase3-rti-2005-sections-page-0.body",
+      "data/discovery/phase3-rti-2005-pdf.body"
+    ]
+  },
+  "known_conflicts": [],
+  "classification": "formatting_only_verified_equivalent",
+  "disposition": "verified_equivalent",
+  "admission_status": "admitted",
+  "extraction_method_version": "phase3-reviewed-html-v1",
+  "expected_output": {
+    "body_text_sha256": "0444ac1adb0d98b6c30a4292c71cf6408ac01519cae93d0428f20fea909fbafc",
+    "footnote_text_sha256": "no-footnote-expected",
+    "established_by": "data/review/reviewer-phase3-batch1.json",
+    "established_note": "Established after visual PDF comparison in this batch; not independent review."
+  },
+  "render_sha256": {
+    "data/phase3/review-batch-1/rti-2005-page-7.png": "ca55ec0825bec60e377b34d5917dcb864acdc00a724fabf593e25336f0ec41d0"
+  }
+}

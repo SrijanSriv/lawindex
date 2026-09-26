@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "recorded_on": "2026-09-22",
+  "basis": "user_report",
+  "original_reply_inspected": false,
+  "status": "permission_reported_granted",
+  "project_use": "personal_noncommercial",
+  "max_acts": 20,
+  "selection": "any_20_chosen_by_project",
+  "user_statements": [
+    "they basically gave permission to using the information freely since i mentioned to them that its a personal project with no motive to make money out of",
+    "I can choose any 20; propose a list"
+  ],
+  "not_claimed": [
+    "commercial license",
+    "permission for more than 20 Acts",
+    "automatic permission for associated instruments",
+    "legal accuracy of extracted text"
+  ],
+  "operational_limits": "No ministry rate limits or delivery method reported; use conservative acquisition defaults."
+}

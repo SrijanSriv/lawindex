@@ -1,0 +1,354 @@
+{
+  "provenance": "Compiled from model knowledge, without network access. Titles, short names and years are unverified and are not an official or legal source. This file names Acts only; it contains no Act text and adds nothing to the search index.",
+  "titles": [
+    {
+      "title": "The Bharatiya Nyaya Sanhita, 2023",
+      "short_names": [
+        "BNS"
+      ],
+      "year": 2023
+    },
+    {
+      "title": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+      "short_names": [
+        "BNSS"
+      ],
+      "year": 2023
+    },
+    {
+      "title": "The Bharatiya Sakshya Adhiniyam, 2023",
+      "short_names": [
+        "BSA"
+      ],
+      "year": 2023
+    },
+    {
+      "title": "The Indian Penal Code, 1860",
+      "short_names": [
+        "IPC"
+      ],
+      "year": 1860
+    },
+    {
+      "title": "The Code of Criminal Procedure, 1973",
+      "short_names": [
+        "CrPC",
+        "Criminal Procedure Code"
+      ],
+      "year": 1973
+    },
+    {
+      "title": "The Code of Civil Procedure, 1908",
+      "short_names": [
+        "CPC",
+        "Civil Procedure Code"
+      ],
+      "year": 1908
+    },
+    {
+      "title": "The Indian Evidence Act, 1872",
+      "short_names": [
+        "Evidence Act"
+      ],
+      "year": 1872
+    },
+    {
+      "title": "The Income-tax Act, 1961",
+      "short_names": [
+        "Income Tax Act"
+      ],
+      "year": 1961
+    },
+    {
+      "title": "The Central Goods and Services Tax Act, 2017",
+      "short_names": [
+        "GST",
+        "CGST",
+        "CGST Act"
+      ],
+      "year": 2017
+    },
+    {
+      "title": "The Integrated Goods and Services Tax Act, 2017",
+      "short_names": [
+        "IGST",
+        "IGST Act"
+      ],
+      "year": 2017
+    },
+    {
+      "title": "The Customs Act, 1962",
+      "short_names": [],
+      "year": 1962
+    },
+    {
+      "title": "The Companies Act, 2013",
+      "short_names": [],
+      "year": 2013
+    },
+    {
+      "title": "The Limited Liability Partnership Act, 2008",
+      "short_names": [
+        "LLP",
+        "LLP Act"
+      ],
+      "year": 2008
+    },
+    {
+      "title": "The Indian Partnership Act, 1932",
+      "short_names": [],
+      "year": 1932
+    },
+    {
+      "title": "The Insolvency and Bankruptcy Code, 2016",
+      "short_names": [
+        "IBC"
+      ],
+      "year": 2016
+    },
+    {
+      "title": "The Securities and Exchange Board of India Act, 1992",
+      "short_names": [
+        "SEBI",
+        "SEBI Act"
+      ],
+      "year": 1992
+    },
+    {
+      "title": "The Reserve Bank of India Act, 1934",
+      "short_names": [
+        "RBI Act"
+      ],
+      "year": 1934
+    },
+    {
+      "title": "The Banking Regulation Act, 1949",
+      "short_names": [],
+      "year": 1949
+    },
+    {
+      "title": "The Prevention of Money-Laundering Act, 2002",
+      "short_names": [
+        "PMLA"
+      ],
+      "year": 2002
+    },
+    {
+      "title": "The Foreign Exchange Management Act, 1999",
+      "short_names": [
+        "FEMA"
+      ],
+      "year": 1999
+    },
+    {
+      "title": "The Prevention of Corruption Act, 1988",
+      "short_names": [
+        "PC Act"
+      ],
+      "year": 1988
+    },
+    {
+      "title": "The Negotiable Instruments Act, 1881",
+      "short_names": [
+        "NI Act"
+      ],
+      "year": 1881
+    },
+    {
+      "title": "The Transfer of Property Act, 1882",
+      "short_names": [
+        "TPA"
+      ],
+      "year": 1882
+    },
+    {
+      "title": "The Specific Relief Act, 1963",
+      "short_names": [],
+      "year": 1963
+    },
+    {
+      "title": "The Limitation Act, 1963",
+      "short_names": [],
+      "year": 1963
+    },
+    {
+      "title": "The Sale of Goods Act, 1930",
+      "short_names": [],
+      "year": 1930
+    },
+    {
+      "title": "The Hindu Marriage Act, 1955",
+      "short_names": [],
+      "year": 1955
+    },
+    {
+      "title": "The Hindu Succession Act, 1956",
+      "short_names": [],
+      "year": 1956
+    },
+    {
+      "title": "The Hindu Adoptions and Maintenance Act, 1956",
+      "short_names": [],
+      "year": 1956
+    },
+    {
+      "title": "The Special Marriage Act, 1954",
+      "short_names": [],
+      "year": 1954
+    },
+    {
+      "title": "The Protection of Women from Domestic Violence Act, 2005",
+      "short_names": [
+        "PWDVA"
+      ],
+      "year": 2005
+    },
+    {
+      "title": "The Dowry Prohibition Act, 1961",
+      "short_names": [],
+      "year": 1961
+    },
+    {
+      "title": "The Protection of Children from Sexual Offences Act, 2012",
+      "short_names": [
+        "POCSO",
+        "POCSO Act"
+      ],
+      "year": 2012
+    },
+    {
+      "title": "The Juvenile Justice (Care and Protection of Children) Act, 2015",
+      "short_names": [
+        "JJ Act"
+      ],
+      "year": 2015
+    },
+    {
+      "title": "The Scheduled Castes and the Scheduled Tribes (Prevention of Atrocities) Act, 1989",
+      "short_names": [
+        "POA Act",
+        "Atrocities Act"
+      ],
+      "year": 1989
+    },
+    {
+      "title": "The Narcotic Drugs and Psychotropic Substances Act, 1985",
+      "short_names": [
+        "NDPS",
+        "NDPS Act"
+      ],
+      "year": 1985
+    },
+    {
+      "title": "The Unlawful Activities (Prevention) Act, 1967",
+      "short_names": [
+        "UAPA"
+      ],
+      "year": 1967
+    },
+    {
+      "title": "The National Green Tribunal Act, 2010",
+      "short_names": [
+        "NGT",
+        "NGT Act"
+      ],
+      "year": 2010
+    },
+    {
+      "title": "The Wild Life (Protection) Act, 1972",
+      "short_names": [],
+      "year": 1972
+    },
+    {
+      "title": "The Patents Act, 1970",
+      "short_names": [],
+      "year": 1970
+    },
+    {
+      "title": "The Trade Marks Act, 1999",
+      "short_names": [],
+      "year": 1999
+    },
+    {
+      "title": "The Motor Vehicles Act, 1988",
+      "short_names": [],
+      "year": 1988
+    },
+    {
+      "title": "The Industrial Disputes Act, 1947",
+      "short_names": [],
+      "year": 1947
+    },
+    {
+      "title": "The Factories Act, 1948",
+      "short_names": [],
+      "year": 1948
+    },
+    {
+      "title": "The Payment of Gratuity Act, 1972",
+      "short_names": [],
+      "year": 1972
+    },
+    {
+      "title": "The Minimum Wages Act, 1948",
+      "short_names": [],
+      "year": 1948
+    },
+    {
+      "title": "The Employees' Provident Funds and Miscellaneous Provisions Act, 1952",
+      "short_names": [
+        "EPF Act"
+      ],
+      "year": 1952
+    },
+    {
+      "title": "The Employees' State Insurance Act, 1948",
+      "short_names": [
+        "ESI Act"
+      ],
+      "year": 1948
+    },
+    {
+      "title": "The Code on Wages, 2019",
+      "short_names": [],
+      "year": 2019
+    },
+    {
+      "title": "The Code on Social Security, 2020",
+      "short_names": [],
+      "year": 2020
+    },
+    {
+      "title": "The Industrial Relations Code, 2020",
+      "short_names": [],
+      "year": 2020
+    },
+    {
+      "title": "The Citizenship Act, 1955",
+      "short_names": [],
+      "year": 1955
+    },
+    {
+      "title": "The Representation of the People Act, 1951",
+      "short_names": [],
+      "year": 1951
+    },
+    {
+      "title": "The Disaster Management Act, 2005",
+      "short_names": [],
+      "year": 2005
+    },
+    {
+      "title": "The Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016",
+      "short_names": [
+        "Aadhaar Act"
+      ],
+      "year": 2016
+    },
+    {
+      "title": "The Lokpal and Lokayuktas Act, 2013",
+      "short_names": [],
+      "year": 2013
+    }
+  ]
+}

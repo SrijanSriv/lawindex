@@ -1,0 +1,237 @@
+{
+  "id" : "c058fa9f-eaf0-4ca3-98f1-3443b087bca9",
+  "uuid" : "c058fa9f-eaf0-4ca3-98f1-3443b087bca9",
+  "name" : "The Digital Personal Data Protection Act, 2023.",
+  "handle" : "123456789/496508",
+  "metadata" : {
+    "dc.date.accessioned" : [ {
+      "value" : "2026-07-10T20:12:17Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.act_year" : [ {
+      "value" : "2023",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.enact_date" : [ {
+      "value" : "2023-08-11",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.entry_date" : [ {
+      "value" : "2025-11-18",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2023-08-11",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.last_modified" : [ {
+      "value" : "2025-11-19",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "Summary of The Digital Personal Data Protection Act, 2023\nScope and Application\n•\tApplies to digital personal data in India and for Indians abroad.\n•\tExemptions for personal use, publicly available data, and legal requirements.\nKey Roles\n•\tData Principal: The individual.\n•\tData Fiduciary: Controls data processing.\n•\tData Processor: Acts on behalf of the Fiduciary.\nFiduciary Duties\n•\tLegitimate Processing: Consent or lawful uses.\n•\tTransparent Notice: Informing principals.\n•\tSecure Processing: Implementing safeguards.\nPrincipal's Rights\n•\tAccess and Transparency\n•\tCorrection and Deletion\n•\tGrievance Mechanism\nGovernance\n•\tData Protection Board: Oversight.\n•\tTribunal: Appeals.\n•\t(Penalties and Detailed Governance: Refer Full Act)\nAction Consult the full Act for detailed penalties, exemptions, and governance.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.act_id" : [ {
+      "value" : "AC_CEN_45_0_00003_2023-22_1763464807080",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.act_number" : [ {
+      "value" : "22",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.collection" : [ {
+      "value" : "ACT",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.givenid" : [ {
+      "value" : "2023-22",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.ministry_id" : [ {
+      "value" : "45",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.ministry_name" : [ {
+      "value" : "Ministry of Electronics and Information Technology",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.no_of_chapter" : [ {
+      "value" : "0",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.no_of_section" : [ {
+      "value" : "0",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.preamble_description" : [ {
+      "value" : "<center style=\"font-size: 17px;\">THE DIGITAL PERSONAL DATA PROTECTION ACT, 2023<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> ACT NO. 22 OF 2023</center><br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <p style=\"text-align:right;\">[11<i>th August</i>, 2023.]</p><br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> An Act to provide for the processing of digital personal data in a manner that recognises both the right of individuals to protect their personal data and the need to process such personal data for lawful purposes and for matters connected therewith or incidental thereto.<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/> <span style=\"margin-left: 15px;\"></span>BE it enacted by Parliament in the Seventy-fourth Year of the Republic of India as follows:---<br/><hr style=\"border: none; margin-bottom: 8px; margin-top: 0;\"/>",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.refact" : [ {
+      "value" : "0",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.reference_sites" : [ {
+      "value" : "Ministry of Electronics and Information Technology https://www.meity.gov.in/",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Concerned Ministry/Department Acts and Rules https://www.meity.gov.in/documents/act-and-policies?page=2",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.identifier.repealed" : [ {
+      "value" : "false",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.state_id" : [ {
+      "value" : "1",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.state_name" : [ {
+      "value" : "CENTRAL",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "http://test1.indiacode.nic.in/handle/123456789/496508",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.legislation.history" : [ {
+      "value" : "Legislative History: \nThe Digital Personal Data Protection Act, 2023  \n\nSource: Official Record of Parliament, India Code, and Ministry of Electronics and Information Technology \n \nAct Title - The Digital Personal Data Protection Act, 2023 \nAct Number - Act No. 22 of 2023 \nAct ID (India Code) - 202322 \n Presidential Assent date - August 11, 2023 \n Enforcement Date - August 11, 2023 \nNodal Ministry - Ministry of Electronics and Information Technology \n\nPrecedent & Historical Rationale\n●\tFirst Comprehensive Data Privacy Framework: Establishes India’s first dedicated, primary statutory regime for the processing of digital personal data, giving legislative form to the fundamental right to privacy affirmed in K.S. Puttaswamy v. Union of India (2017).\n●\tData Fiduciaries & Data Principals: Outlines clear legal grounds for processing personal data (based on consent or \"certain legitimate uses\"), defines rights and duties of individuals (Data Principals), and establishes strict obligations for processing entities (Data Fiduciaries and Significant Data Fiduciaries).\n●\tEstablishment of DPBI & Penalty Structure: Creates the Data Protection Board of India (DPBI) as an adjudicatory body to investigate breaches and impose statutory penalties of up to ₹250 crore per instance, replacing criminal penalties with civil monetary adjudications.\n \nParliamentary Trajectory & Enactment\n●\tFormulation: Emerging from years of drafting rounds (including the Srikrishna Committee report, the Personal Data Protection Bill, 2019, and subsequent withdrawals), it was introduced as the Digital Personal Data Protection Bill, 2023 by the Union Minister of Electronics and IT, Shri Ashwini Vaishnaw.\n●\tParliamentary Passage: Introduced in the Lok Sabha on August 3, 2023; passed by the Lok Sabha on August 7, 2023; and passed by the Rajya Sabha on August 9, 2023.\n●\tPresidential Assent: Received the assent of the President of India on August 11, 2023.\n●\tEnforcement: Enforced on August 11, 2023.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title" : [ {
+      "value" : "The Digital Personal Data Protection Act, 2023.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title.long_title" : [ {
+      "value" : "An Act to provide for the processing of digital personal data in a manner that recognises both the right of individuals to protect their personal data and the need to process such personal data for lawful purposes and for matters connected therewith or incidental thereto.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "Developmental",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2026-08-11T17:23:07.386229Z",
+  "entityType" : null,
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/c058fa9f-eaf0-4ca3-98f1-3443b087bca9/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/c058fa9f-eaf0-4ca3-98f1-3443b087bca9/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/c058fa9f-eaf0-4ca3-98f1-3443b087bca9/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/c058fa9f-eaf0-4ca3-98f1-3443b087bca9/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/c058fa9f-eaf0-4ca3-98f1-3443b087bca9/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/c058fa9f-eaf0-4ca3-98f1-3443b087bca9/relationships"
+    },
+    "version" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/c058fa9f-eaf0-4ca3-98f1-3443b087bca9/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/c058fa9f-eaf0-4ca3-98f1-3443b087bca9/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/c058fa9f-eaf0-4ca3-98f1-3443b087bca9/thumbnail"
+    },
+    "submitter" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/c058fa9f-eaf0-4ca3-98f1-3443b087bca9/submitter"
+    },
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/core/items/c058fa9f-eaf0-4ca3-98f1-3443b087bca9"
+    }
+  }
+}

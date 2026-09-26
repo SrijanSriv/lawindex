@@ -1,0 +1,15 @@
+{
+  "reviewer_id": "agent:claude:2026-09-22-phase3-sampled",
+  "reviewer_type": "automated_agent_review",
+  "is_independent_legal_expert_review": false,
+  "review_method": "per-Act sampled visual review over automated whole-body agreement",
+  "disclosure": "AI implementation agent visually compared each selected section of the sampling plan against its rendered PDF pages, checking heading, beginning and end, numbered parts, provisos and footnotes, and confirming that no neighbouring-section or footnote text was absorbed. Sections outside the plan's selected_keys were NOT individually compared; they are admitted on automated whole-body agreement with the retained PDF plus this sample. This is not independent-agent or legal-expert review, and no conclusion is drawn about current legal effect.",
+  "actual_review_time_note": "Not separately instrumented.",
+  "session_date": "2026-09-22",
+  "tools_used": [
+    "scripts/sample_review_plan.py (deterministic risk-weighted selection)",
+    "pdftoppm -scale-to 1600 page renders",
+    "visual comparison of rendered pages against candidate text",
+    "pdftotext -layout whole-body alignment with enumerated typographic normalizations"
+  ]
+}

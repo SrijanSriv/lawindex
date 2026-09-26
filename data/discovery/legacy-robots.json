@@ -1,0 +1,14 @@
+{
+  "requested_url": "https://www.indiacode.nic.in/robots.txt",
+  "effective_url": "https://www.indiacode.nic.in/robots.txt",
+  "fetched_at_utc": "2026-09-20T06:01:03.266464+00:00",
+  "http_status": 404,
+  "content_type": "text/html",
+  "curl_exit_code": 0,
+  "error": null,
+  "bytes": 686,
+  "sha256": "970e2b8dc6f494f2c51b0099f6586f655dbbf704bc395bb6274e96a5160b5f6f",
+  "body_path": "data/discovery/legacy-robots.body",
+  "elapsed_seconds": 0.146452,
+  "note": "HTTP success alone does not establish valid source content; inspect body."
+}

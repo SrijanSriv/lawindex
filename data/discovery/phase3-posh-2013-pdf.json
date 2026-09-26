@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/ee8a8259-1ea6-4b42-b804-a5d6b6baa2d0/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/ee8a8259-1ea6-4b42-b804-a5d6b6baa2d0/content",
+  "http_status": 200,
+  "curl_exit_code": 0,
+  "content_type": "application/pdf",
+  "sha256": "2c758fdba9409e931b6ee3add6c4068a90142d3cae49e23884553d964e52a9e6",
+  "bytes": 268057,
+  "body_path": "data/discovery/phase3-posh-2013-pdf.body",
+  "note": "Exact copy of retained Phase 3 HTTP bytes; not a new acquisition. Receipt in data/phase3/acquisition/acts/posh-2013.json; fetched_at_utc copied from the matching Phase 3 receipt (same URL and sha256)",
+  "fetched_at_utc": "2026-09-21T19:42:31.961871+00:00"
+}

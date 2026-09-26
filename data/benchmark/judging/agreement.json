@@ -1,0 +1,58 @@
+{
+  "overall": {
+    "pairs": 3397,
+    "exact_agreement": 0.8619370032381513,
+    "within_one_agreement": 0.9991168678245511,
+    "kappa": 0.8192041095213789
+  },
+  "by_category": {
+    "acronym": {
+      "pairs": 241,
+      "exact_agreement": 0.8423236514522822,
+      "within_one_agreement": 1.0,
+      "kappa": 0.7457805907172996
+    },
+    "broad_discovery": {
+      "pairs": 192,
+      "exact_agreement": 0.7760416666666666,
+      "within_one_agreement": 1.0,
+      "kappa": 0.9008719596145021
+    },
+    "citation": {
+      "pairs": 271,
+      "exact_agreement": 0.8597785977859779,
+      "within_one_agreement": 0.996309963099631,
+      "kappa": 0.8258354755784059
+    },
+    "filtered": {
+      "pairs": 96,
+      "exact_agreement": 0.7916666666666666,
+      "within_one_agreement": 1.0,
+      "kappa": 0.7903014416775885
+    },
+    "ordinary_language": {
+      "pairs": 1051,
+      "exact_agreement": 0.9039010466222646,
+      "within_one_agreement": 1.0,
+      "kappa": 0.8364511431969501
+    },
+    "out_of_corpus": {
+      "pairs": 80,
+      "exact_agreement": 0.9,
+      "within_one_agreement": 1.0,
+      "kappa": 0.7377049180327867
+    },
+    "terminology_mismatch": {
+      "pairs": 586,
+      "exact_agreement": 0.9027303754266212,
+      "within_one_agreement": 0.9965870307167235,
+      "kappa": 0.708085920376201
+    },
+    "topic": {
+      "pairs": 880,
+      "exact_agreement": 0.8136363636363636,
+      "within_one_agreement": 1.0,
+      "kappa": 0.7980622131565527
+    }
+  }
+}

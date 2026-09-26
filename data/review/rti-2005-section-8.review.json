@@ -1,0 +1,58 @@
+{
+  "provision_key": "rti-2005:8",
+  "act_slug": "rti-2005",
+  "act_uuid": "37520cf3-5c3f-4c0b-aa4a-5985e6f522bf",
+  "section_number": "8",
+  "heading": "Exemption from disclosure of information.",
+  "selected_representation": "pdf",
+  "selected_representation_reason": "RTI-001: the structured HTML for section 8(1)(j) contains the longer public-activity/privacy wording ('has no relationship to any public activity or interest ...'), while the retained PDF (cover dated 18 November 2025) page 11 contains the shorter wording ('information which relates to personal information;') with a footnote marking it as substituted by Act 22 of 2023, s. 44, w.e.f. 13-11-2025. Per the accepted conflict policy, the whole of section 8 is admitted from the visually reviewed PDF snapshot, not spliced from the two representations. The conflicting HTML is retained as comparison evidence only and is excluded from admission.",
+  "source_representation": {
+    "kind": "pdf",
+    "capture": "rti-2005-pdf",
+    "sha256": "c1ef189ec4f34d4f346886d6c2fc4a6e8aec2da0eedcfeff9c10401ec9cfb2f5",
+    "pdf_page_from": 10,
+    "pdf_page_to": 11
+  },
+  "comparison_representation_excluded": {
+    "kind": "structured_html",
+    "capture": "rti-sections-page-0",
+    "sha256": "343f0d19662e38e02e33934d6e2340e1cf498576e54fdc1e539758846aa52f5b",
+    "field": "dc.identifier.section_page_note",
+    "section_item_uuid": "10880",
+    "reason_excluded": "RTI-001 substantive conflict on clause (j); do not splice or index this representation for section 8."
+  },
+  "review": {
+    "reviewer_ref": "data/review/reviewer.json",
+    "scope": "Rendered and visually inspected PDF page 10 (printed page 10, not previously rendered as an image in Phase 0 discovery; rendered during this session with pdftoppm at 150dpi) in addition to the previously retained page 11 render. Confirmed clauses (a) through (i) on page 10, the footnote-marked clause (j) and both provisos, subsections (2) and (3), and the amendment footnote on page 11, all match the pdftotext -layout extraction exactly. Verified section 8 does not contain the conflicting HTML wording and the footnote text is present.",
+    "evidence": [
+      "data/discovery/rti-2005-pdf.body",
+      "data/discovery/derived/rti-2005.txt",
+      "data/discovery/derived/rti-2005-page-11.png",
+      "data/discovery/derived/rti-2005-page-10.png",
+      "data/discovery/rti-sections-page-0.body"
+    ],
+    "evidence_note_2026_09_20_remediation": "The page-10 render this record's scope describes ('Rendered and visually inspected PDF page 10... rendered during this session with pdftoppm at 150dpi') was not retained to disk during the original session and was absent from this evidence list -- see docs/phase-0/INSPECTION_FOLLOWUP.md and docs/phase-0/INDEPENDENT_REVIEW.md Finding 2. data/discovery/derived/rti-2005-page-10.png has now been regenerated from the same retained PDF bytes (sha256 c1ef189ec4f34d4f346886d6c2fc4a6e8aec2da0eedcfeff9c10401ec9cfb2f5) during the 2026-09-20 remediation session -- see data/review/reviewer-remediation.json#page_10_render_provenance. This regenerated file independently confirms page 10's current content matches this record's description; it does not retroactively prove the original session's inspection occurred, and that original account above is left unmodified.",
+    "checked_scope": "whole_provision_including_footnotes_and_both_provisos",
+    "footnotes_present": true,
+    "footnote_pattern": "^1\\. Subs\\. by Act 22 of 2023, s\\. 44 for clause \\(j\\) \\(w\\.e\\.f\\. 13-11-2025\\)\\.$"
+  },
+  "known_conflicts": ["RTI-001"],
+  "classification": "substantive_text_conflict",
+  "disposition": "selected_with_disclosed_conflict",
+  "admission_status": "admitted",
+  "admission_note": "Admitted as a selected reference snapshot with a disclosed source disagreement, per the accepted conflict policy. This is not a determination of current legal effect.",
+  "watermark_stripping_rule": "The retained PDF renders a diagonal 'IndiaCode' watermark. pdftotext -layout emits it as five standalone, heavily right-indented lines per page reading 'In', 'di', 'aC', 'od', 'e' (reversed, they spell IndiaCode). These exact five tokens, each alone on a line with 10+ leading spaces, are stripped by the offline importer as a documented, tested normalization rule; no other text is altered. See scripts/offline_importer.py WATERMARK_LINE_RE.",
+  "extraction_method_version": "offline-importer-v2",
+  "expected_output": {
+    "body_text_sha256": "aa79a80a7994e80a87e09e706f713cb288b33cff7d4aee878423c42d3bc71c5e",
+    "footnote_text_sha256": "8dedf6d2c2040c48b520ec914788aff5e08eab00d290c5dc10ff7b7bdf0a0679",
+    "established_by": "data/review/reviewer-remediation-2.json",
+    "established_note": "body_text_sha256 updated during the 2026-09-21 remediation session (docs/phase-1/REVIEW_FOLLOWUP.md finding 3): the prior baseline (bd82a40c51bd8c1bcd8260abb55de74a448ec0bea7a5b000f9c4a65bcbf877bc, established 2026-09-20) included a standalone PDF page-10 footer digit '10' between clause (i) and its continuation proviso, which was not legal text. scripts/offline_importer.py's extraction now strips a page's own trailing page-number footer line before joining pages (see data/review/reviewer-remediation-2.json for the exact fix and why it cannot eat the nearby amendment-marker digit '1', which survives unchanged and is confirmed still present in the corrected text). footnote_text_sha256 is unaffected and unchanged from the 2026-09-20 baseline."
+  },
+  "recheck_triggers": [
+    "source_sha256_change:rti-2005-pdf",
+    "source_sha256_change:rti-sections-page-0",
+    "extraction_method_version_change",
+    "expected_output_digest_mismatch"
+  ]
+}

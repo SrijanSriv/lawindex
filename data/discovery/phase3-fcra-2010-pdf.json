@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/9c58229e-ff70-4764-9e9d-dc960c2adab7/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/9c58229e-ff70-4764-9e9d-dc960c2adab7/content",
+  "http_status": 200,
+  "curl_exit_code": 0,
+  "content_type": "application/pdf",
+  "fetched_at_utc": "2026-09-21T19:42:44.026635+00:00",
+  "sha256": "4c589d3f240b9401dcb503371eef0ba9425becc477c7de09deb2f1e34a933f31",
+  "bytes": 332654,
+  "body_path": "data/discovery/phase3-fcra-2010-pdf.body",
+  "note": "Exact copy of retained Phase 3 HTTP bytes; not a new acquisition. Receipt in data/phase3/acquisition/acts/fcra-2010.json"
+}

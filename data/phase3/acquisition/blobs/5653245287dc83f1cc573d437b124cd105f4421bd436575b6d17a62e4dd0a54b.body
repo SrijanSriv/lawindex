@@ -1,0 +1,106 @@
+{
+  "_embedded" : {
+    "bitstreams" : [ {
+      "id" : "2b560cc5-4037-4c10-bb6e-343da51dd42f",
+      "uuid" : "2b560cc5-4037-4c10-bb6e-343da51dd42f",
+      "name" : "a2009-35.pdf",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "a2009-35.pdf",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "bundleName" : "ORIGINAL",
+      "sizeBytes" : 226519,
+      "checkSum" : {
+        "checkSumAlgorithm" : "MD5",
+        "value" : "548f35b37d0530aaa70af0f075d17c51"
+      },
+      "sequenceId" : 1,
+      "type" : "bitstream",
+      "_links" : {
+        "content" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/2b560cc5-4037-4c10-bb6e-343da51dd42f/content"
+        },
+        "bundle" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/2b560cc5-4037-4c10-bb6e-343da51dd42f/bundle"
+        },
+        "accessStatus" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/2b560cc5-4037-4c10-bb6e-343da51dd42f/accessStatus"
+        },
+        "format" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/2b560cc5-4037-4c10-bb6e-343da51dd42f/format"
+        },
+        "thumbnail" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/2b560cc5-4037-4c10-bb6e-343da51dd42f/thumbnail"
+        },
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/2b560cc5-4037-4c10-bb6e-343da51dd42f"
+        }
+      }
+    }, {
+      "id" : "a35b64fa-5a20-4af5-879e-45fdd61005e9",
+      "uuid" : "a35b64fa-5a20-4af5-879e-45fdd61005e9",
+      "name" : "H2009-35.pdf",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "H2009-35.pdf",
+          "language" : "Hindi",
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        }, {
+          "value" : "H2009-35.pdf",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 1
+        } ]
+      },
+      "bundleName" : "ORIGINAL",
+      "sizeBytes" : 497334,
+      "checkSum" : {
+        "checkSumAlgorithm" : "MD5",
+        "value" : "f1d5166dcc14a18f1c78947a2ac374ba"
+      },
+      "sequenceId" : 4,
+      "type" : "bitstream",
+      "_links" : {
+        "content" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/a35b64fa-5a20-4af5-879e-45fdd61005e9/content"
+        },
+        "bundle" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/a35b64fa-5a20-4af5-879e-45fdd61005e9/bundle"
+        },
+        "accessStatus" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/a35b64fa-5a20-4af5-879e-45fdd61005e9/accessStatus"
+        },
+        "format" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/a35b64fa-5a20-4af5-879e-45fdd61005e9/format"
+        },
+        "thumbnail" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/a35b64fa-5a20-4af5-879e-45fdd61005e9/thumbnail"
+        },
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/a35b64fa-5a20-4af5-879e-45fdd61005e9"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 2
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/core/bundles/8331c2ac-3df7-485e-a29b-2fbcf3e0e610/bitstreams?size=100"
+    }
+  }
+}

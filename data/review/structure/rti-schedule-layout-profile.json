@@ -1,0 +1,1021 @@
+{
+  "schema_version": 1,
+  "parser_version": "rti-schedule-layout-v1",
+  "source_sha256": "c1ef189ec4f34d4f346886d6c2fc4a6e8aec2da0eedcfeff9c10401ec9cfb2f5",
+  "extracted_layout_sha256": "04a36151a0446ee80c5f86c18df2071895d31b68e54244b7439e53f6ad54c920",
+  "pages": [
+    {
+      "page": 23,
+      "groups": [
+        {
+          "id": "title",
+          "role": "title",
+          "word_ids": [
+            "p23-w0",
+            "p23-w1",
+            "p23-w2"
+          ]
+        },
+        {
+          "id": "cross-reference",
+          "role": "source_cross_reference",
+          "word_ids": [
+            "p23-w3",
+            "p23-w4",
+            "p23-w5",
+            "p23-w6",
+            "p23-w7",
+            "p23-w8"
+          ]
+        },
+        {
+          "id": "caption",
+          "role": "caption",
+          "word_ids": [
+            "p23-w9",
+            "p23-w10",
+            "p23-w11",
+            "p23-w12",
+            "p23-w13",
+            "p23-w14",
+            "p23-w15",
+            "p23-w16",
+            "p23-w17",
+            "p23-w18",
+            "p23-w19",
+            "p23-w20",
+            "p23-w21",
+            "p23-w22",
+            "p23-w23",
+            "p23-w24",
+            "p23-w25",
+            "p23-w26",
+            "p23-w27",
+            "p23-w28",
+            "p23-w29",
+            "p23-w30",
+            "p23-w31",
+            "p23-w32",
+            "p23-w33",
+            "p23-w34",
+            "p23-w35",
+            "p23-w36",
+            "p23-w37",
+            "p23-w38",
+            "p23-w39",
+            "p23-w40",
+            "p23-w41",
+            "p23-w42",
+            "p23-w43",
+            "p23-w44",
+            "p23-w45",
+            "p23-w46",
+            "p23-w47"
+          ]
+        },
+        {
+          "id": "prefix",
+          "role": "shared_prefix",
+          "word_ids": [
+            "p23-w48",
+            "p23-w49",
+            "p23-w50",
+            "p23-w51",
+            "p23-w52",
+            "p23-w53",
+            "p23-w54",
+            "p23-w55",
+            "p23-w56",
+            "p23-w57",
+            "p23-w58",
+            "p23-w59",
+            "p23-w60",
+            "p23-w61"
+          ]
+        },
+        {
+          "id": "oath",
+          "role": "alternative",
+          "word_ids": [
+            "p23-w62",
+            "p23-w63",
+            "p23-w64",
+            "p23-w65",
+            "p23-w66",
+            "p23-w67"
+          ]
+        },
+        {
+          "id": "continuation",
+          "role": "shared_continuation",
+          "word_ids": [
+            "p23-w68",
+            "p23-w69",
+            "p23-w70",
+            "p23-w71",
+            "p23-w72",
+            "p23-w73",
+            "p23-w74",
+            "p23-w75",
+            "p23-w76",
+            "p23-w77",
+            "p23-w85",
+            "p23-w86",
+            "p23-w87",
+            "p23-w88",
+            "p23-w89",
+            "p23-w90",
+            "p23-w91",
+            "p23-w92",
+            "p23-w93",
+            "p23-w94",
+            "p23-w95",
+            "p23-w96",
+            "p23-w97",
+            "p23-w98",
+            "p23-w99",
+            "p23-w100",
+            "p23-w101",
+            "p23-w102",
+            "p23-w103",
+            "p23-w104",
+            "p23-w105",
+            "p23-w106",
+            "p23-w107",
+            "p23-w108",
+            "p23-w109",
+            "p23-w110",
+            "p23-w111",
+            "p23-w112",
+            "p23-w113",
+            "p23-w114",
+            "p23-w115",
+            "p23-w116",
+            "p23-w117",
+            "p23-w118",
+            "p23-w119",
+            "p23-w120",
+            "p23-w121",
+            "p23-w122",
+            "p23-w123",
+            "p23-w124",
+            "p23-w125",
+            "p23-w126",
+            "p23-w127",
+            "p23-w128",
+            "p23-w129",
+            "p23-w130",
+            "p23-w131",
+            "p23-w132",
+            "p23-w133",
+            "p23-w134",
+            "p23-w135",
+            "p23-w136",
+            "p23-w137",
+            "p23-w138",
+            "p23-w139",
+            "p23-w140"
+          ]
+        },
+        {
+          "id": "affirmation",
+          "role": "alternative",
+          "word_ids": [
+            "p23-w78",
+            "p23-w79"
+          ]
+        },
+        {
+          "id": "watermark",
+          "role": "nonlegal_watermark",
+          "word_ids": [
+            "p23-w80",
+            "p23-w81",
+            "p23-w82",
+            "p23-w83",
+            "p23-w84"
+          ]
+        },
+        {
+          "id": "footer",
+          "role": "page_number",
+          "word_ids": [
+            "p23-w141"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "kind": "exclusive_alternatives",
+          "choices": [
+            "oath",
+            "affirmation"
+          ],
+          "shared_prefix": "prefix",
+          "shared_suffix": "continuation"
+        }
+      ]
+    },
+    {
+      "page": 24,
+      "groups": [
+        {
+          "id": "title",
+          "role": "title",
+          "word_ids": [
+            "p24-w0",
+            "p24-w1",
+            "p24-w2"
+          ]
+        },
+        {
+          "id": "cross-reference",
+          "role": "source_cross_reference",
+          "word_ids": [
+            "p24-w3",
+            "p24-w4",
+            "p24-w5"
+          ]
+        },
+        {
+          "id": "caption",
+          "role": "caption",
+          "word_ids": [
+            "p24-w6",
+            "p24-w7",
+            "p24-w8",
+            "p24-w9",
+            "p24-w10",
+            "p24-w11",
+            "p24-w12",
+            "p24-w13",
+            "p24-w14",
+            "p24-w15",
+            "p24-w16",
+            "p24-w17"
+          ]
+        },
+        {
+          "id": "entry-1",
+          "role": "entry",
+          "word_ids": [
+            "p24-w18",
+            "p24-w19",
+            "p24-w20"
+          ]
+        },
+        {
+          "id": "entry-2",
+          "role": "entry",
+          "word_ids": [
+            "p24-w21",
+            "p24-w22",
+            "p24-w23",
+            "p24-w24",
+            "p24-w25",
+            "p24-w26",
+            "p24-w27",
+            "p24-w28",
+            "p24-w29",
+            "p24-w30",
+            "p24-w31",
+            "p24-w32",
+            "p24-w33",
+            "p24-w34",
+            "p24-w35",
+            "p24-w36",
+            "p24-w37",
+            "p24-w38",
+            "p24-w39"
+          ]
+        },
+        {
+          "id": "entry-3",
+          "role": "entry",
+          "word_ids": [
+            "p24-w40",
+            "p24-w41",
+            "p24-w42",
+            "p24-w43",
+            "p24-w44"
+          ]
+        },
+        {
+          "id": "entry-4",
+          "role": "entry",
+          "word_ids": [
+            "p24-w45",
+            "p24-w46",
+            "p24-w47",
+            "p24-w48",
+            "p24-w49"
+          ]
+        },
+        {
+          "id": "entry-5",
+          "role": "entry",
+          "word_ids": [
+            "p24-w50",
+            "p24-w51",
+            "p24-w52",
+            "p24-w53"
+          ]
+        },
+        {
+          "id": "entry-6",
+          "role": "entry",
+          "word_ids": [
+            "p24-w54",
+            "p24-w55",
+            "p24-w56",
+            "p24-w57"
+          ]
+        },
+        {
+          "id": "entry-7",
+          "role": "entry",
+          "word_ids": [
+            "p24-w58",
+            "p24-w59",
+            "p24-w60"
+          ]
+        },
+        {
+          "id": "entry-8",
+          "role": "entry",
+          "word_ids": [
+            "p24-w61",
+            "p24-w62",
+            "p24-w63",
+            "p24-w64",
+            "p24-w65",
+            "p24-w66",
+            "p24-w67",
+            "p24-w68",
+            "p24-w69"
+          ]
+        },
+        {
+          "id": "entry-9",
+          "role": "entry",
+          "word_ids": [
+            "p24-w70",
+            "p24-w71",
+            "p24-w72",
+            "p24-w73"
+          ]
+        },
+        {
+          "id": "entry-10",
+          "role": "entry",
+          "word_ids": [
+            "p24-w74",
+            "p24-w75",
+            "p24-w76",
+            "p24-w77",
+            "p24-w78"
+          ]
+        },
+        {
+          "id": "watermark",
+          "role": "nonlegal_watermark",
+          "word_ids": [
+            "p24-w79",
+            "p24-w80",
+            "p24-w90",
+            "p24-w95",
+            "p24-w100"
+          ]
+        },
+        {
+          "id": "entry-11",
+          "role": "entry",
+          "word_ids": [
+            "p24-w81",
+            "p24-w82",
+            "p24-w83",
+            "p24-w84"
+          ]
+        },
+        {
+          "id": "entry-12",
+          "role": "entry",
+          "word_ids": [
+            "p24-w85",
+            "p24-w86",
+            "p24-w87",
+            "p24-w88",
+            "p24-w89"
+          ]
+        },
+        {
+          "id": "entry-13",
+          "role": "entry",
+          "word_ids": [
+            "p24-w91",
+            "p24-w92",
+            "p24-w93",
+            "p24-w94"
+          ]
+        },
+        {
+          "id": "entry-14",
+          "role": "entry",
+          "word_ids": [
+            "p24-w96",
+            "p24-w97",
+            "p24-w98"
+          ]
+        },
+        {
+          "id": "entry-15",
+          "role": "entry",
+          "word_ids": [
+            "p24-w99",
+            "p24-w101",
+            "p24-w102",
+            "p24-w103",
+            "p24-w104"
+          ]
+        },
+        {
+          "id": "entry-16",
+          "role": "entry",
+          "word_ids": [
+            "p24-w105",
+            "p24-w106",
+            "p24-w107",
+            "p24-w108",
+            "p24-w109",
+            "p24-w110",
+            "p24-w111"
+          ]
+        },
+        {
+          "id": "entry-17",
+          "role": "entry",
+          "word_ids": [
+            "p24-w112",
+            "p24-w113",
+            "p24-w114",
+            "p24-w115",
+            "p24-w116",
+            "p24-w117"
+          ]
+        },
+        {
+          "id": "entry-18",
+          "role": "entry",
+          "word_ids": [
+            "p24-w118",
+            "p24-w119",
+            "p24-w120",
+            "p24-w121",
+            "p24-w122",
+            "p24-w123"
+          ]
+        },
+        {
+          "id": "entry-19",
+          "role": "entry",
+          "word_ids": [
+            "p24-w124",
+            "p24-w125",
+            "p24-w126",
+            "p24-w127",
+            "p24-w128"
+          ]
+        },
+        {
+          "id": "entry-20",
+          "role": "entry",
+          "word_ids": [
+            "p24-w129",
+            "p24-w130",
+            "p24-w131",
+            "p24-w132",
+            "p24-w133",
+            "p24-w134"
+          ]
+        },
+        {
+          "id": "entry-21",
+          "role": "entry",
+          "word_ids": [
+            "p24-w135",
+            "p24-w136",
+            "p24-w137",
+            "p24-w138",
+            "p24-w139"
+          ]
+        },
+        {
+          "id": "omitted-block",
+          "role": "omission",
+          "word_ids": [
+            "p24-w140",
+            "p24-w141",
+            "p24-w142",
+            "p24-w143",
+            "p24-w144",
+            "p24-w145"
+          ]
+        },
+        {
+          "id": "entry-22",
+          "role": "entry",
+          "word_ids": [
+            "p24-w146",
+            "p24-w147",
+            "p24-w148",
+            "p24-w149",
+            "p24-w150",
+            "p24-w151"
+          ]
+        },
+        {
+          "id": "entry-23",
+          "role": "entry",
+          "word_ids": [
+            "p24-w152",
+            "p24-w153",
+            "p24-w154",
+            "p24-w155",
+            "p24-w156",
+            "p24-w157"
+          ]
+        },
+        {
+          "id": "entry-24",
+          "role": "entry",
+          "word_ids": [
+            "p24-w158",
+            "p24-w159",
+            "p24-w160",
+            "p24-w161"
+          ]
+        },
+        {
+          "id": "entry-25",
+          "role": "entry",
+          "word_ids": [
+            "p24-w162",
+            "p24-w163",
+            "p24-w164",
+            "p24-w165"
+          ]
+        },
+        {
+          "id": "entry-26",
+          "role": "entry",
+          "word_ids": [
+            "p24-w166",
+            "p24-w167",
+            "p24-w168",
+            "p24-w169",
+            "p24-w170"
+          ]
+        },
+        {
+          "id": "entry-27",
+          "role": "entry",
+          "word_ids": [
+            "p24-w171",
+            "p24-w172",
+            "p24-w173",
+            "p24-w174",
+            "p24-w175",
+            "p24-w176",
+            "p24-w177"
+          ]
+        },
+        {
+          "id": "note-1",
+          "role": "footnote",
+          "word_ids": [
+            "p24-w178",
+            "p24-w179",
+            "p24-w180",
+            "p24-w181",
+            "p24-w182",
+            "p24-w183",
+            "p24-w184",
+            "p24-w185",
+            "p24-w186"
+          ]
+        },
+        {
+          "id": "note-2",
+          "role": "footnote",
+          "word_ids": [
+            "p24-w187",
+            "p24-w188",
+            "p24-w189",
+            "p24-w190",
+            "p24-w191",
+            "p24-w192",
+            "p24-w193",
+            "p24-w194",
+            "p24-w195",
+            "p24-w196",
+            "p24-w197",
+            "p24-w198"
+          ]
+        },
+        {
+          "id": "note-3",
+          "role": "footnote",
+          "word_ids": [
+            "p24-w199",
+            "p24-w200",
+            "p24-w201",
+            "p24-w202",
+            "p24-w203",
+            "p24-w204",
+            "p24-w205",
+            "p24-w206",
+            "p24-w207"
+          ]
+        },
+        {
+          "id": "note-4",
+          "role": "footnote",
+          "word_ids": [
+            "p24-w208",
+            "p24-w209",
+            "p24-w210",
+            "p24-w211",
+            "p24-w212",
+            "p24-w213",
+            "p24-w214",
+            "p24-w215",
+            "p24-w216"
+          ]
+        },
+        {
+          "id": "note-5",
+          "role": "footnote",
+          "word_ids": [
+            "p24-w217",
+            "p24-w218",
+            "p24-w219",
+            "p24-w220",
+            "p24-w221",
+            "p24-w222",
+            "p24-w223",
+            "p24-w224",
+            "p24-w225"
+          ]
+        },
+        {
+          "id": "note-6",
+          "role": "footnote",
+          "word_ids": [
+            "p24-w226",
+            "p24-w227",
+            "p24-w228",
+            "p24-w229",
+            "p24-w230",
+            "p24-w231",
+            "p24-w232",
+            "p24-w233",
+            "p24-w234"
+          ]
+        },
+        {
+          "id": "note-7",
+          "role": "footnote",
+          "word_ids": [
+            "p24-w235",
+            "p24-w236",
+            "p24-w237",
+            "p24-w238",
+            "p24-w239",
+            "p24-w240",
+            "p24-w241"
+          ]
+        },
+        {
+          "id": "note-8",
+          "role": "footnote",
+          "word_ids": [
+            "p24-w242",
+            "p24-w243",
+            "p24-w244",
+            "p24-w245",
+            "p24-w246",
+            "p24-w247",
+            "p24-w248",
+            "p24-w249",
+            "p24-w250"
+          ]
+        },
+        {
+          "id": "note-9",
+          "role": "footnote",
+          "word_ids": [
+            "p24-w251",
+            "p24-w252",
+            "p24-w253",
+            "p24-w254",
+            "p24-w255",
+            "p24-w256",
+            "p24-w257",
+            "p24-w258",
+            "p24-w259"
+          ]
+        },
+        {
+          "id": "note-10",
+          "role": "footnote",
+          "word_ids": [
+            "p24-w260",
+            "p24-w261",
+            "p24-w262",
+            "p24-w263",
+            "p24-w264",
+            "p24-w265",
+            "p24-w266",
+            "p24-w267",
+            "p24-w268"
+          ]
+        },
+        {
+          "id": "note-11",
+          "role": "footnote",
+          "word_ids": [
+            "p24-w269",
+            "p24-w270",
+            "p24-w271",
+            "p24-w272",
+            "p24-w273",
+            "p24-w274",
+            "p24-w275",
+            "p24-w276",
+            "p24-w277"
+          ]
+        },
+        {
+          "id": "footer",
+          "role": "page_number",
+          "word_ids": [
+            "p24-w278"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "kind": "amendment_reference",
+          "marker_word_id": "p24-w21",
+          "note_id": "note-1",
+          "scope_groups": [
+            "entry-2"
+          ],
+          "affected_word_ids": [
+            "p24-w22",
+            "p24-w23",
+            "p24-w24",
+            "p24-w25",
+            "p24-w26",
+            "p24-w27",
+            "p24-w28",
+            "p24-w29",
+            "p24-w30",
+            "p24-w31",
+            "p24-w32",
+            "p24-w33",
+            "p24-w34",
+            "p24-w35",
+            "p24-w36",
+            "p24-w37",
+            "p24-w38",
+            "p24-w39"
+          ],
+          "interpretation": "printed_annotation_scope_not_legal_status"
+        },
+        {
+          "kind": "amendment_reference",
+          "marker_word_id": "p24-w59",
+          "note_id": "note-2",
+          "scope_groups": [
+            "entry-7"
+          ],
+          "affected_word_ids": [
+            "p24-w60"
+          ],
+          "interpretation": "printed_annotation_scope_not_legal_status"
+        },
+        {
+          "kind": "amendment_reference",
+          "marker_word_id": "p24-w63",
+          "note_id": "note-3",
+          "scope_groups": [
+            "entry-8"
+          ],
+          "affected_word_ids": [
+            "p24-w64"
+          ],
+          "interpretation": "printed_annotation_scope_not_legal_status"
+        },
+        {
+          "kind": "amendment_reference",
+          "marker_word_id": "p24-w99",
+          "note_id": "note-4",
+          "scope_groups": [
+            "entry-15"
+          ],
+          "affected_word_ids": [
+            "p24-w101",
+            "p24-w102",
+            "p24-w103",
+            "p24-w104"
+          ],
+          "interpretation": "printed_annotation_scope_not_legal_status"
+        },
+        {
+          "kind": "amendment_reference",
+          "marker_word_id": "p24-w105",
+          "note_id": "note-5",
+          "scope_groups": [
+            "entry-16"
+          ],
+          "affected_word_ids": [
+            "p24-w106",
+            "p24-w107",
+            "p24-w108",
+            "p24-w109",
+            "p24-w110",
+            "p24-w111"
+          ],
+          "interpretation": "printed_annotation_scope_not_legal_status"
+        },
+        {
+          "kind": "amendment_reference",
+          "marker_word_id": "p24-w112",
+          "note_id": "note-5",
+          "scope_groups": [
+            "entry-17"
+          ],
+          "affected_word_ids": [
+            "p24-w113",
+            "p24-w114",
+            "p24-w115",
+            "p24-w116",
+            "p24-w117"
+          ],
+          "interpretation": "printed_annotation_scope_not_legal_status"
+        },
+        {
+          "kind": "amendment_reference",
+          "marker_word_id": "p24-w118",
+          "note_id": "note-5",
+          "scope_groups": [
+            "entry-18"
+          ],
+          "affected_word_ids": [
+            "p24-w119",
+            "p24-w120",
+            "p24-w121",
+            "p24-w122",
+            "p24-w123"
+          ],
+          "interpretation": "printed_annotation_scope_not_legal_status"
+        },
+        {
+          "kind": "amendment_reference",
+          "marker_word_id": "p24-w124",
+          "note_id": "note-6",
+          "scope_groups": [
+            "entry-19",
+            "entry-20",
+            "entry-21",
+            "omitted-block"
+          ],
+          "affected_word_ids": [
+            "p24-w125",
+            "p24-w126",
+            "p24-w127",
+            "p24-w128",
+            "p24-w129",
+            "p24-w130",
+            "p24-w131",
+            "p24-w132",
+            "p24-w133",
+            "p24-w134",
+            "p24-w135",
+            "p24-w136",
+            "p24-w137",
+            "p24-w138",
+            "p24-w139",
+            "p24-w140",
+            "p24-w141",
+            "p24-w142",
+            "p24-w143",
+            "p24-w144",
+            "p24-w145"
+          ],
+          "interpretation": "printed_annotation_scope_not_legal_status"
+        },
+        {
+          "kind": "amendment_reference",
+          "marker_word_id": "p24-w140",
+          "note_id": "note-7",
+          "scope_groups": [
+            "omitted-block"
+          ],
+          "affected_word_ids": [
+            "p24-w141",
+            "p24-w142",
+            "p24-w143",
+            "p24-w144",
+            "p24-w145"
+          ],
+          "interpretation": "printed_annotation_scope_not_legal_status"
+        },
+        {
+          "kind": "amendment_reference",
+          "marker_word_id": "p24-w146",
+          "note_id": "note-8",
+          "scope_groups": [
+            "entry-22"
+          ],
+          "affected_word_ids": [
+            "p24-w147",
+            "p24-w148",
+            "p24-w149",
+            "p24-w150",
+            "p24-w151"
+          ],
+          "interpretation": "printed_annotation_scope_not_legal_status"
+        },
+        {
+          "kind": "amendment_reference",
+          "marker_word_id": "p24-w152",
+          "note_id": "note-9",
+          "scope_groups": [
+            "entry-23",
+            "entry-24",
+            "entry-25"
+          ],
+          "affected_word_ids": [
+            "p24-w153",
+            "p24-w154",
+            "p24-w155",
+            "p24-w156",
+            "p24-w157",
+            "p24-w158",
+            "p24-w159",
+            "p24-w160",
+            "p24-w161",
+            "p24-w162",
+            "p24-w163",
+            "p24-w164",
+            "p24-w165"
+          ],
+          "interpretation": "printed_annotation_scope_not_legal_status"
+        },
+        {
+          "kind": "amendment_reference",
+          "marker_word_id": "p24-w166",
+          "note_id": "note-10",
+          "scope_groups": [
+            "entry-26"
+          ],
+          "affected_word_ids": [
+            "p24-w167",
+            "p24-w168",
+            "p24-w169",
+            "p24-w170"
+          ],
+          "interpretation": "printed_annotation_scope_not_legal_status"
+        },
+        {
+          "kind": "amendment_reference",
+          "marker_word_id": "p24-w171",
+          "note_id": "note-11",
+          "scope_groups": [
+            "entry-27"
+          ],
+          "affected_word_ids": [
+            "p24-w172",
+            "p24-w173",
+            "p24-w174",
+            "p24-w175",
+            "p24-w176",
+            "p24-w177"
+          ],
+          "interpretation": "printed_annotation_scope_not_legal_status"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "author": "Codex implementation agent",
+    "review_date": "2026-09-21",
+    "review_type": "implementation self-review against retained rendered pages 23-24",
+    "independent_review": false,
+    "elapsed_review_time": "not separately instrumented",
+    "notes": "Coordinates, whole-word partition, alternatives, 27 printed serial positions, separate omitted block and 11 footnotes. Output baselines were created by the implementation agent; independent acceptance is pending."
+  },
+  "expected_artifact_payload_sha256": "8fe08ba3a3fc3da3787ae75239dec382e99ef45ff3cd3d3d2be666f4df96fd85"
+}

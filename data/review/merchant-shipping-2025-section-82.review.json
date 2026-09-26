@@ -1,0 +1,61 @@
+{
+  "provision_key": "merchant-shipping-2025:82",
+  "act_slug": "merchant-shipping-2025",
+  "act_uuid": "5a5bb080-385a-4542-8b8e-ac42e773708e",
+  "section_number": "82",
+  "heading": "Certain undisbursed amounts to be utilised for welfare of seafarers.",
+  "selected_representation": "structured_html",
+  "selected_representation_reason": "Whole body agrees with the retained PDF at normalization level exact; admitted under this Act's sampled visual review, not individually compared.",
+  "source_representation": {
+    "kind": "structured_html",
+    "capture": "phase3-merchant-shipping-2025-sections-page-0",
+    "sha256": "729a70db94c50ad7cbd648dde24ee24f779081c549bd070caa8e35f7292045b1",
+    "field": "dc.identifier.section_page_note",
+    "section_item_uuid": "f5fdfec2-2056-478f-bdf4-47e1c0950c48",
+    "act_id": "AC_CEN_198_0_00006_2025-24_1777264737276"
+  },
+  "pdf_anchor": {
+    "capture": "phase3-merchant-shipping-2025-pdf",
+    "sha256": "bd83f120d732e9ac89e7918dcc9b919494019e5bd78a9b9d855a4a41a998ff6e",
+    "pdf_page_from": 39,
+    "pdf_page_to": 39
+  },
+  "agreement": {
+    "normalization_level": 0,
+    "normalizations": [],
+    "page_break_gap_count": 0,
+    "footnote_normalization_level": null,
+    "method": "enumerated typographic normalization applied to both representations"
+  },
+  "review": {
+    "reviewer_ref": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "review_class": "text_agreement_sampled_visual",
+    "checked_scope": "act_sample_plus_whole_body_automated_agreement",
+    "visually_reviewed": false,
+    "footnotes_present": false,
+    "sample_plan": {
+      "path": "data/phase3/review-plans/merchant-shipping-2025.json",
+      "sha256": "ed331772836d6a959b9c0b77322e2df12dc2f3673006e245f9c5a12c10a1b99b",
+      "plan_digest": "898b993a86ee4eec67e61a8e3b046ea16da1cb5240114417515147c4006e5367",
+      "population_count": 311,
+      "selected_count": 39
+    },
+    "scope": "Each selected section was compared whole against its rendered PDF pages: heading, beginning and end, numbered parts, provisos and footnotes. Sections outside selected_keys were not looked at individually; they rest on automated whole-body agreement plus this sample.",
+    "evidence": [
+      "data/discovery/phase3-merchant-shipping-2025-sections-page-0.body",
+      "data/discovery/phase3-merchant-shipping-2025-pdf.body",
+      "data/phase3/review-plans/merchant-shipping-2025.json"
+    ]
+  },
+  "known_conflicts": [],
+  "classification": "formatting_only_verified_equivalent",
+  "disposition": "verified_equivalent",
+  "admission_status": "admitted",
+  "extraction_method_version": "phase3-sampled-agreement-v1",
+  "expected_output": {
+    "body_text_sha256": "e4dfdcebaddf0e21772c8e62116463d6d1bae3e1438c6a0aa5227f816a84339a",
+    "footnote_text_sha256": "no-footnote-expected",
+    "established_by": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "established_note": "Established by automated whole-body agreement recorded in the sample plan; individually compared only if visually_reviewed."
+  }
+}

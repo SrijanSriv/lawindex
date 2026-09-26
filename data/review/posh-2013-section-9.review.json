@@ -1,0 +1,48 @@
+{
+  "provision_key": "posh-2013:9",
+  "act_slug": "posh-2013",
+  "act_uuid": "6497706b-d8a5-4486-a968-9975498de966",
+  "section_number": "9",
+  "heading": "Complaint of sexual harassment.",
+  "selected_representation": "structured_html",
+  "selected_representation_reason": "Whole section visually compared against retained PDF page; wording, boundaries, numbered parts and provisos agree. Whitespace formatting differences retained; no footnote belongs to this section.",
+  "source_representation": {
+    "kind": "structured_html",
+    "capture": "phase3-posh-2013-sections-page-0",
+    "sha256": "e17a21d657409f56a594277572acd17e99e64e3894a2bc5e6ec859e7fbd6eeda",
+    "field": "dc.identifier.section_page_note",
+    "section_item_uuid": "6967ac76-85a2-4909-aee7-397a6912b4b8",
+    "act_id": "AC_CEN_13_14_00009_201314_1517807327213"
+  },
+  "pdf_anchor": {
+    "capture": "phase3-posh-2013-pdf",
+    "sha256": "2c758fdba9409e931b6ee3add6c4068a90142d3cae49e23884553d964e52a9e6",
+    "pdf_page_from": 8,
+    "pdf_page_to": 8
+  },
+  "review": {
+    "reviewer_ref": "data/review/reviewer-phase3-batch1.json",
+    "scope": "Whole section including heading, beginning/end, numbered paragraphs and every proviso; checked against the rendered PDF. No relevant footnotes. No neighboring-section text included.",
+    "checked_scope": "whole_provision_including_footnotes_and_provisos",
+    "footnotes_present": false,
+    "evidence": [
+      "data/phase3/review-batch-1/posh-2013-page-8.png",
+      "data/discovery/phase3-posh-2013-sections-page-0.body",
+      "data/discovery/phase3-posh-2013-pdf.body"
+    ]
+  },
+  "known_conflicts": [],
+  "classification": "formatting_only_verified_equivalent",
+  "disposition": "verified_equivalent",
+  "admission_status": "admitted",
+  "extraction_method_version": "phase3-reviewed-html-v1",
+  "expected_output": {
+    "body_text_sha256": "ddf9a6e17e99c8920eb4ee8d3d48956272c5585a3c1e9c81e838811f45e627f1",
+    "footnote_text_sha256": "no-footnote-expected",
+    "established_by": "data/review/reviewer-phase3-batch1.json",
+    "established_note": "Established after visual PDF comparison in this batch; not independent review."
+  },
+  "render_sha256": {
+    "data/phase3/review-batch-1/posh-2013-page-8.png": "aafb782501a02378e48b95f645bb7de37106418679c2eebe6a284be4cbb7e112"
+  }
+}

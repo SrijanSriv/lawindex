@@ -1,0 +1,51 @@
+{
+  "judge": "B",
+  "batch": 9,
+  "corpus_fingerprint": "sha256:0a0ad6cfbde118c65753fd3b10d36325f0167d25d7bc1ec0410bfb45ea18ff4e",
+  "queries": {
+    "B-108": [
+      "osh-code-2020:113",
+      "osh-code-2020:45",
+      "osh-code-2020:69"
+    ],
+    "B-109": [
+      "osh-code-2020:45",
+      "osh-code-2020:57",
+      "osh-code-2020:78",
+      "osh-code-2020:26"
+    ],
+    "B-110": [
+      "merchant-shipping-2025:245",
+      "merchant-shipping-2025:82",
+      "merchant-shipping-2025:241",
+      "merchant-shipping-2025:235",
+      "merchant-shipping-2025:71",
+      "merchant-shipping-2025:242"
+    ],
+    "B-111": [
+      "arbitration-1996:59"
+    ],
+    "B-112": [
+      "consumer-protection-2019:40",
+      "consumer-protection-2019:24",
+      "consumer-protection-2019:50",
+      "consumer-protection-2019:37",
+      "consumer-protection-2019:60"
+    ],
+    "B-113": [
+      "consumer-protection-2019:91",
+      "merchant-shipping-2025:163",
+      "consumer-protection-2019:89",
+      "consumer-protection-2019:90"
+    ],
+    "B-114": [
+      "consumer-protection-2019:72",
+      "legal-services-1987:22C"
+    ],
+    "B-115": [
+      "consumer-protection-2019:90",
+      "consumer-protection-2019:91",
+      "real-estate-2016:64"
+    ]
+  }
+}

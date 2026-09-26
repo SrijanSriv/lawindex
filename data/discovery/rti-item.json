@@ -1,0 +1,14 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/items/37520cf3-5c3f-4c0b-aa4a-5985e6f522bf?embed=owningCollection%2FparentCommunity%2FparentCommunity&embed=relationships&embed=version%2Fversionhistory&embed=thumbnail",
+  "effective_url": "https://indiacode.gov.in/server/api/core/items/37520cf3-5c3f-4c0b-aa4a-5985e6f522bf?embed=owningCollection%2FparentCommunity%2FparentCommunity&embed=relationships&embed=version%2Fversionhistory&embed=thumbnail",
+  "fetched_at_utc": "2026-09-20T06:12:28.580029+00:00",
+  "http_status": 200,
+  "content_type": "application/hal+json;charset=UTF-8",
+  "curl_exit_code": 0,
+  "error": null,
+  "bytes": 20768,
+  "sha256": "50b0b760710a3f49f9d35729db021e5e6a699243d14302d7cb90692f1a17f2cf",
+  "body_path": "data/discovery/rti-item.body",
+  "elapsed_seconds": 0.49517,
+  "note": "HTTP success alone does not establish valid source content; inspect body."
+}

@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/37e86c13-fbe4-4d4f-8e4c-a066a7edd8b4/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/37e86c13-fbe4-4d4f-8e4c-a066a7edd8b4/content",
+  "http_status": 200,
+  "curl_exit_code": 0,
+  "content_type": "application/pdf",
+  "fetched_at_utc": "2026-09-21T19:42:21.995757+00:00",
+  "sha256": "2011dd9588d7aebe15133ffb3fa0d9b3ef02f3101bc1eb91fbc013922f4725c7",
+  "bytes": 615452,
+  "body_path": "data/discovery/phase3-mental-healthcare-2017-pdf.body",
+  "note": "Exact copy of retained Phase 3 HTTP bytes; not a new acquisition. Receipt in data/phase3/acquisition/acts/mental-healthcare-2017.json"
+}

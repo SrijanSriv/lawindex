@@ -1,0 +1,50 @@
+{
+  "judge": "A",
+  "batch": 2,
+  "corpus_fingerprint": "sha256:0a0ad6cfbde118c65753fd3b10d36325f0167d25d7bc1ec0410bfb45ea18ff4e",
+  "queries": {
+    "B-021": [
+      "rti-2005:2",
+      "rti-2005:19"
+    ],
+    "B-026": [
+      "environment-1986:22",
+      "rti-2005:19",
+      "consumer-protection-2019:24",
+      "environment-1986:10"
+    ],
+    "B-038": [
+      "contract-1872:18",
+      "rti-2005:18",
+      "fcra-2010:18",
+      "environment-1986:18",
+      "disabilities-2016:18",
+      "consumer-protection-2019:18",
+      "copyright-1957:18",
+      "legal-services-1987:18",
+      "posh-2013:18"
+    ],
+    "B-046": [
+      "real-estate-2016:11"
+    ],
+    "B-047": [
+      "posh-2013:25"
+    ],
+    "B-048": [
+      "consumer-protection-2019:20",
+      "consumer-protection-2019:98"
+    ],
+    "B-049": [
+      "legal-services-1987:22D",
+      "information-technology-2000:3",
+      "food-security-2013:39",
+      "merchant-shipping-2025:53",
+      "legal-services-1987:29"
+    ],
+    "B-050": [
+      "education-2009:4",
+      "disabilities-2016:16",
+      "disabilities-2016:32"
+    ]
+  }
+}

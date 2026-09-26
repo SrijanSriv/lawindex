@@ -1,0 +1,50 @@
+{
+  "judge": "A",
+  "batch": 12,
+  "corpus_fingerprint": "sha256:0a0ad6cfbde118c65753fd3b10d36325f0167d25d7bc1ec0410bfb45ea18ff4e",
+  "queries": {
+    "B-133": [
+      "osh-code-2020:106",
+      "osh-code-2020:107"
+    ],
+    "B-135": [
+      "real-estate-2016:43",
+      "real-estate-2016:44",
+      "consumer-protection-2019:51"
+    ],
+    "B-136": [
+      "contract-1872:210",
+      "posh-2013:14",
+      "posh-2013:15"
+    ],
+    "B-137": [
+      "disabilities-2016:10",
+      "education-2009:38",
+      "education-2009:32"
+    ],
+    "B-138": [
+      "posh-2013:26"
+    ],
+    "B-139": [
+      "food-security-2013:35",
+      "food-security-2013:38",
+      "fcra-2010:44"
+    ],
+    "B-141": [
+      "consumer-protection-2019:92",
+      "consumer-protection-2019:12",
+      "consumer-protection-2019:38"
+    ],
+    "B-142": [
+      "rti-2005:1",
+      "rti-2005:21",
+      "rti-2005:28",
+      "rti-2005:3",
+      "rti-2005:10",
+      "rti-2005:11",
+      "rti-2005:29",
+      "rti-2005:22",
+      "rti-2005:23"
+    ]
+  }
+}

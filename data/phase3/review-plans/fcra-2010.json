@@ -1,0 +1,1182 @@
+{
+  "schema_version": 1,
+  "planner_version": "phase3-sample-plan-v1",
+  "parser_version": "phase3-html-pdf-agreement-v2",
+  "act_slug": "fcra-2010",
+  "candidates_sha256": "69479db6a56977a8d6be6315aa29f53adf808b23c32d9a5d0a4095e52e11320e",
+  "pdf_sha256": "4c589d3f240b9401dcb503371eef0ba9425becc477c7de09deb2f1e34a933f31",
+  "source_acquisition_sha256": "2393129379aef7dd5de1857f108f767ae18ccda93ab4d01e41db80d8e76af806",
+  "seed": "107fe2da04cf25a72b31369f873ad8ce2f90bad8ebcb34eafd41756fc767ac1a",
+  "selection_rule": {
+    "mandatory": "every aligned candidate with a footnote or a page-break footnote gap",
+    "stratified": "per most-tolerant-normalization stratum, max(2, ceil(10%))",
+    "deterministic": "seed = sha256(planner_version|act_slug|candidates_sha256); re-running cannot re-roll the sample"
+  },
+  "population": [
+    {
+      "key": "fcra-2010:1",
+      "section_number": "1",
+      "heading": "Short title, extent, application and commencement.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 4,
+      "pdf_page_to": 4,
+      "body_text_sha256": "048fe7fe87bb6e3536f645b976514691306cec672e0bffc24ce66f61d5cf5238",
+      "footnote_text_sha256": "51d1def9759fd69556f7093610a84bb29a9ae377067a9a21620894987f25b73f",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "a523f41b-7aa4-4bad-8763-a67efbdfdbc7"
+    },
+    {
+      "key": "fcra-2010:10",
+      "section_number": "10",
+      "heading": "Power to prohibit payment of currency received in contravention of the Act.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 11,
+      "pdf_page_to": 11,
+      "body_text_sha256": "9864f609a46b218734eb5c49e66ab3472f86ba5886bdd7d4ee2e30bd4a8b83e9",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "1321e1a2-d848-4262-9e53-698cbb987c1f"
+    },
+    {
+      "key": "fcra-2010:12A",
+      "section_number": "12A",
+      "heading": "Power of Central Government to require Aadhaar number, etc., as identification document.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 14,
+      "pdf_page_to": 14,
+      "body_text_sha256": "41be3d567fc06d145479c1bdf2c95ae3c55255c59b87d44e4fe6de7be3792df0",
+      "footnote_text_sha256": "6281b56c0909c82d51fe1831dabf6e9e837bb4cf79922e83464605ea21dc4003",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "72dd4ce7-548f-4309-81be-410923fb3c98"
+    },
+    {
+      "key": "fcra-2010:13",
+      "section_number": "13",
+      "heading": "Suspension of certificate.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 14,
+      "pdf_page_to": 14,
+      "body_text_sha256": "2fd19c2bc419fcafaa0cf2f10eba8839d79128a1feec4d21a7fb2d457316ffe5",
+      "footnote_text_sha256": "64a23a2672f18903d1b37e240a30690188aba7428875076646949c55b1b12662",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "6a0d9b5c-e5bc-4e49-a187-636e7a32f334"
+    },
+    {
+      "key": "fcra-2010:14",
+      "section_number": "14",
+      "heading": "Cancellation of certificate.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 14,
+      "pdf_page_to": 15,
+      "body_text_sha256": "effd860e812a8d92eec16724162dd3e494bf11b7d382eb74897979d8bcd216c2",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "e1147098-8996-4191-9267-e1c15e4bbf14"
+    },
+    {
+      "key": "fcra-2010:14A",
+      "section_number": "14A",
+      "heading": "Surrender of certificate.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 15,
+      "pdf_page_to": 15,
+      "body_text_sha256": "af8cc1dbdcd02922a6df6e289e4a9e7a1ccd1ff9d0dd472b4df8ebf2f8a32712",
+      "footnote_text_sha256": "01da245a1b55a9603106a83cbf071c1bc9c8c435d26440333270c34e6267dafd",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "6a6363c4-9aed-4290-96c3-c31bf4a9dcc1"
+    },
+    {
+      "key": "fcra-2010:15",
+      "section_number": "15",
+      "heading": "Management of foreign contribution of person whose certificate has been cancelled or surrendered.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 15,
+      "pdf_page_to": 15,
+      "body_text_sha256": "1a04048609b442e2f6688194366a0fb6fc82482f244475ba6caa872b7785c3dc",
+      "footnote_text_sha256": "74efb441a11615e42d4bf3981c109dab88060aa5fadd5fca54774959299b6d89",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "1fc288b9-ce56-45ee-afae-908de88b3762"
+    },
+    {
+      "key": "fcra-2010:16",
+      "section_number": "16",
+      "heading": "Renewal of certificate.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 15,
+      "pdf_page_to": 15,
+      "body_text_sha256": "8c19784a1057658e2821ff54835c5e8aee94ae2667a5f54ffd6f55503214f10b",
+      "footnote_text_sha256": "e7fcc05ec2705cead63449da09e4586eb0039376835e75f20fbc3cccb05576eb",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "7d933da3-6050-4eea-8ad1-e2143923c0c5"
+    },
+    {
+      "key": "fcra-2010:17",
+      "section_number": "17",
+      "heading": "Foreign contribution through scheduled bank.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "space-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "space-drop"
+      ],
+      "pdf_page_from": 16,
+      "pdf_page_to": 16,
+      "body_text_sha256": "e7c4d27bafc7e07706878b0c85d4f7ada5ecafffa0d03db16664174a832ccd2f",
+      "footnote_text_sha256": "a4a9290a068fed2501e5035cc8c06c50469f1b1b96e948c885944f7e7948c99c",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "9aab62fb-2737-451e-a232-2afb9f393d62"
+    },
+    {
+      "key": "fcra-2010:18",
+      "section_number": "18",
+      "heading": "Intimation.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 16,
+      "pdf_page_to": 16,
+      "body_text_sha256": "83980425e14d607c96f37917062f54d3a8cd764ff0c55d9f51efaf5fc4ae5173",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "b08c9967-a812-44b4-9baf-f70b40402ed2"
+    },
+    {
+      "key": "fcra-2010:19",
+      "section_number": "19",
+      "heading": "Maintenance of accounts.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop"
+      ],
+      "pdf_page_from": 16,
+      "pdf_page_to": 16,
+      "body_text_sha256": "9671f856e4c4bd8a45336737d060eb7d2735994d78771a0987f9be4e2f6610a8",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "61b75684-bd49-4b1c-a747-bb3cc7063c1c"
+    },
+    {
+      "key": "fcra-2010:21",
+      "section_number": "21",
+      "heading": "Intimation by candidate for election.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 17,
+      "pdf_page_to": 17,
+      "body_text_sha256": "f08d490d2eaf37b697ec2b0736b9673b2f52489a6ac10d3f3479afe8080526ff",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "62b34aab-792c-458c-b666-fda7707b883a"
+    },
+    {
+      "key": "fcra-2010:22",
+      "section_number": "22",
+      "heading": "Disposal of assets created out of foreign contribution.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 17,
+      "pdf_page_to": 17,
+      "body_text_sha256": "a425c38bee8b1385ee21e8084e8d267f83724c66d6cc4e95d8f055486ce5bb9b",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "118a1f79-806a-4351-b120-d1c2432a4efc"
+    },
+    {
+      "key": "fcra-2010:23",
+      "section_number": "23",
+      "heading": "Inspection of accounts or records.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 17,
+      "pdf_page_to": 17,
+      "body_text_sha256": "39e2eb661d85ec32796d9e51108746e9ba2b9baa6fcb043578c6edc93a981094",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "93ba6635-671d-4dda-b728-2c897c0bed50"
+    },
+    {
+      "key": "fcra-2010:24",
+      "section_number": "24",
+      "heading": "Seizure of accounts or records.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 17,
+      "pdf_page_to": 17,
+      "body_text_sha256": "4c7022a3634a6708032943c13204e211fdaffa669b79bbc8d0ee6bc814af8591",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "19cc9cab-a063-427a-81e1-bdb7d43c3604"
+    },
+    {
+      "key": "fcra-2010:25",
+      "section_number": "25",
+      "heading": "Seizure of article or currency or security received in contravention of the Act.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 18,
+      "pdf_page_to": 18,
+      "body_text_sha256": "2437551267be05635db03b389c3efeaceabda131396e0acdb384ea244a4be5e8",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "a92edb37-eaec-436a-b5c9-71ee4eb8b14d"
+    },
+    {
+      "key": "fcra-2010:26",
+      "section_number": "26",
+      "heading": "Disposal of seized article or currency or security.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 18,
+      "pdf_page_to": 18,
+      "body_text_sha256": "99b041cbe779b5343bbfb07f2c76f3b71fcd7183ef2d31e2117fe50bd838c021",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "e27270d4-c5a4-48d6-91cb-d50dfab122f7"
+    },
+    {
+      "key": "fcra-2010:27",
+      "section_number": "27",
+      "heading": "Seizure to be made in accordance with Act 2 of 1974.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 18,
+      "pdf_page_to": 18,
+      "body_text_sha256": "f311a4f341260468c2cce59ef3ee3f33fc67eb4d6cd1ebcb5daaeb97c670da28",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "0445386e-e264-42ed-a440-7a492f3767d9"
+    },
+    {
+      "key": "fcra-2010:28",
+      "section_number": "28",
+      "heading": "Confiscation of article or currency or security obtained in contravention of the Act.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 18,
+      "pdf_page_to": 18,
+      "body_text_sha256": "86c95e6a3bc500c60ae81df62c2e4938ea54cf390a9db42afdffb047e6958b72",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "ea49a341-4724-4883-ab63-309ab1fa2083"
+    },
+    {
+      "key": "fcra-2010:29",
+      "section_number": "29",
+      "heading": "Adjudication of confiscation.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 18,
+      "pdf_page_to": 19,
+      "body_text_sha256": "2e9c42e3e0ac3f29a474d340b4113c8c9abfa7ac7bbece467d8d92e45de594e8",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "05d4dd7a-e125-4e46-a74a-6a19221fb08f"
+    },
+    {
+      "key": "fcra-2010:30",
+      "section_number": "30",
+      "heading": "Procedure for confiscation.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 19,
+      "pdf_page_to": 19,
+      "body_text_sha256": "a7d193a756d5b10d0bc4e1a7d93d07ce1615dde8d1291c9a9b6f451164294940",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "b8329807-9d9a-4834-90b0-bbdf05181ddd"
+    },
+    {
+      "key": "fcra-2010:31",
+      "section_number": "31",
+      "heading": "Appeal.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 19,
+      "pdf_page_to": 19,
+      "body_text_sha256": "e7323f747526d5a6e5c788591ac3f1767156811fc245190ea3c6c7e211caf160",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "ed391c95-3f32-43ee-b26c-b0ebdf31ef5a"
+    },
+    {
+      "key": "fcra-2010:32",
+      "section_number": "32",
+      "heading": "Revision of orders by Central Government.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 19,
+      "pdf_page_to": 20,
+      "body_text_sha256": "5bcafba6471af5a01ec496d056c84b8099c6d64e2a2f0c53b5e50eaa3060a3c6",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "0d3e29c3-46f3-4a15-98d3-d6c133d02685"
+    },
+    {
+      "key": "fcra-2010:33",
+      "section_number": "33",
+      "heading": "Making of false statement, declaration or delivering false accounts.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 20,
+      "pdf_page_to": 20,
+      "body_text_sha256": "6c1a11d1396f1eee2115c339d0e733e6c5416dd19634d145d7deb48e49b1e2f2",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "9fe81e26-d9da-44ff-b846-b9971d61d321"
+    },
+    {
+      "key": "fcra-2010:34",
+      "section_number": "34",
+      "heading": "Penalty for article or currency or security obtained in contravention of section 10.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 20,
+      "pdf_page_to": 20,
+      "body_text_sha256": "e6824be7fa3457b6fbe1954eb83569ef6b39fad7abd6c59b381df31b8d15b556",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "a02d5b3f-fd42-461c-b1e2-a98cb5098cfd"
+    },
+    {
+      "key": "fcra-2010:35",
+      "section_number": "35",
+      "heading": "Punishment for contravention of any provision of the Act.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 20,
+      "pdf_page_to": 20,
+      "body_text_sha256": "326bd5e62ea982f9595952a42a7fbb2a60b26a6f2f03ed31ff95b0621faff3e3",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "fe1b3e0a-3ee9-456e-8f02-1ffafb1cd76e"
+    },
+    {
+      "key": "fcra-2010:36",
+      "section_number": "36",
+      "heading": "Power to impose additional fine where article or currency or security is not available for confiscation.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 20,
+      "pdf_page_to": 20,
+      "body_text_sha256": "a121af5844a2eab22a2f7c26104d9b4b02138f7ce81fc604f78c4e1477ca6784",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "87017ce6-9534-432d-8e27-830e13e3c434"
+    },
+    {
+      "key": "fcra-2010:37",
+      "section_number": "37",
+      "heading": "Penalty for offences where no separate punishment has been provided.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 21,
+      "pdf_page_to": 21,
+      "body_text_sha256": "244f5ef7d6fcc7dc1301c847f8d4076f7e0b9e798c96190821710627781b06f3",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "c88568e9-a135-4a7d-b002-e51c0f5f9082"
+    },
+    {
+      "key": "fcra-2010:38",
+      "section_number": "38",
+      "heading": "Prohibition of acceptance of foreign contribution.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 21,
+      "pdf_page_to": 21,
+      "body_text_sha256": "6ba65b07eb2a2371905716cad7131a4bee3c4f473227d4d4f92a2214028fbbfc",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "9fd31815-0652-4129-8bf1-490e79d95232"
+    },
+    {
+      "key": "fcra-2010:39",
+      "section_number": "39",
+      "heading": "Offences by companies.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote",
+      "normalizations": [
+        "dash",
+        "quote"
+      ],
+      "pdf_page_from": 21,
+      "pdf_page_to": 21,
+      "body_text_sha256": "46b3cb509bfa911b58feb9530a1fffc5d3f8e7fd86461aa873cb8c3516d17b6c",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "48971470-344c-4e81-99d9-d3d46c073659"
+    },
+    {
+      "key": "fcra-2010:4",
+      "section_number": "4",
+      "heading": "Persons to whom section 3 shall not apply.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 8,
+      "pdf_page_to": 9,
+      "body_text_sha256": "df454849476b00541476e3b9edecc4ca76438ec9c54df98e63f33ebbaca5330c",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "6eae8aef-c7f9-4525-84e5-2bc7c21462c7"
+    },
+    {
+      "key": "fcra-2010:40",
+      "section_number": "40",
+      "heading": "Bar on prosecution of offences under the Act.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 21,
+      "pdf_page_to": 21,
+      "body_text_sha256": "f694fdce48b02e4489c16503a55150ccea5b5432d5703587a6c020b48244ed75",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "82aa2fa1-a9a9-4167-92e4-581c4a8f9c19"
+    },
+    {
+      "key": "fcra-2010:41",
+      "section_number": "41",
+      "heading": "Composition of certain offences.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 21,
+      "pdf_page_to": 22,
+      "body_text_sha256": "af57905fcc077721d3a13a9c7ae1e799f043a009df61324e7cfa902a867a04e3",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "0002acf9-de5e-437f-902d-c7f749c00ec2"
+    },
+    {
+      "key": "fcra-2010:42",
+      "section_number": "42",
+      "heading": "Power to call for information or document.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 22,
+      "pdf_page_to": 22,
+      "body_text_sha256": "86bf32273f3694b137b1651995407a18c06511999d12d696b400c40ad5332808",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "3914d9cb-8bbe-4ece-af8b-f2174b618c5b"
+    },
+    {
+      "key": "fcra-2010:43",
+      "section_number": "43",
+      "heading": "Investigation into cases under the Act.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 22,
+      "pdf_page_to": 22,
+      "body_text_sha256": "c22e2c771d7b1e1ba5f8f9d8508fed0f336a0e76ebc0baf93281b9f256504e01",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "c1321b2e-4b01-43e0-a08d-973b9e0f147b"
+    },
+    {
+      "key": "fcra-2010:44",
+      "section_number": "44",
+      "heading": "Returns by prescribed authority to Central Government.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 22,
+      "pdf_page_to": 22,
+      "body_text_sha256": "23d6792aa7117aa939396d9093fb031f07d30a1e6479afbd7f45f9bbcecaf929",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "84194a76-cfef-4114-9546-425870b08616"
+    },
+    {
+      "key": "fcra-2010:45",
+      "section_number": "45",
+      "heading": "Protection of action taken in good faith.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 22,
+      "pdf_page_to": 22,
+      "body_text_sha256": "9c8ae2476fe3fc386667df0d71f7f71e07ac434f7e6d5fae14803b4e254c635a",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "aad2baae-b797-4917-9802-4d938c634688"
+    },
+    {
+      "key": "fcra-2010:46",
+      "section_number": "46",
+      "heading": "Power of Central Government to give directions.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 22,
+      "pdf_page_to": 22,
+      "body_text_sha256": "f25723a8af0b637a1b13549d2716d441c7dd618f6d3cde685f09d96b23b01586",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "ff47ca19-bfa7-4749-b0b4-1563b138da4f"
+    },
+    {
+      "key": "fcra-2010:47",
+      "section_number": "47",
+      "heading": "Delegation of powers.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 23,
+      "pdf_page_to": 23,
+      "body_text_sha256": "8d66d09572e377e7c53e80f682bf07610c3cf73415972ebf49a453afd058889e",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "2736059b-8016-4951-a6bd-0910f88f58b4"
+    },
+    {
+      "key": "fcra-2010:48",
+      "section_number": "48",
+      "heading": "Power to make rules.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 23,
+      "pdf_page_to": 24,
+      "body_text_sha256": "755edfaf2f2592fcf0e0211da42672694021402ac827df6f92b49b063849bfad",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "2e9eb623-5730-46b3-bc1c-2be217c9d90b"
+    },
+    {
+      "key": "fcra-2010:49",
+      "section_number": "49",
+      "heading": "Orders and rules to be laid before Parliament.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 24,
+      "pdf_page_to": 24,
+      "body_text_sha256": "806f7ccd4cf95da74027354ee18368ef268130afdb39f6c6cb150581438b19e6",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "e5171087-ec77-4c66-8881-f56f26f8a8af"
+    },
+    {
+      "key": "fcra-2010:5",
+      "section_number": "5",
+      "heading": "Procedure to notify an organisation of a political nature.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 9,
+      "pdf_page_to": 10,
+      "body_text_sha256": "274e81500a9ba9cdf64f70737956963a1cabc2fdd133845499ba39dd727b15b4",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "43e2f6de-5e83-4775-a8c3-3a1613b8e3a3"
+    },
+    {
+      "key": "fcra-2010:50",
+      "section_number": "50",
+      "heading": "Power to exempt in certain cases.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 24,
+      "pdf_page_to": 24,
+      "body_text_sha256": "bb61c78500528fd1b1e534376c49384cdc064a3a1d8a3e1e18d213f713292c3d",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "c407a6b3-9ff9-4e6c-b469-a66bf00d7b74"
+    },
+    {
+      "key": "fcra-2010:51",
+      "section_number": "51",
+      "heading": "Act not to apply to certain Government transactions.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 24,
+      "pdf_page_to": 24,
+      "body_text_sha256": "98be55e9b0a2a1dd403c611d1f98be02a5435307dac6a519982ca5afdde854c0",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "a085ed47-b1ef-4b9c-9357-ceb33a2f70bd"
+    },
+    {
+      "key": "fcra-2010:52",
+      "section_number": "52",
+      "heading": "Application of other laws not barred.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 24,
+      "pdf_page_to": 24,
+      "body_text_sha256": "88bb3e74a4a32041da9ca7c800a6dadabbc3575d3d75a829ff3c2a2a6ddc7b5b",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "553204e6-4c86-482c-9ee2-cdf6bbdddb68"
+    },
+    {
+      "key": "fcra-2010:53",
+      "section_number": "53",
+      "heading": "Power to remove difficulties.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 24,
+      "pdf_page_to": 25,
+      "body_text_sha256": "ffee5c9a7449f7c7063abdd4bb9b9d168487ab6b47ffb65af1875e0b9aac6784",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "0d7de75d-3d66-4f46-b3aa-d8393248cbb3"
+    },
+    {
+      "key": "fcra-2010:54",
+      "section_number": "54",
+      "heading": "Repeal and saving.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 25,
+      "pdf_page_to": 25,
+      "body_text_sha256": "be7f4c733e647f5aa33d70e9e07f7c75a2f17f32948f61ec9149cb704fccaa85",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "d709f62b-3872-4206-b207-1a992c948919"
+    },
+    {
+      "key": "fcra-2010:6",
+      "section_number": "6",
+      "heading": "Restriction on acceptance of foreign hospitality.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 10,
+      "pdf_page_to": 10,
+      "body_text_sha256": "135f73bdee2719390613c2a525b1d1f5389756a4e60ad2c43799e26550ca6484",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "96b809f5-dfd0-41dd-8242-f86c863ff429"
+    },
+    {
+      "key": "fcra-2010:7",
+      "section_number": "7",
+      "heading": "Prohibition to transfer foreign contribution to other person.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 10,
+      "pdf_page_to": 10,
+      "body_text_sha256": "09caf861bd8b0f7935e7f8b09196a3eadf9943e5e7a090aa95704cbd88571783",
+      "footnote_text_sha256": "2a72db5c6843c7c77708754a82ed40352f6f270f95bd4b14363e2b33c0c28e0b",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "bb891f38-b9c1-4e8e-b4fd-2c8db2d2d10f"
+    },
+    {
+      "key": "fcra-2010:8",
+      "section_number": "8",
+      "heading": "Restriction to utilise foreign contribution for administrative purpose.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 10,
+      "pdf_page_to": 10,
+      "body_text_sha256": "e962e09f7b763e93e8fc51eabccb46e6246a3d22f8a26e50f1c5a30cbb8f95e1",
+      "footnote_text_sha256": "36e60ca2b9b19485a5652b55724a361f11b0bccad1ad5493e517117b1b63d40c",
+      "footnote_normalization_level": 2,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "77ef2454-a430-4bcb-837f-aff7c89670e9"
+    },
+    {
+      "key": "fcra-2010:9",
+      "section_number": "9",
+      "heading": "Power of Central Government to prohibit receipt of foreign contribution, etc., in certain cases.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 10,
+      "pdf_page_to": 11,
+      "body_text_sha256": "17ccdd65c3d9d0c5abdb4a868f857cf7f334f05906e763980b3dace8c59b13de",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "19f8276e-2a30-469a-a77d-a74252531b16"
+    }
+  ],
+  "population_count": 51,
+  "mandatory_keys": [
+    "fcra-2010:1",
+    "fcra-2010:12A",
+    "fcra-2010:13",
+    "fcra-2010:14",
+    "fcra-2010:14A",
+    "fcra-2010:15",
+    "fcra-2010:16",
+    "fcra-2010:17",
+    "fcra-2010:4",
+    "fcra-2010:7",
+    "fcra-2010:8",
+    "fcra-2010:9"
+  ],
+  "sampled_keys": [
+    "fcra-2010:19",
+    "fcra-2010:21",
+    "fcra-2010:31",
+    "fcra-2010:35",
+    "fcra-2010:39",
+    "fcra-2010:42",
+    "fcra-2010:48",
+    "fcra-2010:6"
+  ],
+  "selected_keys": [
+    "fcra-2010:1",
+    "fcra-2010:12A",
+    "fcra-2010:13",
+    "fcra-2010:14",
+    "fcra-2010:14A",
+    "fcra-2010:15",
+    "fcra-2010:16",
+    "fcra-2010:17",
+    "fcra-2010:19",
+    "fcra-2010:21",
+    "fcra-2010:31",
+    "fcra-2010:35",
+    "fcra-2010:39",
+    "fcra-2010:4",
+    "fcra-2010:42",
+    "fcra-2010:48",
+    "fcra-2010:6",
+    "fcra-2010:7",
+    "fcra-2010:8",
+    "fcra-2010:9"
+  ],
+  "strata": {
+    "dash": {
+      "population": 2,
+      "sampled": 2,
+      "keys": [
+        "fcra-2010:31",
+        "fcra-2010:48"
+      ]
+    },
+    "dash-drop": {
+      "population": 1,
+      "sampled": 1,
+      "keys": [
+        "fcra-2010:19"
+      ]
+    },
+    "exact": {
+      "population": 35,
+      "sampled": 4,
+      "keys": [
+        "fcra-2010:21",
+        "fcra-2010:35",
+        "fcra-2010:42",
+        "fcra-2010:6"
+      ]
+    },
+    "quote": {
+      "population": 1,
+      "sampled": 1,
+      "keys": [
+        "fcra-2010:39"
+      ]
+    }
+  },
+  "renders": {
+    "fcra-2010:1": [
+      "data/phase3/review-renders/fcra-2010/page-4.png"
+    ],
+    "fcra-2010:12A": [
+      "data/phase3/review-renders/fcra-2010/page-14.png"
+    ],
+    "fcra-2010:13": [
+      "data/phase3/review-renders/fcra-2010/page-14.png"
+    ],
+    "fcra-2010:14": [
+      "data/phase3/review-renders/fcra-2010/page-14.png",
+      "data/phase3/review-renders/fcra-2010/page-15.png"
+    ],
+    "fcra-2010:14A": [
+      "data/phase3/review-renders/fcra-2010/page-15.png"
+    ],
+    "fcra-2010:15": [
+      "data/phase3/review-renders/fcra-2010/page-15.png"
+    ],
+    "fcra-2010:16": [
+      "data/phase3/review-renders/fcra-2010/page-15.png"
+    ],
+    "fcra-2010:17": [
+      "data/phase3/review-renders/fcra-2010/page-16.png"
+    ],
+    "fcra-2010:19": [
+      "data/phase3/review-renders/fcra-2010/page-16.png"
+    ],
+    "fcra-2010:21": [
+      "data/phase3/review-renders/fcra-2010/page-17.png"
+    ],
+    "fcra-2010:31": [
+      "data/phase3/review-renders/fcra-2010/page-19.png"
+    ],
+    "fcra-2010:35": [
+      "data/phase3/review-renders/fcra-2010/page-20.png"
+    ],
+    "fcra-2010:39": [
+      "data/phase3/review-renders/fcra-2010/page-21.png"
+    ],
+    "fcra-2010:4": [
+      "data/phase3/review-renders/fcra-2010/page-8.png",
+      "data/phase3/review-renders/fcra-2010/page-9.png"
+    ],
+    "fcra-2010:42": [
+      "data/phase3/review-renders/fcra-2010/page-22.png"
+    ],
+    "fcra-2010:48": [
+      "data/phase3/review-renders/fcra-2010/page-23.png",
+      "data/phase3/review-renders/fcra-2010/page-24.png"
+    ],
+    "fcra-2010:6": [
+      "data/phase3/review-renders/fcra-2010/page-10.png"
+    ],
+    "fcra-2010:7": [
+      "data/phase3/review-renders/fcra-2010/page-10.png"
+    ],
+    "fcra-2010:8": [
+      "data/phase3/review-renders/fcra-2010/page-10.png"
+    ],
+    "fcra-2010:9": [
+      "data/phase3/review-renders/fcra-2010/page-10.png",
+      "data/phase3/review-renders/fcra-2010/page-11.png"
+    ]
+  },
+  "render_sha256": {
+    "data/phase3/review-renders/fcra-2010/page-4.png": "74e41f29ae0a2ec96594757ca98e1831bc8b22ed3a0edb27fa03bf1a1e991a2a",
+    "data/phase3/review-renders/fcra-2010/page-8.png": "df1fb2d1f50f65a618234ca5627e3221d8c8b10432acf7b06de704546f3022d8",
+    "data/phase3/review-renders/fcra-2010/page-9.png": "551a9fccff8134da821450dc14409fc3d4f10e3342b1ce43fab23024bac7e9b0",
+    "data/phase3/review-renders/fcra-2010/page-10.png": "67e5c7366707f335f4e9c5f15f6389c9c205962f102febce66312fee1523911f",
+    "data/phase3/review-renders/fcra-2010/page-11.png": "932f0cb8305d3a4d30a9a60444592633096992d1f23a7262dd7290a407019dd4",
+    "data/phase3/review-renders/fcra-2010/page-14.png": "a14dd31122b73a398b61a8b05b544e796a5537e17181bac68761f847a4735fc9",
+    "data/phase3/review-renders/fcra-2010/page-15.png": "aa7738b4291f5585a7b83d0ee1cbd7fb5bbb33ab6281b6843eb08ddbf4fd75f1",
+    "data/phase3/review-renders/fcra-2010/page-16.png": "54db65bad40329bbe2a1b69ccd5324f30647dda1b835fddea3f4473986d5d407",
+    "data/phase3/review-renders/fcra-2010/page-17.png": "48e307a22de2f3b7423e8bba8d4f0fb765156bc640273fcb141c61269e0fade3",
+    "data/phase3/review-renders/fcra-2010/page-19.png": "74136f6d05894608106a592eda7bfac2eb56419038a7be211cb064748c87a47b",
+    "data/phase3/review-renders/fcra-2010/page-20.png": "098544dc84a90ae3c7f61d6a3e7ebb23dcfacf7787c39c63bfe83e523b45ba46",
+    "data/phase3/review-renders/fcra-2010/page-21.png": "fb739c7e68ce9ecdd41808614f653d8e19553542af641823bb68a47a414218bc",
+    "data/phase3/review-renders/fcra-2010/page-22.png": "60249dbd22bf162ab4685663a535ac5b04a87c2396fa3882600946e84c593b80",
+    "data/phase3/review-renders/fcra-2010/page-23.png": "ed036ba8230b8fa93b384ffb57e2894fe72dcdefc4a4189803642b772516723c",
+    "data/phase3/review-renders/fcra-2010/page-24.png": "ad3dd02448c6e3ad83aefbc80eb9cf9107d53c273f4f42b2b8d19089fbeaa0a2"
+  },
+  "status": "reviewed",
+  "review": {
+    "reviewer_ref": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "reviewer_sha256": "109ba542b1054cd0f750fece16fdf06fec99b8a227238432c9f10ddcb6fe8303",
+    "session_date": "2026-09-22",
+    "outcomes": {
+      "fcra-2010:1": {
+        "decision": "verified_equivalent",
+        "note": "Page 4: (1), (2)(a),(b), (3) with proviso match; the commencement footnote belongs to this section; ends before s.2."
+      },
+      "fcra-2010:12A": {
+        "decision": "verified_equivalent",
+        "note": "Page 14: the inserted section with its number and heading matches in full; ends before s.13."
+      },
+      "fcra-2010:13": {
+        "decision": "verified_equivalent",
+        "note": "Page 14: (1) with its substituted bracket and (2)(a) with proviso and (b) match; ends before s.14."
+      },
+      "fcra-2010:14": {
+        "decision": "verified_equivalent",
+        "note": "Pages 14-15: (1)(a)-(e), (2) and (3) match; the skipped page-14 block is the two footnotes, not s.14 text; ends before 14A."
+      },
+      "fcra-2010:14A": {
+        "decision": "verified_equivalent",
+        "note": "Page 15: the inserted section with its number and heading matches; ends before s.15."
+      },
+      "fcra-2010:15": {
+        "decision": "verified_equivalent",
+        "note": "Page 15: the heading with its 2[or surrendered] substitution and (1)-(3) match; ends before s.16."
+      },
+      "fcra-2010:16": {
+        "decision": "verified_equivalent",
+        "note": "Page 15: (1) with the inserted proviso, (2) and (3) with two provisos match; ends the chapter."
+      },
+      "fcra-2010:17": {
+        "decision": "verified_equivalent",
+        "note": "Page 16: the substituted section with its number and heading, (1) with three provisos and (2)(a)-(c) match; the PDF's own spacing defects are the recorded space-drop level."
+      },
+      "fcra-2010:19": {
+        "decision": "verified_equivalent",
+        "note": "Page 16: lead-in and (a),(b) match; ends before s.20."
+      },
+      "fcra-2010:21": {
+        "decision": "verified_equivalent",
+        "note": "Page 17: single paragraph matches exactly; ends before s.22."
+      },
+      "fcra-2010:31": {
+        "decision": "verified_equivalent",
+        "note": "Page 19: (1)(a),(b) with its tail and proviso, (2) and (3) match; ends before s.32."
+      },
+      "fcra-2010:35": {
+        "decision": "verified_equivalent",
+        "note": "Page 20: single paragraph matches exactly; ends before s.36."
+      },
+      "fcra-2010:39": {
+        "decision": "verified_equivalent",
+        "note": "Page 21: (1) with proviso, (2) and the Explanation (a),(b) match; ends before s.40."
+      },
+      "fcra-2010:4": {
+        "decision": "verified_equivalent",
+        "note": "Pages 8-9: lead-in and (a)-(g) with the closing proviso match; the skipped page-8 block is s.3's Explanation footnote, not s.4 text; ends before s.5."
+      },
+      "fcra-2010:42": {
+        "decision": "verified_equivalent",
+        "note": "Page 22: lead-in and (a)-(c) match; ends before s.43."
+      },
+      "fcra-2010:48": {
+        "decision": "verified_equivalent",
+        "note": "Pages 23-24: (1) and (2)(a) through (za) match in full; ends before s.49."
+      },
+      "fcra-2010:6": {
+        "decision": "verified_equivalent",
+        "note": "Page 10: single paragraph with its proviso matches exactly; ends before s.7."
+      },
+      "fcra-2010:7": {
+        "decision": "verified_equivalent",
+        "note": "Page 10: the substituted section carries its own number and heading; (a),(b) match; only the amendment-marker number differs, which is the recorded marker level."
+      },
+      "fcra-2010:8": {
+        "decision": "verified_equivalent",
+        "note": "Page 10: (1)(a) with two provisos, (1)(b) with proviso, and (2) match, including both 2[twenty per cent.] substitutions; ends before s.9."
+      },
+      "fcra-2010:9": {
+        "decision": "verified_equivalent",
+        "note": "Pages 10-11: lead-in, (a)-(e) with the proviso and (i)-(v) match; the skipped page-10 block is the two footnotes, not s.9 text; ends before s.10."
+      }
+    },
+    "decision": "act_batch_admitted",
+    "failed_keys": [],
+    "decision_note": "All twenty selected sections compared whole against their rendered PDF pages; every one agreed, including the 2020-amendment substituted sections that carry their own number and heading.",
+    "render_evidence": {
+      "data/phase3/review-renders/fcra-2010/page-4.png": "74e41f29ae0a2ec96594757ca98e1831bc8b22ed3a0edb27fa03bf1a1e991a2a",
+      "data/phase3/review-renders/fcra-2010/page-8.png": "df1fb2d1f50f65a618234ca5627e3221d8c8b10432acf7b06de704546f3022d8",
+      "data/phase3/review-renders/fcra-2010/page-9.png": "551a9fccff8134da821450dc14409fc3d4f10e3342b1ce43fab23024bac7e9b0",
+      "data/phase3/review-renders/fcra-2010/page-10.png": "67e5c7366707f335f4e9c5f15f6389c9c205962f102febce66312fee1523911f",
+      "data/phase3/review-renders/fcra-2010/page-11.png": "932f0cb8305d3a4d30a9a60444592633096992d1f23a7262dd7290a407019dd4",
+      "data/phase3/review-renders/fcra-2010/page-14.png": "a14dd31122b73a398b61a8b05b544e796a5537e17181bac68761f847a4735fc9",
+      "data/phase3/review-renders/fcra-2010/page-15.png": "aa7738b4291f5585a7b83d0ee1cbd7fb5bbb33ab6281b6843eb08ddbf4fd75f1",
+      "data/phase3/review-renders/fcra-2010/page-16.png": "54db65bad40329bbe2a1b69ccd5324f30647dda1b835fddea3f4473986d5d407",
+      "data/phase3/review-renders/fcra-2010/page-17.png": "48e307a22de2f3b7423e8bba8d4f0fb765156bc640273fcb141c61269e0fade3",
+      "data/phase3/review-renders/fcra-2010/page-19.png": "74136f6d05894608106a592eda7bfac2eb56419038a7be211cb064748c87a47b",
+      "data/phase3/review-renders/fcra-2010/page-20.png": "098544dc84a90ae3c7f61d6a3e7ebb23dcfacf7787c39c63bfe83e523b45ba46",
+      "data/phase3/review-renders/fcra-2010/page-21.png": "fb739c7e68ce9ecdd41808614f653d8e19553542af641823bb68a47a414218bc",
+      "data/phase3/review-renders/fcra-2010/page-22.png": "60249dbd22bf162ab4685663a535ac5b04a87c2396fa3882600946e84c593b80",
+      "data/phase3/review-renders/fcra-2010/page-23.png": "ed036ba8230b8fa93b384ffb57e2894fe72dcdefc4a4189803642b772516723c",
+      "data/phase3/review-renders/fcra-2010/page-24.png": "ad3dd02448c6e3ad83aefbc80eb9cf9107d53c273f4f42b2b8d19089fbeaa0a2"
+    },
+    "scope_note": "Each selected section was compared whole against its rendered PDF pages: heading, beginning and end, numbered parts, provisos and footnotes. Sections outside selected_keys were not looked at individually; they rest on automated whole-body agreement plus this sample."
+  },
+  "admits_nothing_note": "A passing review authorizes admission of this Act's aligned candidates through the canonical importer under review class text_agreement_sampled_visual. Provisions not in selected_keys are admitted on automated whole-body agreement plus this sample, and must never be presented as individually reviewed."
+}

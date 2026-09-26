@@ -1,0 +1,59 @@
+{
+  "judge": "A",
+  "batch": 7,
+  "corpus_fingerprint": "sha256:0a0ad6cfbde118c65753fd3b10d36325f0167d25d7bc1ec0410bfb45ea18ff4e",
+  "queries": {
+    "B-090": [
+      "contract-1872:190",
+      "contract-1872:7",
+      "education-2009:4",
+      "osh-code-2020:70"
+    ],
+    "B-091": [
+      "contract-1872:72",
+      "consumer-protection-2019:93",
+      "information-technology-2000:66C",
+      "consumer-protection-2019:22",
+      "merchant-shipping-2025:100",
+      "fcra-2010:26"
+    ],
+    "B-092": [
+      "disabilities-2016:26",
+      "osh-code-2020:78",
+      "osh-code-2020:5"
+    ],
+    "B-093": [
+      "mental-healthcare-2017:101",
+      "mental-healthcare-2017:20",
+      "disabilities-2016:50",
+      "mental-healthcare-2017:104",
+      "mental-healthcare-2017:86",
+      "mental-healthcare-2017:26",
+      "mental-healthcare-2017:22"
+    ],
+    "B-094": [
+      "mental-healthcare-2017:22"
+    ],
+    "B-095": [
+      "mental-healthcare-2017:27",
+      "mental-healthcare-2017:23",
+      "mental-healthcare-2017:104"
+    ],
+    "B-096": [
+      "merchant-shipping-2025:283",
+      "mental-healthcare-2017:105",
+      "mental-healthcare-2017:50",
+      "copyright-1957:70",
+      "mental-healthcare-2017:77",
+      "arbitration-1996:27",
+      "mental-healthcare-2017:104",
+      "merchant-shipping-2025:232",
+      "mental-healthcare-2017:101"
+    ],
+    "B-098": [
+      "dpdp-2023:36",
+      "dpdp-2023:14",
+      "dpdp-2023:43"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/core/bitstreams/e7571d39-11a7-4a2c-86e3-c515ae43e617/content",
+  "effective_url": "https://indiacode.gov.in/server/api/core/bitstreams/e7571d39-11a7-4a2c-86e3-c515ae43e617/content",
+  "http_status": 200,
+  "curl_exit_code": 0,
+  "content_type": "application/pdf",
+  "fetched_at_utc": "2026-09-21T19:45:01.446425+00:00",
+  "sha256": "85a7a066098255c93001d678aeaf483f91d3080918363c03b78d40c3eeb8b386",
+  "bytes": 712769,
+  "body_path": "data/discovery/phase3-contract-1872-pdf.body",
+  "note": "Exact copy of retained Phase 3 HTTP bytes; not a new acquisition. Receipt in data/phase3/acquisition/acts/contract-1872.json"
+}

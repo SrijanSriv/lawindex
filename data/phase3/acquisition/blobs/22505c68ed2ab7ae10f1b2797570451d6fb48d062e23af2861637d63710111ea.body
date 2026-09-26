@@ -1,0 +1,106 @@
+{
+  "_embedded" : {
+    "bitstreams" : [ {
+      "id" : "d7d8ba91-50a2-47d9-9d06-b5363f3964b9",
+      "uuid" : "d7d8ba91-50a2-47d9-9d06-b5363f3964b9",
+      "name" : "201320.pdf",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "201320.pdf",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "bundleName" : "ORIGINAL",
+      "sizeBytes" : 333497,
+      "checkSum" : {
+        "checkSumAlgorithm" : "MD5",
+        "value" : "1baf082760de6a43593598d3e6261749"
+      },
+      "sequenceId" : 1,
+      "type" : "bitstream",
+      "_links" : {
+        "content" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/d7d8ba91-50a2-47d9-9d06-b5363f3964b9/content"
+        },
+        "bundle" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/d7d8ba91-50a2-47d9-9d06-b5363f3964b9/bundle"
+        },
+        "accessStatus" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/d7d8ba91-50a2-47d9-9d06-b5363f3964b9/accessStatus"
+        },
+        "format" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/d7d8ba91-50a2-47d9-9d06-b5363f3964b9/format"
+        },
+        "thumbnail" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/d7d8ba91-50a2-47d9-9d06-b5363f3964b9/thumbnail"
+        },
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/d7d8ba91-50a2-47d9-9d06-b5363f3964b9"
+        }
+      }
+    }, {
+      "id" : "48a9eb62-5d96-492e-bbe9-64b8847757cc",
+      "uuid" : "48a9eb62-5d96-492e-bbe9-64b8847757cc",
+      "name" : "H2013-20.pdf",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "H2013-20.pdf",
+          "language" : "Hindi",
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        }, {
+          "value" : "H2013-20.pdf",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 1
+        } ]
+      },
+      "bundleName" : "ORIGINAL",
+      "sizeBytes" : 517396,
+      "checkSum" : {
+        "checkSumAlgorithm" : "MD5",
+        "value" : "937b10e8de84fdad44b07b1d3c8ef1c3"
+      },
+      "sequenceId" : 6,
+      "type" : "bitstream",
+      "_links" : {
+        "content" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/48a9eb62-5d96-492e-bbe9-64b8847757cc/content"
+        },
+        "bundle" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/48a9eb62-5d96-492e-bbe9-64b8847757cc/bundle"
+        },
+        "accessStatus" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/48a9eb62-5d96-492e-bbe9-64b8847757cc/accessStatus"
+        },
+        "format" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/48a9eb62-5d96-492e-bbe9-64b8847757cc/format"
+        },
+        "thumbnail" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/48a9eb62-5d96-492e-bbe9-64b8847757cc/thumbnail"
+        },
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/core/bitstreams/48a9eb62-5d96-492e-bbe9-64b8847757cc"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 2
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/core/bundles/0a255ae0-4db7-4d78-bf68-4e0eb29c9f28/bitstreams?size=100"
+    }
+  }
+}

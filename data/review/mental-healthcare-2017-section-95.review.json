@@ -1,0 +1,64 @@
+{
+  "provision_key": "mental-healthcare-2017:95",
+  "act_slug": "mental-healthcare-2017",
+  "act_uuid": "63a1a7f4-fc92-49c3-808b-6f0bc3ede89c",
+  "section_number": "95",
+  "heading": "Prohibited procedures.",
+  "selected_representation": "structured_html",
+  "selected_representation_reason": "Whole body agrees with the retained PDF at normalization level quote; admitted under this Act's sampled visual review, not individually compared.",
+  "source_representation": {
+    "kind": "structured_html",
+    "capture": "phase3-mental-healthcare-2017-sections-page-0",
+    "sha256": "d55250883381325be0d04f893cbbef292af95b16e126692df98563dd46a60d8a",
+    "field": "dc.identifier.section_page_note",
+    "section_item_uuid": "9fb88334-24c3-42f1-a04c-ba3a8772ad4e",
+    "act_id": "AC_CEN_12_13_00024_201710_1517807327874"
+  },
+  "pdf_anchor": {
+    "capture": "phase3-mental-healthcare-2017-pdf",
+    "sha256": "2011dd9588d7aebe15133ffb3fa0d9b3ef02f3101bc1eb91fbc013922f4725c7",
+    "pdf_page_from": 42,
+    "pdf_page_to": 42
+  },
+  "agreement": {
+    "normalization_level": 2,
+    "normalizations": [
+      "dash",
+      "quote"
+    ],
+    "page_break_gap_count": 0,
+    "footnote_normalization_level": null,
+    "method": "enumerated typographic normalization applied to both representations"
+  },
+  "review": {
+    "reviewer_ref": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "review_class": "text_agreement_sampled_visual",
+    "checked_scope": "act_sample_plus_whole_body_automated_agreement",
+    "visually_reviewed": false,
+    "footnotes_present": false,
+    "sample_plan": {
+      "path": "data/phase3/review-plans/mental-healthcare-2017.json",
+      "sha256": "226f1bb5786e880e1b309bb7476eb32c4682745e6701a3263ab19ec10b720b93",
+      "plan_digest": "f19815f24ee26f614526422c074a684d7ffc2b497bc9bc2ac27cca8a05a580da",
+      "population_count": 111,
+      "selected_count": 20
+    },
+    "scope": "Each selected section was compared whole against its rendered PDF pages: heading, beginning and end, numbered parts, provisos and footnotes. Sections outside selected_keys were not looked at individually; they rest on automated whole-body agreement plus this sample.",
+    "evidence": [
+      "data/discovery/phase3-mental-healthcare-2017-sections-page-0.body",
+      "data/discovery/phase3-mental-healthcare-2017-pdf.body",
+      "data/phase3/review-plans/mental-healthcare-2017.json"
+    ]
+  },
+  "known_conflicts": [],
+  "classification": "typographic_equivalence_verified",
+  "disposition": "verified_equivalent",
+  "admission_status": "admitted",
+  "extraction_method_version": "phase3-sampled-agreement-v1",
+  "expected_output": {
+    "body_text_sha256": "bbd63e693592530814d8bf3922a492c4959f126caca12381a6ecd474e34e2205",
+    "footnote_text_sha256": "no-footnote-expected",
+    "established_by": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "established_note": "Established by automated whole-body agreement recorded in the sample plan; individually compared only if visually_reviewed."
+  }
+}

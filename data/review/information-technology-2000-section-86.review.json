@@ -1,0 +1,62 @@
+{
+  "provision_key": "information-technology-2000:86",
+  "act_slug": "information-technology-2000",
+  "act_uuid": "d41fe391-b9c0-40b1-afdc-ad034c7ac62f",
+  "section_number": "86",
+  "heading": "Removal of difficulties.",
+  "selected_representation": "structured_html",
+  "selected_representation_reason": "Whole body agrees with the retained PDF at normalization level exact; admitted under this Act's sampled visual review and individually compared in that sample.",
+  "source_representation": {
+    "kind": "structured_html",
+    "capture": "phase3-information-technology-2000-sections-page-1",
+    "sha256": "677501c1e7e12a4ce7b539f683007a4ee74471a9f748ca91e51ef3fef99a7a9e",
+    "field": "dc.identifier.section_page_note",
+    "section_item_uuid": "274f54e5-0135-4c29-ac62-50e7b8fa4ddb",
+    "act_id": "AC_CEN_45_76_00001_200021_1517807324077"
+  },
+  "pdf_anchor": {
+    "capture": "phase3-information-technology-2000-pdf",
+    "sha256": "003b3218fe399b293c73f6aef9ca52e5c1d080388c43fb0523572c1dc5f3d529",
+    "pdf_page_from": 34,
+    "pdf_page_to": 34
+  },
+  "agreement": {
+    "normalization_level": 0,
+    "normalizations": [],
+    "page_break_gap_count": 0,
+    "footnote_normalization_level": null,
+    "method": "enumerated typographic normalization applied to both representations"
+  },
+  "review": {
+    "reviewer_ref": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "review_class": "text_agreement_sampled_visual",
+    "checked_scope": "act_sample_plus_whole_body_automated_agreement",
+    "visually_reviewed": true,
+    "footnotes_present": false,
+    "sample_plan": {
+      "path": "data/phase3/review-plans/information-technology-2000.json",
+      "sha256": "6fc9b9724bcebc44edca6a5faca9df3515980a8b6461617268d9be273801c85b",
+      "plan_digest": "568ca1ff8663d943a21cdbdf6f55b2bc3d7614bb3bd852a8d0c5052f3197c454",
+      "population_count": 53,
+      "selected_count": 27
+    },
+    "scope": "Each selected section was compared whole against its rendered PDF pages: heading, beginning and end, numbered parts, provisos and footnotes. Sections outside selected_keys were not looked at individually; they rest on automated whole-body agreement plus this sample.",
+    "evidence": [
+      "data/phase3/review-renders/information-technology-2000/page-34.png",
+      "data/discovery/phase3-information-technology-2000-sections-page-1.body",
+      "data/discovery/phase3-information-technology-2000-pdf.body",
+      "data/phase3/review-plans/information-technology-2000.json"
+    ]
+  },
+  "known_conflicts": [],
+  "classification": "formatting_only_verified_equivalent",
+  "disposition": "verified_equivalent",
+  "admission_status": "admitted",
+  "extraction_method_version": "phase3-sampled-agreement-v1",
+  "expected_output": {
+    "body_text_sha256": "ef621ff8839594206d8f779f9b58a4f95968d101a725c81c7cd640ceef532cd9",
+    "footnote_text_sha256": "no-footnote-expected",
+    "established_by": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "established_note": "Established by automated whole-body agreement recorded in the sample plan; individually compared only if visually_reviewed."
+  }
+}

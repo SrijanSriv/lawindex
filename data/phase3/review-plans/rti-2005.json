@@ -1,0 +1,683 @@
+{
+  "schema_version": 1,
+  "planner_version": "phase3-sample-plan-v1",
+  "parser_version": "phase3-html-pdf-agreement-v2",
+  "act_slug": "rti-2005",
+  "candidates_sha256": "074a2d595fd4a0067c0fd77c94790951ba1f306b36349daf42ee57737b546942",
+  "pdf_sha256": "c1ef189ec4f34d4f346886d6c2fc4a6e8aec2da0eedcfeff9c10401ec9cfb2f5",
+  "source_acquisition_sha256": "dff8ec62a701797e42e00aec8c70d0fecad8e8ff5d85908cf5ea4b3d862b07a9",
+  "seed": "fb187d12e3e89397882f76b7428e432c98252cd1a24dcc8dafde96f4e1e412ac",
+  "selection_rule": {
+    "mandatory": "every aligned candidate with a footnote or a page-break footnote gap",
+    "stratified": "per most-tolerant-normalization stratum, max(2, ceil(10%))",
+    "deterministic": "seed = sha256(planner_version|act_slug|candidates_sha256); re-running cannot re-roll the sample"
+  },
+  "population": [
+    {
+      "key": "rti-2005:1",
+      "section_number": "1",
+      "heading": "Short title, extent and commencement.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote",
+      "normalizations": [
+        "dash",
+        "quote"
+      ],
+      "pdf_page_from": 5,
+      "pdf_page_to": 5,
+      "body_text_sha256": "0034ab4951be85376f3207a645b92a78ba4d31797d7723a6ed6ed2c087d5313e",
+      "footnote_text_sha256": "e8791e97bcf5c0b2ca6d46e38ceaaad26f8d16b9cf2618cf0dcb7b490bb87466",
+      "footnote_normalization_level": 2,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "6423b46e-ea8e-486c-9be2-5fbe686730d0"
+    },
+    {
+      "key": "rti-2005:10",
+      "section_number": "10",
+      "heading": "Severability.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 11,
+      "pdf_page_to": 11,
+      "body_text_sha256": "8a870cd2968695799b2ac8ed3f2e779a108bcf303283ee3dfc0fa1c2f6b42b6f",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "79f332fd-55a8-43a9-9b87-60134cd02a27"
+    },
+    {
+      "key": "rti-2005:11",
+      "section_number": "11",
+      "heading": "Third party information.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 11,
+      "pdf_page_to": 12,
+      "body_text_sha256": "08f75cb341beb580b518c8765c3d5dd4a081dc785c7396c7fa4fa7e08f1fe2cc",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "08793a8c-e50d-4533-a01e-c5a816390e6d"
+    },
+    {
+      "key": "rti-2005:12",
+      "section_number": "12",
+      "heading": "Constitution of Central Information Commission.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 12,
+      "pdf_page_to": 13,
+      "body_text_sha256": "908ce45cc9e327fa3da0877b515c01d08728410a1911c0aea9d33b86c2d970d4",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "b9a0b90b-5d20-48b3-8b20-d224cfe375d8"
+    },
+    {
+      "key": "rti-2005:14",
+      "section_number": "14",
+      "heading": "Removal of Chief Information Commissioner or Information Commissioner.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 14,
+      "pdf_page_to": 14,
+      "body_text_sha256": "eecb55841ac68cc0364622a758be3abb83ca8d9ed30f697302e6c53d7ea889db",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "454bf00f-0ed7-4fc6-a95f-f8677bb0cd28"
+    },
+    {
+      "key": "rti-2005:15",
+      "section_number": "15",
+      "heading": "Constitution of State Information Commission.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 14,
+      "pdf_page_to": 15,
+      "body_text_sha256": "606dfe4b116b3f231769d6a1cdba81e13692729ad928f94fa0618633104faf39",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "7e176e9e-ba4e-47a9-9f96-0e47f5842920"
+    },
+    {
+      "key": "rti-2005:17",
+      "section_number": "17",
+      "heading": "Removal of State Chief Information Commissioner or State Information Commissioner.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 16,
+      "pdf_page_to": 16,
+      "body_text_sha256": "3f0aaaddcc5c491bc1cbec436ea657ecc98802273fcaf508811340831a4fb4d1",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "8d545d46-d547-43dc-9b95-b68360c971f2"
+    },
+    {
+      "key": "rti-2005:18",
+      "section_number": "18",
+      "heading": "Powers and functions of Information Commissions.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash",
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 16,
+      "pdf_page_to": 17,
+      "body_text_sha256": "6175052c1cecf29ec58be4930fa3fb8446443d8b5361b823e5d3104c68bedad8",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "45024373-97ba-4617-9035-5f27781f5596"
+    },
+    {
+      "key": "rti-2005:19",
+      "section_number": "19",
+      "heading": "Appeal.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 17,
+      "pdf_page_to": 18,
+      "body_text_sha256": "571c68ab85ae6bb5ee295466773cb09289231b0fd0f7de1ca61dea8508a9acb6",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "d4740d94-1ae3-4bb5-b8a8-90f86610e1b7"
+    },
+    {
+      "key": "rti-2005:2",
+      "section_number": "2",
+      "heading": "Definitions.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "hyphen",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 5,
+      "pdf_page_to": 7,
+      "body_text_sha256": "e270b9c71b85b51938d9626c1c2c3042e898f839e75f60319badda6408983570",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "58838f5d-be54-494a-bfeb-a7aa9d6d569f"
+    },
+    {
+      "key": "rti-2005:20",
+      "section_number": "20",
+      "heading": "Penalties.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 18,
+      "pdf_page_to": 19,
+      "body_text_sha256": "a37984d3ba96374ef080c6cf123639fb0ee5beef0f4e47a98129beb106d873e1",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "5ebc9bc2-f933-4cee-83d3-72b92d0d7687"
+    },
+    {
+      "key": "rti-2005:21",
+      "section_number": "21",
+      "heading": "Protection of action taken in good faith.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 19,
+      "pdf_page_to": 19,
+      "body_text_sha256": "a84615d54fe11a3f5aff04b687afbd86957622e37da5596d5bec1907f4f9733a",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "f196492b-982a-42ef-a6d9-975365e0c0da"
+    },
+    {
+      "key": "rti-2005:22",
+      "section_number": "22",
+      "heading": "Act to have overriding effect.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 19,
+      "pdf_page_to": 19,
+      "body_text_sha256": "2e13d297803152b86f2fbc0ad01e277e660936494d4632cf2cd506eb78be1349",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "b298d36e-1f83-4a1d-9785-fc1a0380b595"
+    },
+    {
+      "key": "rti-2005:23",
+      "section_number": "23",
+      "heading": "Bar of jurisdiction of courts.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 19,
+      "pdf_page_to": 19,
+      "body_text_sha256": "ccf6a48f032c7952bc135794f495b916a8bf6713a753fafae029032503aee7b4",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "086b9fda-65a4-45d9-a219-1528ee5f245f"
+    },
+    {
+      "key": "rti-2005:24",
+      "section_number": "24",
+      "heading": "Act not to apply to certain organisations.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 19,
+      "pdf_page_to": 20,
+      "body_text_sha256": "8fc7eb9453e1c239cc9f021cbc87ef1329c5ba6a3acabab0c0fb0eaa3e9a6461",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "a367eba6-c68c-4c55-be4f-08e64b9872f0"
+    },
+    {
+      "key": "rti-2005:25",
+      "section_number": "25",
+      "heading": "Monitoring and reporting.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 20,
+      "pdf_page_to": 20,
+      "body_text_sha256": "009b57e87d2083447fe3ee336544ed9e6fd8b5e744df12604d94a3ff454e23d7",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "97fb1477-8c73-4ed8-b97b-99327576f766"
+    },
+    {
+      "key": "rti-2005:26",
+      "section_number": "26",
+      "heading": "Appropriate Government to prepare programmes.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 20,
+      "pdf_page_to": 21,
+      "body_text_sha256": "9354321d2606194f9c238127d7609585f275c760816199198451697c06ab82de",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "f545e7f3-5cb9-482d-bfad-5e189a31b982"
+    },
+    {
+      "key": "rti-2005:28",
+      "section_number": "28",
+      "heading": "Power to make rules by competent authority.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 22,
+      "pdf_page_to": 22,
+      "body_text_sha256": "6ec4d83d7800e9a8304f30f3fcb7f87521fd34fd13eaceeb9ec121096a96b9cb",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "b1d68a54-31e5-4d3b-8245-212cd842209f"
+    },
+    {
+      "key": "rti-2005:29",
+      "section_number": "29",
+      "heading": "Laying of rules.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 22,
+      "pdf_page_to": 22,
+      "body_text_sha256": "65db34eca688689fe00bfa54abf326f346320502772c3481eb15b637e4075100",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "6b6a3d6d-9d09-4405-91b3-eba3bacd7a3e"
+    },
+    {
+      "key": "rti-2005:3",
+      "section_number": "3",
+      "heading": "Right to information.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 7,
+      "pdf_page_to": 7,
+      "body_text_sha256": "0444ac1adb0d98b6c30a4292c71cf6408ac01519cae93d0428f20fea909fbafc",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "4706576b-ebac-4bcc-8c6f-d51b1e106e35"
+    },
+    {
+      "key": "rti-2005:30",
+      "section_number": "30",
+      "heading": "Power to remove difficulties.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 22,
+      "pdf_page_to": 22,
+      "body_text_sha256": "b40091163e9517f0ae331ab0330cb621cc4dc71a5adbb43caf9b427cb80a69f0",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "1993f93c-ef48-481b-a034-29d2b14225b4"
+    },
+    {
+      "key": "rti-2005:31",
+      "section_number": "31",
+      "heading": "Repeal.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 22,
+      "pdf_page_to": 22,
+      "body_text_sha256": "534a7d81cc463bb7f070d9f3d04bfb4681ecb4f3866f5421453b6941d62fb8da",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "66624151-c776-4598-9271-abf63433f5f7"
+    },
+    {
+      "key": "rti-2005:4",
+      "section_number": "4",
+      "heading": "Obligations of public authorities.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "space-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop",
+        "space-drop",
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 7,
+      "pdf_page_to": 8,
+      "body_text_sha256": "1b1e6f818924fe37c3f97887e4fd594c4f628f4f2eaf72ee9379a3296672e5ce",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "07438f7d-7859-4e71-af26-3a687f9ca77a"
+    },
+    {
+      "key": "rti-2005:5",
+      "section_number": "5",
+      "heading": "Designation of Public Information Officers.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "hyphen",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen"
+      ],
+      "pdf_page_from": 8,
+      "pdf_page_to": 8,
+      "body_text_sha256": "cd8a0b5d954d00d2b9a9b2b2b8954fea721d17b3d60d6251a6ecbfa213af4229",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "4311114d-0a7e-4af6-b5e3-8066616c10e7"
+    },
+    {
+      "key": "rti-2005:6",
+      "section_number": "6",
+      "heading": "Request for obtaining information.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 9,
+      "pdf_page_to": 9,
+      "body_text_sha256": "34151fbfb93b8c31a080e495f98fdab7d90d6e277f0f43d9caba99de61087e5b",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "822280bc-89b4-4a39-aa10-72163b7c22f6"
+    },
+    {
+      "key": "rti-2005:7",
+      "section_number": "7",
+      "heading": "Disposal of request.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 9,
+      "pdf_page_to": 10,
+      "body_text_sha256": "98f9f4904ea8884f2a9e2e211a9a8a56b4e4bdefe83f0b3248dae60c418717d4",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "e4c8f428-480d-4b0d-bd6a-e0e3eac110fa"
+    },
+    {
+      "key": "rti-2005:9",
+      "section_number": "9",
+      "heading": "Grounds for rejection to access in certain cases.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 11,
+      "pdf_page_to": 11,
+      "body_text_sha256": "0350da77201a2fd47ba3aac98c446b4b96d98ef21bf07892052f16dc59c5d728",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "2bf22a9a-9527-4a8e-9e9c-11be7f202296"
+    }
+  ],
+  "population_count": 27,
+  "mandatory_keys": [
+    "rti-2005:1",
+    "rti-2005:11",
+    "rti-2005:18",
+    "rti-2005:2"
+  ],
+  "sampled_keys": [
+    "rti-2005:14",
+    "rti-2005:24",
+    "rti-2005:4",
+    "rti-2005:5",
+    "rti-2005:6",
+    "rti-2005:9"
+  ],
+  "selected_keys": [
+    "rti-2005:1",
+    "rti-2005:11",
+    "rti-2005:14",
+    "rti-2005:18",
+    "rti-2005:2",
+    "rti-2005:24",
+    "rti-2005:4",
+    "rti-2005:5",
+    "rti-2005:6",
+    "rti-2005:9"
+  ],
+  "strata": {
+    "dash": {
+      "population": 11,
+      "sampled": 2,
+      "keys": [
+        "rti-2005:14",
+        "rti-2005:6"
+      ]
+    },
+    "exact": {
+      "population": 10,
+      "sampled": 2,
+      "keys": [
+        "rti-2005:24",
+        "rti-2005:9"
+      ]
+    },
+    "hyphen": {
+      "population": 1,
+      "sampled": 1,
+      "keys": [
+        "rti-2005:5"
+      ]
+    },
+    "space-drop": {
+      "population": 1,
+      "sampled": 1,
+      "keys": [
+        "rti-2005:4"
+      ]
+    }
+  },
+  "renders": {
+    "rti-2005:1": [
+      "data/phase3/review-renders/rti-2005/page-5.png"
+    ],
+    "rti-2005:11": [
+      "data/phase3/review-renders/rti-2005/page-11.png",
+      "data/phase3/review-renders/rti-2005/page-12.png"
+    ],
+    "rti-2005:14": [
+      "data/phase3/review-renders/rti-2005/page-14.png"
+    ],
+    "rti-2005:18": [
+      "data/phase3/review-renders/rti-2005/page-16.png",
+      "data/phase3/review-renders/rti-2005/page-17.png"
+    ],
+    "rti-2005:2": [
+      "data/phase3/review-renders/rti-2005/page-5.png",
+      "data/phase3/review-renders/rti-2005/page-6.png",
+      "data/phase3/review-renders/rti-2005/page-7.png"
+    ],
+    "rti-2005:24": [
+      "data/phase3/review-renders/rti-2005/page-19.png",
+      "data/phase3/review-renders/rti-2005/page-20.png"
+    ],
+    "rti-2005:4": [
+      "data/phase3/review-renders/rti-2005/page-7.png",
+      "data/phase3/review-renders/rti-2005/page-8.png"
+    ],
+    "rti-2005:5": [
+      "data/phase3/review-renders/rti-2005/page-8.png"
+    ],
+    "rti-2005:6": [
+      "data/phase3/review-renders/rti-2005/page-9.png"
+    ],
+    "rti-2005:9": [
+      "data/phase3/review-renders/rti-2005/page-11.png"
+    ]
+  },
+  "render_sha256": {
+    "data/phase3/review-renders/rti-2005/page-5.png": "10036b3df2ea515afe063df8da83791ba9a7ea58ae2e7490af91975ed2e2c3a7",
+    "data/phase3/review-renders/rti-2005/page-6.png": "e4804ebc927f6955024d011cfa4253aaf2c36bf40bb472e156d64772f84c8fbc",
+    "data/phase3/review-renders/rti-2005/page-7.png": "ca55ec0825bec60e377b34d5917dcb864acdc00a724fabf593e25336f0ec41d0",
+    "data/phase3/review-renders/rti-2005/page-8.png": "0cc6004e451324d70f810f6bb2809a210bf95b67d73c84d64d5b27b65f9ad5f3",
+    "data/phase3/review-renders/rti-2005/page-9.png": "6144151ae5ae9578148c8bcef9ba55f32ef32cf44e8363d8c01a469f7422d1c5",
+    "data/phase3/review-renders/rti-2005/page-11.png": "95fc56d24dd257ab36530c10675ef0b505a5c1702423c35c8eeb183b8952b7eb",
+    "data/phase3/review-renders/rti-2005/page-12.png": "1bd752403d3eff77af8522eba1ba8bbd9ca3a1c03eb1430b1983ff66d5b2e048",
+    "data/phase3/review-renders/rti-2005/page-14.png": "ddc3c2de6e0736db998004e3679ebcc846c8713cff2cb1940f1cce5bbc351f82",
+    "data/phase3/review-renders/rti-2005/page-16.png": "aa9c9317055f8d294b9a65433af2541d2eb2d3e322b5a1111dff35ea077a44eb",
+    "data/phase3/review-renders/rti-2005/page-17.png": "5184ee0834bfe13aba579a6a043700202ad1e28f23dbd9cb6f9711db0a868af2",
+    "data/phase3/review-renders/rti-2005/page-19.png": "32189aca1e1a7f84c261388ee08d3bc7b354fb3a75de906453b693ab286e6ecf",
+    "data/phase3/review-renders/rti-2005/page-20.png": "365a0327b8f2000003aef2246f8172bc59c7a45fe768fec1d509f4c999ea02a1"
+  },
+  "status": "reviewed",
+  "review": {
+    "reviewer_ref": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "reviewer_sha256": "109ba542b1054cd0f750fece16fdf06fec99b8a227238432c9f10ddcb6fe8303",
+    "session_date": "2026-09-22",
+    "outcomes": {
+      "rti-2005:1": {
+        "decision": "verified_equivalent",
+        "note": "Page 5: heading, (1)-(3) and the \"15,16\" spacing in the source all match; footnote 1 (Jammu and Kashmir omission) present and correct; ends before s.2."
+      },
+      "rti-2005:11": {
+        "decision": "verified_equivalent",
+        "note": "Pages 11-12: (1) with proviso, (2)-(4) match; the skipped page-11 block is s.8's clause (j) footnote, not s.11 text; ends before CHAPTER III."
+      },
+      "rti-2005:14": {
+        "decision": "verified_equivalent",
+        "note": "Page 14: (1)-(4) including (3)(a)-(e) match; ends before CHAPTER IV."
+      },
+      "rti-2005:18": {
+        "decision": "verified_equivalent",
+        "note": "Pages 16-17: (1)(a)-(f), (2), (3)(a)-(f), (4) match; the skipped page-16 block is s.16(5)'s footnote, not s.18 text; ends before s.19."
+      },
+      "rti-2005:2": {
+        "decision": "verified_equivalent",
+        "note": "Pages 5-7: clauses (a)-(n) with all nested romans match; \"self- government\" is PDF line-break hyphenation; the skipped page-5 block is s.1's footnote, not s.2 text; ends at (n) before CHAPTER II."
+      },
+      "rti-2005:24": {
+        "decision": "verified_equivalent",
+        "note": "Pages 19-20: (1) with two provisos, (2), (3), (4) with two provisos, (5) match; ends before s.25."
+      },
+      "rti-2005:4": {
+        "decision": "verified_equivalent",
+        "note": "Pages 7-8: (1)(a),(b)(i)-(xvii),(c),(d),(2),(3),(4) and the Explanation all present in order; ends before s.5."
+      },
+      "rti-2005:5": {
+        "decision": "verified_equivalent",
+        "note": "Page 8: (1)-(5) and the proviso to (2) match; \"sub- district\" is PDF line-break hyphenation; ends before s.6."
+      },
+      "rti-2005:6": {
+        "decision": "verified_equivalent",
+        "note": "Page 9: (1)(a),(b), the tail line, proviso, (2), (3)(i),(ii) and closing proviso match; ends before s.7."
+      },
+      "rti-2005:9": {
+        "decision": "verified_equivalent",
+        "note": "Page 11: single unnumbered paragraph matches exactly; bounded by s.8 above and s.10 below."
+      }
+    },
+    "decision": "act_batch_admitted",
+    "failed_keys": [],
+    "decision_note": "All ten selected sections compared whole against their rendered PDF pages; every one agreed, including the three page-break footnote skips, which each belong to a neighbouring section.",
+    "render_evidence": {
+      "data/phase3/review-renders/rti-2005/page-5.png": "10036b3df2ea515afe063df8da83791ba9a7ea58ae2e7490af91975ed2e2c3a7",
+      "data/phase3/review-renders/rti-2005/page-6.png": "e4804ebc927f6955024d011cfa4253aaf2c36bf40bb472e156d64772f84c8fbc",
+      "data/phase3/review-renders/rti-2005/page-7.png": "ca55ec0825bec60e377b34d5917dcb864acdc00a724fabf593e25336f0ec41d0",
+      "data/phase3/review-renders/rti-2005/page-8.png": "0cc6004e451324d70f810f6bb2809a210bf95b67d73c84d64d5b27b65f9ad5f3",
+      "data/phase3/review-renders/rti-2005/page-9.png": "6144151ae5ae9578148c8bcef9ba55f32ef32cf44e8363d8c01a469f7422d1c5",
+      "data/phase3/review-renders/rti-2005/page-11.png": "95fc56d24dd257ab36530c10675ef0b505a5c1702423c35c8eeb183b8952b7eb",
+      "data/phase3/review-renders/rti-2005/page-12.png": "1bd752403d3eff77af8522eba1ba8bbd9ca3a1c03eb1430b1983ff66d5b2e048",
+      "data/phase3/review-renders/rti-2005/page-14.png": "ddc3c2de6e0736db998004e3679ebcc846c8713cff2cb1940f1cce5bbc351f82",
+      "data/phase3/review-renders/rti-2005/page-16.png": "aa9c9317055f8d294b9a65433af2541d2eb2d3e322b5a1111dff35ea077a44eb",
+      "data/phase3/review-renders/rti-2005/page-17.png": "5184ee0834bfe13aba579a6a043700202ad1e28f23dbd9cb6f9711db0a868af2",
+      "data/phase3/review-renders/rti-2005/page-19.png": "32189aca1e1a7f84c261388ee08d3bc7b354fb3a75de906453b693ab286e6ecf",
+      "data/phase3/review-renders/rti-2005/page-20.png": "365a0327b8f2000003aef2246f8172bc59c7a45fe768fec1d509f4c999ea02a1"
+    },
+    "scope_note": "Each selected section was compared whole against its rendered PDF pages: heading, beginning and end, numbered parts, provisos and footnotes. Sections outside selected_keys were not looked at individually; they rest on automated whole-body agreement plus this sample."
+  },
+  "admits_nothing_note": "A passing review authorizes admission of this Act's aligned candidates through the canonical importer under review class text_agreement_sampled_visual. Provisions not in selected_keys are admitted on automated whole-body agreement plus this sample, and must never be presented as individually reviewed."
+}

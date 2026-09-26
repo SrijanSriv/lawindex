@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION%2Cequals&f.act_id=AC_CEN_3_20_00035_187209_1523268996428%2Cequals&sort=dc.identifier.order_number%2CASC&page=0&size=100",
+  "effective_url": "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION%2Cequals&f.act_id=AC_CEN_3_20_00035_187209_1523268996428%2Cequals&sort=dc.identifier.order_number%2CASC&page=0&size=100",
+  "http_status": 200,
+  "curl_exit_code": 0,
+  "content_type": "application/hal+json",
+  "fetched_at_utc": "2026-09-21T19:44:51.789012+00:00",
+  "sha256": "a2b4127c9a0c33287726748a8ea1adb7f5357d26ccde91d5d9d3fe1fb3c0095e",
+  "bytes": 1030233,
+  "body_path": "data/discovery/phase3-contract-1872-sections-page-0.body",
+  "note": "Exact copy of retained Phase 3 HTTP bytes; not a new acquisition. Receipt in data/phase3/acquisition/acts/contract-1872.json"
+}

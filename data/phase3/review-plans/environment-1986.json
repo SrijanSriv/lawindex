@@ -1,0 +1,650 @@
+{
+  "schema_version": 1,
+  "planner_version": "phase3-sample-plan-v1",
+  "parser_version": "phase3-html-pdf-agreement-v2",
+  "act_slug": "environment-1986",
+  "candidates_sha256": "96cf9b8a59be551924df92c29c7b102b89fd96026629e4b96b5ea437bd341dab",
+  "pdf_sha256": "d9712743c39faeb1019c08af3b0b2856ca3c905c4bd6299ee4a928576fdc9169",
+  "source_acquisition_sha256": "c8a9311f6ca6669da7a97ad0d117ac6246c7871ae2af44224bd1f66d5acb591b",
+  "seed": "3eae028a27ed4dfc80dc70267c3464e5c0e303a1ae0018f14501d482fc47e49a",
+  "selection_rule": {
+    "mandatory": "every aligned candidate with a footnote or a page-break footnote gap",
+    "stratified": "per most-tolerant-normalization stratum, max(2, ceil(10%))",
+    "deterministic": "seed = sha256(planner_version|act_slug|candidates_sha256); re-running cannot re-roll the sample"
+  },
+  "population": [
+    {
+      "key": "environment-1986:10",
+      "section_number": "10",
+      "heading": "Powers of entry and inspection.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 6,
+      "pdf_page_to": 7,
+      "body_text_sha256": "4fe514207887d03f6441762bad5d35e9b24db556ae1d6423a953273ae35ae7d2",
+      "footnote_text_sha256": "b09675834cac74f0cfe9c296292949b65c5dfa9578e573a89f4fdb8ac239ed16",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "1db2b001-0f82-4eda-8672-8495bdbdef3a"
+    },
+    {
+      "key": "environment-1986:11",
+      "section_number": "11",
+      "heading": "Power to take sample and procedure to be followed in connection therewith.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 7,
+      "pdf_page_to": 7,
+      "body_text_sha256": "c56a9a7c86d527d8dc5174a5194d1c8500642c4ade4452ba97b7181a38421200",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "312f85c8-1642-4603-8bb4-58f84f480f87"
+    },
+    {
+      "key": "environment-1986:12",
+      "section_number": "12",
+      "heading": "Environmental laboratories.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop"
+      ],
+      "pdf_page_from": 7,
+      "pdf_page_to": 7,
+      "body_text_sha256": "2738f160418852926573854a01fbf20eba0f5332f70896f4726461485659daab",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "3fa4c7fa-ecb2-4ee7-9aae-e9cec0c263c4"
+    },
+    {
+      "key": "environment-1986:13",
+      "section_number": "13",
+      "heading": "Government Analysts.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 8,
+      "pdf_page_to": 8,
+      "body_text_sha256": "efedccf5a986c7159f6127476ea447f487f506d5c034f741b3f3c034b8e4742c",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "f2700b57-b9e2-44da-b5bf-cba166985a6b"
+    },
+    {
+      "key": "environment-1986:14",
+      "section_number": "14",
+      "heading": "Reports of Government Analysts.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 8,
+      "pdf_page_to": 8,
+      "body_text_sha256": "43829572036362aa3b557d3e5c7172a5795aff5967259277ec5aa46fb5993282",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "0feb87c8-3f5e-4fdd-a34a-3265aabbed29"
+    },
+    {
+      "key": "environment-1986:14B",
+      "section_number": "14B",
+      "heading": "Penalty for contravention of sections 9, 10 and 11.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "bracket-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "bracket-drop"
+      ],
+      "pdf_page_from": 8,
+      "pdf_page_to": 8,
+      "body_text_sha256": "0f1af8d51e6435576dad8e06e05a49b0af16d1cbe908f3b1ac7fb7aba2a0fc5f",
+      "footnote_text_sha256": "e2bb5254c78ed101fedcb932b42a15b25237642835eb06a8ee02126f02da3f1d",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "6cac1f33-527f-47eb-a142-40d31fd6d007"
+    },
+    {
+      "key": "environment-1986:16",
+      "section_number": "16",
+      "heading": "Environmental Protection Fund.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop"
+      ],
+      "pdf_page_from": 10,
+      "pdf_page_to": 10,
+      "body_text_sha256": "5ba619de4263330bc2fcbe5e2557ab7e3195c59b560eb9cb557cf6376f03eeca",
+      "footnote_text_sha256": "b4b8cb737baa11063a67951409b33d87acc15e2681a0bd3afc703474e2f4c45f",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "a4ebed63-193f-48dc-bfc4-20c52024071d"
+    },
+    {
+      "key": "environment-1986:18",
+      "section_number": "18",
+      "heading": "Protection of action taken in good faith.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 11,
+      "pdf_page_to": 11,
+      "body_text_sha256": "26b2c0c52050b6411b61c9d88ac4335f7a94e0aad835545820b4594a697b297f",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "eb0e1226-0445-4c2e-a9d5-229100bde926"
+    },
+    {
+      "key": "environment-1986:19",
+      "section_number": "19",
+      "heading": "Cognizance of offences.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 11,
+      "pdf_page_to": 11,
+      "body_text_sha256": "8f9960ee3b50875b826f847b16b233c5fb2500b02f208c0cec238dae80315961",
+      "footnote_text_sha256": "e2bb5254c78ed101fedcb932b42a15b25237642835eb06a8ee02126f02da3f1d",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "9c32d592-2630-4cc1-bf72-84d0d839a441"
+    },
+    {
+      "key": "environment-1986:2",
+      "section_number": "2",
+      "heading": "Definitions.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "quote-drop",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space",
+        "dash-drop",
+        "case",
+        "quote-drop",
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 3,
+      "pdf_page_to": 4,
+      "body_text_sha256": "55d5a96e291118ea4df8112429d7348bb76c7b3551db2ed9ecb459e08b3ede4e",
+      "footnote_text_sha256": "e2bb5254c78ed101fedcb932b42a15b25237642835eb06a8ee02126f02da3f1d",
+      "footnote_normalization_level": 4,
+      "has_footnote": true,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "63481f65-289d-4bf2-ac60-0607f39b583e"
+    },
+    {
+      "key": "environment-1986:20",
+      "section_number": "20",
+      "heading": "Information, reports or returns.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 11,
+      "pdf_page_to": 11,
+      "body_text_sha256": "eb2eab1f43544575b98963162a2f631947c3a4a561f175547c8cfd9a37fd6d32",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "0109c845-3e98-4e34-9f0e-a109786e2a19"
+    },
+    {
+      "key": "environment-1986:21",
+      "section_number": "21",
+      "heading": "Members, officers and employees of the authority constituted under Section 3 to be public servants.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 11,
+      "pdf_page_to": 11,
+      "body_text_sha256": "a0052d1d1e629d937df0d987fdee78efb6eab09ecc580414817e8e40eaba7a17",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "01cd1851-c8b8-4e88-a871-a62ec464c289"
+    },
+    {
+      "key": "environment-1986:22",
+      "section_number": "22",
+      "heading": "Bar of jurisdiction.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 11,
+      "pdf_page_to": 11,
+      "body_text_sha256": "12b823d14f6cabe52c96371545d30d906953df381e36f17d7fe18ba3974f32a7",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "4424a681-8c2f-461a-8a89-87eb526026d9"
+    },
+    {
+      "key": "environment-1986:23",
+      "section_number": "23",
+      "heading": "Power to delegate.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 11,
+      "pdf_page_to": 11,
+      "body_text_sha256": "de829fe2547c2e3d5d31ad7215c6cb7f0e479746cdc6cc0bea6c85e9625b9cc9",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "974113bf-88e0-4de1-adda-b573e407a311"
+    },
+    {
+      "key": "environment-1986:25",
+      "section_number": "25",
+      "heading": "Power to make rules.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "marker",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker"
+      ],
+      "pdf_page_from": 12,
+      "pdf_page_to": 12,
+      "body_text_sha256": "e2d5737d15f5d702fc45d8215bf8b37a2e5fb7f5bce6c9af74e940c34b9de225",
+      "footnote_text_sha256": "e2bb5254c78ed101fedcb932b42a15b25237642835eb06a8ee02126f02da3f1d",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "5a3515df-b5b1-4074-9c52-9f71610049f0"
+    },
+    {
+      "key": "environment-1986:26",
+      "section_number": "26",
+      "heading": "Rules made under this Act to be laid before Parliament.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [
+        "footnote-block-skip"
+      ],
+      "pdf_page_from": 12,
+      "pdf_page_to": 13,
+      "body_text_sha256": "cf3b0152f6ce6aa2ec3b42ffcea340cbfdcae4f5d6dd42df89c435d20af606dd",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 1,
+      "source_item_uuid": "fbbd1ff3-040a-45e2-a3e0-7074b68542fd"
+    },
+    {
+      "key": "environment-1986:3",
+      "section_number": "3",
+      "heading": "Power of Central Government to take measures to protect and improve environment.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 4,
+      "pdf_page_to": 5,
+      "body_text_sha256": "532f65aebd0251dc4e30fa165c447fac1be24826826c4553acfdb774cbcb0bf6",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "bf62e8fb-a47e-4b15-863a-61b1e1b123c1"
+    },
+    {
+      "key": "environment-1986:4",
+      "section_number": "4",
+      "heading": "Appointment of officers and their powers and functions.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 5,
+      "pdf_page_to": 5,
+      "body_text_sha256": "ebee09d3eac76c15ac69c0f389dd23a2c6ec3be5d67eedf173968a8dedc49b69",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "4504807f-e2a4-45e5-87ca-4f06cdd37dbf"
+    },
+    {
+      "key": "environment-1986:5",
+      "section_number": "5",
+      "heading": "Power to give directions.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 5,
+      "pdf_page_to": 5,
+      "body_text_sha256": "2527f7964229070537559398373d567598aecd37796209d440e7022cda340c29",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "49e2a818-2b14-4fa3-9d92-4a2774baef6e"
+    },
+    {
+      "key": "environment-1986:5A",
+      "section_number": "5A",
+      "heading": "Appeal to National Green Tribunal.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "punct-space",
+      "normalizations": [
+        "dash",
+        "quote",
+        "ellipsis",
+        "marker",
+        "hyphen",
+        "punct-space"
+      ],
+      "pdf_page_from": 5,
+      "pdf_page_to": 5,
+      "body_text_sha256": "50fb8d2374ad44116051c173c4c30efd260b3a16bb382e2bd6ad5b0bf1d39f86",
+      "footnote_text_sha256": "d3e94443b889287b3ac72f4f0f3773c3a5098171b9232482e6c4aac2dc2cc0e6",
+      "footnote_normalization_level": 0,
+      "has_footnote": true,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "90ce70d5-ac75-4fff-af6a-0387543d977b"
+    },
+    {
+      "key": "environment-1986:6",
+      "section_number": "6",
+      "heading": "Rules to regulate environmental pollution.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 5,
+      "pdf_page_to": 5,
+      "body_text_sha256": "d90c45846f0ddd022135f3f456803960126fe2dc8384acc6a8efe01f60f7aa8a",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "e6a5f384-9cb6-43e8-9118-f7ea4070817b"
+    },
+    {
+      "key": "environment-1986:8",
+      "section_number": "8",
+      "heading": "Persons handling hazardous substances to comply with procedural safeguards.",
+      "status": "agreement_review_pending",
+      "stratum": "exact",
+      "normalizations": [],
+      "pdf_page_from": 6,
+      "pdf_page_to": 6,
+      "body_text_sha256": "bab5fafc22e2fab4cc1dc3117709c14016bb6ca51745aa28bec878bf1da7fb55",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "3cd4ec9d-6e5e-416c-8b10-2d06b4d45521"
+    },
+    {
+      "key": "environment-1986:9",
+      "section_number": "9",
+      "heading": "Furnishing of information to authorities and agencies in certain cases.",
+      "status": "typographic_agreement_review_pending",
+      "stratum": "dash",
+      "normalizations": [
+        "dash"
+      ],
+      "pdf_page_from": 6,
+      "pdf_page_to": 6,
+      "body_text_sha256": "a554e02e7c80cc5000421284dc3df067eea258d491d5d50303e4734079b0862e",
+      "footnote_text_sha256": null,
+      "footnote_normalization_level": null,
+      "has_footnote": false,
+      "page_break_gap_count": 0,
+      "source_item_uuid": "6a14d45e-11c3-4a15-b422-42d15c7cb397"
+    }
+  ],
+  "population_count": 23,
+  "mandatory_keys": [
+    "environment-1986:10",
+    "environment-1986:14B",
+    "environment-1986:16",
+    "environment-1986:19",
+    "environment-1986:2",
+    "environment-1986:25",
+    "environment-1986:26",
+    "environment-1986:5A"
+  ],
+  "sampled_keys": [
+    "environment-1986:11",
+    "environment-1986:12",
+    "environment-1986:13",
+    "environment-1986:23",
+    "environment-1986:3"
+  ],
+  "selected_keys": [
+    "environment-1986:10",
+    "environment-1986:11",
+    "environment-1986:12",
+    "environment-1986:13",
+    "environment-1986:14B",
+    "environment-1986:16",
+    "environment-1986:19",
+    "environment-1986:2",
+    "environment-1986:23",
+    "environment-1986:25",
+    "environment-1986:26",
+    "environment-1986:3",
+    "environment-1986:5A"
+  ],
+  "strata": {
+    "dash": {
+      "population": 5,
+      "sampled": 2,
+      "keys": [
+        "environment-1986:11",
+        "environment-1986:3"
+      ]
+    },
+    "dash-drop": {
+      "population": 1,
+      "sampled": 1,
+      "keys": [
+        "environment-1986:12"
+      ]
+    },
+    "exact": {
+      "population": 9,
+      "sampled": 2,
+      "keys": [
+        "environment-1986:13",
+        "environment-1986:23"
+      ]
+    }
+  },
+  "renders": {
+    "environment-1986:10": [
+      "data/phase3/review-renders/environment-1986/page-6.png",
+      "data/phase3/review-renders/environment-1986/page-7.png"
+    ],
+    "environment-1986:11": [
+      "data/phase3/review-renders/environment-1986/page-7.png"
+    ],
+    "environment-1986:12": [
+      "data/phase3/review-renders/environment-1986/page-7.png"
+    ],
+    "environment-1986:13": [
+      "data/phase3/review-renders/environment-1986/page-8.png"
+    ],
+    "environment-1986:14B": [
+      "data/phase3/review-renders/environment-1986/page-8.png"
+    ],
+    "environment-1986:16": [
+      "data/phase3/review-renders/environment-1986/page-10.png"
+    ],
+    "environment-1986:19": [
+      "data/phase3/review-renders/environment-1986/page-11.png"
+    ],
+    "environment-1986:2": [
+      "data/phase3/review-renders/environment-1986/page-3.png",
+      "data/phase3/review-renders/environment-1986/page-4.png"
+    ],
+    "environment-1986:23": [
+      "data/phase3/review-renders/environment-1986/page-11.png"
+    ],
+    "environment-1986:25": [
+      "data/phase3/review-renders/environment-1986/page-12.png"
+    ],
+    "environment-1986:26": [
+      "data/phase3/review-renders/environment-1986/page-12.png",
+      "data/phase3/review-renders/environment-1986/page-13.png"
+    ],
+    "environment-1986:3": [
+      "data/phase3/review-renders/environment-1986/page-4.png",
+      "data/phase3/review-renders/environment-1986/page-5.png"
+    ],
+    "environment-1986:5A": [
+      "data/phase3/review-renders/environment-1986/page-5.png"
+    ]
+  },
+  "render_sha256": {
+    "data/phase3/review-renders/environment-1986/page-3.png": "22ca621228b0ac00d4553c9c9f87a02c2b579aa2a40fa0f04a36efde48805a53",
+    "data/phase3/review-renders/environment-1986/page-4.png": "c59b86a9135981ce7c5f546cd8b4641adf94192c940b7b82411a7f767b569f15",
+    "data/phase3/review-renders/environment-1986/page-5.png": "f74eabfc1d2faa8878d40b2b1c213d0dcacd398dd1862946ebbe6804d69b10f7",
+    "data/phase3/review-renders/environment-1986/page-6.png": "8a0b5a453a059e2cee0540456bbe7cd76008f6fca60c0383b8b215bd27d8d07f",
+    "data/phase3/review-renders/environment-1986/page-7.png": "e42c4a95f97d8806edc38525d4662ab9c28accd73fb4caae66ca3b8df703f0d5",
+    "data/phase3/review-renders/environment-1986/page-8.png": "6f3e12bbe18e769e9001b02c9b7ed8cf17ac2467ab1d39a12a4405adc4b77972",
+    "data/phase3/review-renders/environment-1986/page-10.png": "954b0559ee8b2a041d625ba5983a14c848779c048e5b39b1cb695124d4aeed02",
+    "data/phase3/review-renders/environment-1986/page-11.png": "013d3a7a80123d0c09d7299d62eb27271789428242f2cd2dab70ed92f8a16fe8",
+    "data/phase3/review-renders/environment-1986/page-12.png": "6bbfc6c9cfcde89ce2554aa741fac758543692416370ad400f6fb77401799f51",
+    "data/phase3/review-renders/environment-1986/page-13.png": "1a9837529d245b7f3694c68aab19aede2da41fb247d0ab10da9c22c921057d9c"
+  },
+  "status": "reviewed",
+  "review": {
+    "reviewer_ref": "data/review/reviewer-phase3-sampled-2026-09-22.json",
+    "reviewer_sha256": "109ba542b1054cd0f750fece16fdf06fec99b8a227238432c9f10ddcb6fe8303",
+    "session_date": "2026-09-22",
+    "outcomes": {
+      "environment-1986:10": {
+        "decision": "verified_equivalent",
+        "note": "Pages 6-7: (1)(a)-(c), the inserted 1[(2)], (3) and (4) match; the skipped page-6 block is this section's own footnote printed at the page foot; ends before s.11."
+      },
+      "environment-1986:11": {
+        "decision": "verified_equivalent",
+        "note": "Page 7: (1)-(4) including (3)(a)-(d), (4)(a),(b) and the closing tail; ends before s.12."
+      },
+      "environment-1986:12": {
+        "decision": "verified_equivalent",
+        "note": "Page 7: (1)(a),(b) and (2)(a)-(c) match; ends before s.13."
+      },
+      "environment-1986:13": {
+        "decision": "verified_equivalent",
+        "note": "Page 8: single paragraph matches exactly; ends before s.14."
+      },
+      "environment-1986:14B": {
+        "decision": "verified_equivalent",
+        "note": "Page 8: (1) and (2) match word for word; the PDF opens the amendment bracket at 14A and closes it after 14B, the HTML opens it at 14B, which is the recorded bracket-drop level; footnote matches."
+      },
+      "environment-1986:16": {
+        "decision": "verified_equivalent",
+        "note": "Page 10: the HTML body carries the inserted CHAPTER IIIA heading exactly as the PDF prints it inside the amendment bracket; (1)-(5) with (2)(a)-(c) and (3)(a)-(c) match; ends before 16A."
+      },
+      "environment-1986:19": {
+        "decision": "verified_equivalent",
+        "note": "Page 11: lead-in, (a), the inserted 1[(aa)] and (b) match; footnote matches; ends before s.20."
+      },
+      "environment-1986:2": {
+        "decision": "verified_equivalent",
+        "note": "Pages 3-4: (a)-(g) including the inserted 2[(ca) \"Fund\"] clause; the skipped page-3 block is the commencement and insertion footnotes, not s.2 text; ends at (g) before CHAPTER II."
+      },
+      "environment-1986:23": {
+        "decision": "verified_equivalent",
+        "note": "Page 11: single paragraph including the bracketed exception matches exactly; ends before s.24."
+      },
+      "environment-1986:25": {
+        "decision": "verified_equivalent",
+        "note": "Page 12: (1), (2)(a)-(j) including the inserted 1[(ga) to (gf)] run; ends before s.26."
+      },
+      "environment-1986:26": {
+        "decision": "verified_equivalent",
+        "note": "Pages 12-13: the whole laying provision matches, ending \"previously done under that rule.\"; the skipped page-12 block is the insertion footnote, not s.26 text; it is the last section of the Act."
+      },
+      "environment-1986:3": {
+        "decision": "verified_equivalent",
+        "note": "Pages 4-5: (1), (2)(i)(a),(b) through (xiv) with the proviso under (iv), and (3) all match; ends before s.4."
+      },
+      "environment-1986:5A": {
+        "decision": "verified_equivalent",
+        "note": "Page 5: the whole inserted provision including its brackets and the source slip \"directions issues\"; footnote matches; ends before s.6."
+      }
+    },
+    "decision": "act_batch_admitted",
+    "failed_keys": [],
+    "decision_note": "All thirteen selected sections compared whole against their rendered PDF pages; every one agreed, including three page-break footnote skips, the inserted (ca)/(aa)/(ga)-(gf) clauses, the CHAPTER IIIA insertion carried inside section 16, and the 14A/14B bracket placement difference.",
+    "render_evidence": {
+      "data/phase3/review-renders/environment-1986/page-3.png": "22ca621228b0ac00d4553c9c9f87a02c2b579aa2a40fa0f04a36efde48805a53",
+      "data/phase3/review-renders/environment-1986/page-4.png": "c59b86a9135981ce7c5f546cd8b4641adf94192c940b7b82411a7f767b569f15",
+      "data/phase3/review-renders/environment-1986/page-5.png": "f74eabfc1d2faa8878d40b2b1c213d0dcacd398dd1862946ebbe6804d69b10f7",
+      "data/phase3/review-renders/environment-1986/page-6.png": "8a0b5a453a059e2cee0540456bbe7cd76008f6fca60c0383b8b215bd27d8d07f",
+      "data/phase3/review-renders/environment-1986/page-7.png": "e42c4a95f97d8806edc38525d4662ab9c28accd73fb4caae66ca3b8df703f0d5",
+      "data/phase3/review-renders/environment-1986/page-8.png": "6f3e12bbe18e769e9001b02c9b7ed8cf17ac2467ab1d39a12a4405adc4b77972",
+      "data/phase3/review-renders/environment-1986/page-10.png": "954b0559ee8b2a041d625ba5983a14c848779c048e5b39b1cb695124d4aeed02",
+      "data/phase3/review-renders/environment-1986/page-11.png": "013d3a7a80123d0c09d7299d62eb27271789428242f2cd2dab70ed92f8a16fe8",
+      "data/phase3/review-renders/environment-1986/page-12.png": "6bbfc6c9cfcde89ce2554aa741fac758543692416370ad400f6fb77401799f51",
+      "data/phase3/review-renders/environment-1986/page-13.png": "1a9837529d245b7f3694c68aab19aede2da41fb247d0ab10da9c22c921057d9c"
+    },
+    "scope_note": "Each selected section was compared whole against its rendered PDF pages: heading, beginning and end, numbered parts, provisos and footnotes. Sections outside selected_keys were not looked at individually; they rest on automated whole-body agreement plus this sample."
+  },
+  "admits_nothing_note": "A passing review authorizes admission of this Act's aligned candidates through the canonical importer under review class text_agreement_sampled_visual. Provisions not in selected_keys are admitted on automated whole-body agreement plus this sample, and must never be presented as individually reviewed."
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://indiacode.gov.in/server/api/core/items/d41fe391-b9c0-40b1-afdc-ad034c7ac62f/bundles?size=100",
+  "status": 200,
+  "sha256": "6ac1e2857c53a95d151762a555c6796472d9ef9296d6bdf1a2bdc1d64a5cadd8",
+  "bytes": 3216,
+  "fetched_at": "2026-09-21T19:43:48.545409+00:00",
+  "curl_exit": 0,
+  "error": "",
+  "attempt": 1
+}

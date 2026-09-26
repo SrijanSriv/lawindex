@@ -1,0 +1,41 @@
+{
+  "judge": "A",
+  "batch": 1,
+  "corpus_fingerprint": "sha256:0a0ad6cfbde118c65753fd3b10d36325f0167d25d7bc1ec0410bfb45ea18ff4e",
+  "queries": {
+    "B-004": [
+      "rti-2005:12"
+    ],
+    "B-005": [
+      "rti-2005:24",
+      "rti-2005:10",
+      "rti-2005:8",
+      "rti-2005:26",
+      "rti-2005:29",
+      "mental-healthcare-2017:22"
+    ],
+    "B-008": [
+      "osh-code-2020:89",
+      "osh-code-2020:86",
+      "osh-code-2020:121",
+      "osh-code-2020:82",
+      "merchant-shipping-2025:129"
+    ],
+    "B-009": [
+      "environment-1986:23"
+    ],
+    "B-010": [
+      "dpdp-2023:28"
+    ],
+    "B-011": [
+      "dpdp-2023:27"
+    ],
+    "B-015": [
+      "fcra-2010:6",
+      "fcra-2010:10"
+    ],
+    "B-017": [
+      "merchant-shipping-2025:2"
+    ]
+  }
+}
